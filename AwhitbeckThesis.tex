@@ -1,0 +1,82 @@
+% This template was originally by R. Jacob Vogelstein
+% Updated on March 1, 2010 by Noah J. Cowan
+% Finally put to use by Andrew Whitbeck 2013
+
+\documentclass[12pt,oneside,final]{thesis}
+
+\usepackage{cite}
+\usepackage{amsmath,amsfonts}
+\usepackage{graphicx}
+\usepackage{mathrsfs}
+\usepackage{color}
+\graphicspath{{./figs/}}
+\usepackage{fixltx2e}
+\usepackage{array}
+% wrapfig is fragile: use sparingly
+\usepackage{wrapfig} 
+%\usepackage{times}  % Use this for ugly fonts
+
+
+\usepackage{fancyhdr}    % Use nice looking headers along with the required footer page numbers   
+%\usepackage[hypertex]{hyperref}
+
+%Define the header/footer style
+\pagestyle{fancy}
+\fancyhf{}
+\setlength{\headheight}{15pt}
+\lhead{\leftmark}
+\cfoot{\thepage}
+\renewcommand{\headrulewidth}{0pt}
+\fancypagestyle{plain}{% Redefine ``plain'' style for chapter boundaries
+\fancyhf{} % clear all header and footer fields
+\fancyfoot[C]{\thepage} % except the center
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}}
+
+%\tolerance=10000
+
+%\makeglossary % enable the glossary
+
+\begin{document}
+
+\title{Probing Electroweak Symmetry Breaking with the Compact Muon Solenoid}
+\author{Andrew J. Whitbeck}
+\degreemonth{July}
+\degreeyear{2013} 
+\dissertation
+\doctorphilosophy
+\copyrightnotice
+
+% add your chaptders, best way is to have separate TeX files for each chapter
+\include{chapter0}
+\include{Introduction}
+\include{LHC}
+\include{CMS}
+\include{Reco}
+\include{HiggsPhen}
+\include{HZZsearches}
+\include{HiggsProperties}
+\include{Conclusion}
+
+\include{appendix}
+
+%% REFERENCES
+
+% if you use BIBTEX
+\bibliographystyle{IEEEtran}
+\bibliography{thesis}
+
+\begin{vita}
+
+\begin{wrapfigure}{l}{0pt}
+\includegraphics[width=2in,height=2.5in,clip,keepaspectratio]{sarahMorabito.jpg}
+\end{wrapfigure}
+
+Andrew Whitbeck received a Bachelors of Science degree in Physics and 
+a Bachelor of Arts degree in Mathematics from the University of Rochester 
+in 2007.  He was awarded the ...
+
+This is stupid and I hope is not a requirement.
+
+\end{vita}
+\end{document}

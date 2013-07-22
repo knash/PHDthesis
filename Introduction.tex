@@ -1,0 +1,228 @@
+\chapter{Introduction}
+\label{sec:intro}
+\chaptermark{Introduction}
+
+The Standard Model (SM) of particle physics \textcolor{red}{(reference)} 
+is a mathematical description of the fundamental particles and their 
+interactions.  Particles are described by quantized excitations of 
+various types of fields.  These fields are the solutions to either the
+Klein-Gordon, Dirac, Proca, or Maxwell equation which govern the time
+evolution of the solutions for spin-0, spin-1/2, and spin-1 particles.
+Although, bound states and possible extensions to the SM can have
+larger spin, the standard model doesn't explicitly describe the interaction
+of these particles.
+
+The interactions themselves can be derived from the Standard Model lagrangian.
+The electroweak interactions of the leptons, for example, are described by
+the lagrangian in equation~\ref{eq:GSWlagrangian}.  The probability of the
+some initial state, i, evolving into some final state, j, can be 
+be expanded in powers of the coupling constants, g and g', according to 
+equation equation~\ref{eq:matrixElementSquared}.  This matrix element
+squared can also be represented by Feynman diagrams, figure~\ref{fyn:eeScattering} 
+represents electron-electron scattering at leading order which is 
+represented in the SM lagrangian by the second half of equation~\ref{eq:QED}.
+
+\begin{center}
+\begin{equation}
+\mid<ee\mid e^{\frac{g}{2c_w}\bar{\Psi}_e\gamma^{\mu}(I_f^3-2s_w^2Q_f-I_f^3\gamma_5)\Psi_eZ_{\mu}}\mid ee>\mid^2
+\label{eq:matrixElementSquared}
+\end{equation}
+\end{center}
+
+\begin{figure}
+\begin{center}
+\includegraphics[width=4.0cm]{IntroductionPlots/Electron-scattering.png}
+\label{fyn:eeScattering}
+\caption{Feynman diagram depicting one of the processes contributing to the leading order
+electron-electron scattering amplitude. A similar contribution exist where a Z boson is
+exchanged instead of a photon.}
+\end{center}
+\end{figure}
+
+\begin{center}
+\begin{subequations}
+%\begin{multiline}
+\begin{equation}
+\mathscr{L} = \sum_f(\bar{\Psi}_f(i\gamma^{\mu}\partial_{\mu}-m_f)\Psi_f
+-eQ_f\bar{\Psi}_f\gamma^{\mu}\Psi A_{\mu})
+\label{eq:QED}
+\end{equation}
+\begin{equation}
++\frac{g}{\sqrt{2}}\sum_i(\bar{a}_L^i\gamma^{\mu}b_L^iW_{\mu}^++\bar{b}_L^i\gamma^{\mu}a_L^iW_{\mu}^-)
+\end{equation}
+\begin{equation}
++\frac{g}{2c_w}\sum_f(\bar{\Psi}_f\gamma^{\mu}(I_f^3-2s_w^2Q_f-I_f^3\gamma_5)\Psi_fZ_{\mu})
+\end{equation}
+\begin{equation}
+-\frac{1}{4}|\partial_{\mu}A_{\nu}-\partial_{\nu}A_{\mu}-ie(W_{\mu}^-W_{\nu}^+ - W_{\mu}^+W_{\nu}^-)|^2
+\end{equation}
+\begin{equation}
+- \frac{1}{2}|\partial_{\mu}W_{\nu}^+-\partial_{\nu}W_{\mu}^+ - ie(W_{\mu}^+A_{\nu}-W_{\nu}^+A_{\mu})+ig'c_w(W_{\mu}^+Z_{\nu}-W_{\nu}^+Z_{\mu})|^2
+\end{equation}
+\begin{equation}
+-\frac{1}{4}|\partial_{\mu}Z_{\nu}-\partial_{\nu}Z_{\mu}+ig'c_w(W_{\mu}^-W_{\nu}^+-W_{\mu}^+W_{\nu}^-)|^2
+\end{equation}
+\begin{equation}
+-\frac{1}{2}M_{\Phi}^2\Phi^2-\frac{gM_{\Phi}^2}{8M_{W}}\Phi^3-\frac{g'^2M_{\Phi}^2}{32M_W}\Phi^4
+\end{equation}
+\begin{equation}
++|M_WW_{\mu}^++\frac{g}{2}\Phi W_{\mu}^+|^2+\frac{1}{2}|\partial_{\mu}\Phi+iM_ZZ_{\mu}+\frac{ig}{2c_w}\Phi Z_{\mu}|^2
+\end{equation}
+\begin{equation}
+-\sum_f\frac{g}{2}\frac{m_f}{M_W}\bar{\Psi_f}\Psi_f\Phi
+\end{equation}
+%\end{multiline}
+\label{eq:GSWlagrangian}
+\end{subequations}
+\end{center}
+
+Starting from this framework, many experimental measurements have been accurately 
+predicted.  One famous example is the anomalous magnetic moment of the muon 
+\textcolor{red}{(electron?)}, first calculated by Julian Schwinger in \textcolor{red}{19??}
+in the context of Quantum Electrodynmics (QED). 
+
+Before the advent of quantum field theory the magnetic moment of the 
+muon and electron were thought to be exactly two due the quantized spin 
+they carry.  However, the quantum fluctuations predicted by quantum field 
+theory and QED, the theory of the electromagnetic interactions, add small 
+corrections the muon's magnetic moment. Today, this quantity has been calculated 
+and measured to \textcolor{red}{11} significant digits.  
+
+\section{Electroweak Symmetry Breaking}
+\label{sec:Electroweak Symmetry Breaking}
+
+It was known in non-quantum systems that spontaneously broken symmetry
+could provide a theoretical framework for explaining massive gauge 
+bosons\cite{}. In early 1960's these ideas were studied in the context
+of quantum field theories.  It was shown that a complex scalar field 
+whos potential was particularly chosen, could not only spontaneously 
+break a gauge symmetry but generate gauge boson masses through the 
+interaction of this field with the gauge boson\cite{}.  Most notibly, 
+Higgs suggested that this would also predict the presence of a new 
+massive scalar particle whos interactions with the gauge bosons 
+scaled with their mass\cite{}.  
+
+\subsection{Electroweak Interactions}
+\label{sec:Electroweak interactions}
+
+The gauge structure of the weak interactions demonstrated by Glashow 
+\textcolor{red}{and Salam(?)}\cite{} and Weinberg showed that the 
+electromagentic and weak interactions could be unified and implemented
+the Higgs mechanism into was is today know to be the Standard Model (SM)
+of electroweak interactions.  Together, this is referred to as the 
+Glashow-Salam-Weinberg (GSW) model.
+
+The GSW model had concrete experimentally observable predictions.  Since
+the gauge symmetry reprossible for generating the interactions was
+$U(1)\otimes SU(2)$ which has a total of four generators, a third guage 
+boson should exist.  The GSW model specifically that this boson would 
+be neutral and mediate neutrino-electron interactions through the 
+diagram in Figure~\ref{}.  These so-called neutral currents were later
+discovered in \textcolor{red}{197?} by the \textcolor{red}{--- collaboration}.
+Both the charged and neutral weak gauge bosons were later discovered
+through means of direct detection\cite{}.  
+
+The experimental verification of the Higgs boson and the ...
+
+Another experimental signature of the GSW model was that a chargeless,
+colorless, spinless, massive boson, the Higgs boson, should exist.  
+Except for its mass all properties about this particle could be calculated
+from first principles, see Section~\ref{sec:HiggsPhen}.  Several accelerators
+have been built to confirm its existance, Large Electron-Positron collider (LEP), 
+the Tevatron, and most recently the Large Hadron Collider.  
+
+\section{The Higgs boson}
+\label{sec:The Higgs boson}
+
+\begin{itemize}
+\item Why it is critical to observe and understand the properties of the Higgs
+and EWSB.
+
+Both performed direct searches for the SM Higgs boson to either 
+discover or rule out the existance of a Higgs boson as specific
+masses.  Since the lifetime of a Higgs is \textcolor{red}{universally}
+small searches are done looking for its decay products.  
+
+\item Describe LEP searches for the Higgs.
+
+\item Describe Tevatron searches for the Higgs.
+
+\item Precision measurements of the Z boson ...
+Global fits suggest that ... 
+
+\item What could be beyond the SM ...
+
+\end{itemize}
+
+Despite its success at describing terrestrial experiments, the SM fails 
+to explain a number of phenomena observed in the universe.  
+%In was first
+%suggested in 1932 that dark matter, matter which interacts very weakly
+%with the electromagnetic force mediator, the photon, might make up a 
+%large fraction of the mass of the universe.  Many phenomena have been 
+%able to show indirect evidence of dark matter, the distribution of 
+%orbital velocities of star in the Milky Way galaxy, the distribution of 
+%orbital velocities of galaxies in galaxy clusters, gravitational lensing, 
+%tempurature distributions of hot gases in various astronomical objects, 
+%and the anisotropies of the cosmic microwave background\footnote{what is
+%the CMB?}\footnote{All of these sources of evidence are currently taken
+%from the dark matter wikipedia article and should be cited by papers...
+%maybe ask someone who knows a lot about dark matter.}.  
+% NEW PARAGRAPH
+%More recently, it was shown that the rate of expansion of the universe, 
+%as percieved by red-shift distributions of distant type-Ia supernovae, is 
+%accelerating. The most common explaination of this phenomenon is an energy 
+%source that fills the universe.  \textcolor{red}{Little is known about dark 
+%energy although the vacuum energy of the ... could explain ... blah.}
+It is thought that more than 95\% of the known universe consists of dark 
+matter ($\sim25$\%) and dark energy ($\sim75$\%)\cite{??}.  Since there is 
+currently no way to explain either dark matter or dark energy with the SM, 
+only about 4\% of the constituents of the universe can be explained by the 
+SM.  
+
+The overabundance of matter, as opposed to anti-matter, in the 
+universe, a phenomenon known as baryon assymetry, is thought to not be 
+attributable to any known process in the SM.
+It was shown by Sakharov\cite{??} that there are three necessary conditions 
+a model of baryogenesis must satisfy, baryon-number violation, 
+charge-symmetry (C-symmetry) violation, charge-parity-symmetry (CP-symmetry)
+violation, and interaction which are out of thermal equilibrium at early
+stages of the universe.  Although it has been shown that the SM does
+contain the three necessary conditions for baryogenesis, it is believed
+to be insufficient for explaining the degree of baryonic assymetry in the 
+visible universe.  As such, additional sources of CP-violation in the SM would 
+thus be a promising solution to the baryon-assymetry problem.  
+
+The standard model also does not include a quantum description of the 
+gravitational force.  It was shown by Randall and Sundrum that extra dimensional
+models with warped space-time metrics can provide a natural explaination of the
+heirarchy of not only the gravitational force and the weak force, but also
+heirarchy between the expected bare higgs mass and its physical mass.  
+
+Part of the success of QED was its relation between the dynamics of the 
+electromagnetic interaction and a U(1) gauge symmetry.  This enspired 
+others to find similar gauge symmetry which could describe the weak 
+interactions.  However, unlike the electromagnetic interactions, the 
+weak interactions are mediated by massive gauge boson, 
+\textcolor{red}{known from the fermi theory of interactions}.  The 
+complication of having massive gauge mediators was 
+related to the fact that mass terms were known to not respect gauge 
+symmetries, a caveat that could be overlooked for the electromagnetic 
+interactions. However, understanding how to resolve this problem and the
+vastly different scales which the electromagnetic and weak forces operate
+at was a major triumph of what is currently known as the SM.
+
+This thesis will discuss several analyses designed to search for the
+new resonances, especially those related to electroweak symmetry 
+breaking. The sections are organized as follows: chapter~\ref{sec:LHC}, will 
+discuss the experiment details of the Large Hadron Collider (LHC) and 
+the Compact Muon Solenoid (CMS); chapter~\ref{sec:HiggsPhen} will discuss 
+the Higgs phenomenology at the LHC; chapter~\ref{sec:HZZsearches} will
+present two analyses designed to search for the SM Higgs at high mass
+using the $ZZ\to2\ell 2q$ signature and over a broad range of masses
+using the $ZZ\to 4\ell$ signature; chapter~\ref{sec:HiggsProp} will discuss
+properties measurments of the newly discovered boson using the MELA 
+technique as well as prospect for high precision property measurements
+at either the LHC or a future $e^+e^-$ collider; finally, chapter will
+discuss the interpretation of these results in the context of the 
+beyond the SM physics mentioned above.  
