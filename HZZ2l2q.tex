@@ -1,0 +1,191 @@
+
+\section{Semi-leptonic decay channel}
+
+The semileptonic final state of the ZZ channel is studied in two 
+different kinematic regions, the low mass region 
+($125 < m_{2\ell2q} < 170 GeV$) and the high mass region 
+($183 < m_{2\ell2q} < 800 GeV$).  Because of the small ZZ branching ratio
+expected from the SM Higgs, the intermediate range 
+($170 < m_{2\ell2q} < 183 GeV$) is not considered in this analysis.
+
+\subsection{Event Simulation}
+\label{sec:HZZ2l2qSimulation}
+
+The analysis strategy include selections and data-driven background
+estimations were optimized and validated on MC simulations.  Signal
+samples are generated with {\it POWHEG}~\cite{??} and JHUGen~\cite{??}.  
+Inclusive Z 
+production is generated with either {\it MADGRAPH} 4.4.12~\cite{??} or
+{\it ALPGEN} 2.13~\cite{??}.  Continuum diboson production, ZZ, WW, 
+and ZW, samples are generated with {\it PYTHIA} 6.4.22~\cite{???}.  
+top backgrounds are generated with either {\it MADGRAPH} 4.4.12 or 
+{\it POWHEG}.  Parton distribution functions are modeled using 
+{\it CTEQ6}~\cite{???} at leading order and {\it CT10}~\cite{??} at 
+next-to-leading order (NLO).  Parton showering is modeled with {\it PYTHIA}
+while detector response is simulated with a CMS specific implementation
+of {\it GEANT4}~\cite{??}.  A full list of the MC samples used is shown 
+in table~\ref{table:??} along with the cross section for each process.  
+
+\subsection{Event Selection and Categorisation}
+\label{sec:HZZ2l2qselection}
+
+Only events which contain two oppositely charge leptons, either electrons or
+muons, and two jets are considered in this analysis.  Both leptons
+flavors are required to have tranverse momentum, $p_T$, greater than 20 GeV
+and 10 GeV for the leading and subleading $p_T$, respectively.  For events 
+which are used in the high mass analysis, this constraint is tightened to 
+$p_T>40, 20 GeV$.  Only muons (electrons) in the pseudorapidity range 
+$|\eta|<2.4 (2.5)$, excluding the gap between the barrel and endcap region, 
+are considered.  These selections not only serve as a rudimentary method for
+rejecting background but are consistent with the double electron and 
+double muon triggers that are used.  The efficiency of these triggers are 
+measured on data and found to be X.XX.  MC is corrected for any residual 
+inefficiency found between MC and data. Muons are required to be well 
+isolated from hadronic activity in the detector by restricting the sum of
+transverse momentum from the tracker or transverse energy in the ECAL and
+HCAL within a cone of $\Delta R  = \sqrt{(\Delta\eta)^2+(\Delta\phi)^2}<0.3$
+to be less than 15\% of the measured $p_T$.  Similar requirements are placed
+on electrons although the details depend also on the electron shower shape.
+
+Jets are reconstructed with the particle-flow (PF) algorithm~\cite{???}.
+Reconstructed particle  candidates are clusted with the anti-$k_T$ 
+algorithm~\cite{???} with a distance parameter $R=0.5$.  All jets which 
+overlap with well-isolated leptons are then removed from consideration.  
+Jets are required to be in the tracker acceptance, $|\eta<2.4|$, to maximize
+the effectivness of the PF algorithm.  Energy corrections  are applied
+to jets to account for systematic instrumental effects including the 
+non-linear energy response of the calorimeters.  These corrections are 
+derived from in-situ measurements using dijet and $\gamma+$jet control
+samples~\cite{???}. To mitigate the additional energy in the calorimeters 
+from pileup, the average energy density times the jet area is subtracted 
+from each jet~\cite{???}.  Some requirement is also applied to the energy
+balance between the charged and neutral hadronic content in each jet.  
+Finally, all jets are required to have $p_T>30 GeV$.
+
+With the basic objects in hand, the $2\ell2q$ system is constructed under
+the assumption that all pairs of leptons and quarks are the duaghters of
+Z bosons.  Each di-lepton pair must have a combined invariant mass of 
+$70 < m_{\ell\ell} < 110$.  This is primary meant to reduce backgrounds which
+don't have an intermediate Z, like $t\bar{t}$ and QCD backgrounds.  In order 
+to reduce the overwhelming Z+jets background, the dijet invariant mass of 
+the event is required to satisfy $75 < m_{jj} < 105$.  Figure~\ref{fig:HZZ2l2qPreselection} shows the $m_{jj}$ for signal and background.  
+
+Catagorizing events based on jet flavor provides a significance 
+increase in sensitivity to signal events since two b-jets are 
+more likely to result from a Z decay than from QCD radiation.  
+To isolate jets which are likely to be b-jets, the CMS track 
+counting high-efficiency (TCHE) b-tagging algorithm~\cite{???} 
+is used.  This algorithm relies on tracks with large impact 
+parameters. {\it explain a little better.} The discriminant used
+to determine how b-like jets are in shown in figure~\ref{fig:??}.
+Using this discriminant, the events are divided into three
+categories: those which have at least one jet passing the median 
+working point ($\sim65\%$ efficient) and another jet passing the
+loose working point ($\sim80\%$ efficient); those which have at 
+least one jet passing the loose working point but; those which 
+have zero jets passing the loose working point.  Although there 
+is a non-negligible mistag rate for each of these working points, 
+the categories are referred to as 2 b-tag, 1 b-tag, and 
+0 b-tag, respectively. The categories are defined such that 
+they are mutually exclusive by putting events in the category 
+with the most stringent requirements.  The division of events
+in each of the three categories after preselection requirements
+is shown if figure~\ref{fig:???}.
+
+Since there is a significant amount of $t\bar{t}$ and $tW$ 
+events in the 2 b-tag category, events are required to have
+missing transverse energy, $E_T^{miss}$ which is compatible with 
+zero.  The $E_T^{miss}$ is defined to be the modulus of the 
+negative vector sum of all the PF candidates in the event.  
+To quantify this, a likelihood ratio, $\lambda(E_T^{miss})$ 
+is built comparing two hypothesis, $E_T^{miss}=0$ and 
+$E_T^{miss}\neq 0$.  Events in the 2 b-tag category are then 
+required to satisfy $2\ln\lambda(E_T^{miss})<10$.  In the 
+low mass analysis, we instead require $E_T^{miss}<50~GeV$ in
+the 2 b-tag category.    
+
+In order to reduce further the overwhelming background, Z+jets,
+a kinematic discriminant is built to distinguish between
+Higgs-like and Z+jets-like events.  The basis of variables 
+that is used as well as the distributions that describe the 
+signal events is described in the section~\ref{sec:HiggsPhen}.
+The discrimant that is used makes use of the 5D probability 
+distributions, 
+$\mathscr{P}(cos\theta^*,cos\theta_1,cos\theta_2,\Phi,\Phi_1)$,
+to build a discriminant,
+\begin{equation}
+\mathscr{D} = \frac{\mathscr{P}_{Higgs}}{\mathscr{P}_{Higgs}+\mathscr{P}_{Zjets}}.
+\label{eq:KD}
+\end{equation}
+
+Since the dominant background can't easily be described in 
+terms of angular distributions, the distributions are found 
+emperically from MC using approximate functions.  Fits to 
+Z+jets MC are performed in slices of $m_{ZZ}$.  A function
+is then extrapolated between slices so that $\mathscr{P}_{Zjets}$ 
+is continuous in $m_{ZZ}$.  Some examples of these fits are shown
+in figure~\ref{fig:???}.  Since the MC includes detector effects, 
+the signal parameterization should also include detector effects.
+The ideal distributions from section~\ref{sec:HiggsPhen} are 
+modified with 5D uncorrelated function which is then fit to 
+MC to account for any detector effects.  As with background, 
+these fits are performed in slices of $m_{ZZ}$ and extrapolated
+to arbitrary values.  Examples of the signal parameterizations
+are shown in figure~\ref{fig:???}.
+
+{\it angular likelihood discriminant description!!!}
+
+\begin{figure}
+\begin{center}
+\includegraphics[width=.49\linewidth]{HZZ2l2qPlots/data_loose_mjj.pdf}
+\includegraphics[width=.49\linewidth]{HZZ2l2qPlots/data_loose_tche.pdf}\\
+\includegraphics[width=.49\linewidth]{HZZ2l2qPlots/data_loose_tag.pdf}
+\includegraphics[width=.49\linewidth]{HZZ2l2qPlots/data_loose_met.pdf}
+\label{fyn:HZZ2l2qPreselectiony}
+\caption{ ... }
+\end{center}
+\end{figure}
+
+\subsection{Yields and Kinematics Distributions}
+\label{sec:HZZ2l2qyields}
+
+\begin{figure}
+\begin{center}
+\includegraphics[width=.49\linewidth]{HZZ2l2qPlots/angle_cosThetaStar.pdf}
+\includegraphics[width=.49\linewidth]{HZZ2l2qPlots/angle_cosTheta1.pdf}\\
+\includegraphics[width=.49\linewidth]{HZZ2l2qPlots/angle_cosTheta2.pdf}
+\includegraphics[width=.49\linewidth]{HZZ2l2qPlots/angle_phi.pdf}\\
+\includegraphics[width=.49\linewidth]{HZZ2l2qPlots/angle_phi1.pdf}
+\includegraphics[width=.49\linewidth]{HZZ2l2qPlots/data_loose_ld.pdf}
+\label{fyn:HZZ2l2qAngularLD}
+\caption{ ... }
+\end{center}
+\end{figure}
+
+\begin{figure}
+\begin{center}
+\includegraphics[width=.49\linewidth]{HZZ2l2qPlots/lowmass_mzz0btag.pdf}
+\includegraphics[width=.49\linewidth]{HZZ2l2qPlots/mzz_0btag.pdf}\\
+\includegraphics[width=.49\linewidth]{HZZ2l2qPlots/lowmass_mzz1btag.pdf}
+\includegraphics[width=.49\linewidth]{HZZ2l2qPlots/mzz_1btag.pdf}\\
+\includegraphics[width=.49\linewidth]{HZZ2l2qPlots/lowmass_mzz2btag.pdf}
+\includegraphics[width=.49\linewidth]{HZZ2l2qPlots/mzz_2btag.pdf}
+\label{fyn:HZZ2l2qMassDistributions}
+\caption{ ... }
+\end{center}
+\end{figure}
+
+\subsection{Results}
+\label{sec:HZZ2l2qxsec}
+
+\begin{figure}
+\begin{center}
+\includegraphics[width=.49\linewidth]{HZZ2l2qPlots/plot_low_ul.pdf}
+\includegraphics[width=.49\linewidth]{HZZ2l2qPlots/plot_ul.pdf}\\
+\includegraphics[width=.49\linewidth]{HZZ2l2qPlots/plot_low_sigma.pdf}
+\includegraphics[width=.49\linewidth]{HZZ2l2qPlots/plot_sigma.pdf}\\
+\label{fyn:HZZ2l2qLimits}
+\caption{ ... }
+\end{center}
+\end{figure}
+
