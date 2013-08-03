@@ -4,7 +4,164 @@
 
 \section{Interpreting Higgs properties}
 
+Give an argument of why the data looks a lot like 
+something that is breaking electroweak symmetry:
+
+\begin{itemize}
+  \item Relative rates bewteen ZZ, $\gamma\gamma$, Z$\gamma$
+  \item Show the best-fit $\mu$ in different channels
+  \item Discuss the fact that spin-1 models and the most 
+    likely spin-2 model has been excluded
+  \item Discuss $f_3$ measurement
+\end{itemize}
+
+All of the above points to the fact that resonance observed
+at the LHC is, in fact, a scalar resonance that breaks electroweak 
+symmetry.  Furthermore this scalar is likely to couple to 
+ZZ through a CP-even effective vertex.  However, the possibility
+of small $f_3$ values can't yet be strongly constrained.  Because 
+CP-violation in the Higgs sector could help explain 
+baryogenesis, constraining $f_3$ is an important probe for physics
+beyond the standard model which may also help us to solve a major
+puzzle of the observable universe.  
+A CP-violating Higgs sector could also be the first evidence of 
+SUSY in which there are very natural candidates for dark matter. 
+Measuring $f_2$ could also
+provide hints to whether there is structure to the Higgs and
+possibly point to new forces yet to be discovered.  
+
 \section{Future work}
+
+In light of this the discover of Higgs provides us with a new 
+window in which precision measurements might hint to new physics
+beyond the standard model.  Because the Higgs was only observed
+one year ago, since this document was written, many of the tools
+for measuring properties have yet to be fully refined, or in some
+cases developed at all.  The tools discussed in 
+chapter~\ref{sec:HiggsPhen} will continue to serve as a probe to 
+constrain the certain properties of the Higgs, especially in the
+measurement of $f_3$.  However, new tools will be necessary to 
+fully map out the structure of the HZZ amplitude.  There is 
+also the possibility that other processes or even a new collider 
+might serve as a better tool to probe CP-violation in the HZZ 
+amplitude.  
+
+As a point of reference, it is instructive to estimate the
+expected sensitivity that CMS can reach using the current method
+for measuring $f_3$.  Generating and fitting an asimov dataset
+from the model used in section~\ref{sec:HZZ4l}, one can gauge
+the expected sensitivity to $f_3$ at various luminosities.  
+Two benchmarks have been tested, $\mathscr{L}_{int}=300~fb^{-1}$
+ and $\mathscr{L}_{int}=3000~fb^{-1}$ with $\sqrt{s}$, the latter
+being the expected lifetime integrated luminosity of the LHC. 
+figure~\ref{fig:???} show the 1D likelihood scan of the asimov
+dataset for these two scenarios.  Assuming a pure CP conserving 
+amplitude, $f_3=0$, the 95\% CL upper limit on $f_3$ is found to
+be X.XX (Y.YY) for the 300 (3000)~$fb^{-1}$ scenario.  
+
+\begin{figure}
+\begin{center}
+%\includegraphics[width=.49\linewidth]{ConclusionPlots/}
+%\includegraphics[width=.49\linewidth]{ConclusionPlots/}
+\label{fig:fa3Projections}
+\caption{Projection of $f_3$ fits using asimov dataset for 
+300 and 3000~$fb^{-1}$ at $\sqrt{s}=14~TeV$.}
+\end{center}
+\end{figure}
+
+Similar measurments can be made with other processes such as
+$q\bar{q}\to Z^*\to ZH$, $e^+e^-\to Z^*\to ZH$, or
+$q\bar{q}\to H+q\bar{q}$ (VBF).  Note that the equivalent 
+$f_3$ parameter for these processes will have slightly different 
+meaning.  For example, table~\ref{table:fa3Conversion} summarizes
+how the value for $f_3$ of the $H\to ZZ^*$ process can be 
+translated.  The numbers in this table reflect the fact that 
+the ration $\sigma_1/\sigma_3$, as define in 
+section~\ref{sec:HiggsPhen}, can vary by orders of magnitude
+between different processes.  As a results, the
+sensitivity to CP-violation in terms $f_3(H\to ZZ^*)$ is
+expected to be much larger for other processes.  
+
+\begin{table}
+\begin{center}
+\begin{tabular}{c|cccc}
+
+ &\begin{rotate}{60}$f_3(H\to ZZ^*)$ \end{rotate} 
+ &\begin{rotate}{60}$f_3(q\bar{q}\to Z^*\to ZH)$ \end{rotate}
+ &\begin{rotate}{60}$f_3(e^+e^-\to Z^*\to ZH$ \end{rotate}
+ &\begin{rotate}{60}$f_3(e^+e^-\to Z^*\to ZH$ \end{rotate} \\ \hline
+
+$f_3(H\to ZZ^*)$             & 0.5 & -- & .98 & .99 \\
+$f_3(q\bar{q}\to Z^*\to ZH)$ & -- & 0.5 & -- & -- \\
+$f_3(e^+e^-\to Z^*\to ZH$    & 1.8$\times10^{-3}$ & -- & 0.5 & .69 \\
+$f_3(e^+e^-\to Z^*\to ZH$    & 8.4$\times10^{-3}$ & -- & .31 & 0.5 \\
+\hline
+\hline
+
+\end{tabular}
+\end{center}
+\label{table:fa3Conversion}
+\caption{Demonstration of $f_3$ values for various processes.}
+\end{table}
+
+The diagrams in figure~\ref{fig:HZZprocesses} demonstrate that 
+these 
+processes are all equivalent, except they probe different 
+regions of phase space.  Thus, the differential cross sections
+presented in section~\ref{sec:HiggsPhen} are all still applicable. 
+Consider the process $e^+e^-\to Z^*\to ZH$.  In this case, the
+Z and H are both on-shell and can be approximated as constant, 
+leaving three non-trivial angular distributions which describe 
+the kinematics of this process. Figure~\ref{fig:ILCprojections}
+shows
+these distributions for several scalar models, SM Higgs, a 
+pseudoscalar, and two mixed parity scalar models with 
+phases $\phi_3=0,~\pi/2$.  
+
+\begin{figure}
+\begin{center}
+\includegraphics[width=.32\linewidth]{ConclusionPlots/angles-ZZHbb_snowmass_3.pdf}
+\includegraphics[width=.32\linewidth]{ConclusionPlots/angles-ZZHbb_snowmass_cms_4.pdf}
+\includegraphics[width=.32\linewidth]{ConclusionPlots/angles-HZZ4l_snowmass.pdf}
+\label{fig:HZZprocesses}
+\caption{Diagrams showing the different processes produced
+via the HZZ ... }
+\end{center}
+\end{figure}
+
+\begin{figure}
+\begin{center}
+\includegraphics[width=.32\linewidth]{ConclusionPlots/ILCshapes_costheta1.pdf}
+\includegraphics[width=.32\linewidth]{ConclusionPlots/ILCshapes_costheta2.pdf}
+\includegraphics[width=.32\linewidth]{ConclusionPlots/ILCshapes_phi.pdf}
+\label{fig:ILCprojections}
+\caption{Angular distributions, $\cos\theta_1$ (left), 
+$\cos\theta_2$ (middle), and $\Phi$ (right), of four different 
+scalar models of the process $e^+e^-\to Z^*\to ZH$.  Markers
+show angular distributions from JHUGen simulations while
+lines show projections of the angular distributions presented
+in section~\ref{sec:HiggsPhen}. Red line/circles represent a 
+SM Higgs, blue lines/diamonds represent a pseudoscalar, green
+lines/squares and purple lines/solid circles represent a 
+mixed parity scalar ($f_3$=0.1) with various phases.}
+\end{center}
+\end{figure}
+
+Similar to the $H\to ZZ*$ 
+analysis, a kinematic discriminant built according to
+equation~\ref{eq:KD} can be used to measure 
+$f_3$ according to equation~\ref{eq:fa3}.  
+Figure~\ref{fig:???} Shows this discriminant for SM Higgs
+events, pseudoscalar events, and a mixed parity scalar
+corresponding to $f_3=0.5$.  To justify that there are no
+biases introduced by approximation in equation~\ref{eq:fa3},
+toys studies have been performed for various values of 
+$f_3$.  These studies are summarized in figure~\ref{fig:???};
+no biases are observed.  Projections for a future $e^+e^-$
+colliders can be estimated assuming a collision energy  
+of 250~GeV and an integrated luminosity of 250~$fb^{-1}$.
+The production cross section times branching ratio for 
+this process is roughly ...
 
 \section{Conclusions}
 

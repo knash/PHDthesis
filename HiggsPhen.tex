@@ -11,38 +11,63 @@ fermions acquire mass is different.  Thus, the coupling of the Higgs to
 fermions is proportional to the mass of the fermion while the coupling of the 
 higgs to the weak gauge bosons is proportional to the square of the gauge 
 boson's mass. These features as well as the structure functions of the proton 
-combine to produce the predictions show in figure [??] for the production 
+combine to produce the predictions show in figure~\ref{fig:HiggsProdXS} 
+for the production 
 cross-section and branching fraction of the Higgs.  In this chapter, the 
 terminology of the different production and decay channels is introduced as 
 well as the experimental signatures for each.  
 
-\section{Gluon-gluon Fusion}
+\begin{figure}
+\begin{center}
+\includegraphics[width=.49\linewidth]{HiggsPhenPlots/Higgs_XS_8TeV.pdf}
+\includegraphics[width=.49\linewidth]{HiggsPhenPlots/Higgs_BR.pdf}
+\label{fig:HiggsProdXS}
+\caption{left: Higgs production cross section vs $m_H$ for 
+different processes at $\sqrt{s}=8~TeV$. right: Higgs branching
+ratios vs $m_H$.  Both calculations are taking from the LHC Higgs
+cross section working group. }
+\end{center}
+\end{figure}
+
+The general structure of the branching ratios and production cross 
+sections in different channels is one of the key features of the Higgs 
+boson.  In particular,the feature that the $\gamma\gamma$ and $Z\gamma$
+branching ratios are much smaller than the $ZZ$ or $WW$ is a result 
+of the Higgs not coupling directly to massless particles.  Thus, these
+process are required to procede through loops which would contain massive
+particles, usually either top quarks or W bosons.
+
+\section{Higgs Production}
+
+\subsection{Gluon-gluon Fusion}
 \label{sec:ggHiggs}
 
-The gluon-gluon fusion production mechanism is responsible for $\sim 90\%$ of 
-Higgs events produced at the LHC.  This is large due to the fact that the gluon
-cross-section is fairly large compared to the anti-quark cross-section.  
-Because the Higgs cannot couple to the gluon directly, the interaction must
-be mediated through a loop, show in figure [??].  The dominant contributions 
-come from the heavy quarks, top and bottom.  The production cross-section for
-this process varies from XXXX fb$^{-1}$ to YYYY fb $^{-1}$ for Higgs masses 
-between 110 and 800 GeV.   
+The gluon-gluon fusion production mechanism is responsible for $\sim 50\%$ of 
+Higgs events produced at the LHC.  This is large due to the fact that the 
+gluon-gluon cross section at large invariant masses is fairly large 
+compared to the quark-anti-quark cross section.  
+However, because the Higgs cannot couple to gluons directly, the interaction 
+must be mediated through a loop, show in figure [??].  The dominant 
+contributions 
+come from the heavy quarks, top and bottom, which couple strongly to both
+gluons and the Higgs.  The production cross section for
+this process varies from $3\times10^{-2}~pb$ to $40~pb$  for Higgs masses 
+between 80 and 1000 GeV and $\sqrt{s}=8~TeV$.
 
-\section{Weak Vector Boson Fusion}
+\subsection{Weak Vector Boson Fusion}
 \label{sec:VBFHiggs}
 
-The Weak Vector Boson Fusion (VBF) production mechanism, has the next to
+The Weak Vector Boson Fusion (VBF) production mechanism has the next to
 largest cross section at the LHC.  The fynman diagram for this process is 
 shown in figure [??].  The signature of this production mechanism is two 
 high energy jets at high values of pseudo-rapidity.  Because of next-to-leading
 order (NLO) and next-to-NLO (NNLO) QCD effects, gluon-gluon fusion events can
-also have this same signature.  At such, event class which attempt to 
+also have this same signature.  As such, event classes which attempt to 
 distinguish the VBF production mechanism tend to have a large contamination 
-from gluon-gluon fusion.  
+from gluon-gluon fusion.  Usually the kinematics of the spectator jets
+can be used to further isolate VBF-like events. 
 
-Some discussion on the kinematics of VBF events??
-
-\section{Other Production Mechanisms}
+\subsection{Other Production Mechanisms}
 \label{sec:VHiggs}
 
 Other production mechanisms include Higgs produced in association with either
@@ -50,7 +75,8 @@ a weak gauge boson, depicted in figures [??], and top pairs, depicted in
 figure [??].  In these cases either W or Z can be tagged or the presence of 
 b-jets can be included.  However, these processes only make up ~5\% of the 
 total Higgs production cross section.  As such, having significant sensitivity
-to these production mechanisms requires very high amount of integrated luminosity (of the order of 100 fb$^{-1}$) and thus will not be discussed further.  
+to these production mechanisms requires very high amount of integrated 
+luminosity (of the order of 100 fb$^{-1}$). 
 
 \section{Decay Channels}
 \label{sec:HiggsDecays}
@@ -62,12 +88,13 @@ mass, where the production of weak gauge bosons is suppressed from
 phase-space effect, b-quarks are the dominant decay, making up $60\%$ of 
 the events.  At high mass, the leading decays are to W and Z pairs.  There 
 are also several decays which are mediated through loops of either quarks 
-or gauge bosons.  These decays are the di-photon, di-gluon, and Z-photon 
-channels.  Becuase of the distinct signature of the di-photon final state,
-this channel is one of the most sensitive channels for discoverying the Higgs.  
-Aside from this, the ZZ and WW decay channels are the next most sensitive, 
-especially at high mass and especially in the ZZ fully leptonic and WW 
-semi-leptonic final states. 
+or gauge bosons.  These decays are the di-photon, di-gluon, and $Z\gamma$
+channels.  Because of the distinct signature of the di-boson final states,
+these channels are of the most sensitive for discoverying a Higgs-like 
+resonance.  
+Aside from this, the ZZ and WW decay channels are the most sensitive for 
+large Higgs masses.  The ZZ and WW channels are especially promising in 
+the $4\ell$ and $\ell\nu\ell'\nu'$ final states, respectively.
 
 \section{Kinematics of scalar resonances}
 \label{sec:Kinematics of scalar resonances}
@@ -78,25 +105,308 @@ models which go beyond the minimal Higgs model and predict also other scalars
 which would couple differently to the SM fields.  To generalize this, one 
 can write down the most general way in which a scalar can couple to the SM
 feilds.  For bosonic decays one gets the amplitude show in equation [??].  
-For fermionic decays, the amplitude is shown in equation [??]. Each of these
-terms results in distinct kinematic distributions of the final state particles.
-For example, the SM Higgs couples to the W's and Z's only through the a1 term,
-while it couples to the photons through a combination of the a1 and a2 terms.
+\begin{equation}
+  \mathscr{A}(X\to VV) = v^{-1}(g_1m_v^2\epsilon_1^*\epsilon_2^*+g_2f_{\mu\nu}^{*(1)}f^{*(2),\mu\nu}+g_3f^{*(1),\mu\nu}f_{\mu\alpha}^{*(2)}\frac{q_\nu q^\alpha}{\Lambda^2}+g_4f_{\mu\nu}^{*(1)}\tilde{f^{*(2),\mu\nu}}),
+\end{equation}
+where $f$, $\tilde{f}$ are the field strenght tensor and the conjugate field
+strength tensor, $g_i$ are dimensionless couplings, $\epsilon_i$ are the 
+polarization vectors of the vector bosons, $Lamba$ denotes the scale where new
+physics could appear, $m_V$ is the mass of the vector boson, and q is the
+momentum of the VV-system.  
 
-By parameterizing kinematic distributions in terms of these couplings, one
-can also use these ideas to measure properties of any new resonance observed 
-at the LHC.  It turns out that one of the best channels for measuring Higgs
-properties is the ZZ decay where both Z's decay leptonically (either 
-electrons or muons).  This is due to the complex topology of the decay.  In
-contrast, if one considers Higgs to di-photon decays, there is only one angle 
-to describe these events and it has the same distribution for all scalar 
-resonances.  This leave the di-photon channel to only be sensitive to the spin 
-of the resonance if one is restricted to only use kinematic information of the
-two final state photons\footnote{A similar technique can be used look at
-the kinematics of tagging jets in VBF or ttH events.}.
+This amplitude correspond to three independent
+lorentz structures and can be rewritten as,
+\begin{equation}
+\mathscr{A}(X\to VV) = v^{-1}\epsilon_1^{*\mu}\epsilon_2^{*\nu}(a_1g_{\mu\nu}m_X^2+a_2q_\mu q_\nu+a_3\epsilon_{\mu\nu\alpha\beta}q_1^{\alpha}q_2^{\beta}). 
+\end{equation}
+The SM Higgs couples to the W's and Z's only through the $a_1$ term,
+while it couples to the photons through an effective coupling which is a 
+combination of the $a_1$ and $a_2$ terms.  A CP-odd scalar, commonly referred 
+to as a pseudoscalar, couples to gauge bosons through the $a_3$ term.
 
-Becuase of the ZZ channels sensitivity over a broad range of Higgs
+The amplitude can be broken into several 
+more specific amplitudes corresponding to the helicity states of the 
+vector boson, where the quantization axis is taken to be ????.  For a scalar
+resonance, there are only three non-zero helicity amplitudes out of the 
+nine permutations,
 
-\subsection{Kinematics of vectors and tensors resonances}
-\label{sec:Kinematics of vector and tensor resonances} 
+\begin{center}
+\begin{subequations}
+  \begin{equation}
+    A_{00} = -\frac{m_X^2}{v}(a_1\sqrt{1+x}+a_2\frac{m_1m_2}{m_X^2}x,    \end{equation}
+  \begin{equation}
+    A_{++} = \frac{m_X^2}{v}(a_1+ia_3\frac{m_1m_2}{m_X^2}\sqrt{x}),
+    \end{equation}
+  \begin{equation}
+    A_{--} = \frac{m_X^2}{v}(a_1-ia_3\frac{m_1m_2}{m_X^2}\sqrt{x}),
+    \end{equation}
+\end{subequations}
+\end{center}
+where x is defined as
+\begin{equation}
+x=(\frac{m_X^2-m_1^2-m_2^2}{2m_1m_2})^2-1.
+\end{equation}
 
+Each helicity amplitude has a distinct angular distribution while the
+magnitude of each helicity amplitude depends on the invariant masses 
+of the two Z bosons and the resonance.  Together these combine into the
+differential cross section according to,
+\begin{equation}
+master formula
+\end{equation}
+As a result, the differential cross section is parameterized in terms of 
+the underlying couplings. 
+The angular and mass distributions of these for several types of scalar 
+models are shown in figure~\ref{fig:ScalarMasses} 
+and~\ref{fig:ScalarHelicityAngles}.  The red and blue distributions
+correspond to a SM Higgs and pseudoscalar resonances.  The green 
+distributions corespond to a scalar model in which the resonance couples
+to the vector boson only through the $a_2$ term.  Thus, these three models 
+represent the three independent lorentz structures.  In principle,
+a mixture of these terms can occur.  In fact, there is a small but 
+negligible contribution from the $a_2$ exists in the SM from NLO 
+electroweak corrections.  In various extensions to the SM, 2 Higgs doublet
+models, multiple scalars exist with different CP properties.  It is
+even possible that a CP-violating scalar resonance could exist.  The 
+distributions in figures~\ref{fig:ScalarMasses} 
+and~\ref{fig:ScalarHelicityAngles} clearly demonstrate that with 
+enough events, the angular and mass distributions are sufficient to 
+determine the couplings of an observed scalar resonance.  More over, 
+it will be critical to constrain as much as possible the existance of
+a CP-violating HZZ amplitude.  
+
+\begin{figure}
+\begin{center}
+\includegraphics[width=.32\linewidth]{HiggsPhenPlots/spinParityPaper/plots/z1mass_125GeV_spin0_3in1.pdf}
+\includegraphics[width=.32\linewidth]{HiggsPhenPlots/spinParityPaper/plots/z2mass_125GeV_spin0_3in1.pdf}
+\label{fig:ScalarMasses}
+\caption{Distributions of the Z boson masses.  The smaller of the two masses is
+plotted on the right, while the larger of the two masses is plotted on the
+left. Markers show simulation of events using JHUGen; lines are projections
+of the analytical distribution described above.  Red line/circles correspond
+to a SM Higgs, blue lines/diamonds, a pseudoscalar, and green lines/square, 
+a CP-even scalar produced from higher dimension operators.}
+\end{center}
+\end{figure}
+
+\begin{figure}
+\begin{center}
+\includegraphics[width=.32\linewidth]{HiggsPhenPlots/spinParityPaper/plots/costheta1_125GeV_spin0_3in1.pdf}
+\includegraphics[width=.32\linewidth]{HiggsPhenPlots/spinParityPaper/plots/costheta2_125GeV_spin0_3in1.pdf}
+\includegraphics[width=.32\linewidth]{HiggsPhenPlots/spinParityPaper/plots/phi_125GeV_spin0_3in1.pdf}
+\label{fig:ScalarHelicityAngles}
+\caption{Distributions of helicity angles, $\cos\theta_1$ (left), 
+$\cos\theta_2$ (middle), and $\Phi$ (right). Markers show simulation of 
+events using JHUGen; lines are projections
+of the analytical distribution described above.  Red lines/circles correspond
+to a SM Higgs, blue lines/diamonds, a pseudoscalar, and green lines/square, 
+a CP-even scalar produced from higher dimension operators.}
+\end{center}
+\end{figure}
+
+The question of constraining the contribution
+from either the $a_2$ or $a_3$ term of the amplitude can be more aptly 
+formulated through a reparameterization of the HZZ amplitude.  The 
+three complex couplings, $a_1$, $a_2$, and $a_3$ can be represented by
+four real parameters, two fractions ($f_2$ and $f_3$) and two phase 
+($\phi_2$ and $\phi_3$) defined as
+\begin{center}
+\begin{subequations}
+  \begin{equation}
+    f_i = \frac{|a_i|^2\sigma_i }{|a_1|^2\sigma_1+|a_2|^2\sigma_2+|a_3|\sigma}
+    \end{equation}
+  \begin{equation}
+    \phi_i = arg(\frac{g_i}{g_1}).
+    \end{equation}
+\end{subequations}
+\end{center}
+We note that $\sigma_i$ is the cross section of the process corresponding
+to $g_i=1$ and $g_{\neq i}=0$.  The fractions represent an effective yield 
+resulting from the corresponding term of the amplitude.  In the case where
+there is no interference, this interpretation is exact.  These variables
+are also straight forward measurables for experiments, as will be discussed
+in later sections.  
+
+Similar calculations can been made for a generic spin-1 or spin-2 
+resonance~\cite{??}.  
+Figures~\ref{fig:VectorMasses},~\ref{fig:VectorProdAngles}, 
+and~\ref{fig:VectorHelicityAngles} show two choice vector 
+resonance models.  
+Figures~\ref{fig:TensorMasses},~\ref{fig:TensorProdAngles}, 
+and~\ref{fit:TensorHelicityAngles}
+show three choice tensor 
+resonance models.  Similar to the case of a scalar resonance, sufficient
+information is contained in the angular and mass distributions to 
+constrain all the parameters of the vector-vector-vector amplitude. 
+Although an exhaustive study of all the spin-2 couplings hasn't been 
+performed... the situation is roughly the same.  
+
+\begin{figure}
+\begin{center}
+\includegraphics[width=.32\linewidth]{HiggsPhenPlots/spinParityPaper/plots/z1mass_125GeV_spin1_2in1.pdf}
+\includegraphics[width=.32\linewidth]{HiggsPhenPlots/spinParityPaper/plots/z2mass_125GeV_spin1_2in1.pdf}
+\label{fig:VectorMasses}
+\caption{Distributions of the Z boson masses.  The smaller of the two masses is
+plotted on the right, while the larger of the two masses is plotted on the
+left. Markers show simulation of events using JHUGen; lines are projections
+of the analytical distribution described above.  Red line/circles correspond
+to CP-even vector, blue lines/diamonds, a CP-odd vector.}
+\end{center}
+\end{figure}
+
+\begin{figure}
+\begin{center}
+\includegraphics[width=.32\linewidth]{HiggsPhenPlots/spinParityPaper/plots/costhetastar_125GeV_spin1_2in1.pdf}
+\includegraphics[width=.32\linewidth]{HiggsPhenPlots/spinParityPaper/plots/phistar1_125GeV_spin1_2in1.pdf}
+\label{fig:VectorProdAngles}
+\caption{Distributions of the production angles, $\cos\theta^*$ (left) and 
+$\Phi_1$ (right).  Markers show simulation of events using JHUGen; lines 
+are projections
+of the analytical distribution described above.   Red line/circles correspond
+to CP-even vector, blue lines/diamonds, a CP-odd vector.}
+\end{center}
+\end{figure}
+
+\begin{figure}
+\begin{center}
+\includegraphics[width=.32\linewidth]{HiggsPhenPlots/spinParityPaper/plots/costheta1_125GeV_spin1_2in1.pdf}
+\includegraphics[width=.32\linewidth]{HiggsPhenPlots/spinParityPaper/plots/costheta2_125GeV_spin1_2in1.pdf}
+\includegraphics[width=.32\linewidth]{HiggsPhenPlots/spinParityPaper/plots/phi_125GeV_spin1_2in1.pdf}
+\label{fig:VectorHelicityAngles}
+\caption{Distributions of the helicity angles, $\cos\theta_1$ (left), 
+$\cos\theta_2$ (middle), and $\Phi$ (right). Markers show simulation of 
+events using JHUGen; lines are projections
+of the analytical distribution described above.  Red line/circles correspond
+to CP-even vector, blue lines/diamonds, a CP-odd vector.}
+\end{center}
+\end{figure}
+
+\begin{figure}
+\begin{center}
+\includegraphics[width=.32\linewidth]{HiggsPhenPlots/spinParityPaper/plots/z1mass_125GeV_spin2_3in1.pdf}
+\includegraphics[width=.32\linewidth]{HiggsPhenPlots/spinParityPaper/plots/z2mass_125GeV_spin2_3in1.pdf}
+\label{fig:TensorMasses}
+\caption{Distributions of the Z boson masses.  The smaller of the two masses is
+plotted on the right, while the larger of the two masses is plotted on the
+left. Markers show simulation of events using JHUGen; lines are projections
+of the analytical distribution described above.  Red line/circles correspond
+to a minimal coupling graviton, blue lines/diamonds, a CP-odd tensor, 
+and green lines/square, 
+a CP-even tensor produced from higher dimension operators.}
+\end{center}
+\end{figure}
+
+\begin{figure}
+\begin{center}
+\includegraphics[width=.32\linewidth]{HiggsPhenPlots/spinParityPaper/plots/costhetastar_125GeV_spin2_3in1.pdf}
+\includegraphics[width=.32\linewidth]{HiggsPhenPlots/spinParityPaper/plots/phistar1_125GeV_spin2_3in1.pdf}
+\label{fig:TensorProdAngles}
+\caption{Distributions of the production angles, $\cos\theta^*$ (left) and
+$\Phi_1$ (right). Markers show simulation of events using JHUGen; lines
+are projections
+of the analytical distribution described above.  Red line/circles correspond
+to a minimal coupling graviton, blue lines/diamonds, a CP-odd tensor, 
+and green lines/square, 
+a CP-even tensor produced from higher dimension operators.}
+\end{center}
+\end{figure}
+
+\begin{figure}
+\begin{center}
+\includegraphics[width=.32\linewidth]{HiggsPhenPlots/spinParityPaper/plots/costheta1_125GeV_spin2_3in1.pdf}
+\includegraphics[width=.32\linewidth]{HiggsPhenPlots/spinParityPaper/plots/costheta2_125GeV_spin2_3in1.pdf}
+\includegraphics[width=.32\linewidth]{HiggsPhenPlots/spinParityPaper/plots/phi_125GeV_spin2_3in1.pdf}
+\label{fig:TensorHelicityAngles}
+\caption{Distributions of the helicity angles, $\cos\theta_1$ (left), 
+$\cos\theta_2$ (middle), and $\Phi$ (right). Markers show simulation of 
+events using JHUGen; lines are projections
+of the analytical distribution described above.  Red line/circles correspond
+to a minimal coupling graviton, blue lines/diamonds, a CP-odd tensor, 
+and green lines/square, 
+a CP-even tensor produced from higher dimension operators.}
+\end{center}
+\end{figure}
+
+\subsection{Variables for Property Measurements}
+\label{sec:Spin-parity}
+
+Understanding the spin and CP of any new resonace discovered at the LHC
+will be critical to understanding its role in nature.  Since measuring 
+model parameters requires a description of all backgrounds, acceptance
+effects, and resolution in 8 dimensions, a more efficient way of
+constraining resonance properties is to use compact variables which are
+close to optimal.  Such a variable can be built from either the 
+square of the matrix element for two processes, or equivalently, the
+differential cross section, according to
+\begin{equation}
+D_{J^P} = \frac{\mathscr{P}_{SMH}}{\mathscr{P}_{SMH}+\mathscr{P}_{J^{P}}}.
+\label{eq:KD}
+\end{equation}
+These type of variable uses the ideal distributions to isolate emphasise
+kinematic difference between two choice models.  In principle, it is not
+an optimal discriminant since it does not include information of the 
+detector level distributions.  However, because acceptance effects are 
+multiplicative, they will cancel in the ratio of the two probabilities.
+Other detector effects which are not multiplicative, such as resolution
+effects, will not cancel in these ratios.  However, in channels with 
+good angular and energy resolution, these effects will be small; moreover,
+this only effects the optimality of such a discriminant.
+
+These variables can either be used either to perform hypothesis separation
+or for measuring some continuous model parameters, as will be demonstrated 
+later.  To perform such measurements an accurate description of the detector 
+level distribution of D must be modeled.  Simulated Monte Carlo (MC)
+events can be used, including all detector simulations, reconstruction
+algorithms, and analysis selections, to model the shape of these discriminants.
+Thus, MC simulations can effectively be used to model the appropriate 
+transfer function for a given analysis.  From here, D can be used either 
+as an additional selection variable, or for fitting the shape of data. 
+
+Similar variables can be constructed to help discriminate signal effects 
+from SM background events,
+\begin{equation}
+D_{bkg} = \frac{\mathscr{P}_{sig}}{\mathscr{P}_{sig}+\mathscr{P}_{bkg}}.
+\end{equation}
+Typically, invariant mass distributions are used in resonances searches. 
+As will be shown in chapter~\ref{sec:HZZsearches}, variables similar to 
+$D_{bkg}$ have proven to provide a significant increase in sensitivity to 
+Higgs-like events if used in conjunction with the relevant invariant
+mass distributions.  It should be noted, that these variables are important
+for properties as well; understanding properties of signal events first
+requires good sensitivity to signal and background events.  
+
+\begin{figure}
+\begin{center}
+\includegraphics[width=.49\linewidth]{HiggsPhenPlots/D0minusComparison.pdf}
+\label{fig:fa3Comparison}
+\caption{Distributions of $D_{0-}$ for }
+\end{center}
+\end{figure}
+
+Certain discriminants have properties which allow them to be efficiently
+used to measure model parameters.  Consider the situation in which prior
+knowledge allows us to know that a resonance is a scalar in which $f_2=0$.
+In this case, $f_3$ can be measured directly using kinematic discriminants,
+specifically, $D_{0-}$.  Figure~\ref{fig:fa3comparison} shows this discriminant for
+both the SM Higgs (red??), a pseudoscalar (blue??), and a mixed parity 
+model corresponding to $f_3=0.5$, $\phi_3=0.0$ (green??), $\pi/2$ (purple??),
+$\pi$ (brown??), $3\pi/2$ (magenta??).  All of the mixed parity samples
+can be described by a weighted sum of the SM Higgs distribution and the 
+pseudoscalar distibution, 
+\begin{equation}
+\mathscr{P}(D_{0-}|f_3) = |\mathscr{A}_{SMH}|^2 + |\mathscr{A}_{0-}|^2 + 2Re(\mathscr{A}_{SMH}^*\mathscr{A}_{0-}) \simeq (1-f_3)\mathscr{P}_{SMH}(D_{0-})+f_3\mathscr{P}_{0-}.
+\label{eq:fa3}
+\end{equation}
+$P_{SMH}$ and $P_{0-}$ represent the different cross section of the 
+SM Higgs model and the pseudoscalar, respectively, 
+\begin{equation}
+\mathscr{P}_{J^P}(D_{0-}) = \frac{d\Gamma}{dD_{0-}} \sim \int |\mathscr{A}_{J^P}|^2d\Omega.
+\end{equation}
+Thus, using equation~\ref{eq:fa3} the interference is explicitly neglected.  
+Thus, we can gather from figure~\ref{fig:fa3Comparison} that $D_{0-}$ is insensitive to
+the interference and the relative phase between $\mathscr{A}_{SMH}$ and
+$\mathscr{A}_{0-}$.  A more explicit justification of this procedure can be
+realized by drawing toys from the simulation of the full matrix element and
+fitting for $f_3$ with equation~\ref{eq:fa3}.  Figure~\ref{fig:???} shows
+the result of fitting $f_3$ for several mixed parity models, corresponding 
+$f_3=.05,.1,.5$; no bias is found in any of these toys studies. 

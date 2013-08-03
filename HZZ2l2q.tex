@@ -68,7 +68,7 @@ Z bosons.  Each di-lepton pair must have a combined invariant mass of
 $70 < m_{\ell\ell} < 110$.  This is primary meant to reduce backgrounds which
 don't have an intermediate Z, like $t\bar{t}$ and QCD backgrounds.  In order 
 to reduce the overwhelming Z+jets background, the dijet invariant mass of 
-the event is required to satisfy $75 < m_{jj} < 105$.  Figure~\ref{fig:HZZ2l2qPreselection} shows the $m_{jj}$ for signal and background.  
+the event is required to satisfy $75 < m_{jj} < 105$.  Figure~\ref{fig:HZZ2l2qPreselectionOnly} shows the $m_{jj}$ for signal and background.  
 
 Catagorizing events based on jet flavor provides a significance 
 increase in sensitivity to signal events since two b-jets are 
@@ -111,10 +111,10 @@ that is used as well as the distributions that describe the
 signal events is described in the section~\ref{sec:HiggsPhen}.
 The discrimant that is used makes use of the 5D probability 
 distributions, 
-$\mathscr{P}(cos\theta^*,cos\theta_1,cos\theta_2,\Phi,\Phi_1)$,
+$\mathscr{P}(cos\theta^*,cos\theta_1,cos\theta_2,\Phi,\Phi_1|m_{ZZ})$,
 to build a discriminant,
 \begin{equation}
-\mathscr{D} = \frac{\mathscr{P}_{Higgs}}{\mathscr{P}_{Higgs}+\mathscr{P}_{Zjets}}.
+D = \frac{\mathscr{P}_{Higgs}}{\mathscr{P}_{Higgs}+\mathscr{P}_{Zjets}}.
 \label{eq:KD}
 \end{equation}
 
@@ -124,16 +124,89 @@ emperically from MC using approximate functions.  Fits to
 Z+jets MC are performed in slices of $m_{ZZ}$.  A function
 is then extrapolated between slices so that $\mathscr{P}_{Zjets}$ 
 is continuous in $m_{ZZ}$.  Some examples of these fits are shown
-in figure~\ref{fig:???}.  Since the MC includes detector effects, 
+in figure~\ref{fig:HZZ2l2qBackgroundPDF}.  Since the MC includes 
+detector effects, 
 the signal parameterization should also include detector effects.
 The ideal distributions from section~\ref{sec:HiggsPhen} are 
 modified with 5D uncorrelated function which is then fit to 
 MC to account for any detector effects.  As with background, 
 these fits are performed in slices of $m_{ZZ}$ and extrapolated
 to arbitrary values.  Examples of the signal parameterizations
-are shown in figure~\ref{fig:???}.
+are shown in figure~\ref{fig:HZZ2l2qSignalPDF}.  Combining these 
+two density
+functions together, the discriminant, D, is shown in
+figure~\ref{fig:HZZ2l2qAngularLD}.  The signal events tend to peak more 
+towards 1 while the background events tend to peak more towards
+zero.  Thus, selecting events greater than some value will
+increase the signal purity.  
 
-{\it angular likelihood discriminant description!!!}
+Because the shape of D changes with $m_{ZZ}$, the optimal cut will 
+be $m_{ZZ}$ dependent.
+An optimization was run using $\kappa=N_{sig}/\sqrt{N_{bkg}}$ as a figure of 
+merrit.  This variable represents an approximation of the expected 
+upper limit, UL.  For a simple counting experiment in which the 
+expected number of background events is large, $\kappa$ is a good
+approximation of the true UL.  The optimization was performed 
+separately for each of the three b-tagging categories and the
+proposed cuts are shown in table~\ref{table:HZZ2l2qCuts}.
+
+{\it discuss the effect a cut on D has on $m_{ZZ}$ compared with other vars.}
+
+\begin{figure}
+\begin{center}
+%\includegraphics[width=.49\linewidth]{}
+%\includegraphics[width=.49\linewidth]{}\\
+%\includegraphics[width=.49\linewidth]{}
+%\includegraphics[width=.49\linewidth]{}
+\label{fig:HZZ2l2qBackgroundPDF}
+\caption{ Emperical derivation of 5D PDF for Z+jets events.  Points
+represent histograms of MC, lines represent the final model at the 
+median $m_{ZZ}$ value.}
+\end{center}
+\end{figure}
+
+\begin{figure}
+\begin{center}
+%\includegraphics[width=.49\linewidth]{}
+%\includegraphics[width=.49\linewidth]{}\\
+%\includegraphics[width=.49\linewidth]{}
+%\includegraphics[width=.49\linewidth]{}
+\label{fig:HZZ2l2qSignalPDF}
+\caption{ Emperical derivation of 5D PDF for signal events.  Points
+represent histograms of MC, lines represent the final model at the 
+median $m_{ZZ}$ value. }
+\end{center}
+\end{figure}
+
+\begin{table}
+\begin{center}
+\begin{tabular}{c|c|c|c}
+\hline 
+\hline
+
+\multicolumn{4}{c}{preselection} \\ \hline
+$p_T(\ell^\pm)$    & \multicolumn{3}{c}{leading $p_T>40(20)~GeV$, subleading $p_T>20(10)~GeV$} \\ 
+$p_T(jets)$       & \multicolumn{3}{c}{$>30~GeV$} \\ 
+$|\eta|(\ell^\pm)$ & \multicolumn{3}{c}{$<2.5(e^\pm), <2.4(\mu^\pm)$} \\ 
+$|\eta|(jets)$    &  \multicolumn{3}{c}{$<2.4$} \\ \hline \hline
+\multicolumn{4}{c}{final selection} \\ \hline \hline
+           & 0 b-tag & 1 b-tag & 2 b-tag \\ \hline
+b-tag      & none    & 1 loose & 1 loose \& 1 medium \\ 
+D          & $>0.55+0.00025m_{ZZ}$ & $>0.302+0.000656m_{ZZ}$ & $>0.5$ \\
+$E_T^{miss}$ & none   & none    & $2\ln\lambda(E_T^{miss})<10$ \\
+&&& ($E_T^{miss}<50~GeV$) \\ \hline
+$m_{jj}$    & \multicolumn{3}{c}{$\in [75,105]~GeV$} \\
+$m_{\ell\ell}$& \multicolumn{3}{c}{$\in [70,110](<80)~GeV$}\\
+$m_{ZZ}$    & \multicolumn{3}{c}{$\in [183,800] (\in [125,170])~GeV$} \\ \hline \hline
+\end{tabular}
+\label{table:HZZ2l2qCuts}
+\caption{Table listing analysis selections.  The top portion details 
+preselection cuts applied to all objects to be consistent with trigger 
+requirements and detector acceptance.  The bottom portion details all 
+cuts applied in each of the different b-tag categories to optimize the 
+sensitivity to signal events.}
+\end{center}
+\end{table}
 
 \begin{figure}
 \begin{center}
@@ -141,13 +214,10 @@ are shown in figure~\ref{fig:???}.
 \includegraphics[width=.49\linewidth]{HZZ2l2qPlots/data_loose_tche.pdf}\\
 \includegraphics[width=.49\linewidth]{HZZ2l2qPlots/data_loose_tag.pdf}
 \includegraphics[width=.49\linewidth]{HZZ2l2qPlots/data_loose_met.pdf}
-\label{fyn:HZZ2l2qPreselectiony}
+\label{fig:HZZ2l2qPreselectiOnly}
 \caption{ ... }
 \end{center}
 \end{figure}
-
-\subsection{Yields and Kinematics Distributions}
-\label{sec:HZZ2l2qyields}
 
 \begin{figure}
 \begin{center}
@@ -157,10 +227,67 @@ are shown in figure~\ref{fig:???}.
 \includegraphics[width=.49\linewidth]{HZZ2l2qPlots/angle_phi.pdf}\\
 \includegraphics[width=.49\linewidth]{HZZ2l2qPlots/angle_phi1.pdf}
 \includegraphics[width=.49\linewidth]{HZZ2l2qPlots/data_loose_ld.pdf}
-\label{fyn:HZZ2l2qAngularLD}
+\label{fig:HZZ2l2qAngularLD}
 \caption{ ... }
 \end{center}
 \end{figure}
+
+\subsection{Yields and Kinematics Distributions}
+\label{sec:HZZ2l2qyields}
+
+From figures~\ref{fig:HZZ2l2qPreselectionOnly} and~\ref{fig:HZZ2l2qAngularLD}
+it is clear that the agreement between data and MC is fairly good,  
+although there are some disagreements in some of the distributions.
+These disagreements reflect the complexity that exist in modeling of
+inclusive Z production.  To ensure that background estimations are
+reliable in the more restricted phase space of the final selections,
+it is important to have a methodology for measuring background 
+shapes and normalizations directly on data.  
+
+To do this data control regions are defined using event passing all
+of the final selctions in table~\ref{table:HZZ2l2qCuts} but instead
+lie in the regions $60 < m_{jj} < 75~GeV$ or $105 < m_{jj} < 130~GeV$. 
+This regions is mutually exclusive from the signal region and includes
+only a small contribution from signal events, as evident from 
+figure~\ref{fig:HZZ2l2qPreselectiOnly}.  Since the kinematics of
+this control region are not expected to be the same as the signal 
+region, events in this region are reweighted to account for the 
+differences between the signal region and the control region.  The
+weights for doing so are derived from MC.  Thus the expected number
+of background events in a given $m_{ZZ}$ range is given by
+\begin{equation}
+N_{bkg}(m_{ZZ}) = N_{con}(m_{ZZ})\times\frac{N_{bkg}^{sim}(m_{ZZ})}{N_{con}^{sim}(m_{ZZ})}=N_{con}(m_{ZZ})\times\alpha(m_{ZZ}).
+\label{eq:HZZ2l2qAlpha}
+\end{equation}
+Where $N_{bkg}$ is the number of events expected in data in the 
+signal region, $N_{con}$ is the number of events observed in the
+data control region, and $N_{con}^{sim}$, $N_{bkg}^{sim}$ are the 
+events measured in the MC control region and signal region, 
+respectively.  Thus, $\alpha$ represents the weight to be applied
+to the data control region inorder to estimate the signal region. 
+
+
+These weights range between 0.75 and 1.2 and have been calculated
+with two different MC generators, {\it ALPGEN} and {\it ??? }, 
+both gave statistically consistent results.  This method allows
+for both the expected shape and the normalization of the SM
+background to be calculated for each of the three b-tag categories.
+Once the expected distributions are calculated, the shape of the
+background is to the rescaled control region using an empirical
+function that was found to provide a good description of the 
+background in the three different b-tag categories in MC.  
+The uncertainties of the fit parameters are taken as systematic
+uncertainties.  Statistical uncertainties of $\alpha$ are also 
+propagated to the systematic uncertainties.  
+Figure~\ref{fig:HZZ2l2qMassDistributions} shows the expected 
+shape and normalization taken directly from MC (filled histograms), 
+the data-driven estimation of the background shape and normalization
+(blue line), and the observed distribution from data. Although
+the MC generally does a reasonably good job of describing the 
+observed distribution, there are some minor systematic effects which 
+are corrected for by the data-driven estimation.  The SM Higgs
+expectation enhanced by a factor 2 or a Higgs mass of $400~GeV$ 
+is also shown in yellow.  
 
 \begin{figure}
 \begin{center}
@@ -170,22 +297,167 @@ are shown in figure~\ref{fig:???}.
 \includegraphics[width=.49\linewidth]{HZZ2l2qPlots/mzz_1btag.pdf}\\
 \includegraphics[width=.49\linewidth]{HZZ2l2qPlots/lowmass_mzz2btag.pdf}
 \includegraphics[width=.49\linewidth]{HZZ2l2qPlots/mzz_2btag.pdf}
-\label{fyn:HZZ2l2qMassDistributions}
-\caption{ ... }
+\label{fig:HZZ2l2qMassDistributions}
+\caption{The $m_{ZZ}$ invariant mass distribution after final selection in
+three categories: 0 b-tag (top), 1 b-tag (middle), and 2 b-tag (bottom). 
+The low-mass range, $120<m_{ZZ}<170~GeV$ is shown on the left and the
+high-mass range, $183<m_{ZZ}<800~GeV$ is shown on the right.  Points with
+error bars show distributions of data and solid curved lines show the 
+prediction of background from the control region extrapolation procedure.
+In the low-mass range, the background is estimated from the $m_{ZZ}$ for
+each Higgs mass hypothesis and the average expectation is shown.  Solid
+histograms depicting the background expectation from simulated events
+for the different components are shown.  Also shown is the SM Higgs boson
+signal with the mass of 150 (400) GeV and cross section 5 (2) times that 
+of the SM Higgs boson, which roughly corrsponds to the expected exclusion 
+limits in each category.}
 \end{center}
 \end{figure}
 
-\subsection{Results}
+While the background distributions are derived from data, the signal
+distributions are taken from MC.  Signal production cross sections
+and branching ratios are taken from the Higgs cross sections working
+group~\cite{??} and calculated at NLO.  Shapes are modeled using both
+{\it POWHEG} to model production at NLO and {\it PYTHIA} to model the 
+decay kinematics or {\it JHUGen} to model model both production and
+decay at LO.  These shapes are fit with analytical parameterization
+which are them selves parameterized as a function $m_H$.  Efficiencies 
+are taken from CMS simulations and are
+corrected for known differences between data and MC using tag and
+probe measurements.  
+
+A number of systematic uncertainties are associated with the calculation
+of the number of expected signal events.  Many of these result from
+limited understanding of reconstruction efficiencies. For example the 
+muon and electron reconstruction effiencies have been assigned 
+uncertainties of 2.7\%, 4.5\%, respectively.  Jet reconstruction
+effiency uncertainties range from 1-8\% depending on the Higgs mass
+hypothesis.  The efficiency uncertainty of $E_T^{miss}$ cuts range from
+3-4\%.  The b-tagging efficiency uncertainties depend both on the 
+category as well as the Higgs mass hypothesis and range between 2-11\%. 
+The additional jet identification requirements applied in the 0 b-tag
+category, gluon-tagging, is assigned an uncertainty of 4.6\%.
+Uncertainties from Higgs production, either through parton distribution
+functions, NLO corrections, or VBF modeling are assigned to both the
+overall cross section calculation or the effect on acceptance due to
+shape differences.  Mismodeling of Higgs $m_{ZZ}$ shape introduces some
+additional systematic to the effective amount of event near the signal
+peak.  Since the width depends strong on the mass hypthosis, $m_H$, the
+uncertainties also depends on $m_H$ according to 
+$1.5\times10^{-7}\%\times m_H^3$ [GeV].  Finally, uncetainties from 
+luminosity measurements are accounted for in the signal systematics. 
+All systematic uncertainties on the signal yields are summarized in 
+table~\ref{table:HZZ2l2qSystematics}.
+
+\begin{table}
+\begin{center}
+\begin{tabular}{l|c|c|c}
+\hline 
+\hline
+
+source & 0 b-tag & 1 b-tag & 2 b-tag \\ \hline \hline
+
+muon reconstruction & \multicolumn{3}{c}{2.7\%} \\ \hline
+electron reconstruction & \multicolumn{3}{c}{4.5\%} \\ \hline
+jet reconstruction & \multicolumn{3}{c}{1-8\%} \\ \hline
+pile-up & \multicolumn{3}{c}{3-4\%} \\ \hline
+$E_T^{miss}$ & -- & -- & 3-4\% \\ \hline
+b-tagging & 2-7\% & 3-5\% & 10-11\% \\ \hline
+gluon-tagging & 4.6\% & -- & -- \\ \hline
+acceptance(HqT) & 2\% & 5\% & 3\% \\ \hline
+acceptance(PDF) & \multicolumn{3}{c}{3\%} \\ \hline
+acceptance(VBF) & \multicolumn{3}{c}{1\%} \\ \hline
+signal cross section (PDF) & \multicolumn{3}{c}{8-10\%} \\ \hline
+signal cross section (scale) & \multicolumn{3}{c}{8-11\%} \\ \hline
+signal shape    & \multicolumn{3}{c}{$1.5\times10^{-7}\%\times m_{H}^{3}$ [GeV]} \\ \hline
+luminosity      & \multicolumn{3}{c}{4.5\%} \\ \hline \hline
+
+\end{tabular}
+\label{table:HZZ2l2qSystematics}
+\caption{Summary of systematic uncertainties on signal normalization.
+Most sources give multiplicative uncertainties on the cross section
+measurement, except for the expected Higgs boson production cross 
+section, which is relevant for the measurement of the ratio to the 
+SM expectation.  The ranges indicate dependence on $m_{H}$.}
+\end{center}
+\end{table}
+
+\subsection{Results and Summary}
 \label{sec:HZZ2l2qxsec}
+
+Since there are no significant excesses found in any of the observed 
+invariant mass spectra, limits on the Higgs cross section are calucated.
+A simultanious fit for the signal cross section in the six different
+channels is perform and 95\% CL limits are derived from the distribution 
+of a $CL_s$ test statistic,
+\begin{equation}
+CL_s = \frac{x}{y}
+\end{equation}
+Expected limits are derived from pseudoexperimental which are generated
+based on expected distributions.  Nuisance parameters associated with
+the different systematic uncertainties are profiled and toys are randomly
+samples for each toy.  For the low mass analysis, the median expected upper 
+limit on the $H\to ZZ$ cross section, solid black line, $1\sigma$ ($2\sigma$) 
+band of the expected limit,  
+green (yellow), and the observed upper limit as a function of $m_H$ is 
+shown in the left plot of figure~\ref{fig:HZZ2l2qLimitsSM4}.  Similarly, 
+the expected and 
+observed distribution of upper limits on the $H\to ZZ$ cross section are 
+shown for the high mass region in right plot of 
+figure~\ref{fig:HZZ2l2qLimitsSM4}.  In both plots of 
+figure~\ref{fig:HZZ2l2qLimitsSM4}, the Higgs cross sections within the 
+SM and SM4\cite{???} models are shown in red.  
+
+Upper limits on the ratio of the 95\% CL cross section limits with respect
+to the SM Higgs cross section, including all theoretical uncertainties, 
+are shown in figure~\ref{fig:HZZ2l2qLimits}.  While the low mass region
+limits are at best around four times SM Higgs cross sections, the high mass
+region has an expected exclusion for Higgs masses between X.XX and Y.YY. 
+The observed data excludes Higgs boson masses between X.XX and Y.YY.
+In the context of the SM4 model the ranges 154-161 GeV and 200-470 GeV 
+are excluded at 95\% CL. 
 
 \begin{figure}
 \begin{center}
 \includegraphics[width=.49\linewidth]{HZZ2l2qPlots/plot_low_ul.pdf}
-\includegraphics[width=.49\linewidth]{HZZ2l2qPlots/plot_ul.pdf}\\
-\includegraphics[width=.49\linewidth]{HZZ2l2qPlots/plot_low_sigma.pdf}
-\includegraphics[width=.49\linewidth]{HZZ2l2qPlots/plot_sigma.pdf}\\
-\label{fyn:HZZ2l2qLimits}
-\caption{ ... }
+\includegraphics[width=.49\linewidth]{HZZ2l2qPlots/plot_ul.pdf}
+\label{fig:HZZ2l2qLimits}
+\caption{Observed (solid) and expected (dashed) 95\% CL upper limit on
+the ration f the production cross section o the SM expectation for the 
+HIggs boson obtained using the $CL_s$ technique.  The 68\% ($1\sigma$) 
+and 95\% ($1\sigma$) ranges of expectation for the background-only model
+are shown with green and yellow bands, respectively.  The solid line at 
+1 indicates the SM expectation.  Left: low-mass range, right: high-mass
+range. }
 \end{center}
 \end{figure}
 
+\begin{figure}
+\begin{center}
+\includegraphics[width=.49\linewidth]{HZZ2l2qPlots/plot_low_sigma.pdf}
+\includegraphics[width=.49\linewidth]{HZZ2l2qPlots/plot_sigma.pdf}
+\label{fig:HZZ2l2qLimitsSM4}
+\caption{Observed (dashed) and expected (solid) 95\% CL upper limit on
+the product of the production cross section and branching fraction for 
+$H\to ZZ$ obtained with the $CL_s$ technique.  The 68\% ($1\sigma$) 
+and 95\% ($2\sigma$) ranges of expectation for the background-only model
+are also shown with green and yellow bands, respectively.  The expected
+product of the SM Higgs production cross section and the branching
+fraction is shown as a solid red curve with a band indicating theoretical
+uncertainties at 68\% CL.  The same expectation in the fourth-generation
+model is shown with a red dashed curve with a band indicating theoretical
+uncertainties.  Left: low-mass range, right: high-mass range.  }
+\end{center}
+\end{figure}
+
+A search for the SM Higgs boson decaying into two Z boson which
+subsequently decay into to quark jets and two leptons has been presented.
+The data used in this analysis constitute $4.6fb^{-1}$ of integrate
+luminosity.  No significant excess of events was found and upper limits
+have been measure in the context of the SM and SM4 models.  Although 
+only a small portion of Higgs masses have been excluded at 95\% CL, 
+more data should allow sensitivity which is sufficient for excluding almost
+the entire range between 200 and 600 GeV with this channel alone.  
+This decay topology has proven
+to be one of the most improtant for exclusion of high mass Higgs models and
+has played a major role in the CMS grand combination~\cite{???}. 
