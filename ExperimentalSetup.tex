@@ -1,3 +1,6 @@
+\newcommand{\microns}{$\mu m$}
+
+
 \chapter{Experimental Setup}
 \label{sec:ExpSetup}
 \chaptermark{Experimental Setup}
@@ -13,50 +16,69 @@ energies accessible to the LHC are a factor of seven times higher than its
 most advanced predicessor, the Tevatron.  These energies are not only 
 important for accessing new particles which might exist at large invariant
 mass, on the order of serveral TeV, they are also necessary for efficient 
-production of the Higgs boson.  In the more favorable region of the SM 
+production of moderately heavy particles, like the Higgs boson or the top 
+quark.  In the more favorable region of the SM 
 Higgs mass,  $m_{H}$, parameter space, these energies provides a 
 factor of XX in total cross section over the production cross section at
 the Tevatron.  
 
-The LHC also has the capability to collide bunches of $1\times10^11$
-protons every 25 ns at $\beta*=.55$ and $\sigma*=16.7$.  These 
-conditions combine to allow the LHC to produce instantaneous luminosities 
-of up to $10^34 cm^{-2}s^{-1}$.  This translates to roughly 1 billion proton
-proton interactions per second and 20 collisions per bunch crossing, known
-as pileup.  These
-parameter are summarized in table \ref{blah} for both proton-proton (pp)
-and heavy ion (HI) collisions. 
+The LHC also has the capability to collide bunches of $1\times10^{11}$
+protons every 25 ns at $\beta*=.55$ and $\sigma*=16.7$.  These
+parameters and others, summarized in table~\ref{table:LHCparameters},
+combine to allow the LHC to produce instantaneous luminosities 
+of up to $10^{34} cm^{-2}s^{-1}$ accoding to
+\begin{equation}
+\mathscr{L} = \frac{\gamma f k_B N_p^2}{4\pi \epsilon_n\beta^*}F,
+\end{equation}
+where $\gamma$ is the Lorentz factor, f is the revolution frequency,
+$k_B$ is the number of protons per bunch, $\epsilon_n$ is the betatron
+function at the interaction point (IP), and F is the reduction factor
+due to the crossing angle.  This translates to roughly 1 billion proton
+proton interactions per second and up to 50 collisions per bunch crossing, 
+known as pileup.  
 
-The LHC is only responsible for accelerating hadrons from 450 GeV to the 
-final energy.  Before hadrons are injected into the LHC, they are first 
-accelerated in two separated stages.  Once up to 26 GeV in the Proton
-Synchrotron (PS) with the correct 25 ns bunch spacing and then again
-to 450 GeV using  the Super Proton Synchrotron before being injected 
-into the LHC.  This process is done 12 times per beam.  
+\begin{table}
+\begin{center}
+\begin{tabular}{l|c|c}
+\hline 
+\hline
+Energy per nucleon           & $E$           & 7 TeV    \\
+Dipole field at 7 TeV        & $B$           & 8.33 T   \\
+Design Luminosity            & $\mathscr{L}$ & $10^{34}~cm^{-2}s^{-1}$\\
+Bunch separation             &               & 25 ns    \\
+No. of bunches               & $k_B$         & 2808      \\
+No. of particles/bunch       & $N_p$         & $1.15\times 10^{11}$\\ \hline
+\multicolumn{3}{l}{{\bf Collisions}} \\ \hline
+$\beta$-value at IP          & $\beta^*$     & 0.55 m   \\
+RMS beam radius at IP        & $\sigma^*$    & $16.7~\mu m$  \\
+Luminosity lifetime          & $\tau_L$      & 15 hr         \\
+Number of collisions/crossing& $n_c$         & $\equiv20$      \\
+\hline 
+\hline
+\end{tabular}
+\label{table:LHCparameters}
+\caption{Table listing relevant operational parameters of the LHC.}
+\end{center}
+\end{table}
 
 These conditions provide unprecidented conditions to probe the SM and 
 discovering new particles but also extreme conditions for reconstructing
-objects with a high degree of efficiency.  The large number of proton-proton
+objects with a high degree of efficiency.  
+The inclusive proton-proton
+collision at 14~TeV is approximately 100~mb.  At design luminosity, this
+corresponds to an event rate of $10^9/s$.  
+The large number of proton-proton
 collisions produce a considerable amount of background noise which can 
 either produce extra objects from secondary interactions as well an overall
 increase in the energy deposited in the calorimeters.  The  high rate of the 
 LHC far exceed the capabilities of the Data Aquisition (DAQ) system.  As a 
-result it is necessary to use fast hardware logic to filter the majority of events. 
-This system is know as the leve-1 trigger system.  
+result it is necessary to use fast hardware logic to filter the majority of 
+events. 
 
 The short time between bunch crossings also puts significant constraints on 
-detectors since subdetectors should have fast response times and lot occupancy. 
-High granularity tracking will be necessary for high precision vertexing in
+detectors since subdetectors should have fast response times and low occupancy. 
+High grainularity tracking will be necessary for high precision vertexing in
 order to mitigate the effects of pileup.
-
-
-
-
-\subsection{Injectors}
-\label{sec:Injectors}
-
-The LHC uses several smaller pre-accelerators to produce beam of protons with 
-a minimal energy ...
 
 \section{The Compact Muon Solenoid}
 \label{sec:CMS}
@@ -64,14 +86,16 @@ a minimal energy ...
 The Compact Muon Solenoid (CMS), is a general purpose particle detector.  It
 was designed to not only have a broad scope of discovery potential but also
 to mitigate the extreme conditions created by the LHC.  CMS is made up of
-several different types of apparati, designed to improve identification of 
+several different types of apparati designed to improve identification of 
 particles and measure their properties.  There is a two-stage trigger system
-to filter the extreme rates comming from the LHC.  There is an all silicon tracking 
-system at the center to carefully record the positions of charged particles passing 
-through the detector.  There is a 4 Tesla magnet to bend charge particles 
+to filter the extreme rates comming from the LHC.  There is an all silicon 
+tracking system at the center to carefully record the positions of charged 
+particles passing through the detector.  There is a 4 Tesla magnet to bend 
+charge particles 
 providing the tracker and muon system sensitivity to the momentum of charged 
-particles.  There are two calorimeters designed to induce particle showers which 
-can then be used to measure energy deposits.  Finally, there is a Muon system 
+particles.  There are two calorimeters designed to induce particle showers 
+which can then be used to measure energy deposits.  Finally, there is a Muon 
+system 
 at the edge of the detector to detect semi-stable, charged particles with long 
 interaction lengths, e.g. the muon. This chapter describes these detectors in
 detail. 
@@ -83,35 +107,100 @@ The CMS tracker is an all silicon detector that consists of more than 16,000
 individual silicon modules.  These modules are of two basic variaties, pixels
 which provide a 2-dimensional measurement of particle positions and strips
 which provide 1-dimensional measurements of particles positions.  The tracker
-is the closest sub-detectro to the interaction point.  As such, it is exposed to
-the highest radiation flux and must be radiation hard to survive the extreme
-conditions of the LHC.  The occupancy of these detectors ... UPDATE!!!!
-%%%%%%%%% UPDATE!! %%%%%%%%%%%%%
-\subsubsection{Tracker Geometry}
-
-The tracker extends to 1.1 m in the radial diections,  has a total legnth 
-of 5.4 m, and extends to 2.5 units of pseudo-rapidity.  The pixel modules
-are located closest to the interaction point and are distributed over three
-layers in the barrel (BPix) and two disk at either end (PEC).  These modules
-provide the most sensitivity to vertexing and are important for migitate 
-pileup effects and measuring discplaced vertices.  
+is the closest sub-detector to the interaction point.  As such, it is exposed 
+to the highest radiation flux and must be radiation hard to survive the extreme
+conditions of the LHC.  As such, the design of the tracker barrel has been 
+broken into three distinct regions in order to optimise occupancy against
+S/N.  The most central region is the pixel barrel (PXB), then the tracker
+inner barrel (TIB), and finally the tracker outer barrel (TOB).  The latter
+two regions constist of silicon microstrip detectors. 
 
 \subsubsection{Pixel Modules}
 
-
+The pixel modules are exposed to the highest particle flux, roughly $10^7/s$
+at $r=10~cm$.  As a result, small pixels, $100\times150~\mu m^2$, are used,
+giving an occupancy of about $10^{-4}$ per pixel per bunch crossing. Three
+layers make up the pixel barrel at radii $r=4.4,~7.3,$ and $10.2~cm$ made
+up of 768 pixel modules.  There are also two endcap disks on either side of 
+the pixel barrel made of 672 pixel modules arranged in a turbine fashion. 
+The layout of the pixel modules is shown in figure~\ref{fig:???}.
+In total, there are 66 million pixels which provide precise hit measurements.
 
 \subsubsection{Strip Modules}
 
+The strip modules are arranged into four regions, inner barrel (TIB), 
+outer barrel (TOB), inner disks (TID), and end caps (TEC). 
+
+The TIB is divided into 4 layers which extend out to $|z|<65~cm$, totalling
+2724 strip modules.  The microstrip sensors on each module have a thickness
+of 320~\microns~and a pitch of 80-120~\microns. The inner layers of the TIB
+have stereo modules offset by an angle of 100 mrad.  The resolution of these
+modules ranges from 23-34~\microns~in $r-\phi$ and 230~\microns~in 
+the z-direction.
+
+The TOB is divided into 6 layers extending out to $|z|<65~cm$, totalling
+5208 strip modules.  Each microstrip sensor has a thickness of 500~\microns~
+and a pitch ranging from 120-180~\microns.  Since the radii of the strip
+layers is large, strips can be thicker in order to have better S/N while 
+still have low occupancy.  Similar to the TIB, the first two layers of the
+TOB have stereo modules offset by 100~mrad so that the single point resolution
+in $r-\phi$ is 35-52~\microns~ while it is 530~\microns~ in the z-direction.
+
+The TID is divided into 3 disks, the fist two of which are stereo, arranged
+at various distances bewteen $120<|z|<280~cm$.  Modules
+are arranged in wheels around the beam axis.  Each microstrip sensor has a 
+thickness of 320~\microns.  Similarly, the TEC has 9 disks, the first two and 
+the fifth of which are stereo.  The thickness of each microstrip sensor
+is 500~\microns. 
 
 \subsection{Magnet}
 \label{sec:Magnet}
 
-The CMS magnet ...
+CMS employs a 4~T superconducting aluminum solenoid magnet to bend tracks for 
+both charge identification and momentum resolution.  The field was
+chosen to have good momentum resolution, $\Delta p/p\equiv10\%$ at 
+$p=1~TeV/c$.  The magnet has an inner bore of 5.9~m, large enough to house
+the tracker and both calorimeters, and a length of 12.9~m.  Drawing a 
+current of 19.5~kA, the magnets total stored energy is 2.7~GJ.  Making it
+one of the largest magnets in the world.  
+The outer return yolk of the magnet concetrates the magnetic field in the
+region near the muon system, which is placed outside of the solenoid.  
 
 \subsection{ElectroMagnetic Calorimeter}
 \label{sec:ECal}
 
-The ECal ...
+The Electromagnetic calorimeter (ECal) is a high grainularity calorimeter
+intended to induce electromagnetic showers which are collected by either
+avalanche photodiodes (barrel) or vacuum phototriodes (endcap).  The 
+material used is scintillating lead tungstate crystal
+which was chosen its: short radiation ($X_0$=0.89~cm) and Moliere (2.2~cm) 
+lengths; the time scale in which showers occur, 80\% of light is emmitted
+in 25~ns; and the radiation hardness.  The ECal is divided into barrel (EB)
+and endcap (EE) regions.
+
+The EB region has an inner radius of 129~cm and is constructed from 36
+identical {\it supermodules}, each covering half of the barrel in the 
+z-direction (1.479 unit of pseudorapidity).  Each individual crystal 
+1 degree in both $\Delta\phi$ and $\Delta\eta$, corresponding to a cross
+sectional area of $22\times22~mm^2$, and are 230~mm, corresponding to 
+25.8~$X_0$.
+
+The EE region is located at a distrance of 314~cm along the z-direction
+and covering the pseudorapidity range $1.479<|\eta|<3.0$.  The crystals
+clustered into $5\times5$ {\it supercrystals} which are combined to form
+semi-circle structures.  Each crystal has a cross sectional area of 
+$28.6\times28.6~mm^2$ and are 220 mm (24.7~$X_0$) in length.  The endcap 
+region is also preceded by a preshower which consists of a lead absorber
+whos thickness is 2-3~$X_0$ followed by 2 planes of silicon strip detectors.
+
+The energy response of the ECal was measured in test beams.  The energy 
+resolution was parameterized according to
+\begin{equation}
+\left(\frac{\sigma}{E}\right)^2 = \left(\frac{S}{\sqrt{E}}\right)^2 + \left(\frac{N}{E}\right)^2 + C^2,
+\end{equation}
+where S, N and C represent the stochastic, noise, and constant contributions.
+The coefficients measurements for two energy clustering schemes are shown
+if figure~\ref{fig:???}.
 
 \subsection{Hadronic Calorimeter}
 \label{sec:HCal}
@@ -122,7 +211,6 @@ The HCal ...
 \label{sec:Muon System}
 
 The Muon System ...
-
 
 \subsection{Electron Reconstruction and Identification}
 \label{sec:HZZ4lelectrons}
@@ -135,6 +223,3 @@ The Muon System ...
 
 \subsection{Jet Reconstruction and Identification}
 \label{sec:HZZ4ljets}
-
-\subsection{Datasets and Triggers}
-\label{sec:HZZ4ldatasets}
