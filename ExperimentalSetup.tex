@@ -153,6 +153,174 @@ thickness of 320~\microns.  Similarly, the TEC has 9 disks, the first two and
 the fifth of which are stereo.  The thickness of each microstrip sensor
 is 500~\microns. 
 
+\subsubsection{Tracking Performance \& Alignment}
+
+The tracker provides high precision measurements of track parameters for
+all charged particles, this includes both the momentum and direction
+of tracks.  It is the only detector which can reconstruct vertices, both
+displaced or not.  A key piece to have high quality measurements is the 
+tracker alignment.  
+
+Alignment deals with understanding where with what 
+orientation pixel and strip modules should be.  In order to maximize the 
+performance of the tracker, the position of each module should be known to
+better than the intrinsic resolution of the pixel (10~\microns) or strip 
+(50~\microns) modules.  Although information of
+module positions was initially provided by optical surveys, knowing the 
+position of each module to within 10~\microns can only be acheive by done
+track-based alignments.  
+
+Track-based alignments are done looking at the sum of track-hit residuals
+and minimizing a $\xi^2$ with respect to the module positions and 
+orientations.  Since there are over 
+16,000 modules with 6 degrees of freedom each, tracker alignment is a 
+major challenge to solve exactly, which would require inverting
+$16,000\cdot6\times16,000\cdot6$ matrix.  As a results, approximations 
+must be employed.   One such approximation is to mimize the $\xi^2$ for
+each module individually, ignoring the correlation between the change in 
+parameters between different modules.  The correlation is then recovered 
+by iterating the procedure many times.  This procedure is known as the 
+HIP algorithm and was employed to produce the first geometry using minimum
+bias collision tracks.  
+
+{\it ... talk more about the 2010 geometry ...}
+
+Validations of tracker geometries are critical to understanding that 
+alignment algorithms produced improved geometries.  Several validation
+are important for showing improvements in the tracker geometry, the 
+primary vertex validation and the cosmic splitting validation. 
+
+The cosmic splitting validation makes use of cosmic tracks tracking 
+during interfills.  Cosmic tracks have the unique feature that the 
+tracks can pass through all layers of the tracker.  As a result,
+a cosmic track is qualitatively similar to two collision track
+produced back to back.  This feature can be taken advantage of by dividing
+each cosmic track into subset of hits and reconstructing these hits 
+into {\it split} tracks independently.  The track parameters of the 
+split tracks should, by construction have the same track parameters.  
+Thus, by comparing the track parameters, track parameter resolution
+and biases can be test.  
+
+%% describe the slew of track parameters that can be studied.
+
+To quantify the effect of misalignments on the cosmic splitting 
+validation, 5 track parameters are compare, $d_{xy}$, $d_z$,
+$\eta$, $\phi$, and $p_T$. Figure~\ref{fig:trackSplittingMC}
+shows the difference between the two plit tracks for each of the
+7 track parameters, thus providing a measurement of the track
+parameters resolution.  Figure~\ref{fig:trackSplitting2012A} shows
+the same set of validation plots for cosmics collected during
+2012 run A.  Two geometry are compared, the ideal geometry, the 
+prompt geometry (before alignment) and the ReRECO geometry (after 
+alignment).  Improvements are found over the prompt geometry and
+in some cases, the aligned geometry is found to be consistent 
+with the ideal geometry.  
+
+\begin{figure}
+\begin{center}
+\includegraphics[width=.32\linewidth]{ExperimentalSetupPlots/histDelta_dxy.pdf}
+\includegraphics[width=.32\linewidth]{ExperimentalSetupPlots/histDelta_dz.pdf}
+\includegraphics[width=.32\linewidth]{ExperimentalSetupPlots/histDelta_eta.pdf}
+\includegraphics[width=.32\linewidth]{ExperimentalSetupPlots/histDelta_phi.pdf}
+\includegraphics[width=.32\linewidth]{ExperimentalSetupPlots/histDelta_pt.pdf}
+\label{fig:trackSplittingMC}
+\caption{Resolution of 5 track parameters from track splitting validation 
+using MC and ideal geomtry. }
+\end{center}
+\end{figure}
+
+\begin{figure}
+\begin{center}
+\includegraphics[width=.32\linewidth]{ExperimentalSetupPlots/2012A/histDelta_dxy.pdf}
+\includegraphics[width=.32\linewidth]{ExperimentalSetupPlots/2012A/histDelta_dz.pdf}
+\includegraphics[width=.32\linewidth]{ExperimentalSetupPlots/2012A/histDelta_eta.pdf}
+\includegraphics[width=.32\linewidth]{ExperimentalSetupPlots/2012A/histDelta_phi.pdf}
+\includegraphics[width=.32\linewidth]{ExperimentalSetupPlots/2012A/histDelta_pt.pdf}
+\label{fig:trackSplitting2012A}
+\caption{Resolution of 5 track parameters from track splitting validation 
+using three geometries, ideal (blue), prompt geometry (black), and the
+aligned geometry (red).  Cosmic track recording during the 2012 run A
+period were used.}
+\end{center}
+\end{figure}
+
+The difference of track parameters can also be check in bins of other
+variables.  One of the most useful application of this is to measure
+the $p_T$ dependence of the normalized resolution on $p_T$ itself, 
+$\sigma(\Delta p_T)$. Figure~\ref{fig:trackSplittingProfiles} shows 
+several example plots of these profile plots for the 2012 run A cosmic 
+data.  While there are only minor improvments to the $\sigma(p_T)$ vs
+$p_T$ distribution, there is a significant improvement to in the $\Delta\phi$
+vs $d_{xy}$ plot.  The structure seen cannot be noticed in the simple
+resolution plots and is indicitive of a system deformation present in
+the geometry.  
+
+\begin{figure}
+\begin{center}
+\includegraphics[width=.49\linewidth]{ExperimentalSetupPlots/2012A/profiledxy_orgDelta_phi.pdf}
+\includegraphics[width=.49\linewidth]{ExperimentalSetupPlots/2012A/resolutionpt_orgDelta_pt.pdf}
+\label{fig:trackSplittingProfiles}
+\caption{Profile plots of several reference geometries using cosmic track
+taken during the 2012 run A period.  The left plot shows the difference 
+in $d_{xy}$ between the two split tracks, $\Delta d_{xy}$ vs $\phi$.  The 
+right plot shows the width of the $\Delta p_T$ distribution, $\sigma(p_T)$, 
+vs $p_T$.}
+\end{center}
+\end{figure}
+
+Profiles plots, like those seen in figure~\ref{fig:trackSplittingProfiles}, 
+are good probes of weak modes which could be present in
+tracker geometry.  The modes correspond to systematic deformations which 
+are $\xi^2$ invariant.  Some examples include a systematic shift of modules
+in the r-$\phi$ direction which is a function of $\phi$ itself.  This 
+type of deformation would result in the structure that is seen in the 
+left plot of figure~\ref{fig:trackSplittingProfiles} in the prompt geometry.
+In this case the deformation is not a weak mode since the alignment 
+procedure is sensitive to it and corrects the module positions accordingly.
+A systematic study of a collection of systematic misalignment scenarios
+can be done to see which cosmic splitting plots are sensitive and which 
+structures are seen in data.  ... 
+
+%% discuss systematic misalignments and their effects on validations
+
+%% discuss primary vertex validations
+
+In order to ensure high quality data over time, it 
+is critical to monitor and improve upon the tracker geometry over time.  
+The primary vertex validation is suitable for such time dependent studies
+and has been used in the past to help define appropriate alignment 
+strategies. 
+
+The primary vertex validation using the position of primary vertices as
+an estimator of the true impact parameters of an individual track.  
+Residuals can be constructed from the difference between the primary 
+vertex and a tracks fitted impact parameter.    If tracks are truly from 
+the vertex, then on average the above assumption
+will be true.  However, individual tracks which pass through poorly 
+aligned regions of the tracker will give larger residuals.  Thus providing
+a self consistent probe of the tracker geometry.  
+
+Distributions of PV-IP residuals can be used to provide more precise 
+measurements for a given region of the tracker.  Figure~\ref{fig:???}
+shows a number of residual distributions in various bins of $\eta$ and
+$\phi$.  The mean and RMS of these distributions can provide useful
+information about systematic misalignments of the pixel barrel.  In
+particular, this validation is sensitive to observed separation of the
+pixel half barrels, which tend to move from time to time. 
+
+To quantify the separation of the pixel half barrels, the mean and width
+of the residual distributions are plotted as a function of phi.  If a 
+separation between the two half barrels is present, a discontinuity will
+be present at zero.  Figure~\ref{fig:???} shows an example plot of this
+using MC tracks with either the ideal geometry or a geomtry in which the 
+two half barrels have been purposefully shifted.  The size of the
+discontinuity is size of the physical separation.  
+
+The presence of a shift can have significant impact on vertex measurements,
+either through b-tagging or SIP values.  Thus monitoring and correcting
+these deformations in time is critical.  ... talk about define IOV 
+boundaries. 
+
 \subsection{Magnet}
 \label{sec:Magnet}
 
