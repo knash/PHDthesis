@@ -454,14 +454,104 @@ of 200~\microns.
 
 
 
-\subsection{Electron Reconstruction and Identification}
-\label{sec:HZZ4lelectrons}
+\subsection{Track Reconstruction}
+\label{sec:trackRECO}
 
-\subsection{Muon Reconstruction and Identification}
-\label{sec:HZZ4lmuons}
 
-\subsection{Photon Reconstruction and Identification}
-\label{sec:HZZ4lphotons}
 
-\subsection{Jet Reconstruction and Identification}
-\label{sec:HZZ4ljets}
+\subsection{Muon Reconstruction}
+\label{sec:muonRECO}
+
+
+Muon tracks are reconstructed using the Kalman filter technique
+starting with RecHits at the inner most radius.
+In the barrel region, where the DTs provide the most sensitive 
+information about particle position, primitive track segments
+are reconstructed and fed to the Kalman filter.
+In the endcap, 3D hits are constructed from wire and strip 
+information which is then pass to the Kalman filter. In both
+cases, the RecHits from the RPCs are used.  Track states are 
+propagated through each layer taking into account the effects
+of energy loss in material, multiple scattering and inhomogeneities
+in the magentic field.  Once the outer most measurement is reached,
+the Kalman filter is then applied in reverse to define the final
+set of track parameters.  After the track is extrapolated to the 
+to the nominal interaction point, the beam-spot, a vertex-constrained
+fit to the track parameters is performed.
+Muons can also be reconstructed using the information from the 
+silicon tracker.  In this case, tracker hits which are compatible
+with the muon track are added to the Kalman filter.
+
+Muon reconstruction typically makes use of other subdetectors, such
+as the calorimeters.  Calorimeter cells which are compatible with 
+the extrapolated muon track should have energy deposits which are 
+consistent with the presence of a minimum ionizing particle.  
+Since events from pile-up can contribute the HO can be efficiently
+used to discriminate against pile-up activity.  
+
+Muon are also typically required to be well isolated.  An isolation
+cone is defined around the muon direction and a maximum threshold of 
+$E_T$ is allowed from calorimeter cells whithin this corn, or a maximum
+sum $p_T$ is allowed from tracks within this cone.  These thresholds are
+typically set as a fraction of the candidate muons $p_T$.
+
+The details of muon identification and isolation typically depend on
+the specific use case.  Thus, more detailed explainations will follow
+in conjunction with descriptions of analyses. 
+
+\subsection{Electron Reconstruction}
+\label{sec:electronRECO}
+
+Electron produce tracks in the silicon track and induce showers 
+in the ECal.  In beam test, typically, more than 90\% of the incident 
+energy of a single electron is contained in a $3\times3$ array of 
+crystals and more than 95\% is contained in a $5\times5$ array.  
+Within CMS, showing patterns are broadened by bremsstrahlung 
+induced by the presence material within the ECal and by the
+presence of a strong magnetic field.  In order to better identify 
+the energy deposits from electrons clustering algorithms are 
+used to combine energy measurements from individual crystals which
+take into account effects of bremsstrahlung and the magnetic field.  
+
+Seed crystals are identified which contain energy above some predefined
+threshold.  Nearby crystal are then combined to for a cluster.  In 
+an analogous procedure, cluster are combined into superclusters 
+starting from seed clusters.  Supercluster energies are then 
+corrected for systematic effects based on shower shape and the
+location of the supercluster.  The position of the reconstructed
+electron candidate is then measured from the energy-weighted mean
+position of each of the crystals.
+
+Superclusters are matched to pixel hits in the tracker which serve 
+as seed for electron tracks to be built.  Tracks are the built using
+a modified Kalman filter known as the Gaussian Sum Filter (GSF) which
+is a nonlinear filter which makes use of guassian mixtures to model
+errors.  The GSF algorithm allows for momentum at either end of the 
+tracker to be measured reliably and allows for the amount of brem to 
+be accurately estimated.  
+
+E-p combination...
+
+electron isolation ...
+ 
+electron identification ...
+
+\subsection{Photon Reconstruction}
+\label{sec:photonRECO}
+
+Photon energy is clustered according to either the hybrid (EB) or the 
+island (EE) algorithm, similar to electrons.  For unconverted photons,
+most of the energy will be contained in a $3\times3$ array of crystals.
+In contrast, photons which get converted into $e^+e^-$ pairs can 
+cause the supercluster to spread over more crystal.  
+
+The R9 variable provides a powerful discriminator for converted photons.
+R9 is defined as the ratio of the energy in a $3\time3$ array, centered 
+on the highest energy crystal, to the total energy in a supercluster.
+Values of R9 close to 1 are indicitive of unconverted photon
+
+photon isolation...
+
+\subsection{Jet Reconstruction}
+\label{sec:jetRECO}
+
