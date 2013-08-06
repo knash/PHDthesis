@@ -5,11 +5,11 @@
 The Standard Model (SM) of particle physics \textcolor{red}{(reference)} 
 is a mathematical description of the fundamental particles and their 
 interactions.  Particles are described by quantized excitations of 
-various types of fields.  These fields are the solutions to either the
+various types of fields.  Each field is a solution to either the
 Klein-Gordon, Dirac, Proca, or Maxwell equation which govern the time
 evolution of the solutions for spin-0, spin-1/2, and spin-1 particles.
-Although, bound states and possible extensions to the SM can have
-larger spin, the standard model doesn't explicitly describe the interaction
+Although bound states and possible extensions to the SM can have
+larger spin, the standard model doesn't explicitly describe the interactions
 of these particles.
 
 The interactions themselves can be derived from the Standard Model lagrangian.
@@ -17,8 +17,9 @@ The electroweak interactions of the leptons, for example, are described by
 the lagrangian in equation~\ref{eq:GSWlagrangian}.  The probability of the
 some initial state, i, evolving into some final state, j, can be 
 be expanded in powers of the coupling constants, g and g', according to 
-equation equation~\ref{eq:matrixElementSquared}.  This matrix element
-squared can also be represented by Feynman diagrams, 
+equation equation~\ref{eq:matrixElementSquared}, the modulus squared of the
+matrix element.  This matrix element
+can also be represented by Feynman diagrams, 
 figure~\ref{fyn:eeScattering} 
 represents electron-electron scattering at leading order which is 
 represented in the SM lagrangian by the second half of 
@@ -77,6 +78,44 @@ exchanged instead of a photon.}
 \label{eq:GSWlagrangian}
 \end{subequations}
 \end{center}
+
+The interactions of the SM are derived from local gauge symmetries and
+thus can be described through a symmetry group.  For example, the 
+electromagnetic interaction are known to be generated from a U(1) 
+gauge symmetry.  Each symmetry has a corresponding charge which is
+conserved and which the gauge mediators, the photon in the case of the
+electromagnetic force, couple to.  Thus understanding the gauge symmetries
+which generate the interactions of the standard model and the charges of
+each of the particles tells us how particles interact.
+
+Currently, the SM describes three of the four known forces, the
+electromagnetic, the weak, and the strong force.  As the names 
+suggest, these forces opporate with different strengths.  The 
+strong froce being the strong and the weak force being the weakest. 
+The strong, weak, and electromagnetic interactions are generate from
+SU(3), SU(2), and U(1) gauge symmetries.  The charges of the fundamental
+fields known to exist in the standard model are shown in 
+table~\ref{table:SMcharges}.
+
+\begin{table}
+\begin{tabular}{|l|c|c|c|c|}
+particle & Q  & T_3 & Y_W & colored \\ \hline \hline
+$e_L$, $\mu_L$, $\tau_L$  & -1 & 1/2   &    &  no \\ 
+$e_R$, &\mu_R&, &\tau_R&  & -1 & 1/2   &    &  no \\ 
+$\nu_R$  & 0   & -1/2 & & no \\ 
+$u_L$    & 2/3 & 1/2  & & yes \\ 
+$u_R$    & 2/3 & 1/2  & & yes \\ 
+$d_L$    & -1/3& -1/2 & & yes \\ 
+$d_R$    & -1/3& -1/2 & & yes \\
+H        & 0   & 1/2  & & no \\
+W        & 1   & 1    & & no \\
+Z        & 0   & 0    & 0 & no \\
+\gamma   & 0   & 0    & 0 & no \\
+gluon    & 0   & 0    & 0 & yes \\
+\hline
+\end{tabular}
+\labe{table:SMcharges}
+\end{table}
 
 Starting from this framework, many experimental measurements have been 
 accurately predicted.  One famous example is the anomalous magnetic 
