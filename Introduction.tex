@@ -7,207 +7,197 @@ is a mathematical description of the fundamental particles and their
 interactions.  Particles are described by quantized excitations of 
 various types of fields.  Each field is a solution to either the
 Klein-Gordon, Dirac, Proca, or Maxwell equation which govern the time
-evolution of the solutions for spin-0, spin-1/2, and spin-1 particles.
+evolution of spin-0, spin-1/2, and spin-1 fields.
 Although bound states and possible extensions to the SM can have
 larger spin, the standard model doesn't explicitly describe the interactions
 of these particles.
 
-The interactions themselves can be derived from the Standard Model lagrangian.
-The electroweak interactions of the leptons, for example, are described by
-the lagrangian in equation~\ref{eq:GSWlagrangian}.  The probability of the
+The interactions themselves are encoded in the Standard Model lagrangian.
+For example, the electromagnetic interactions of electrons are described by
+the lagrangian in equation~\ref{eq:EMlagrangian}.  The probability of the
 some initial state, i, evolving into some final state, j, can be 
 be expanded in powers of the coupling constants, g and g', according to 
 equation equation~\ref{eq:matrixElementSquared}, the modulus squared of the
-matrix element.  This matrix element
-can also be represented by Feynman diagrams, 
-figure~\ref{fyn:eeScattering} 
-represents electron-electron scattering at leading order which is 
-represented in the SM lagrangian by the second half of 
-equation~\ref{eq:QED}.
+matrix element.  More often the amplitude of a process at some order in 
+the couplings is represented by a Feynman diagram such as the one in 
+figure~\ref{fig:eeScattering} representing 
+ectron-electron scattering at leading order in a purely electromagnetic
+theory.
 
 \begin{center}
 \begin{equation}
-\mid<ee\mid e^{\frac{g}{2c_w}\bar{\Psi}_e\gamma^{\mu}(I_f^3-2s_w^2Q_f-I_f^3\gamma_5)\Psi_eZ_{\mu}}\mid ee>\mid^2
+\mathscr{L}_{EM} = \bar{\psi}\left(i\gamma^{\mu}(\partial_{\mu}+ieA_{\mu}-m\right)\psi - \frac{1}{4}F_{\mu\nu}F^{\mu\nu}
+\label{eq:EMlagrangian}
+\end{equation}
+\end{center}
+\vspace{-2.0cm}
+\begin{center}
+\begin{equation}
+\mid<ee\mid e^{\bar{\psi}\left(i\gamma^{\mu}(\partial_{\mu}+ieA_{\mu}-m\right)\psi}\mid ee>\mid^2
 \label{eq:matrixElementSquared}
 \end{equation}
 \end{center}
 
 \begin{figure}
 \begin{center}
-\includegraphics[width=4.0cm]{IntroductionPlots/Electron-scattering.png}
-\label{fyn:eeScattering}
-\caption{Feynman diagram depicting one of the processes contributing to the leading order
-electron-electron scattering amplitude. A similar contribution exist where a Z boson is
-exchanged instead of a photon.}
+\unitlength=1mm
+\begin{fmffile}{eeScattering}
+
+\begin{fmfgraph*}(40,30) \fmfpen{thick}
+  \fmfleft{i1,i2} \fmfright{sp1,sp2}
+  \fmf{fermion,label=$e^-$}{i1,v1,sp1} 
+  \fmf{fermion,label=$e^-$}{i2,v2,sp2}
+  \fmf{photon,label=$\gamma$}{v1,v2}
+\end{fmfgraph*}
+
+\end{fmffile}
 \end{center}
+\label{fig:eeScattering}
+\caption{Feynman diagram depicting electron-electron scattering via
+the electromagnetic interaction.}
 \end{figure}
 
-\begin{center}
-\begin{subequations}
-%\begin{multiline}
-\begin{equation}
-\mathscr{L} = \sum_f(\bar{\Psi}_f(i\gamma^{\mu}\partial_{\mu}-m_f)\Psi_f
--eQ_f\bar{\Psi}_f\gamma^{\mu}\Psi A_{\mu})
-\label{eq:QED}
-\end{equation}
-\begin{equation}
-+\frac{g}{\sqrt{2}}\sum_i(\bar{a}_L^i\gamma^{\mu}b_L^iW_{\mu}^++\bar{b}_L^i\gamma^{\mu}a_L^iW_{\mu}^-)
-\end{equation}
-\begin{equation}
-+\frac{g}{2c_w}\sum_f(\bar{\Psi}_f\gamma^{\mu}(I_f^3-2s_w^2Q_f-I_f^3\gamma_5)\Psi_fZ_{\mu})
-\end{equation}
-\begin{equation}
--\frac{1}{4}|\partial_{\mu}A_{\nu}-\partial_{\nu}A_{\mu}-ie(W_{\mu}^-W_{\nu}^+ - W_{\mu}^+W_{\nu}^-)|^2
-\end{equation}
-\begin{equation}
-- \frac{1}{2}|\partial_{\mu}W_{\nu}^+-\partial_{\nu}W_{\mu}^+ - ie(W_{\mu}^+A_{\nu}-W_{\nu}^+A_{\mu})+ig'c_w(W_{\mu}^+Z_{\nu}-W_{\nu}^+Z_{\mu})|^2
-\end{equation}
-\begin{equation}
--\frac{1}{4}|\partial_{\mu}Z_{\nu}-\partial_{\nu}Z_{\mu}+ig'c_w(W_{\mu}^-W_{\nu}^+-W_{\mu}^+W_{\nu}^-)|^2
-\end{equation}
-\begin{equation}
--\frac{1}{2}M_{\Phi}^2\Phi^2-\frac{gM_{\Phi}^2}{8M_{W}}\Phi^3-\frac{g'^2M_{\Phi}^2}{32M_W}\Phi^4
-\end{equation}
-\begin{equation}
-+|M_WW_{\mu}^++\frac{g}{2}\Phi W_{\mu}^+|^2+\frac{1}{2}|\partial_{\mu}\Phi+iM_ZZ_{\mu}+\frac{ig}{2c_w}\Phi Z_{\mu}|^2
-\end{equation}
-\begin{equation}
--\sum_f\frac{g}{2}\frac{m_f}{M_W}\bar{\Psi_f}\Psi_f\Phi
-\end{equation}
-%\end{multiline}
-\label{eq:GSWlagrangian}
-\end{subequations}
-\end{center}
 
-The interactions of the SM are derived from local gauge symmetries and
+The interactions of the SM are derived from enforcing local gauge 
+symmetries and
 thus can be described through a symmetry group.  For example, the 
-electromagnetic interaction are known to be generated from a U(1) 
+electromagnetic interactions are known to be generated from a U(1) 
 gauge symmetry.  Each symmetry has a corresponding charge which is
 conserved and which the gauge mediators, the photon in the case of the
-electromagnetic force, couple to.  Thus understanding the gauge symmetries
+electromagnetic force, couple to.  Thus, understanding the gauge symmetries
 which generate the interactions of the standard model and the charges of
 each of the particles tells us how particles interact.
 
 Currently, the SM describes three of the four known forces, the
 electromagnetic, the weak, and the strong force.  As the names 
-suggest, these forces opporate with different strengths.  The 
-strong froce being the strong and the weak force being the weakest. 
+suggest, these forces operate with different strengths; the 
+strong froce is the strongest and the weak force being the weakest. 
 The strong, weak, and electromagnetic interactions are generate from
-SU(3), SU(2), and U(1) gauge symmetries.  The charges of the fundamental
+SU(3), SU(2), and U(1) gauge symmetries, respectively.  The charges of the fundamental
 fields known to exist in the standard model are shown in 
-table~\ref{table:SMcharges}.
+table~\ref{table:SMcharges}.  The photon only couples to charged
+particles, the W boson couple to weak isospin, $T_3$, and the 
+gluons couple to color.  One unique consequence of this charge 
+structure is that the photon cannot couple to itself while the 
+weak vector boson and the gluons can.  The is also indicitive of
+the fact that the SU(2) and SU(3) gauge groups are non-abelian. 
 
 \begin{table}
-\begin{tabular}{|l|c|c|c|c|}
-particle & Q  & T_3 & Y_W & colored \\ \hline \hline
-$e_L$, $\mu_L$, $\tau_L$  & -1 & 1/2   &    &  no \\ 
-$e_R$, &\mu_R&, &\tau_R&  & -1 & 1/2   &    &  no \\ 
-$\nu_R$  & 0   & -1/2 & & no \\ 
-$u_L$    & 2/3 & 1/2  & & yes \\ 
-$u_R$    & 2/3 & 1/2  & & yes \\ 
-$d_L$    & -1/3& -1/2 & & yes \\ 
-$d_R$    & -1/3& -1/2 & & yes \\
-H        & 0   & 1/2  & & no \\
-W        & 1   & 1    & & no \\
-Z        & 0   & 0    & 0 & no \\
-\gamma   & 0   & 0    & 0 & no \\
-gluon    & 0   & 0    & 0 & yes \\
+\begin{center}
+\begin{tabular}{l|c|c|c|c}
+\hline 
+\hline
+particle & Q  & $T_3$ & $Y_W$ & colored \\ \hline \hline
+$e_L$, $\mu_L$, $\tau_L$  & -1 & -1/2   &  -1 &  no \\ 
+$e_R$, $\mu_R$, $\tau_R$  & -1 & 0      &  -2 &  no \\ 
+$\nu_L$  & 0   & 1/2 & -1 & no \\ 
+$u_L$    & 2/3 & 1/2  & 1/3& yes \\ 
+$u_R$    & 2/3 & 0  & 4/3& yes \\ 
+$d_L$    & -1/3& -1/2 & 1/3& yes \\ 
+$d_R$    & -1/3& 0 & -2/3& yes \\
+H        & 0   & 1/2  & -- & no \\
+W        & 1   & 1    & -- & no \\
+Z        & 0   & --   & -- & no \\
+$\gamma$ & 0   & --   & -- & no \\
+gluon    & 0   & 0    & 0  & yes \\
 \hline
 \end{tabular}
-\labe{table:SMcharges}
+\end{center}
+\label{table:SMcharges}
+\caption{List of standard model particles and their charges. 
+Q represents the charge of the $SU(1)_{em}$ gauge symmetry,
+$T_3$ the broken SU(2) gauge symmetry, and $Y_W$ the broken 
+U(1) gauge symmetry.}
 \end{table}
 
-Starting from this framework, many experimental measurements have been 
-accurately predicted.  One famous example is the anomalous magnetic 
-moment of the \textcolor{red}{(electron?)}, first calculated by 
-Julian Schwinger in \textcolor{red}{19??}
-in the context of Quantum Electrodynmics (QED). 
-
-Before the advent of quantum field theory the magnetic moment of both the 
-muon and electron were thought to be exactly two, due to the quantized spin 
-they carry.  However, the quantum fluctuations predicted by quantum field 
-theory and QED, the theory of the electromagnetic interactions, add small 
-corrections the muon's and electron's magnetic moment, a major acheivement 
-of QED.  Later Schwinger, Glashow, and Salam proposed a similar gauge group
-to describe
-electroweak interactions, $SU(2)\times U(1)$.  However, this
-theory struggled to accomodate charge massive gauge bosons of the weak
-current, since the mass terms of
-the lagrangian would violate the gauge symmetry.  However, around the same 
-time, Higgs, ... had proposed a method for spontaneously breaking guage 
-symmetries which could allow for massive gauge fields through the interaction
-with a extra gauge field, now commonly referred to as the Higgs field.  
-This was finally formulated into a coherent theory of the electroweak 
-interactions by Weinberg which is now referred to as the 
-Glashow-Salam-Weinberg model. 
+The idea of interactions arising from enforcing a gauge symmetry, 
+naively,
+produces inconsistancies between theory and experiments.  Even at 
+the time when the SU(2) structure of the weak interactions was first
+proposed by Glashow~\cite{??}, the W boson was known to be 
+massive.  One of the predictions of this guage structure, the 
+existance of a neutral weak current, was later found to also 
+be massive.  However, mass terms break gauge
+invariance.  This internal inconsistancy was a major hurdle for 
+having a robust theory of the electroweak interactions.  Thus, 
+the guage symmetry must be broken in a specific way in order
+to allow the weak vector bosons to be massive, a process known
+as electroweak symmetry breaking.  
 
 \section{Electroweak Symmetry Breaking}
 \label{sec:Electroweak Symmetry Breaking}
 
-It was known in non-quantum systems that spontaneously broken symmetry
+It was known in non-quantum systems that spontaneously broken symmetries
 could provide a theoretical framework for explaining massive gauge 
-bosons\cite{}. In early 1960's these ideas were studied in the context
+bosons\cite{}. In the early 1960's these ideas were studied in the context
 of quantum field theories.  It was shown that a complex scalar field 
-whos potential was particularly chosen, could not only spontaneously 
-break a gauge symmetry but generate gauge boson masses through the 
+whose potential was particularly chosen, could spontaneously 
+break a gauge symmetry and generate gauge boson masses through the 
 interaction of this field with the gauge boson\cite{}.  Most notibly, 
 Higgs suggested that this would also predict the presence of a new 
-massive scalar particle whos interactions with the gauge bosons 
-scaled with their mass\cite{}.  
+massive scalar particle\cite{}, what is now referred to as a Higgs boson.
 
-\subsection{Electroweak Interactions}
-\label{sec:Electroweak interactions}
-
-The gauge structure of the weak interactions demonstrated by Glashow 
-\textcolor{red}{and Salam(?)}\cite{} and Weinberg showed that the 
-electromagentic and weak interactions could be unified and implemented
-the Higgs mechanism into was is today know to be the Standard Model (SM)
-of electroweak interactions.  Together, this is referred to as the 
-Glashow-Salam-Weinberg (GSW) model.
-
-The GSW model had concrete experimentally observable predictions.  Since
-the gauge symmetry reprossible for generating the interactions was
-$U(1)\otimes SU(2)$ which has a total of four generators, a third guage 
-boson should exist.  The GSW model specifically that this boson would 
-be neutral and mediate neutrino-electron interactions through the 
-diagram in Figure~\ref{}.  These so-called neutral currents were later
-discovered in \textcolor{red}{197?} by the \textcolor{red}{--- collaboration}.
-Both the charged and neutral weak gauge bosons were later discovered
-through means of direct detection\cite{}.  
-
-The experimental verification of the Higgs boson and the ...
+It was shown by Glashow, Weinberg, and Salam that the Higgs mechanism 
+could be used to break a $SU(2)\times U(1)$ symmetry to a $U(1)_{em}$
+symmetry producing all of the known interactions and massive weak gauge 
+bosons, a model known as the Glashow-Salam-Weinberg (GSW) model.
+The prediction of a massive neutral charge boson around 90 GeV 
+was later discovered indirectly through electron-neutrino scattering.  
+Both the W and Z boson were directly discovered at the SppS.
 
 Another experimental signature of the GSW model was that a chargeless,
 colorless, spinless, massive boson, the Higgs boson, should exist.  
 Except for its mass all properties about this particle could be calculated
-from first principles, see Section~\ref{sec:HiggsPhen}.  Several accelerators
-have been built to confirm its existance, Large Electron-Positron collider (LEP), 
-the Tevatron, and most recently the Large Hadron Collider.  
+from first principles, see Section~\ref{sec:HiggsPhen}.  Several 
+accelerators have been built to confirm its existance, Large 
+Electron-Positron collider (LEP), the Tevatron, and most recently the 
+Large Hadron Collider.  
 
 \section{The Higgs boson}
 \label{sec:The Higgs boson}
 
-\begin{itemize}
-\item Why it is critical to observe and understand the properties of the Higgs
-and EWSB.
+The exact nature of the
+electroweak symmetry breaking is the cornerstone of the SM model.
+The experimental verification of the existance the Higgs boson is
+paramount to our understanding of the SM.  The lack of a Higgs in 
+nature would be a paradigm shifting notion.  
+Several large-scale
+particle accelerators have searched for the Higgs boson, most 
+failing to do so.
 
-Both performed direct searches for the SM Higgs boson to either 
-discover or rule out the existance of a Higgs boson as specific
-masses.  Since the lifetime of a Higgs is \textcolor{red}{universally}
-small searches are done looking for its decay products.  
+The first of which was the Large Electron-Positron (LEP) collider
+which accelerated electrons and positron to energies up to 209 GeV.
+The four experiments produced many high precision measurements
+of SM quantities.   Although a broad range of Higgs masses 
+were accessible to LEP experiments, no evidence was found and 
+95\% CL exlusion limits were set for all masses up to 114.4~GeV~\cite{??}.
+Although no evidence of the Higgs boson was 
+found, the high precision measurements made on a number of SM 
+quantities could be used to constrain the Higgs mass, assuming it 
+were to exist according to the SM.  These constraints suggested 
+that a SM Higgs would be more likely in the range 100-150~GeV.  
 
-\item Describe LEP searches for the Higgs.
+The Tevatron, built at Fermi National Accelerator Laboratory, 
+and its experiments also contributed major efforts towards Higgs
+searches.  As a 2~TeV $p\bar{p}$ collider, considerably larger 
+Higgs masses were accessible.  However, no evidence was found
+and 95\% CL exclusion limits were set for Higgs mass between
+$X.XX<m_H<Y.YY~GeV$.  The top quark mass measurement also helped
+to refine calculations of the Higgs production cross section and 
+branching ratios which include top loops.  
 
-\item Describe Tevatron searches for the Higgs.
+By the time the LHC was delivering beams to CMS, theory
+calculations had been refined, direct search limits, and indirect limits
+were set.  Figure~\ref{fig:???} summarizes the status of Higgs 
+searches at this time.  Since the Higgs mechanism
+must unitarize VV scattering, there is a limited mass range for 
+which the Higgs makes sense, $m_H<\sim1000~GeV$. This theoretical
+upper bound and the experimental lower bound from the LEP direct
+search limits suggest that the LHC would suffise to make the final
+statement about the exist of the Higgs, nearly 50 years after it
+was first proposed.  
 
-\item Precision measurements of the Z boson ...
-Global fits suggest that ... 
-
-\item What could be beyond the SM ...
-
-\end{itemize}
-
-%problems with the SM
+\section{Beyond the SM Higgs}
 
 As described above the Higgs mechanism, as described in the SM, via GSW, 
 conveniently solved several problems, the exist of massive gauge bosons,
@@ -235,13 +225,6 @@ to be insufficient for explaining the degree of baryonic assymetry in the
 visible universe.  As such, additional sources of CP-violation in the SM 
 would provide a promising solution to the baryon-assymetry problem.  
 
-The standard model also does not include a quantum description of the 
-gravitational force.  It was shown by Randall and Sundrum that extra 
-dimensional models with warped space-time metrics can provide a natural 
-explaination of the heirarchy of not only the gravitational force and the 
-weak force, but also heirarchy between the expected bare higgs mass and 
-its physical mass. 
-
 Quantum corrections to the higgs mass have been found to be much 
 larger than the physical Higgs mass, if it is to provide the necessary   
 cancellations to preserve unitarity in weak boson scattering.  These 
@@ -262,11 +245,18 @@ doublet models (2HDM) and found that the amount of additional CP-violation
 possible in the Higgs sector could provide a reasonable model for 
 baryeogenesis.  
 
+The standard model also does not include a quantum description of the 
+gravitational force.  It was shown by Randall and Sundrum that extra 
+dimensional models with warped space-time metrics can provide a natural 
+explaination of the heirarchy of not only the gravitational force and the 
+weak force, but also heirarchy between the expected bare higgs mass and 
+its physical mass. 
+
 Although much of this is huristic, it provide strong evidence 
 that the Higgs sector could be a window to physics beyond the standard
-model, either through the discover of multiple scalars, through 
-the varification of either CP-violation in Higgs interactions, or 
-even through the discovery of Higgs compositeness.  
+model: through the discover of multiple scalars, through 
+the varification of CP-violation in Higgs interactions, or 
+through the discovery of Higgs compositeness.  
 
 Today, the muon 
 magnetic moment has been calculated and measured to \textcolor{red}{11} 
@@ -275,23 +265,23 @@ as well as a probe for new physics.   Analogously, the Higgs may become
 the next source of high precision tests of the standard model which may
 ultimately illuminate the exist of physics beyond the standard model.  
 
+\section{Summary}
+
 %overview of material in thesis
-This thesis will discuss several analyses designed to search for the
+This thesis will discuss several analyses designed to search for 
 new resonances, especially those related to electroweak symmetry 
 breaking using tools which have been developed to provide not only 
-increased sensitivity to signal events but also measure property of 
+increased sensitivity to signal events but also measure properties of 
 observed resonances. 
-The sections are organized as follows: chapter~\ref{sec:LHC} will 
+Chapter~\ref{sec:LHC} will 
 discuss the experimental details of the Large Hadron Collider (LHC) and 
-the Compact Muon Solenoid (CMS); chapter~\ref{sec:HiggsPhen} will discuss 
-the Higgs phenomenology at the LHC; chapter~\ref{sec:HZZsearches} will
-present two analyses designed to search for the SM Higgs at high mass
-using the $ZZ\to2\ell 2q$ signature and over a broad range of masses
-using the $ZZ\to 4\ell$ signature; chapter~\ref{sec:HiggsProp} will discuss
-properties measurments of the newly discovered boson using the MELA 
-technique as well as prospect for high precision property measurements
-at either the LHC or a future $e^+e^-$ collider; finally, chapter will
-discuss the interpretation of these results in the context of the 
+the Compact Muon Solenoid (CMS). Chapter~\ref{sec:HiggsPhen} will discuss 
+the Higgs phenomenology at the LHC.  Chapter~\ref{sec:HZZsearches} will
+present two analyses designed to search for the SM Higgs using the 
+$ZZ\to2\ell 2q$ signature and using the $ZZ\to 4\ell$ signature. The 
+latter will include the discovery and characterization of a new
+bosonic resonance. Chapter~\ref{sec:FutureMeasurements} will discuss 
+the prospects of precision measurements of Higgs properties at both
+the LHC and an $e^+e^-$ collider. Finally, chapter~\ref{sec:Conclusions}
+will discuss the interpretation of these results in the context of the 
 beyond the SM physics mentioned above.  
-
-
