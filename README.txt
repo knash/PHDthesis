@@ -13,12 +13,16 @@ main file:  AwhitbeckThesis.tex
 ===============================
 chapters:   chapter0.tex
             Introduction.tex
-	    LHC.tex
-	    CMS.tex
-	    Reco.tex	    
+	    ExperimentalSetup.tex
 	    HiggsPhen.tex
 	    HZZsearches.tex	    
-	    HiggsProperties.tex		   
+	    FutureMeasurements.tex
 	    Conclusion.tex
 ===============================
-compile:  pdflatex AwhitbeckThesis.tex
+compile:  
+latex AwhitbeckThesis.tex ; 
+for i in $(ls *mp | awk -F ".mp" '{print $1}') ; do mpost $i ; done ; 
+latex AwhitbeckThesis.tex ;  
+latex AwhitbeckThesis.tex ; 
+dvips AwhitbeckThesis.dvi ; 
+epstopdf AwhitbeckThesis.ps
