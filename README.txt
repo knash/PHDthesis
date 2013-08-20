@@ -21,6 +21,7 @@ chapters:   chapter0.tex
 ===============================
 compile:  
 latex AwhitbeckThesis.tex ; 
+bibtex AwhitbeckThesis ;
 for i in $(ls *mp | awk -F ".mp" '{print $1}') ; do mpost $i ; done ; 
 latex AwhitbeckThesis.tex ;  
 latex AwhitbeckThesis.tex ; 

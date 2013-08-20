@@ -8,8 +8,8 @@
 
 \section{The Large Hadron Collider}
 \label{sec:LHC}
-The Large Hadron Collider was designed to accelerates protons to up to 
-energies of 7 TeV using a 26 km storage ring and  1232  8.33 T dipole magnets. 
+The Large Hadron Collider was designed to accelerates two beams of protons to up to 
+energies of 7 TeV using a 27 km storage ring and  1232 individual 8.33 T dipole magnets. 
 Although it is also capable of accelerating heavier nuclei up to energies of 
 2.76 TeV, heavy ion physics is outside the scope of this work.  The proton
 energies accessible to the LHC are a factor of seven times higher than its
@@ -17,9 +17,8 @@ most advanced predicessor, the Tevatron.  These energies are not only
 important for accessing new particles which might exist at large invariant
 mass, on the order of serveral TeV, they are also necessary for efficient 
 production of moderately heavy particles, like the Higgs boson or the top 
-quark.  In the more favorable region of the SM 
-Higgs mass,  $m_{H}$, parameter space, these energies provides a 
-factor of XX in total cross section over the production cross section at
+quark.  For a 125~GeV Higgs boson these energies provides a 
+factor of XXX in total cross section over the production cross section at
 the Tevatron.  
 
 The LHC also has the capability to collide bunches of $1\times10^{11}$
@@ -32,7 +31,7 @@ of up to $10^{34} cm^{-2}s^{-1}$ accoding to
 \end{equation}
 where $\gamma$ is the Lorentz factor, f is the revolution frequency,
 $k_B$ is the number of protons per bunch, $\epsilon_n$ is the betatron
-function at the interaction point (IP), and F is the reduction factor
+function at the interaction point, and F is the reduction factor
 due to the crossing angle.  This translates to roughly 1 billion proton
 proton interactions per second and up to 50 collisions per bunch crossing, 
 known as pileup.  
@@ -56,23 +55,23 @@ Number of collisions/crossing& $n_c$         & $\equiv20$      \\
 \hline 
 \hline
 \end{tabular}
-\label{table:LHCparameters}
 \caption{Table listing relevant operational parameters of the LHC.}
+\label{table:LHCparameters}
 \end{center}
 \end{table}
 
 These conditions provide unprecidented conditions to probe the SM and 
 discovering new particles but also extreme conditions for reconstructing
-objects with a high degree of efficiency.  
+particle paths and energy deposits with a high degree of accuracy and efficiency.
 The inclusive proton-proton
-collision at 14~TeV is approximately 100~mb.  At design luminosity, this
-corresponds to an event rate of $10^9/s$.  
+cross section at 14~TeV is approximately 100~mb.  At design luminosity, this
+corresponds to an event rate of $10^9$~Hz.  
 The large number of proton-proton
 collisions produce a considerable amount of background noise which can 
-either produce extra objects from secondary interactions as well an overall
+either produce extra particles from secondary interactions, also known as pileup, as well an overall
 increase in the energy deposited in the calorimeters.  The  high rate of the 
 LHC far exceed the capabilities of the Data Aquisition (DAQ) system.  As a 
-result it is necessary to use fast hardware logic to filter the majority of 
+result it is necessary to use fast hardware logic to filter the vast majority of 
 events. 
 
 The short time between bunch crossings also puts significant constraints on 
@@ -99,227 +98,6 @@ system
 at the edge of the detector to detect semi-stable, charged particles with long 
 interaction lengths, e.g. the muon. This chapter describes these detectors in
 detail. 
-
-\subsection{Tracker}
-\label{sec:Tracker}
-
-The CMS tracker is an all silicon detector that consists of more than 16,000
-individual silicon modules.  These modules are of two basic variaties, pixels
-which provide a 2-dimensional measurement of particle positions and strips
-which provide 1-dimensional measurements of particles positions.  The tracker
-is the closest sub-detector to the interaction point.  As such, it is exposed 
-to the highest radiation flux and must be radiation hard to survive the extreme
-conditions of the LHC.  As such, the design of the tracker barrel has been 
-broken into three distinct regions in order to optimise occupancy against
-S/N.  The most central region is the pixel barrel (PXB), then the tracker
-inner barrel (TIB), and finally the tracker outer barrel (TOB).  The latter
-two regions constist of silicon microstrip detectors. 
-
-\subsubsection{Pixel Modules}
-
-The pixel modules are exposed to the highest particle flux, roughly $10^7/s$
-at $r=10~cm$.  As a result, small pixels, $100\times150~\mu m^2$, are used,
-giving an occupancy of about $10^{-4}$ per pixel per bunch crossing. Three
-layers make up the pixel barrel at radii $r=4.4,~7.3,$ and $10.2~cm$ made
-up of 768 pixel modules.  There are also two endcap disks on either side of 
-the pixel barrel made of 672 pixel modules arranged in a turbine fashion. 
-The layout of the pixel modules is shown in figure~\ref{fig:???}.
-In total, there are 66 million pixels which provide precise hit measurements.
-
-\subsubsection{Strip Modules}
-
-The strip modules are arranged into four regions, inner barrel (TIB), 
-outer barrel (TOB), inner disks (TID), and end caps (TEC). 
-
-The TIB is divided into 4 layers which extend out to $|z|<65~cm$, totalling
-2724 strip modules.  The microstrip sensors on each module have a thickness
-of 320~\microns~and a pitch of 80-120~\microns. The inner layers of the TIB
-have stereo modules offset by an angle of 100 mrad.  The resolution of these
-modules ranges from 23-34~\microns~in $r-\phi$ and 230~\microns~in 
-the z-direction.
-
-The TOB is divided into 6 layers extending out to $|z|<65~cm$, totalling
-5208 strip modules.  Each microstrip sensor has a thickness of 500~\microns~
-and a pitch ranging from 120-180~\microns.  Since the radii of the strip
-layers is large, strips can be thicker in order to have better S/N while 
-still have low occupancy.  Similar to the TIB, the first two layers of the
-TOB have stereo modules offset by 100~mrad so that the single point resolution
-in $r-\phi$ is 35-52~\microns~ while it is 530~\microns~ in the z-direction.
-
-The TID is divided into 3 disks, the fist two of which are stereo, arranged
-at various distances bewteen $120<|z|<280~cm$.  Modules
-are arranged in wheels around the beam axis.  Each microstrip sensor has a 
-thickness of 320~\microns.  Similarly, the TEC has 9 disks, the first two and 
-the fifth of which are stereo.  The thickness of each microstrip sensor
-is 500~\microns. 
-
-\subsubsection{Tracking Performance \& Alignment}
-
-The tracker provides high precision measurements of track parameters for
-all charged particles, this includes both the momentum and direction
-of tracks.  It is the only detector which can reconstruct vertices, both
-displaced or not.  A key piece to have high quality measurements is the 
-tracker alignment.  
-
-Alignment deals with understanding where with what 
-orientation pixel and strip modules should be.  In order to maximize the 
-performance of the tracker, the position of each module should be known to
-better than the intrinsic resolution of the pixel (10~\microns) or strip 
-(50~\microns) modules.  Although information of
-module positions was initially provided by optical surveys, knowing the 
-position of each module to within 10~\microns can only be acheive by done
-track-based alignments.  
-
-Track-based alignments are done looking at the sum of track-hit residuals
-and minimizing a $\xi^2$ with respect to the module positions and 
-orientations.  Since there are over 
-16,000 modules with 6 degrees of freedom each, tracker alignment is a 
-major challenge to solve exactly, which would require inverting
-$16,000\cdot6\times16,000\cdot6$ matrix.  As a results, approximations 
-must be employed.   One such approximation is to mimize the $\xi^2$ for
-each module individually, ignoring the correlation between the change in 
-parameters between different modules.  The correlation is then recovered 
-by iterating the procedure many times.  This procedure is known as the 
-HIP algorithm and was employed to produce the first geometry using minimum
-bias collision tracks.  
-
-{\it ... talk more about the 2010 geometry ...}
-
-Validations of tracker geometries are critical to understanding that 
-alignment algorithms produced improved geometries.  Several validation
-are important for showing improvements in the tracker geometry, the 
-primary vertex validation and the cosmic splitting validation. 
-
-The cosmic splitting validation makes use of cosmic tracks tracking 
-during interfills.  Cosmic tracks have the unique feature that the 
-tracks can pass through all layers of the tracker.  As a result,
-a cosmic track is qualitatively similar to two collision track
-produced back to back.  This feature can be taken advantage of by dividing
-each cosmic track into subset of hits and reconstructing these hits 
-into {\it split} tracks independently.  The track parameters of the 
-split tracks should, by construction have the same track parameters.  
-Thus, by comparing the track parameters, track parameter resolution
-and biases can be test.  
-
-%% describe the slew of track parameters that can be studied.
-
-To quantify the effect of misalignments on the cosmic splitting 
-validation, 5 track parameters are compare, $d_{xy}$, $d_z$,
-$\eta$, $\phi$, and $p_T$. Figure~\ref{fig:trackSplittingMC}
-shows the difference between the two plit tracks for each of the
-7 track parameters, thus providing a measurement of the track
-parameters resolution.  Figure~\ref{fig:trackSplitting2012A} shows
-the same set of validation plots for cosmics collected during
-2012 run A.  Two geometry are compared, the ideal geometry, the 
-prompt geometry (before alignment) and the ReRECO geometry (after 
-alignment).  Improvements are found over the prompt geometry and
-in some cases, the aligned geometry is found to be consistent 
-with the ideal geometry.  
-
-\begin{figure}
-\begin{center}
-\includegraphics[width=.32\linewidth]{ExperimentalSetupPlots/histDelta_dxy.eps}
-\includegraphics[width=.32\linewidth]{ExperimentalSetupPlots/histDelta_dz.eps}
-\includegraphics[width=.32\linewidth]{ExperimentalSetupPlots/histDelta_eta.eps}
-\includegraphics[width=.32\linewidth]{ExperimentalSetupPlots/histDelta_phi.eps}
-\includegraphics[width=.32\linewidth]{ExperimentalSetupPlots/histDelta_pt.eps}
-\label{fig:trackSplittingMC}
-\caption{Resolution of 5 track parameters from track splitting validation 
-using MC and ideal geomtry. }
-\end{center}
-\end{figure}
-
-\begin{figure}
-\begin{center}
-\includegraphics[width=.32\linewidth]{ExperimentalSetupPlots/2012A/histDelta_dxy.eps}
-\includegraphics[width=.32\linewidth]{ExperimentalSetupPlots/2012A/histDelta_dz.eps}
-\includegraphics[width=.32\linewidth]{ExperimentalSetupPlots/2012A/histDelta_eta.eps}
-\includegraphics[width=.32\linewidth]{ExperimentalSetupPlots/2012A/histDelta_phi.eps}
-\includegraphics[width=.32\linewidth]{ExperimentalSetupPlots/2012A/histDelta_pt.eps}
-\label{fig:trackSplitting2012A}
-\caption{Resolution of 5 track parameters from track splitting validation 
-using three geometries, ideal (blue), prompt geometry (black), and the
-aligned geometry (red).  Cosmic track recording during the 2012 run A
-period were used.}
-\end{center}
-\end{figure}
-
-The difference of track parameters can also be check in bins of other
-variables.  One of the most useful application of this is to measure
-the $p_T$ dependence of the normalized resolution on $p_T$ itself, 
-$\sigma(\Delta p_T)$. Figure~\ref{fig:trackSplittingProfiles} shows 
-several example plots of these profile plots for the 2012 run A cosmic 
-data.  While there are only minor improvments to the $\sigma(p_T)$ vs
-$p_T$ distribution, there is a significant improvement to in the $\Delta\phi$
-vs $d_{xy}$ plot.  The structure seen cannot be noticed in the simple
-resolution plots and is indicitive of a system deformation present in
-the geometry.  
-
-\begin{figure}
-\begin{center}
-\includegraphics[width=.49\linewidth]{ExperimentalSetupPlots/2012A/profiledxy_orgDelta_phi.eps}
-\includegraphics[width=.49\linewidth]{ExperimentalSetupPlots/2012A/resolutionpt_orgDelta_pt.eps}
-\label{fig:trackSplittingProfiles}
-\caption{Profile plots of several reference geometries using cosmic track
-taken during the 2012 run A period.  The left plot shows the difference 
-in $d_{xy}$ between the two split tracks, $\Delta d_{xy}$ vs $\phi$.  The 
-right plot shows the width of the $\Delta p_T$ distribution, $\sigma(p_T)$, 
-vs $p_T$.}
-\end{center}
-\end{figure}
-
-Profiles plots, like those seen in figure~\ref{fig:trackSplittingProfiles}, 
-are good probes of weak modes which could be present in
-tracker geometry.  The modes correspond to systematic deformations which 
-are $\xi^2$ invariant.  Some examples include a systematic shift of modules
-in the r-$\phi$ direction which is a function of $\phi$ itself.  This 
-type of deformation would result in the structure that is seen in the 
-left plot of figure~\ref{fig:trackSplittingProfiles} in the prompt geometry.
-In this case the deformation is not a weak mode since the alignment 
-procedure is sensitive to it and corrects the module positions accordingly.
-A systematic study of a collection of systematic misalignment scenarios
-can be done to see which cosmic splitting plots are sensitive and which 
-structures are seen in data.  ... 
-
-%% discuss systematic misalignments and their effects on validations
-
-%% discuss primary vertex validations
-
-In order to ensure high quality data over time, it 
-is critical to monitor and improve upon the tracker geometry over time.  
-The primary vertex validation is suitable for such time dependent studies
-and has been used in the past to help define appropriate alignment 
-strategies. 
-
-The primary vertex validation using the position of primary vertices as
-an estimator of the true impact parameters of an individual track.  
-Residuals can be constructed from the difference between the primary 
-vertex and a tracks fitted impact parameter.    If tracks are truly from 
-the vertex, then on average the above assumption
-will be true.  However, individual tracks which pass through poorly 
-aligned regions of the tracker will give larger residuals.  Thus providing
-a self consistent probe of the tracker geometry.  
-
-Distributions of PV-IP residuals can be used to provide more precise 
-measurements for a given region of the tracker.  Figure~\ref{fig:???}
-shows a number of residual distributions in various bins of $\eta$ and
-$\phi$.  The mean and RMS of these distributions can provide useful
-information about systematic misalignments of the pixel barrel.  In
-particular, this validation is sensitive to observed separation of the
-pixel half barrels, which tend to move from time to time. 
-
-To quantify the separation of the pixel half barrels, the mean and width
-of the residual distributions are plotted as a function of phi.  If a 
-separation between the two half barrels is present, a discontinuity will
-be present at zero.  Figure~\ref{fig:???} shows an example plot of this
-using MC tracks with either the ideal geometry or a geomtry in which the 
-two half barrels have been purposefully shifted.  The size of the
-discontinuity is size of the physical separation.  
-
-The presence of a shift can have significant impact on vertex measurements,
-either through b-tagging or SIP values.  Thus monitoring and correcting
-these deformations in time is critical.  ... talk about define IOV 
-boundaries. 
 
 \subsection{Magnet}
 \label{sec:Magnet}
@@ -452,106 +230,458 @@ of 200~\microns.
 
 \subsection{Trigger and data aquisition}
 
+The event rate delivered to CMS is approximately $10^9$~Hz.  
+However, only about 100~Hz can be processed by CMS.  
+This requires a large, yet efficient, rejection scheme.  
+CMS employs a two level system to make fast decisions on 
+which events to keep.  The level-1 system consists of 
+custom electronics which monitor the activity in the calorimeters
+and the muon system.   Decisions are based off of raw energy
+and momentum thresholds.  The level-1 system reduces the
+event rate down to roughly 100~kHz while the High-Level 
+trigger (HLT), an online
+processing farm which executes reconstruction software, 
+further reduces the rate to 100~HZ.  Customized HLT selections
+are designed to ensure high efficiencies for different 
+physics signatures.  
 
+%\subsection{Track Reconstruction}
+%\label{sec:trackRECO}
+%
+%\subsection{Muon Reconstruction}
+%\label{sec:muonRECO}
+%
+%
+%Muon tracks are reconstructed using the Kalman filter technique
+%starting with RecHits at the inner most radius.
+%In the barrel region, where the DTs provide the most sensitive 
+%information about particle position, primitive track segments
+%are reconstructed and fed to the Kalman filter.
+%In the endcap, 3D hits are constructed from wire and strip 
+%information which is then pass to the Kalman filter. In both
+%cases, the RecHits from the RPCs are used.  Track states are 
+%propagated through each layer taking into account the effects
+%of energy loss in material, multiple scattering and inhomogeneities
+%in the magentic field.  Once the outer most measurement is reached,
+%the Kalman filter is then applied in reverse to define the final
+%set of track parameters.  After the track is extrapolated to the 
+%to the nominal interaction point, the beam-spot, a vertex-constrained
+%fit to the track parameters is performed.
+%Muons can also be reconstructed using the information from the 
+%silicon tracker.  In this case, tracker hits which are compatible
+%with the muon track are added to the Kalman filter.
+%
+%Muon reconstruction typically makes use of other subdetectors, such
+%as the calorimeters.  Calorimeter cells which are compatible with 
+%the extrapolated muon track should have energy deposits which are 
+%consistent with the presence of a minimum ionizing particle.  
+%Since events from pile-up can contribute the HO can be efficiently
+%used to discriminate against pile-up activity.  
+%
+%Muon are also typically required to be well isolated.  An isolation
+%cone is defined around the muon direction and a maximum threshold of 
+%$E_T$ is allowed from calorimeter cells whithin this corn, or a maximum
+%sum $p_T$ is allowed from tracks within this cone.  These thresholds are
+%typically set as a fraction of the candidate muons $p_T$.
+%
+%The details of muon identification and isolation typically depend on
+%the specific use case.  Thus, more detailed explainations will follow
+%in conjunction with descriptions of analyses. 
+%
+%\subsection{Electron Reconstruction}
+%\label{sec:electronRECO}
+%
+%Electron produce tracks in the silicon track and induce showers 
+%in the ECal.  In beam test, typically, more than 90\% of the incident 
+%energy of a single electron is contained in a $3\times3$ array of 
+%crystals and more than 95\% is contained in a $5\times5$ array.  
+%Within CMS, showing patterns are broadened by bremsstrahlung 
+%induced by the presence material within the ECal and by the
+%presence of a strong magnetic field.  In order to better identify 
+%the energy deposits from electrons clustering algorithms are 
+%used to combine energy measurements from individual crystals which
+%take into account effects of bremsstrahlung and the magnetic field.  
+%
+%Seed crystals are identified which contain energy above some predefined
+%threshold.  Nearby crystal are then combined to for a cluster.  In 
+%an analogous procedure, cluster are combined into superclusters 
+%starting from seed clusters.  Supercluster energies are then 
+%corrected for systematic effects based on shower shape and the
+%location of the supercluster.  The position of the reconstructed
+%electron candidate is then measured from the energy-weighted mean
+%position of each of the crystals.
+%
+%Superclusters are matched to pixel hits in the tracker which serve 
+%as seed for electron tracks to be built.  Tracks are the built using
+%a modified Kalman filter known as the Gaussian Sum Filter (GSF) which
+%is a nonlinear filter which makes use of guassian mixtures to model
+%errors.  The GSF algorithm allows for momentum at either end of the 
+%tracker to be measured reliably and allows for the amount of brem to 
+%be accurately estimated.  
+%
+%E-p combination...
+%
+%electron isolation ...
+% 
+%electron identification ...
+%
+%\subsection{Photon Reconstruction}
+%\label{sec:photonRECO}
+%
+%Photon energy is clustered according to either the hybrid (EB) or the 
+%island (EE) algorithm, similar to electrons.  For unconverted photons,
+%most of the energy will be contained in a $3\times3$ array of crystals.
+%In contrast, photons which get converted into $e^+e^-$ pairs can 
+%cause the supercluster to spread over more crystal.  
+%
+%The R9 variable provides a powerful discriminator for converted photons.
+%R9 is defined as the ratio of the energy in a $3\time3$ array, centered 
+%on the highest energy crystal, to the total energy in a supercluster.
+%Values of R9 close to 1 are indicitive of unconverted photon
+%
+%photon isolation...
+%
+%\subsection{Jet Reconstruction}
+%\label{sec:jetRECO}
 
-\subsection{Track Reconstruction}
-\label{sec:trackRECO}
+\subsection{Tracker}
+\label{sec:Tracker}
 
+The CMS tracker is an all silicon detector that consists of more than 16,000
+individual silicon modules.  These modules are of two basic variaties, pixels
+which provide a 2-dimensional measurement of particle positions and strips
+which provide 1-dimensional measurements of particles positions within the plane of the module.  The tracker
+is the closest sub-detector to the interaction point.  As such, it is exposed 
+to the highest radiation flux and must be radiation hard to survive the extreme
+conditions of the LHC.  As such, the design of the tracker barrel has been 
+broken into three distinct regions in order to optimise occupancy against
+signal-to-noise (S/N).  The most inner region is the pixel barrel (PXB), then the tracker
+inner barrel (TIB), and finally the tracker outer barrel (TOB).  The latter
+two regions constist of silicon microstrip detectors. 
 
+\subsubsection{Pixel Modules}
 
-\subsection{Muon Reconstruction}
-\label{sec:muonRECO}
+The pixel modules are exposed to the highest particle flux, roughly $10^7$~Hz
+at $r=10~cm$.  As a result, small pixels, $100\times150~\mu m^2$, are used,
+giving an occupancy of about $10^{-4}$ per pixel per bunch crossing. Three
+layers make up the pixel barrel at radii $r=4.4,~7.3,$ and $10.2~cm$ consisting of 768 pixel modules.  There are also two endcap disks on either side of 
+the pixel barrel made of 672 pixel modules arranged in a turbine fashion. 
+The layout of the pixel modules is shown in figure~\ref{fig:TrackerGeometry}.
+In total, there are 66 million pixels which provide precise hit measurements.
 
+\subsubsection{Strip Modules}
 
-Muon tracks are reconstructed using the Kalman filter technique
-starting with RecHits at the inner most radius.
-In the barrel region, where the DTs provide the most sensitive 
-information about particle position, primitive track segments
-are reconstructed and fed to the Kalman filter.
-In the endcap, 3D hits are constructed from wire and strip 
-information which is then pass to the Kalman filter. In both
-cases, the RecHits from the RPCs are used.  Track states are 
-propagated through each layer taking into account the effects
-of energy loss in material, multiple scattering and inhomogeneities
-in the magentic field.  Once the outer most measurement is reached,
-the Kalman filter is then applied in reverse to define the final
-set of track parameters.  After the track is extrapolated to the 
-to the nominal interaction point, the beam-spot, a vertex-constrained
-fit to the track parameters is performed.
-Muons can also be reconstructed using the information from the 
-silicon tracker.  In this case, tracker hits which are compatible
-with the muon track are added to the Kalman filter.
+The strip modules are arranged into four regions, inner barrel (TIB), 
+outer barrel (TOB), inner disks (TID), and end caps (TEC). 
 
-Muon reconstruction typically makes use of other subdetectors, such
-as the calorimeters.  Calorimeter cells which are compatible with 
-the extrapolated muon track should have energy deposits which are 
-consistent with the presence of a minimum ionizing particle.  
-Since events from pile-up can contribute the HO can be efficiently
-used to discriminate against pile-up activity.  
+The TIB is divided into 4 layers which extend out to $|z|<65~cm$, totalling
+2724 strip modules.  The microstrip sensors on each module have a thickness
+of 320~\microns~and a pitch of 80-120~\microns. The inner layers of the TIB
+have stereo modules offset by an angle of 100 mrad, providing 2D
+measurements.  The resolution of these
+modules ranges from 23-34~\microns~in $r-\phi$ and 230~\microns~in 
+the z-direction.
 
-Muon are also typically required to be well isolated.  An isolation
-cone is defined around the muon direction and a maximum threshold of 
-$E_T$ is allowed from calorimeter cells whithin this corn, or a maximum
-sum $p_T$ is allowed from tracks within this cone.  These thresholds are
-typically set as a fraction of the candidate muons $p_T$.
+The TOB is divided into 6 layers extending out to $|z|<65~cm$, totalling
+5208 strip modules.  Each microstrip sensor has a thickness of 500~\microns~
+and a pitch ranging from 120-180~\microns.  Since the radii of the strip
+layers is large, strips can be thicker in order to have better S/N while 
+still have low occupancy.  Similar to the TIB, the first two layers of the
+TOB have stereo modules offset by 100~mrad so that the single point resolution
+in $r-\phi$ is 35-52~\microns~ while it is 530~\microns~ in the z-direction.
 
-The details of muon identification and isolation typically depend on
-the specific use case.  Thus, more detailed explainations will follow
-in conjunction with descriptions of analyses. 
+The TID is divided into 3 disks, the fist two of which are stereo, arranged
+at various distances bewteen $120<|z|<280~cm$.  Modules
+are arranged in wheels around the beam axis.  Each microstrip sensor has a 
+thickness of 320~\microns.  Similarly, the TEC has 9 disks, the first two and 
+the fifth of which are stereo.  The thickness of each microstrip sensor
+is 500~\microns. 
 
-\subsection{Electron Reconstruction}
-\label{sec:electronRECO}
+\begin{figure}
+\begin{center}
+\hspace{-2.5cm}
+\includegraphics[width=.8\linewidth]{ExperimentalSetupPlots/las.eps}
+\caption{Quarter slice of the CMS tracker.  Single-sided silicon strip modules
+are indicated as solid light (purple) lines, double-sided strip modules as 
+open (blue) lines, and pixel modules as solid dark (blue) lines.}
+\label{fig:TrackerGeometry}
+\end{center}
+\end{figure}
 
-Electron produce tracks in the silicon track and induce showers 
-in the ECal.  In beam test, typically, more than 90\% of the incident 
-energy of a single electron is contained in a $3\times3$ array of 
-crystals and more than 95\% is contained in a $5\times5$ array.  
-Within CMS, showing patterns are broadened by bremsstrahlung 
-induced by the presence material within the ECal and by the
-presence of a strong magnetic field.  In order to better identify 
-the energy deposits from electrons clustering algorithms are 
-used to combine energy measurements from individual crystals which
-take into account effects of bremsstrahlung and the magnetic field.  
+\subsubsection{Tracking Performance \& Alignment}
 
-Seed crystals are identified which contain energy above some predefined
-threshold.  Nearby crystal are then combined to for a cluster.  In 
-an analogous procedure, cluster are combined into superclusters 
-starting from seed clusters.  Supercluster energies are then 
-corrected for systematic effects based on shower shape and the
-location of the supercluster.  The position of the reconstructed
-electron candidate is then measured from the energy-weighted mean
-position of each of the crystals.
+The tracker provides high precision measurements of track parameters for
+all charged particles, this includes both the momentum and direction
+of tracks.  These track parameters can be used to 
+better understand resonance properties, as will be shown in 
+chapters~\ref{sec:HiggsPhen} and~\ref{sec:HZZsearches}.  Thus, the 
+tracker will be one of the most important tools in searching for new 
+resonances, such as the Higgs boson, and understanding their role in
+nature.  
 
-Superclusters are matched to pixel hits in the tracker which serve 
-as seed for electron tracks to be built.  Tracks are the built using
-a modified Kalman filter known as the Gaussian Sum Filter (GSF) which
-is a nonlinear filter which makes use of guassian mixtures to model
-errors.  The GSF algorithm allows for momentum at either end of the 
-tracker to be measured reliably and allows for the amount of brem to 
-be accurately estimated.  
+The tracker is also the only detector which can reconstruct vertices, either
+displaced or not.  Vertexing provides critical information to help mitigate
+the effects of pile-up as well as tagging b-jets.  Since pile-up will be
+a continuing challenge at the LHC, continued performance of the tracker
+will be critical.  The use of the tracker in b-tagging will also play 
+a central role in physics measurements, since b-jets provide a distinct 
+signature which is relevant to many beyond the SM physics as well of Higgs
+physics.  
 
-E-p combination...
+In order to ensure the high quality performance, uncertainties of module 
+positions, taken to refer to both the location and orientation which are
+depicted in figure~\ref{fig:ModuleCoordinates},
+should be reduced to within the precision of each module.  For the
+pixel modules, this precision is around 10~\microns, for the strips, this 
+precision can be as large as 30~\microns.  Because of changing enviromental
+conditions of the detector, the tracker geometry can be time dependent. 
+In order to efficiently determine module positions through run periods, 
+offline track-based alignment algorithms must be employed.  
 
-electron isolation ...
- 
-electron identification ...
+\begin{figure}
+\begin{center}
+\includegraphics[width=.49\linewidth]{ExperimentalSetupPlots/coordinates.eps}
+\caption{Diagram of module positions variables, u, v, w, and module orientation
+variables, $\alpha$, $\beta$, $\gamma$.}
+\label{fig:ModuleCoordinates}
+\end{center}
+\end{figure}
 
-\subsection{Photon Reconstruction}
-\label{sec:photonRECO}
+Track-based alignments are intended to determine the position of each module
+in the tracker from a large collection of reconstructed tracks.  Each track
+is built from a set of charge deposition sites, or hits, on a given module
+which are used to produce a piece-wise helical trajectory using the
+Combinatorial Track Finder (CTF) algorithm~\cite{Borrello:2010zz}.  
+Alignment of each module position can be performed by minimizing
+\begin{equation}
+\chi^2(\vec{p},\vec{q}) = \sum_{j}^{tracks}\sum_{i}^{hits}\vec{r}_{ij}^{T}(\vec{p},\vec{q}_j)V^{-1}_{ij}\vec{r}_{ij}(\vec{p},\vec{q}_j),
+\end{equation}
+where $\vec{p}$ is the position correction, $\vec{q}_j$ is the set of 
+track parameters for the j tracks, $\vec{r}_{ij}$ are the track 
+residuals, and $\vec{V}_{ij}$ is the covariance matrix.  The residuals are
+defined as $\vec{r}_{ij} = \vec{m}_{ij} - \vec{f}_{ij}(\vec{p},\vec{q}_j)$, 
+where $\vec{m}_{ij}$ are the measured hit positions and $\vec{f}_{ij}$ are
+the track trajectory impact point in the plane of the module.  The 
+$\chi^2$ function is then minimized with respect to the module position 
+corrections, $\vec{p}$.
 
-Photon energy is clustered according to either the hybrid (EB) or the 
-island (EE) algorithm, similar to electrons.  For unconverted photons,
-most of the energy will be contained in a $3\times3$ array of crystals.
-In contrast, photons which get converted into $e^+e^-$ pairs can 
-cause the supercluster to spread over more crystal.  
+Since there are more than 16,000 modules with 6 parameters to be determined,
+tracker alignment is a 
+extremely difficult to solve exactly, which would require inverting
+$16,000\cdot6\times16,000\cdot6$ matrix.  As a result, approximations 
+must be employed.   One such approximation is to minimize the $\chi^2$ for
+each module individually, ignoring the correlation between the change in 
+parameters between different modules.  The correlation is then recovered 
+by recalculating $f_{ij}$ and iterating the procedure many times.  Solving 
+for each individual module position is then reduce to a six-dimensional 
+matrix equation, 
+\begin{equation}
+\chi^2_m(\vec{p})=\sum_i^{hits}\vec{r}^T_i\vec{V}_i^{-1}\vec{r}_i(\vec{p}).
+\end{equation}
+This local iterative algorithm, described in detail 
+elsewhere~\cite{Karimaki:2006az,Brown:2008ccb}, was employed to produce 
+the first geometry using minimum bias collision tracks.  
 
-The R9 variable provides a powerful discriminator for converted photons.
-R9 is defined as the ratio of the energy in a $3\time3$ array, centered 
-on the highest energy crystal, to the total energy in a supercluster.
-Values of R9 close to 1 are indicitive of unconverted photon
+Validations of tracker geometries are critical to understanding that 
+the output of alignment algorithms produce improved measurements.  
+Several validation are important for showing improvements in the tracker 
+geometry, the primary vertex validation and the cosmic splitting validation.
+Both of these validation provide a direction connection between the 
+tracker geometry and measurements relevant for physics analyses.   
 
-photon isolation...
+The cosmic splitting validation makes use of cosmic tracks recorded 
+during interfills.  Cosmic tracks have the unique feature that the 
+tracks can pass through all layers of the tracker.  As a result,
+a cosmic track is qualitatively similar to two collision track
+produced back to back.  This feature can be taken advantage of by dividing
+each cosmic track into subset of hits and reconstructing these hits 
+into {\it split} tracks which are reconstructed independently.  The 
+track parameters of the 
+split tracks should, by construction, have the same track parameters.  
+Thus, by comparing the track parameters, track parameter resolution
+and biases can be test.  
 
-\subsection{Jet Reconstruction}
-\label{sec:jetRECO}
+%% describe the slew of track parameters that can be studied.
+The resolution of individual track parameters can be quantified
+and compared between different tracker geometries.  This is
+represented by the distribution of the difference of a given 
+track parameters between the two split tracks.  This difference
+can also be compared in slices of other track parameters in 
+order to quantify systematic misalignments.
 
+To demonstrate the precision on each of the track quantities, the
+difference of 5 track parameters, $\Delta d_{xy}$, $\Delta d_z$, 
+$\Delta \eta$, $\Delta\phi$, and $\Delta p_T$ are shown in 
+figure~\ref{fig:trackSplittingMC}.  
+Figure~\ref{fig:trackSplitting2012A} shows
+the same set of validation plots for cosmics collected during
+2012 run A.  Three geometries are compared, the ideal geometry, the 
+prompt geometry (before alignment) and the Re-RECO geometry (after 
+alignment).  Improvements are found over the prompt geometry and
+in some cases, the aligned geometry is found to be consistent 
+with the ideal geometry tested on MC simulations.  
+
+\begin{figure}
+\begin{center}
+\includegraphics[width=.32\linewidth]{ExperimentalSetupPlots/histDelta_dxy.eps}
+\includegraphics[width=.32\linewidth]{ExperimentalSetupPlots/histDelta_dz.eps}
+\includegraphics[width=.32\linewidth]{ExperimentalSetupPlots/histDelta_eta.eps}
+\includegraphics[width=.32\linewidth]{ExperimentalSetupPlots/histDelta_phi.eps}
+\includegraphics[width=.32\linewidth]{ExperimentalSetupPlots/histDelta_pt.eps}
+\caption{Resolution of 5 track parameters from track splitting validation 
+using MC and ideal geomtry. }
+\label{fig:trackSplittingMC}
+\end{center}
+\end{figure}
+
+\begin{figure}
+\begin{center}
+\includegraphics[width=.32\linewidth]{ExperimentalSetupPlots/2012A/histDelta_dxy.eps}
+\includegraphics[width=.32\linewidth]{ExperimentalSetupPlots/2012A/histDelta_dz.eps}
+\includegraphics[width=.32\linewidth]{ExperimentalSetupPlots/2012A/histDelta_eta.eps}
+\includegraphics[width=.32\linewidth]{ExperimentalSetupPlots/2012A/histDelta_phi.eps}
+\includegraphics[width=.32\linewidth]{ExperimentalSetupPlots/2012A/histDelta_pt.eps}
+\caption{Resolution of 5 track parameters from track splitting validation 
+using three geometries, ideal (blue), prompt geometry (black), and the
+aligned geometry (red).  Cosmic track recording during the 2012 run A
+period were used.}
+\label{fig:trackSplitting2012A}
+\end{center}
+\end{figure}
+
+From figures~\ref{fig:trackSplittingMC} and~\ref{fig:trackSplitting2012A} we can see 
+that the average errors of the impact parameters are 25\microns~(42\microns) for the 
+transverse (longitudinal) directions with respect to the beam line.  The angular
+variables are found to have extremely good precision, on the level of the $3.2\times10^{-4}$~radians 
+for the azimuthal angle, $\phi$, and ($4.6\times10^{-4}$) for pseudorapidity, $\eta$.
+
+The transverse momentum, $p_T$, has a relative precision of 1\%.  Since the $p_T$
+distribution of cosmic tracks is dominated by low $p_T$ tracks, in order to 
+understand the resolution on $p_T$ for the high momentum tracks which are relevant
+to physics searches, the width of the $\Delta p_T$ distribution is plotted in 
+bins of $p_T$, shown in the right plot of figure~\ref{fig:trackSplittingProfiles}.  
+The relative resolution on $p_T$ varies from .1~GeV to .45~GeV for tracks with
+$p_T$ between 10 and 100 GeV.
+
+The track parameter errors can also be check in bins of other
+variables.  The left plot of figure~\ref{fig:trackSplittingProfiles} shows 
+$d_{xy}$ in bins of $\phi$ for the 2012 run A cosmic data.  
+There is a significant improvement Between the prompt and re-RECO geometry.  
+The structure seen cannot be noticed in the simple
+resolution plots and is indicitive of a systematic deformation present in
+the geometry.  
+
+\begin{figure}
+\begin{center}
+\includegraphics[width=.49\linewidth]{ExperimentalSetupPlots/2012A/profiledxy_orgDelta_phi.eps}
+\includegraphics[width=.49\linewidth]{ExperimentalSetupPlots/2012A/resolutionpt_orgDelta_pt.eps}
+\caption{Profile plots of several reference geometries using cosmic track
+taken during the 2012 run A period.  The left plot shows the difference 
+in $d_{xy}$ between the two split tracks, $\Delta d_{xy}$ vs $\phi$.  The 
+right plot shows the width of the $\Delta p_T$ distribution, $\sigma(p_T)$, 
+vs $p_T$.}
+\label{fig:trackSplittingProfiles}
+\end{center}
+\end{figure}
+
+Profile plots, like those seen in figure~\ref{fig:trackSplittingProfiles}, 
+are good probes of weak modes which could be present in
+tracker geometry.  The modes correspond to systematic deformations which 
+are $\chi^2$ invariant.  Some examples include a systematic shift of modules
+in the r-$\phi$ direction which is a function of $\phi$ itself.  This 
+type of deformation would result in the structure that is seen in the 
+left plot of figure~\ref{fig:trackSplittingProfiles} in the prompt geometry.
+In this case, the deformation is not a weak mode since the alignment 
+procedure is sensitive to it and corrects the module positions accordingly.  However, understanding similar defformations is important for assessing uncertainties in physics measurements.  
+
+%% discuss systematic misalignments and their effects on validations
+
+%% discuss primary vertex validations
+
+The primary vertex validation uses the position of primary vertices as
+an estimator of the true impact parameters of an individual track.  
+Residuals can be constructed from the difference between the primary 
+vertex and a tracks fitted impact parameter as demonstrated in 
+figure~\ref{fig:PVcartoon}.    If tracks truly originate from 
+the vertex, then on average the above assumption
+will be true.  However, individual tracks which pass through poorly 
+aligned regions of the tracker will give larger residuals.  Thus providing
+a self consistent probe of the tracker geometry.  
+
+\begin{figure}
+\begin{center}
+\includegraphics[width=.69\linewidth]{ExperimentalSetupPlots/PVcartoon.eps}
+\caption{}
+\label{fig:PVcartoon}
+\end{center}
+\end{figure}
+
+Distributions of impact parameter residuals are sensitive to changes in the
+pixel modules.
+Figure~\ref{fig:???}
+shows a number of residual distributions in various bins of $\eta$ and
+$\phi$.  Each bin represents tracks from a specific region of pixel 
+module.  The mean and RMS of these distributions, which are measured
+using double gaussian fits, can provide useful
+information about systematic misalignments of the pixel barrel.  In
+particular, this validation is sensitive to observed separation of the
+pixel half barrels, depicted in figure~\ref{??}, which tend to move from 
+time to time. 
+
+To quantify the separation of the pixel half barrels, the mean and width
+of the residual distributions are plotted as a function of phi.  If a 
+separation between the two half barrels is present, it will cause a discontinuity
+at zero.  Figure~\ref{fig:dzResidVsPhi} shows an example plot of this
+using MC tracks with either the ideal geometry or a geomtry in which the 
+two half barrels have been purposefully shifted.  The size of the
+discontinuity is directly corresponds to the size of the physical separation.  
+
+\begin{figure}
+\begin{center}
+\includegraphics[width=.69\linewidth]{ExperimentalSetupPlots/PVValidation_dzResidVsPhi_paper.eps}
+\caption{Distribution of mean and width of transverse impact parameter residuals 
+in bins of the probe tracks azimuthal angle, $\phi$, for an ideal geometry (black), 
+ideal geometry plus 40~\microns~separation between the pixel half barrels (red),
+and the 2011 candidate geometry (blue).}
+\label{fig:dzResidVsPhi}
+\end{center}
+\end{figure}
+
+The presence of a shift can have significant impact on vertex measurements,
+which can effect either efficiency of associating tracks with the primary
+vertex or efficiency of b-tagging. Thus monitoring and correcting
+these deformations in time is critical.  Figure~\ref{fig:DzVStime} shows the 
+measured separation of the pixel half barrles versus time before (black)
+and after (red) alignment parameters were determined.  This procedure
+was critical for determining an effective alignment procedure by defining
+run ranges to perform independent alignments of large structures in order to 
+correct the time dependence seen.  The red points in figure~\ref{fig:DzVStime}
+show that most of the time dependence is reduced to below 5-10~\microns.
+
+\begin{figure}
+\begin{center}
+\includegraphics[width=.49\linewidth]{ExperimentalSetupPlots/plotForAlignmentPaper.eps}
+\caption{Measured separation between pixel half barrels versus time
+before and after alignment.}
+\label{fig:DzVStime}
+\end{center}
+\end{figure}
+
+\section{summary}
+
+The necessary but challenging environment provided by the LHC has produced higher energies than have ever previously been attained.  This is critical for 
+producing heavy resonances as well as increasing the phase space
+for producing intermediate mass resonances such as the Higgs boson.  
+The design of CMS has allowed for high quality data collecting even in the midst 
+of the high rates and high pileup environment produced by the LHC.  Offline validation,
+calibration, and alignment of the various subdetectors is a critical 
+aspect of the success of CMS.  
+
+The continued monitoring and adjustment of the tracker geometry using offline
+track-based alignment algorithms is critical to producing high precision
+track measurements.  These measurements will be critical to physics measurements,
+especially Higgs searches.  Since angular distributions of the final state 
+particles of resonances can be exploited for property measurements, to be
+discussed in chapters~\ref{sec:HiggsPhen} and~\ref{sec:HZZsearches}, it is 
+important to have tools, like those mentioned above to monitor tracker 
+performance using either collision tracks or cosmic tracks.
