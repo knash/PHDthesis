@@ -5,16 +5,12 @@
 \chaptermark{Future Measurements}
 
 The discovery of a Higgs-like resonance provides a new window
-for beyond the SM physics searches.  As shown in
-section~\ref{sec:HZZ4l}, all property measurements done thus
-far suggest that this resonance is consistent with a SM Higgs
-boson.   In addition to this, cross section measurements and 
-limits set in other diboson channels suggest that this particle
-is very likely to play role in electroweak symmetry breaking and 
-as a result, will be referred to as a Higgs boson throughout this
-chapter. 
+for beyond the SM physics searches.  Results presented in 
+section~\ref{sec:HZZ4l} are consistent with this resonance 
+being the SM Higgs boson.  As a result, the resonance will be
+referred to as a Higgs boson throughout this chapter. 
 What remains is a developing compaign to perform high precision
-measurements of Higgs properties.  If this resonance end up 
+measurements of Higgs properties.  If this resonance ends up 
 being exactly the Higgs boson described by the GWS model, 
 this campaign will likely extend into the next generation of 
 particle accelerators.  
@@ -22,26 +18,25 @@ particle accelerators.
 This chapter will discusss the logical progression of the MELA
 techniques which have been developed and applied in previous 
 chapters.  The use of multidimensional fits for measuring the 
-HZZ amplitude parameters presented in 
-equation~\ref{eq:HZZmodelParams} will be expounded.  
+HZZ amplitude parameters (see
+equation~\ref{eq:HZZmodelParams}) will be expounded.  
 Projections to high luminosity scenarios of the $H\to ZZ^*\to4\ell$
-process at the LHC will be studied using either multidimensional
-or the MELA techniques will be presented.  The same tools will
-be adapted to a future $e^+e^-$ collider using $Z*\to ZH\to 2\ell2b$
-events.   Finally, speculation on adapting the MELA techniques to 
-other processes at the LHC will will be made. 
+process at the LHC will be studied using both multidimensional
+and the MELA techniques will be presented.  The same tools will
+be adapted to a future $e^+e^-$ collider using $Z^*\to ZH\to 2\ell2b$
+events.   Finally, speculation will be made on adapting the MELA
+techniques to other processes at the LHC.
 
 \section{Multidimensional Fits}
 
-The use of multidimensional fits for measuring model parameters
+The use of multidimensional fits 
 and the MELA technique for measuring model parameters are 
 comlementary methods.  While multidimensional fits provide 
 the flexibility to measure all model parameters, its does so at
 the cost of simplicity. In constrast, it is not possible to use
 the MELA 
 technique for simultaneously measuring all of the HZZ model 
-parameters\footnote{Recent ideas have suggested that measuring
-two parameters at a time could be possible}, but allows for 
+parameters, but allows for 
 kinematics to be easily described, including all detector effects,
 in terms of one or two observables. 
 
@@ -52,7 +47,7 @@ sections, which have been used as inputs to the MELA discriminants
 can be used to directly build the likelihood for fitting 
 model parameters,
 \begin{equation}
-\mathscr{L}=\Pi^N_i \mathscr{P}(\vec{x}_i ; \vec{\xi}),
+\mathscr{L}=\Pi^N_i \mathscr{P}_{sig}(\vec{x}_i ; \vec{\xi}),
 \end{equation}
 where $\mathscr{P}$ represents the differential cross section, 
 $\vec{x}_i$ are the observables for event i, and $\vec{\xi}$ 
@@ -60,38 +55,39 @@ are the model parameters for which the likelihood will be
 maximized with respect to.
 This method can be computationally efficient, if the analytical
 integral of the likelihood can be provided for all points in the
-parameter space.  
-
-As an example, consider the 
+parameter space.  As an example, consider the 
 $H\to ZZ^*\to4\ell$ analysis at the LHC.  There are 8 observables
 which distinguish different scalar models.  If one were to 
 attempt to measure each of the four model parameters simultaneously,
-either the 8D integral should be provided known a piori at each
+either the 8D integral should be known a piori at each
 point in the 4D parameter space, else, numerical integration 
 over the 8 observables must be performed at each point in the 
-4D parameter space.  This measurements is nearly impossible.  
+4D parameter space.  The latter is nearly impossible.  
 
 It is possible, at least for the ideal
 distributions, to calculate the integral of the likelihood
 analytically as a function of the
-4 model parameters.  For the $H\to ZZ^*\to 4\ell$ process, this
-has been done.  Using the the likelihood presented above, 
+4 model parameters and has been done for the $H\to ZZ^*\to 4\ell$ process.  Using the the likelihood presented above, 
 toys studies can be performed to compare the sensitivity for 
 measuring $f_{a3}$ using either multidimensional fits or the
-MELA technique.  Figure~\ref{fig:} shows results of three 
-types of fits: multidimensional fits in which $f_{3}$ is
-floated, multidimensional fits in which $f_{3}$ and $\phi_{3}$
-are floated, and 1D fits using the MELA technique floating $f_{3}$.
-In all three cases, toys were generated which correspond to
-a scalar resonance with $f_{3}=0.18$.  The sensitivity of the
+MELA technique.  Figure~\ref{fig:fa3MultiDimComp} shows the
+results of three 
+types of fits: multidimensional fits in which $f_{a3}$ is
+floated, multidimensional fits in which $f_{a3}$ and $\phi_{a3}$
+are floated, and 1D fits using the MELA technique floating $f_{a3}$.
+In all three cases, toys generated correspond to
+a scalar resonance with $f_{a3}=0.18$.  The sensitivity of the
 1 parameter fits are all compatible.  However, it is found that
 the two parameter fit provides a 4\% improvement.  For generated
 values of $f_{a3}=0.06$ and 0.02 this improvement is found to be
-13\% and 30\%.
+13\% and 30\%, respectively.  The interpretation of this is that
+the relative importance of interference terms in equation~\ref{??},
+which is not accounted for in the MELA technique, become large for
+small values of $f_{a3}$.
 
 \begin{figure}
 \begin{center}
-%\includegraphics[width=.32\linewidth]{FutureMeasurementsPlots/}
+\includegraphics[width=.49\linewidth]{FutureMeasurementsPlots/lhc_5Dvs1Dfit.eps}
 \caption{}
 \label{fig:fa3MultiDimComp}
 \end{center}
@@ -105,26 +101,22 @@ for measuring $f_3$ in the $H\to ZZ^*4\ell$ analysis.  Detector
 simulations are modelled by 
 including finite momentum and angular resolution of lepton
 four vectors and applying analysis selections both of which are
-meant to roughly mimic the CMS public analysis.  Leptons are
+meant to roughly mimic the CMS public analysis~\cite{MORIOND PAS}.  Leptons are
 required to have $|\eta|<2.4$, $p_T>5$~GeV, and $m_2>12$~GeV.
-The resolution effects result in a $m_{4\ell}$ width of 2~GeV, 
-similar to that of the $2e2\mu$ channel.  
+The resolution effects result in a $m_{4\ell}$ width of
+approximately 2~GeV, similar to that of the $2e2\mu$ channel.  
 
 Two luminosity scenarios are tested, $300~fb^{-1}$ and 
 $3000~fb^{-1}$.  Shapes are modeled using ideal MC simulations
-with approximate detector effects described above applied.
+with the approximate detector effects described above.
 Background shapes are taken purely from \verb+POWHEG+ simulation
 of $q\bar{q}\to ZZ^*\to 2e2\mu$ events.  Signal shapes are
 taken purely from \verb+JHUGen+ simulation of 
 $gg\to H\to ZZ^*\to 2e2\mu$ events.  
 The number of events expected for signal and background are 
 used are listed in table~\ref{table:FutureMeasEventYields}.
-Events yields for $3000~fb^{-1}$ are simple scaled up by 
+Events yields for $3000~fb^{-1}$ are simply scaled up by 
 a factor of 10. 
-It is found that CMS will have sufficient sensitivity for
-at least a $3\sigma$ discovery of CP-violating interactions in 
-the $H\to ZZ^*$ channel for values of $f_{3}\geq0.06~(0.03)$
- with $300~(3000)~fb^{-1}$, respectively.
 
 \begin{table}
 \begin{center}
@@ -146,16 +138,16 @@ $\sigma\times\mathscr{B}~[fb^{-1}]$ & $N_{prod}$ & $N_{reco}$ \\
 \multicolumn{5}{c}{$e^+e^-\to Z^* \to ZH \to 2\ell 2b$} \\
 \hline
 250 GeV & 250 & 9.35 & 2337 & 1870 \\
-350 GeV & 350 & 5.03 & 1760 & 1408 \\
-500 GeV & 500 & 2.22 & 1110 & 888 \\
-1 TeV& 1000& .51  & 505  & 404 \\
+%350 GeV & 350 & 5.03 & 1760 & 1408 \\
+%500 GeV & 500 & 2.22 & 1110 & 888 \\
+%1 TeV& 1000& .51  & 505  & 404 \\
 \hline
 \multicolumn{5}{c}{$e^+e^-\to ZZ \to 2\ell 2b$} \\
 \hline
 250 GeV & 250 & --- & --- & --- \\
-350 GeV & 350 & --- & --- & --- \\
-500 GeV & 500 & --- & --- & --- \\
-1 TeV   & 1000& --- & --- & --- \\
+%350 GeV & 350 & --- & --- & --- \\
+%500 GeV & 500 & --- & --- & --- \\
+%1 TeV   & 1000& --- & --- & --- \\
 \hline
 \hline
 \end{tabular}
@@ -165,20 +157,26 @@ $\sigma\times\mathscr{B}~[fb^{-1}]$ & $N_{prod}$ & $N_{reco}$ \\
 production and decay processes.}
 \end{table}
 
-A similar analysis can be performed  to probe anomalous CP-even 
-couplings using multidimensional fits of $f_{2}$.  Some 
-approximations are used for modeling the detector
-effects and background distributions.  Uncorrelated distributions
-are used to model both the detector effects and background 
-distributions.  Although, these approximations are found to cause 
+Some approximations are used for modeling the detector
+effects and background distributions.  In both cases,
+uncorrelated distributions are used.  Although, these
+approximations are found to cause 
 small biases in toys studies, they are found to provide 
-a description which is accurate even to estimate the
-sensitivity of such measurements.   More work will be needed
-for more accurate descriptions.  The sensitivity to $f_{3}$ 
+a description which is accurate enough to estimate the
+sensitivity of such measurements using toys generated
+directly from probability distribution functions.
+More work will be needed for more accurate descriptions.  
+
+The sensitivity to $f_{a3}$ using multidimensional fits
 is found to be similar as those estimated from 1D fits.  
-It is estimated that CMS can acheive sufficient sensitivity 
+It is estimated that CMS will have sufficient sensitivity for
+at least a $3\sigma$ discovery of CP-violating interactions in 
+the $H\to ZZ^*$ channel for values of $f_{3}\geq0.06~(0.03)$
+ with $300~(3000)~fb^{-1}$, respectively.
+Using multimensional fits, it is estimated that CMS can also
+acheive sufficient sensitivity 
 for a $3\sigma$ or better discovery of anomalous CP-even 
-couplings for values of $f_{2}\geq0.088~(0.14)$ with 
+couplings for values of $f_{a2}\geq0.088~(0.14)$ with 
 $300~(3000)~fb^{-1}$, respectively.
 
 \section{Future Colliders}
@@ -186,34 +184,52 @@ $300~(3000)~fb^{-1}$, respectively.
 Similar measurments can be made with other processes such as
 $e^+e^-\to Z^*\to ZH \to 2\ell2b$.  The diagrams in 
 figure~\ref{fig:HZZprocesses} demonstrate that 
-these processes are all equivalent, except they probe different 
-regions of phase space.  Thus, the differential cross sections
-presented in section~\ref{sec:HiggsPhen} are all still applicable
-provided that \textcolor{red}{blah be changed to blah}. 
+this processes is equivalent to the $pp\to H\to ZZ\to4\ell$
+process, except they probe different regions of phase space.
+Thus, the differential cross sections
+presented in section~\ref{sec:HiggsPhen} are all still applicable.
+The probability distribution is given by equation~\ref{eq:masterEq}
+where
+\begin{equation}
+\begin{split}
+\frac{d\Gamma_{J=0}}{\Gamma d\vec{\Omega}} = 4|A_{00}^2|\sin^2\theta_1\sin^2\theta_2 \\
++|A_{++}|^2(1-2R_1\cos\theta_1+\cos^2\theta_1)(1+2A_{f2}\cos\theta_2+\cos^2\theta_2)\\
++|A_{--}|^2(1+2R_1\cos\theta_1+\cos^2\theta_1)(1-2A_{f2}\cos\theta_2+\cos^2\theta_2) \\
+-4|A_{00}||A_{++}|(R_1-\cos\theta_1)\sin\theta_1(A_{f2}+\cos\theta_2)\sin\theta_2\cos(\Phi+\phi_{+0}) \\
+-4|A_{00}||A_{--}|(R_1+\cos\theta_1)\sin\theta_1(A_{f2}-\cos\theta_2)\sin\theta_2\cos(\Phi-\phi_{-0}) \\
++2|A_{++}||A_{--}|\sin^2\theta_1\sin^2\theta_2\cos(2\Phi-\phi_{-0}-\phi_{+0}),
+\end{split}
+\end{equation}
+$R_1$ and $A_{f2}$ are the amplitude for Z coupling to to 
+leptons.
+%provided that \textcolor{red}{blah be changed to blah}. 
 For the present case process, the Z and H are both on-shell 
 and their mass can be approximated as constant. 
 Thus, three non-trivial angular distributions describe 
 the kinematics of this process. Figure~\ref{fig:ILCprojections}
-shows these distributions for several scalar models, SM Higgs, a 
-pseudoscalar, and two mixed parity scalar models with 
-phases $\phi_3=0,~\pi/2$.  
+shows these distributions for several scalar models, SM Higgs
+(red), a pseudoscalar (blue), and two mixed parity scalar models
+with phases $\phi_3=0$ (green), $\pi/2$ (purple).  
 
 \begin{figure}
 \begin{center}
-\includegraphics[width=.32\linewidth]{ConclusionPlots/angles-ZZHbb_snowmass_3.eps}
-\includegraphics[width=.32\linewidth]{ConclusionPlots/angles-ZZHbb_snowmass_cms_4.eps}
-\includegraphics[width=.32\linewidth]{ConclusionPlots/angles-HZZ4l_snowmass.eps}
+\includegraphics[width=.32\linewidth]{FutureMeasurementsPlots/angles-ZZHbb_snowmass_3.eps}
+\includegraphics[width=.32\linewidth]{FutureMeasurementsPlots/angles-ZZHbb_snowmass_cms_4.eps}
+\includegraphics[width=.32\linewidth]{FutureMeasurementsPlots/angles-HZZ4l_snowmass.eps}
 \caption{Diagrams showing the different processes produced
-via the HZZ ... }
+via the HZZ amplitude.  The $e^+e^-\to Z^*\to ZH\to 2\ell2b$ process
+in the $Z^*$ and H rest frame are shown in the left and middle
+plot, respectively.  The $pp\to H\to ZZ^*\to 4\ell$ process
+is shown in the H rest frame is shown in the right plot.}
 \label{fig:HZZprocesses}
 \end{center}
 \end{figure}
 
 \begin{figure}
 \begin{center}
-\includegraphics[width=.32\linewidth]{ConclusionPlots/ILCshapes_costheta1.eps}
-\includegraphics[width=.32\linewidth]{ConclusionPlots/ILCshapes_costheta2.eps}
-\includegraphics[width=.32\linewidth]{ConclusionPlots/ILCshapes_phi.eps}
+\includegraphics[width=.32\linewidth]{FutureMeasurementsPlots/ILCshapes_costheta1.eps}
+\includegraphics[width=.32\linewidth]{FutureMeasurementsPlots/ILCshapes_costheta2.eps}
+\includegraphics[width=.32\linewidth]{FutureMeasurementsPlots/ILCshapes_phi.eps}
 \caption{Angular distributions, $\cos\theta_1$ (left), 
 $\cos\theta_2$ (middle), and $\Phi$ (right), of four different 
 scalar models of the process $e^+e^-\to Z^*\to ZH$.  Markers
@@ -227,58 +243,61 @@ mixed parity scalar ($f_3$=0.1) with various phases.}
 \end{center}
 \end{figure}
 
-Note that the equivalent $f_3$ parameter for these processes will 
+Note, the equivalent $f_{a3}$ parameter, which will be referred
+to as $f_3$, for this processes will 
 have slightly different meaning.  For example, 
 table~\ref{table:fa3Conversion} summarizes
 how the value for $f_3$ of the $H\to ZZ^*$ process can be 
 translated.  The numbers in this table reflect the fact that 
 the ratio $\sigma_1/\sigma_3$, as define in 
 section~\ref{sec:HiggsPhen}, can vary by orders of magnitude
-between different processes.  As a result, the
-sensitivity to CP-violating interactions, in terms 
+between different processes.  Larger $f_3$ correspond to having
+effectively more events which look like a pseudoscalar.  As a 
+result, the sensitivity to CP-violating interactions, in terms 
 of $f_3(H\to ZZ^*)$, is expected to be much larger for other 
 processes.  
 
-
 \begin{table}
-  \vspace{1.0cm}
 \begin{center}
 \begin{tabular}{l|c}
-
-\large $g1/g4$                   & --  \vspace{.1cm} \\
+\large $g1/g4$                   & 0.85  \vspace{.1cm} \\
 \hline\hline                          
-\large $f_3^{(H\to ZZ^*)}$          & --  \vspace{.1cm} \\
-\large $f_3^{(q\bar{q}\to ZH)}$      & --  \vspace{.1cm} \\ 
-\large $f_3^{(q\bar{q}\to Hq\bar{q})}$ & --  \vspace{.1cm} \\
-\large $f_3^{(e^+e^-\to ZH)}$        & --  \vspace{.1cm} \\
-\large $f_3^{(e^+e^-\to ZH)}$        & .1  \vspace{.1cm} \\
+\large $f_3^{(H\to ZZ^*)}$          & 0.10  \vspace{.1cm} \\
+\large $f_3^{(q\bar{q}\to ZH)}$      & 0.81  \vspace{.1cm} \\ 
+\large $f_3^{(q\bar{q}\to Hq\bar{q})}$ & 0.93  \vspace{.1cm} \\
+\large $f_3^{(e^+e^-\to ZH)}(\sqrt{s}=250)$ & 0.85   \vspace{.1cm} \\
+\large $f_3^{(e^+e^-\to ZH)}(\sqrt{s}=500)$ & 0.99  \vspace{.1cm} \\
 \hline
 \hline
-
 \end{tabular}
 \end{center}
 \label{table:fa3Conversion}
 \caption{List of $f_3$ values for various processes.}
 \end{table}
 
-Similar to the $H\to ZZ*$ analysis, a kinematic discriminant 
+Similar to the $H\to ZZ^*$ analysis, a kinematic discriminant 
 built according to equation~\ref{eq:KD} can be used to measure 
 $f_3$ according to equation~\ref{eq:fa3}.  
-Figure~\ref{fig:???} shows this discriminant for SM Higgs
-events, pseudoscalar events, and a mixed parity scalar
-corresponding to $f_3=0.5$ for a center of mass energy of 250~GeV.
-To justify that there are no
-biases introduced by approximation in equation~\ref{eq:fa3},
+Toys studies have been done to justify that there are no
+biases introduced by the approximations in equation~\ref{eq:fa3},
 toys studies have been performed for various values of 
-$f_3$.  These studies are summarized in figure~\ref{fig:???};
-no biases are observed.  
+$f_3$.  These studies are summarized in
+figure~\ref{fig:ICLbiasStudy}; no biases are observed.  
+
+\begin{figure}
+\begin{center}
+%\includegraphics[with=.32\linewidth{}
+\end{center}
+\caption{}
+\label{fig:ILCbiasStudy}
+\end{figure}
 
 Projections for a future $e^+e^-$
 colliders are estimated assuming a collision energy  
 of 250~GeV and an integrated luminosity of 250~$fb^{-1}$.
-Signal events are simulated with JHUGen.  Background events
-are modeled using $e^+e^-\to ZZ$ events simulated using
-{\it MADGRAPH}.  
+Signal events are simulated with \verb+JHUGen+.  Background events
+are modelled using $e^+e^-\to ZZ$ events simulated with
+\verb+MADGRAPH+.  
 The cross sections and event yields for the signal and
 background processes are detailed in 
 table~\ref{table:FutureMeasEventYields}
@@ -286,40 +305,79 @@ which are based on previous studies in references~\cite{???}.
 
 All events are required to have two lepton whose 
 transverse momentum is greater than 5~GeV, $|\eta|<2.4$, and 
-Higgs boson mass between $115<m_H<140~GeV$.  The reconstruction
-efficiency for signal is found to be above 90\%. Although
+Higgs boson mass between $115<m_H<140~GeV$.  Although
 the background process is likely not fully representative
 of the expected backgrounds that will exist in $e^+e^-$
-collisions, for the purpose of this study, the exact modeling 
-of background events is not crucial.  
+collisions, the exact modeling of background events is not
+critical for the purposes of this study.
+The distribution of signal and background events and the effect
+of acceptance cuts is shown for each of the three angles in 
+figure~\ref{fig:ILCanglesWithAccep}. 
 
-The distribution of $D_{0-}$ for SM Higgs, a pseudoscalar,
-and SM background after all selections is shown in 
-figure~\ref{fig:???}.  Similar to before, toys are generated
+\begin{figure}
+\begin{center}
+%\includegraphics[with=.32\linewidth{}
+%\includegraphics[with=.32\linewidth{}
+%\includegraphics[with=.32\linewidth{}
+\end{center}
+\caption{Expected distribution of three helicity angles for
+a SM Higgs boson (red) and the SM background (black) before
+(solid lines) and after (dashed lines) acceptance cuts.}
+\label{fig:ILCanglesWithAccep}
+\end{figure}
+
+Similar to before, toys are generated
 and fit using equation~\ref{eq:fa3}.  The distribution of
-the best-fit $f_3$ for various input models is shown in 
-figure~\ref{fig:???}.  The expected sensivity is found to be 
-$\sigma_{f_3}=0.0XXX$.  Converting this to the $f_3$ parameter
-currently being measured at the LHC, $f_3(H\to ZZ^*)\equiv f_{a3}$, 
+the best-fit $f_3$ for a signal model corresponding to $f_3=0.1$
+is shown in left plot of figure~\ref{fig:ILCsensitivity}.  
+The expected sensivity is found to be 
+$\sigma_{f_3}=0.04$.  Converting this to the $f_{a3}$ parameter
+currently being measured at the LHC, $f_3(H\to ZZ^*)$,
 the distribution of the best-fit $f_{a3}$ value is shown in 
-figure~\ref{fig:???} and the error on this parameter is found
-to be $\sigma_{f_{a3}}=0.000XX$.
+the right plot of 
+figure~\ref{fig:ILCsensitivity} and the error on this parameter
+is found to be $\sigma_{f_{a3}}=0.0008$.  
+
+\begin{figure}
+\begin{center}
+%\includegraphics[width=.32\linewidth]{}
+\caption{Distribution of the best-fit value of $f_3$ (left) for
+the process $e^+e^-\to Z^*\to ZH$ at $\sqrt{s}=250$~GeV and $f_{a3}$
+(right).  Toys were generated using a value of $f_3=0.1$.}
+\label{fig:ILCsensitivity}
+\end{center}
+\end{figure}
+
+\begin{figure}
+\begin{center}
+\includegraphics[width=.32\linewidth]{FutureMeasurementsPlots/ILCembedded_fa3p1_2000Evts.eps}
+\includegraphics[width=.32\linewidth]{FutureMeasurementsPlots/ILCembedded_fa3p1_converted_2000Evts.eps}
+\caption{Distribution of the best-fit value of $f_3$ (left) for
+the process $e^+e^-\to Z^*\to ZH$ at $\sqrt{s}=250$~GeV and $f_{a3}$
+(right).  Toys were generated using a value of $f_3=0.1$.}
+\label{fig:ILCsensitivity}
+\end{center}
+\end{figure}
 
 \section{Other Channels}
 
 As argued previously, the sensitivity to CP-violating 
 interactions in the 
-HZZ amplitude is markedly better using $e^+e^-$ collisions.  
+HZZ amplitude is markedly better using $e^+e^-$ collisions. 
+This is due to the fact that the $\sigma_3/\sigma_1$ in 
+equation~\ref{eq:HZZmodelParams} is much large when Z bosons
+are produced far off shell.
 However, it should be noted that this simple exercise does not
 completely diminish the potential for similar measurements at 
 the LHC.  As table~\ref{table:fa3Conversion} also demonstrate,
-other process at the LHC, $q\bar{q}\to H + q\bar{q}$ and
-$q\bar{q}\to Z^* \to ZH$, also benefit from enhanced $\sigma_3$
+other processes at the LHC, 
+e.g. $q\bar{q}\to H + q\bar{q}$ and $q\bar{q}\to Z^* \to ZH$,
+also benefit from enhanced $\sigma_3$
 due to the isolated phase space that they probe.  As these channels 
 continue to gain sensitivity to signal events, they will play an
 increasingly important role in constraining CP-violation.
 Detailed studies are still to be done, but these channels may
-ultimately dominate the sensitivity to $f_3$ at the LHC.  
+ultimately dominate the sensitivity to $f_{a3}$ at the LHC.  
 
 \section{Summary}
 
@@ -337,17 +395,17 @@ describe the HZZ amplitude.
 
 A number of the challenges related to multidimensional fits
 can migitated using the MELA
-technique discussed in chapter~\ref{sec:HiggsPhen} and applied
-in section~\ref{sec:HZZ4l} as well as here.  These techniques
+technique, discussed in chapter~\ref{sec:HiggsPhen} and applied
+in section~\ref{sec:HZZ4l}.  These techniques
 help largely because the problem is reduced from using
 many observables to using at most a couple of observables.  It
 was also shown that, just like with the multidimensional fits,
 these techniques are applicable to more processes than just 
-$H\to ZZ^*$.
+$H\to ZZ^*$.  
 
 Current measurements being done at CMS to constraint 
 CP-violating interactions are only making use of $H\to ZZ^*$
-events.  However, as argued in the previous section, it is
+events.  As argued in the previous section, it is
 likely that other channels at the LHC will one day probe much
 larger regions of the parameters space.  Eventually, it is 
 possible to use an $e^+e^-$ collider to perform high precision

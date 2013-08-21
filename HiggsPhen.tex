@@ -210,6 +210,7 @@ This amplitude correspond to three independent
 lorentz structures and can be rewritten as,
 \begin{equation}
 \mathscr{A}(X\to VV) = v^{-1}\epsilon_1^{*\mu}\epsilon_2^{*\nu}(a_1g_{\mu\nu}m_X^2+a_2q_\mu q_\nu+a_3\epsilon_{\mu\nu\alpha\beta}q_1^{\alpha}q_2^{\beta}). 
+\label{eq:masterEq}
 \end{equation}
 The SM Higgs boson couples to the W's and Z's only through the $a_1$ term,
 while it couples to the photons through an effective coupling which is a 
@@ -226,12 +227,12 @@ nine permutations,
 \begin{center}
 \begin{subequations}
   \begin{equation}
-    A_{00} = -\frac{m_X^2}{v}(a_1\sqrt{1+x}+a_2\frac{m_1m_2}{m_X^2}x,    \end{equation}
+    A_{00} = -\frac{m_X^2}{v}\left(a_1\sqrt{1+x}+a_2\frac{m_1m_2}{m_X^2}x\right),    \end{equation}
   \begin{equation}
-    A_{++} = \frac{m_X^2}{v}(a_1+ia_3\frac{m_1m_2}{m_X^2}\sqrt{x}),
+    A_{++} = \frac{m_X^2}{v}\left(a_1+ia_3\frac{m_1m_2}{m_X^2}\sqrt{x}\right),
     \end{equation}
   \begin{equation}
-    A_{--} = \frac{m_X^2}{v}(a_1-ia_3\frac{m_1m_2}{m_X^2}\sqrt{x}),
+    A_{--} = \frac{m_X^2}{v}\left(a_1-ia_3\frac{m_1m_2}{m_X^2}\sqrt{x}\right),
     \end{equation}
 \end{subequations}
 \end{center}
@@ -249,13 +250,21 @@ magnitude of each helicity amplitude depends on the invariant masses
 of the two Z bosons and the resonance.  Together these combine into the
 differential cross section according to
 \begin{equation}
-\mathscr{P}(m_1,m_2,\vec{\Omega})\propto...,
+\begin{split}
+\mathscr{P}(m_1,m_2,\vec{\Omega})\propto|P_V(m_1,m_2)|  \\
+\times\frac{m_1^3}{(m_1^2-m_V^2)^2+m_V^2\Gamma_V^2}\times\frac{m_2^3}{(m_2^2-m_V^2)+m_V^2\Gamma_V^2} \\
+\times\frac{d\Gamma_J(m_1,m_2,\vec{\Omega})}{d\vec{\Omega}},
+\end{split}
 \end{equation}
 where q is the magnitude of the vector boson momentum in the resonance's rest-frame.
 For a spin-0 resonance, the angular distributions are given 
 by
 \begin{equation}
-\frac{d\Gamma_{J=0}}{\Gamma d\vec{\Omega}}... 
+\begin{split}
+\frac{d\Gamma_{J=0}}{\Gamma d\vec{\Omega}} = 4|A_{00}^2(a_1,a_2,a_3)|\sin^2\theta_1\sin^2\theta_2 \\
++|A_{++}(a_1,a_2,a_3)|^2(1-2R_1\cos\theta_1+\cos^2\theta_1)(1+2R_{2}\cos\theta_2+\cos^2\theta_2)\\
++|A_{--}(a_1,a_2,a_3)|^2(1+2R_1\cos\theta_1+\cos^2\theta_1)(1-2R_{2}\cos\theta_2+\cos^2\theta_2).  
+\end{split}
 \end{equation}
 The resulting differential cross section is parameterized in terms of 
 the underlying couplings. 
@@ -272,7 +281,7 @@ scalar-vector-vector amplitude.
 
 \begin{figure}
 \begin{center}
-\includegraphics[width=.49\linewidth]{ConclusionPlots/angles-HZZ4l_snowmass.eps}
+\includegraphics[width=.49\linewidth]{FutureMeasurementsPlots/angles-HZZ4l_snowmass.eps}
 \caption{Diagrams depicting $H\to ZZ\to4\ell$ decays and definition
 of angles which describe the kinematics of these decays.}
 \label{fig:HZZdiagram}
@@ -570,9 +579,15 @@ requires good sensitivity to signal and background events.
 \begin{figure}
 \begin{center}
 \includegraphics[width=.49\linewidth]{HiggsPhenPlots/D0minusComparison.eps}
-\includegraphics[width=.49\linewidth]{HiggsPhenPlots/D0minusComparison.eps}
+\includegraphics[width=.49\linewidth]{HiggsPhenPlots/D0hplusProj.eps}
 \caption{Distributions of $D_{0-}$ (left) and $D_{0_h^+}$ (right) for 
-various scalar models.}
+various scalar models.  Expected shape for a $0^+$ scalar is
+shown in solid black.  Dashed black line represent two alternative
+scalar models, $0^-$ and $0^+_h$ for the left and right plots,
+respectively.  
+Red lines represent a mixture of the SM Higgs and the alternative
+models.  Blue lines represent the weighted average
+of $0^+$ and either of the two alternative model shapes.}
 \label{fig:fa3Comparison}
 \end{center}
 \end{figure}

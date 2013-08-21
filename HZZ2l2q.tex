@@ -12,23 +12,25 @@ expected from the SM Higgs, the intermediate range
 \subsection{Event Simulation}
 \label{sec:HZZ2l2qSimulation}
 
-The analysis strategy, including selections and data-driven background
-estimations, were optimized and validated on MC simulations.  Signal
-samples are generated with {\verb+POWHEG+}~\cite{??} and {\verb+JHUGen+}~\cite{??}.  
-Inclusive Z 
-production is generated with either {\verb+MADGRAPH+} 4.4.12~\cite{??} or
-{\verb+ALPGEN+} 2.13~\cite{??}.  Continuum diboson production, ZZ, WW, 
-and ZW, samples are generated with {\verb+PYTHIA+} 6.4.22~\cite{???}.  
-Top backgrounds are generated with either {\verb+MADGRAPH+} 4.4.12 or 
-{\verb+POWHEG+}.  Parton distribution functions are modeled using 
-{\verb+CTEQ6+}~\cite{???} at leading order and {\verb+CT10+}~\cite{??} at 
-next-to-leading order (NLO).  Parton showering is modeled with {\verb+PYTHIA+}
-while detector response is simulated with a CMS specific implementation
-of {\verb+GEANT4+}~\cite{??}.  A full list of the MC samples used is shown 
-in table~\ref{table:HZZ2l2qMCsamples} along with the cross section for each process.  
-MC simulations are corrected for mismodelling of pileup and any relative 
-efficiencies found between data and MC through tag and probe 
-measurements
+The analysis strategy, including selections and data-driven
+background estimations, were optimized and validated on MC
+simulations.  Signal samples are generated with
+{\verb+POWHEG+}~\cite{Nason:2004rx,Frixione:2007vw,Alioli:2008gx} and {\verb+JHUGen+}~\cite{Gao:2010qx}.  
+Inclusive Z production is generated with either {\verb+MADGRAPH+}
+4.4.12~\cite{Alwall:2007st} or {\verb+ALPGEN+} 2.13~\cite{Mangano:2002ea}.  Continuum
+diboson production, ZZ, WW, and ZW, samples are generated with
+{\verb+PYTHIA+} 6.4.22~\cite{Sjostrand:2006za}.  Top backgrounds are generated
+with either {\verb+MADGRAPH+} 4.4.12 or {\verb+POWHEG+}.  Parton
+distribution functions are modeled using {\verb+CTEQ6+}~\cite{Kretzer:2003it}
+at leading order and {\verb+CT10+}~\cite{Lai:2010vv} at next-to-leading
+order (NLO).  Parton showering and hadronization is modeled with
+{\verb+PYTHIA+} while detector response is simulated with a CMS
+specific implementation of {\verb+GEANT4+}~\cite{Agostinelli:2002hh}.  A full
+list of the MC samples used is shown in
+table~\ref{table:HZZ2l2qMCsamples} along with the cross section
+for each process.  MC simulations are corrected for mismodelling
+of pileup and any relative efficiencies found between data and
+MC through tag and probe measurements
 
 \begin{table}
 \begin{center}
@@ -42,7 +44,7 @@ $m_H=130-600$ & \verb+JHUGen+ & 0.0081-123 & 125.129-14.7312 \\
 \hline \hline
 Name & Generator & $\Gamma$ [GeV] & $\sigma_{LO}~(\sigma_{NLO})$ [pb] \\ \hline \hline
 Z+jets    & \verb+MADGRAPH+ & -- & 2289 (3084) \\
-Z+jets    & \verb+MADGRPH+  & -- & 2943        \\
+Z+jets    & \verb+SHERPA+  & -- & 2943        \\
 $t\bar{t}$& \verb+PYTHIA+   & -- & 94 (157.5)  \\
 $t\bar{t}$& \verb+POWHEG+   & -- & 15.86 (16.7)\\
 $ZZ\to$anything & \verb+PYTHIA+ & -- & 4.30 (5.9) \\ 
@@ -58,13 +60,16 @@ $ZW\to$anything & \verb+PYTHIA+ & -- & 27.8 (42.9) \\
 \subsection{Event Reconstruction, Selection, and Categorisation}
 \label{sec:HZZ2l2qselection}
 
-Only events which contain two oppositely charge leptons, either electrons or
+Reconstruction of electron, muons, and jets is done using
+standard CMS algorithms.  More details can be found elsewhere~\cite{Chatrchyan:2012sn} and references therein.  Only events which contain
+two oppositely charge leptons, either electrons or
 muons, and two jets are considered in this analysis.  Both leptons
-flavors are required to have tranverse momentum, $p_T$, greater than 20~GeV
+flavors are required to have tranverse momentum, $p_T$, greater
+than 20~GeV
 and 10~GeV for the leading and subleading $p_T$, respectively.  For events 
 which are used in the high mass analysis, this constraint is tightened to 
 $p_T>40, 20$~GeV.  Only muons (electrons) in the pseudorapidity range 
-$|\eta|<2.4 (2.5)$, excluding the gap between the barrel and endcap region, 
+$|\eta|<2.4 (2.5)$.  Electrons are also excluded the gap between the barrel and endcap region, 
 are considered.  These selections not only serve as a rudimentary method for
 rejecting background but are consistent with the double electron and 
 double muon triggers that are used.  Muons are required to be well 
@@ -74,47 +79,72 @@ HCAL within a cone of $\Delta R  = \sqrt{(\Delta\eta)^2+(\Delta\phi)^2}<0.3$
 to be less than 15\% of the measured $p_T$.  Similar requirements are placed
 on electrons although the details depend also on the electron shower shape.
 
-Jets are reconstructed with the particle-flow (PF) algorithm~\cite{???}.
-Reconstructed particle  candidates are clustered with the anti-$k_T$ 
-algorithm~\cite{???} with a clustering parameter $R=0.5$.  All jets which 
-overlap with well-isolated leptons are removed from consideration.  
-Jets are required to be in the tracker acceptance, $|\eta<2.4|$, to maximize
-the effectiveness of the PF algorithm.  Energy corrections  are applied
-to jets to account for systematic instrumental effects including the 
-non-linear energy response of the calorimeters.  These corrections are 
-derived from in-situ measurements using dijet and $\gamma+$jet control
-samples~\cite{???}.  Effects of pileup are mitigated by applying corrections
-according to the Fastjet algorithm~\cite{???}.  Some requirement is also 
-applied to the energy balance between the charged and neutral hadronic 
+%Jets are reconstructed with the particle-flow (PF)
+%algorithm~\cite{}.
+Reconstructed particle candidates are clustered with the
+anti-$k_T$ algorithm~\cite{Cacciari:2008gp,Cacciari:2011ma} with a clustering parameter $R=0.5$.
+Jets are required to be in the tracker acceptance, $|\eta|<2.4$,
+to maximize the effectiveness of the PF algorithm.  Energy
+corrections  are applied to jets to account for systematic
+instrumental effects including the non-linear energy response
+of the calorimeters.  These corrections are derived from in-situ
+measurements~\cite{Chatrchyan:2011ds}.  Effects of pileup
+are mitigated by applying corrections according to the Fastjet
+algorithm~\cite{Cacciari:2008gn}.  Some requirement is also applied to the
+energy balance between the charged and neutral hadronic 
 content in each jet.  In some cases, jet substructure variables are used
 to distinguish on a statistical bases differences between gluon jets and
-quark jets. Finally, all jets are required to have $p_T>30$~GeV.
+quark jets. Quark jets are removed from consideration.  Finally, all jets are required to have $p_T>30$~GeV.
 
-With the basic objects in hand, the $2\ell2q$ system is constructed under
-the assumption that all pairs of leptons and quarks are the duaghters of
-Z bosons.  Each di-lepton pair must have a combined invariant mass of 
+\begin{figure}
+\begin{center}
+\includegraphics[trim=0 0 70 200,clip,width=.4\linewidth]{HZZ2l2qPlots/data_loose_mjj.eps}
+\includegraphics[trim=0 0 70 200,clip,width=.4\linewidth]{HZZ2l2qPlots/data_loose_tche.eps}\\
+\includegraphics[trim=0 0 70 200,clip,width=.4\linewidth]{HZZ2l2qPlots/data_loose_tag.eps}
+\includegraphics[trim=0 0 70 200,clip,width=.4\linewidth]{HZZ2l2qPlots/data_loose_met.eps}
+\caption{Distribution of $m_{jj}$ (top left), TCHE b-tagging
+discriminant (top right), and MET significance, $2\ln\lambda(E^{miss}_{T}$, (bottom left).  Event category populations are shown 
+in the bottom right plot.  Filled histograms represent expectation
+of background events.  Open, red histograms representation the 
+expectation of a 400~GeV Higgs boson whose cross section has been
+enhanced by $100\times$.  All events satisfy the preselection
+requirements. }
+\label{fig:HZZ2l2qPreselectiOnly}
+\end{center}
+\end{figure}
+
+With the basic objects in hand, the $2\ell2q$ system is
+constructed under the assumption that all pairs of leptons
+and quarks are the duaghters of Z bosons.  Each di-lepton
+pair must have a combined invariant mass of 
 $70 < m_{\ell\ell} < 110$~GeV, thus reducing backgrounds which
-don't have an intermediate Z, like $t\bar{t}$ and QCD backgrounds.  In order 
-to reduce the overwhelming Z+jets background, the dijet invariant mass of 
-the event is required to satisfy $75 < m_{jj} < 105$~GeV.  
-Figure~\ref{fig:HZZ2l2qPreselectiOnly} shows the $m_{jj}$ for signal and background. 
-Solid histograms represent the expected distributions of background events 
-from MC simulation, open histograms represent expected distribuionts of 
-a SM Higgs, $m_H=400$~GeV, and points with error bars represent distributions
-of the observed data.
+don't have an intermediate Z, like $t\bar{t}$ and QCD backgrounds.
+In order to reduce the overwhelming Z+jets background, the dijet
+invariant mass of the event is required to satisfy
+$75 < m_{jj} < 105$~GeV.  
+Figure~\ref{fig:HZZ2l2qPreselectiOnly} shows the $m_{jj}$ for
+signal and background. 
 
 Categorizing events based on jet flavor provides a significant 
 increase in sensitivity to signal events since b-jets are 
-more likely to result from a Z decay than from QCD radiation.  
-To isolate jets which are likely to originate from b-quarks, the CMS track 
-counting high-efficiency (TCHE) b-tagging algorithm~\cite{???} 
-is used.  This algorithm relies on tracks within the jet cone having
-large impact parameters, indicating a displaced vertex.  This information
+more likely to result from a Z decay than from QCD radiation
+in the Z+jets process.  Furthermore, QCD radiation contains a 
+large amount of gluon-jets, while the Z boson cannot decay into
+a pair of qluons. 
+To isolate jets which are likely to originate from b-quarks,
+the CMS track 
+counting high-efficiency (TCHE) b-tagging algorithm~\cite{CMS:2010hua,CMS:2012vta} 
+is used.  This algorithm relies on tracks within the jet cone
+having large impact parameters, indicating a displaced vertex.
+This information
 is encompassed in a discriminant which is used
-to determine how b-like jets are in shown in figure~\ref{fig:HZZ2l2qPreselectiOnly}.
+to determine how b-like jets and is shown in
+figure~\ref{fig:HZZ2l2qPreselectiOnly}.
 Using this discriminant, the events are divided into three
 categories: those which have at least one jet passing the median 
-working point ($\sim65\%$ efficient) and another jet passing the
+working point ($\sim65\%$ efficient\footnote{More information 
+on b-tagging efficiencies and mistagging rates can be found 
+elsewhere~\cite{CMS:2010hua,CMS:2012vta}}) and another jet passing the
 loose working point ($\sim80\%$ efficient); those which have at 
 least one jet passing the loose working point; those which 
 have zero jets passing the loose working point.  Although there 
@@ -122,7 +152,8 @@ is a non-negligible mistag rate for each of these working points,
 the categories are referred to as 2 b-tag, 1 b-tag, and 
 0 b-tag, respectively. The categories are defined such that 
 they are mutually exclusive by putting events in the category 
-with the most stringent requirements.  The division of events
+with the most stringent requirements.  Gluon-like jets are 
+removed from the 0 b-tag category.  The division of events
 in each of the three categories is shown if 
 figure~\ref{fig:HZZ2l2qPreselectiOnly}.
 
@@ -132,19 +163,22 @@ collection has a significant inbalance of transverse energy,
 also known as missing transverse energy, $E_T^{miss}$, are removed.
 To quantify this, a likelihood ratio, $\lambda(E_T^{miss})$,
 is built comparing two hypothesis, $E_T^{miss}=0$ and 
-$E_T^{miss}\neq 0$.  Events in the 2 b-tag category are then 
+$E_T^{miss}\neq 0$~\cite{Chatrchyan:2011tn}.  Events in the 2 b-tag category are then 
 required to satisfy $2\ln\lambda(E_T^{miss})<10$.  In the 
 low mass analysis, we instead require $E_T^{miss}<50$~GeV in
 the 2 b-tag category.    
 
+\begin{center}
+{\bf MELA Discriminant}
+\end{center}
 In order to further reduce the overwhelming background, Z+jets,
 in the high mass analysis, the MELA technique is employed.  
 The five angular variables described in 
 chapter~\ref{sec:HiggsPhen} are used.  Above threshold, the 
 Z masses provide little discrimination power and are dropped 
-for simplicity.  The discrimant used makes use of the 
+for simplicity.  The discrimant makes use of the 
 5D probability distributions, 
-$\mathscr{P}(cos\theta^*,cos\theta_1,cos\theta_2,\Phi,\Phi_1|m_{ZZ})$,
+$\mathscr{P}(\cos\theta^*,\cos\theta_1,\cos\theta_2,\Phi,\Phi_1|m_{ZZ})$,
 according to
 \begin{equation}
 D = \frac{\mathscr{P}_{Higgs}}{\mathscr{P}_{Higgs}+\mathscr{P}_{Zjets}}.
@@ -155,62 +189,70 @@ distributions for these 5 angles for both signal and background
 are shown in figure~\ref{fig:HZZ2l2qAngularLD}.
 
 Since the ideal distributions for the dominant background 
-can't easily be described in terms of the angular variables, 
+cannot be described analytically in terms of the angular variables, 
 the distributions are found 
 emperically from MC, including all detector effects, 
-using simple functions, asssuming no correlations between 
+ asssuming no correlations between 
 the 5 angular variables.  The $\cos\theta_1$, $\cos\theta_2$, 
 and $\cos\theta^*$ projections are modelled with even polynomials
 in the corresponding variable.  This makes use of prior knowledge
 that the distributions should be symmetric.  In addition, 
 the $\cos\theta_2$ projection includes a fermi-dirac distribution
 to model the sharp acceptance effect found with the hadronic
-Z near $\cos\theta_2=1$.  The $\Phi$ and $\Phi_1$ projections 
-are modelled with a finite fourier series.
-Fits to Z+jets MC are performed in slices of $m_{ZZ}$.  A function
-is then extrapolated between slices so that $\mathscr{P}_{Zjets}$ 
-is continuous in $m_{ZZ}$.  Some examples of these fits are shown
-in figure~\ref{fig:HZZ2l2qBackgroundPDF}.  
+Z near $\cos\theta_2=1$.  In general, acceptance effects arrise
+near $\cos\theta_{1,2}=1$ from pseudorapidity cuts.  In this, 
+case, $\cos\theta_2$ describes the angular distributions of the
+jets in the rest frame of its parent Z and the finite extent of
+the jet enhances the acceptance effect.  The $\Phi$ and $\Phi_1$
+projections are modelled with a finite fourier series.
+Fits to Z+jets MC are performed in slices of $m_{ZZ}$.  The 
+parameters of these fits are then interpolated slices so
+that $\mathscr{P}_{Zjets}$ is continuous in $m_{ZZ}$.  
+Some examples of these fits are shown in
+figure~\ref{fig:HZZ2l2qBackgroundPDF}.  
 
 The signal parameterization must also include detector effects.
 The ideal distributions from section~\ref{sec:HiggsPhen} are 
 modified with 5D uncorrelated function which is then fit to 
 MC to account for any detector effects.  The parameterization 
-of detector effects is the same as those used for describing background.
-Also as with background, 
-these fits are performed in slices of $m_{ZZ}$ and extrapolated
-to arbitrary values.  Examples of the signal parameterizations
-are shown in figure~\ref{fig:HZZ2l2qSignalPDF}.  
+of detector effects is the same as those used for describing
+background. Also as with background, these fits are performed
+in slices of $m_{ZZ}$ and extrapolated to arbitrary values.
+Examples of the signal parameterizations are shown in
+figure~\ref{fig:HZZ2l2qSignalPDF}.  
 
 Combining these two density
 functions together, the discriminant, D, is shown in
-figure~\ref{fig:HZZ2l2qAngularLD}.  The signal events tend to peak more 
-towards 1 while the background events tend to peak more towards
-zero.  Thus, selecting events greater than some value will
-increase the signal purity.  
-
+figure~\ref{fig:HZZ2l2qAngularLD}.  The signal events tend to
+peak more towards 1 while the background events tend to peak
+more towards zero.  This variable is then used to select 
+signal-like events.
 Because the shape of D changes with $m_{ZZ}$, the optimal cut will 
-be $m_{ZZ}$ dependent.
-An optimization was run using $\kappa=N_{sig}/\sqrt{N_{bkg}}$ as a figure of 
-merrit.  This variable represents an approximation of the expected 
-upper limit, UL.  For a simple counting experiment in which the 
+be $m_{ZZ}$ dependent. An optimization was run using
+$\kappa=N_{sig}/\sqrt{N_{bkg}}$ as a figure of merit.  This variable
+represents an approximation of the expected upper limit, UL.  For
+a simple counting experiment in which the 
 expected number of background events is large, $\kappa$ is a good
 approximation of the true UL.  The optimization was performed 
 separately for each of the three b-tagging categories and the
-proposed LD cuts along with the cuts used for other variables
+proposed D cuts along with the cuts used for other variables
 are shown in table~\ref{table:HZZ2l2qCuts}.
 
-The angular variables which are used as input to the angular LD represent 
+The angular variables which are used as input to the angular D represent 
 a set of variables which are only loosely correlated with the final discriminating 
 variable, $m_{ZZ}$.  As a result, cutting on this variables does not significantly
 alter the shape of the $m_{ZZ}$ distribution.  In constrast, an optimized set of 
-cuts on more traditional variables ($p_{T,lepton}$, $p_{T,jet}$, $p_{T,\ell\ell}$, 
+cuts on more traditional variables
+($p_{T,lepton}$, $p_{T,jet}$, $p_{T,\ell\ell}$, 
 $\Delta R_{jets}$), which are highly correlated with $m_{ZZ}$, 
-would produce a peaked distribution near the signal region.  This is demonstrated
-in figure~\ref{fig:HZZ2l2qShapeBias}, where an optimized cut on both sets of 
-variables is applied and the resulting $m_{ZZ}$ is shown.  The preservation of
-the $m_{ZZ}$ shape allows for the them to be easily described and used
-for statistical interpretation of the final observed distributions.  
+would produce a peaked for background as well as signal.  This
+is demonstrated in figure~\ref{fig:HZZ2l2qShapeBias}, where an
+optimized cut on both sets of variables is applied and the 
+resulting $m_{ZZ}$ is shown.  The preservation of the $m_{ZZ}$ 
+shape allows for the expected background distribution to be
+easily described through simple analytical functions which 
+can then be used for and used for statistical interpretation
+of the final observed distributions.  
 
 \begin{figure}
 \begin{center}
@@ -244,7 +286,7 @@ median $m_{ZZ}$ value. }
 \begin{figure}
 \begin{center}
 \includegraphics[width=.9\linewidth]{HZZ2l2qPlots/2l2q_OptimalCutShape.eps}
-\caption{ Distribution of $m_{ZZ}$ after optimal cut on angular LD (right) and traditional
+\caption{ Distribution of $m_{ZZ}$ after optimal cut on angular D (right) and traditional
 variables, (left). Maroon histogram represents expected distribution of a 400 GeV SM Higgs,
 blue and green histograms represent different SM backgrounds from MC simulations.}
 \label{fig:HZZ2l2qShapeBias}
@@ -283,24 +325,19 @@ sensitivity to signal events.}
 
 \begin{figure}
 \begin{center}
-\includegraphics[width=.32\linewidth]{HZZ2l2qPlots/data_loose_mjj.eps}
-\includegraphics[width=.32\linewidth]{HZZ2l2qPlots/data_loose_tche.eps}\\
-\includegraphics[width=.32\linewidth]{HZZ2l2qPlots/data_loose_tag.eps}
-\includegraphics[width=.32\linewidth]{HZZ2l2qPlots/data_loose_met.eps}
-\caption{ ... }
-\label{fig:HZZ2l2qPreselectiOnly}
-\end{center}
-\end{figure}
-
-\begin{figure}
-\begin{center}
-\includegraphics[width=.32\linewidth]{HZZ2l2qPlots/angle_cosThetaStar.eps}
-\includegraphics[width=.32\linewidth]{HZZ2l2qPlots/angle_cosTheta1.eps}
-\includegraphics[width=.32\linewidth]{HZZ2l2qPlots/angle_cosTheta2.eps}\\
-\includegraphics[width=.32\linewidth]{HZZ2l2qPlots/angle_phi.eps}
-\includegraphics[width=.32\linewidth]{HZZ2l2qPlots/angle_phi1.eps}
-\includegraphics[width=.32\linewidth]{HZZ2l2qPlots/data_loose_ld.eps}
-\caption{ ... }
+\includegraphics[trim=0 0 0 100,clip,width=.32\linewidth]{HZZ2l2qPlots/angle_cosThetaStar.eps}
+\includegraphics[trim=0 0 0 0,clip,width=.32\linewidth]{HZZ2l2qPlots/angle_cosTheta1.eps}
+\includegraphics[trim=0 0 0 0,clip,width=.32\linewidth]{HZZ2l2qPlots/angle_cosTheta2.eps}
+\includegraphics[trim=0 0 0 0,clip,width=.32\linewidth]{HZZ2l2qPlots/angle_phi.eps}
+\includegraphics[trim=0 0 0 0,clip,width=.32\linewidth]{HZZ2l2qPlots/angle_phi1.eps}
+\includegraphics[trim=0 0 25 200,clip,width=.32\linewidth]{HZZ2l2qPlots/data_loose_ld.eps}
+\caption{Distribution of 5 angles used to build the angular 
+likelihood distriminant, shown in the bottom right plot. Filled
+histograms represent expectation
+of background events.  Open, red histograms representation the 
+expectation of a 400~GeV Higgs boson whose cross section has been
+enhanced by $100\times$.  All events satisfy the preselection
+requirements.  }
 \label{fig:HZZ2l2qAngularLD}
 \end{center}
 \end{figure}
@@ -338,14 +375,16 @@ where $N_{bkg}$ is the number of events expected in data in the
 signal region, $N_{CR}$ is the number of events observed in the
 data control region, and $N_{CR}^{sim}$, $N_{bkg}^{sim}$ are the 
 events measured in the MC control region and signal region, 
-respectively.  Thus, $\alpha$ represents the weight for extrapolating
+respectively.  Thus, $\alpha$ represents the weight for
+extrapolating
 between the signal and control region and is calculated using
 MC simulation.
 These weights range between 0.75 and 1.2 and have been calculated
-with two different MC generators, {\verb+MADGRAPH+} and {\verb+SHERPA+}, 
-both give statistically compatible results.  This method allows
-for both the expected shape and the normalization of the SM
-background to be calculated for each of the three b-tag categories.
+with two different MC generators, 
+{\verb+MADGRAPH+} and {\verb+SHERPA+}, 
+both give statistically compatible results.  Both the expected 
+shape and normalization of the SM background are calculated with
+this method for each o the three b-tag categories separately.  
 
 Once the expected distributions are calculated, the shape of the
 background is fit using an empirical
@@ -354,7 +393,8 @@ distribution was found to provide a good description of the
 background in the three different b-tag categories in MC.
 The uncertainties of the fit parameters and the statistical 
 uncertainties on $\alpha$ are taken as systematic
-uncertainties in the final statistical analysis.  
+uncertainties in the background estimation for the 
+final statistical analysis.  
 Figure~\ref{fig:HZZ2l2qMassDistributions} shows the expected 
 shape and normalization of the $m_{ZZ}$ distribution
 taken directly from MC (filled histograms), 
@@ -369,12 +409,12 @@ is also shown in yellow.
 
 \begin{figure}
 \begin{center}
-\includegraphics[width=.32\linewidth]{HZZ2l2qPlots/lowmass_mzz0btag.eps}
-\includegraphics[width=.32\linewidth]{HZZ2l2qPlots/lowmass_mzz1btag.eps}
-\includegraphics[width=.32\linewidth]{HZZ2l2qPlots/lowmass_mzz2btag.eps}\\
-\includegraphics[width=.32\linewidth]{HZZ2l2qPlots/mzz_0btag.eps}
-\includegraphics[width=.32\linewidth]{HZZ2l2qPlots/mzz_1btag.eps}
-\includegraphics[width=.32\linewidth]{HZZ2l2qPlots/mzz_2btag.eps}
+\includegraphics[trim=0 0 70 250,clip,width=.32\linewidth]{HZZ2l2qPlots/lowmass_mzz0btag.eps}
+\includegraphics[trim=0 0 70 250,clip,width=.32\linewidth]{HZZ2l2qPlots/lowmass_mzz1btag.eps}
+\includegraphics[trim=0 0 70 250,clip,width=.32\linewidth]{HZZ2l2qPlots/lowmass_mzz2btag.eps}\\
+\includegraphics[trim=0 0 70 250,clip,width=.32\linewidth]{HZZ2l2qPlots/mzz_0btag.eps}
+\includegraphics[trim=0 0 70 250,clip,width=.32\linewidth]{HZZ2l2qPlots/mzz_1btag.eps}
+\includegraphics[trim=0 0 70 250,clip,width=.32\linewidth]{HZZ2l2qPlots/mzz_2btag.eps}
 \caption{The $m_{ZZ}$ invariant mass distribution after final selection in
 three categories: 0 b-tag (top), 1 b-tag (middle), and 2 b-tag (bottom). 
 The low-mass range, $120<m_{ZZ}<170$~GeV is shown on the left and the
@@ -394,21 +434,24 @@ limits in each category.}
 
 While the background shapes and event yields are derived from data, the signal
 model is derived from MC simulations.  Signal production cross sections
-and branching ratios are taken from the Higgs cross sections working
-group~\cite{??} and calculated at NLO.  Signal efficiencies are 
-taken from CMS simulations and are
+and branching ratios are taken from the LHC Higgs Cross Sections Working
+Group and 
+others~\cite{Anastasiou:2008tj,deFlorian:2009hc,Baglio:2010ae,Dittmaier:2011ti,Djouadi:1991tka,Dawson:1990zj,Spira:1995rr,Harlander:2002wh,Anastasiou:2002yz,Ravindran:2003um,Catani:2003zt,Actis:2008ug,Aglietti:2004nj,Anastasiou:2008tj,Ciccolini:2007jr,Ciccolini:2007ec,Figy:2003nv,Arnold:2008rz,Bolzoni:2010xr,Figy:2010ct,Djouadi:1997yw,Bredenstein:2006rh,Bredenstein:2006ha}
+production cross sections are calculated at NNLO.  Signal
+efficiencies are taken from CMS simulations and are
 corrected for known differences between data and MC using tag and
-probe measurements.  The efficiencies are also extrapolated to 
-arbitrary values of $m_H$ using a polynomial fit.  Figures~\ref{fig:efficiencyHighMass}
+probe measurements.  The efficiencies are also interpolated to 
+intermediate values of $m_H$ using a polynomial fit.  
+Figures~\ref{fig:efficiencyHighMass}
 and~\ref{fig:efficiencyLowMass}
 shows the efficiency curves for each of the 6 categories.  The 
-efficiencies together with the production cross section and branching
-ratio are used to derive the expected event yields.
+efficiencies together with the production cross section and
+branching ratio are used to derive the expected event yields.
 
 Signal shapes are modeled using both
-{\verb+POWHEG+} to model production at NLO and {\verb+PYTHIA+} to model the 
-decay kinematics or {\verb+JHUGen+} to model model both production and
-decay at LO.  In order to get a good description of the signal
+{\verb+POWHEG+} to model the production of Higgs bosons at
+NLO in $\alpha_s$ and {\verb+PYTHIA+} to model the decay
+kinematics.  In order to get a good description of the signal
 shape, events are fit in two separate categories.  Those in which 
 both the jets used to build the Z are matched to generator level 
 quarks from the Higgs decay, and those in which the jets are not 
@@ -418,8 +461,10 @@ distribution.  Matched events are fit with a double crystal ball
 function (i.e. a gaussian distribution whose tails are described
 by two independent power law distributions).  Unmatched events
 are fit with a triangle function convoluted with a crystal ball 
-function.  Each signal sample is fit separately and the shape 
-parameters are then extrapolated to arbitrary values of $m_H$.  
+function.  Signal samples corresponding to different mass
+hypotheses, $m_H$, are fit separately and the shape parameters
+are then interpolated for intermediate mass hypotheses. This 
+procedure is performed separately for each b-tag category.
 Examples of the signal shape model are shown for a 130~GeV and
 400~GeV Higgs boson for each of the three b-tag categories
 separately in figure~\ref{fig:signalShapeModels}.
@@ -471,24 +516,26 @@ A number of systematic uncertainties are associated with the calculation
 of the number of expected event yields.  Many of these result from
 limited understanding of reconstruction efficiencies.  The 
 muon and electron reconstruction effiencies have been assigned 
-uncertainties of 2.7\%, 4.5\%, respectively.  Jet reconstruction
-effiency uncertainties range from 1-8\% depending on the Higgs mass
-hypothesis.  The efficiency uncertainty of $E_T^{miss}$ cuts range from
-3-4\%.  The b-tagging efficiency uncertainties depend both on the 
-category as well as the Higgs mass hypothesis and range between 2-11\%. 
+uncertainties of 2.7\%, 4.5\%, respectively.  Jet effiency
+uncertainties due to JES range from 1-8\% depending on the Higgs
+mass hypothesis.  The efficiency uncertainty of $E_T^{miss}$ cuts
+range from 3-4\%.  The b-tagging efficiency uncertainties depend
+both on the category as well as the Higgs mass hypothesis and
+range between 2-11\%. 
 The additional jet identification requirements applied in the 0~b-tag
 category, including gluon-tagging, is assigned an uncertainty of 4.6\%.
 Uncertainties from Higgs production, either through parton distribution
-functions, NLO corrections, or VBF modeling are assigned to both the
-overall cross section calculation or the effect on acceptance due to
-shape differences.  Mismodeling of Higgs $m_{ZZ}$ shape introduces some
-additional systematic to the effective amount of event near the signal
-peak.  Since the width depends strong on the mass hypthosis, $m_H$, the
-uncertainties also depends on $m_H$ according to 
-$1.5\times10^{-7}\%\times m_H^3$ [GeV].  Finally, uncetainties from 
-luminosity measurements are accounted for in the signal systematics. 
-All systematic uncertainties on the signal yields are summarized in 
-table~\ref{table:HZZ2l2qSystematics}.
+functions, missing higher order corrections, or VBF modeling are
+assigned to both the overall cross section calculation or the
+effect on acceptance due to shape differences.  Theoretical
+uncertainties on signal shapes introduce some additional
+systematic to the effective amount of event near the signal peak.
+Since the width depends strong on the mass hypthosis, $m_H$,
+the uncertainties also depends on $m_H$ according to
+$1.5\times10^{-7}\%\times m_H^3$ [GeV].  Finally, uncertainties from
+luminosity measurements are accounted for in the signal
+systematics.  All systematic uncertainties on the signal yields
+are summarized in table~\ref{table:HZZ2l2qSystematics}.
 
 \begin{table}
 \begin{center}
@@ -526,12 +573,13 @@ SM expectation.  The ranges indicate dependence on $m_{H}$.}
 \subsection{Results and Summary}
 \label{sec:HZZ2l2qxsec}
 
-The expected background event yields, both from MC simulation and from the
-data-driven estimations, and signal event yields are compared against
-the observed event yields in each of the three b-tag categories in 
-table~\ref{table:HZZ2l2qYields}.
-Since there are no significant excesses found in any of the observed 
-invariant mass spectra, limits on the Higgs cross section are calucated.
+The expected background event yields, both from MC simulation and
+from the data-driven estimations, and expected signal event yields
+are compared against the observed event yields in each of the
+three b-tag categories in table~\ref{table:HZZ2l2qYields}.
+Since there are no significant excesses found in any of the
+observed invariant mass spectra, limits on the Higgs cross section
+are calculated.
 
 \begin{table}
 \begin{center}
@@ -569,37 +617,28 @@ only statistical uncertainties.}
 
 A simultaneous fit of the $m_{ZZ}$ distributions for the signal 
 cross section in the six different channels is perform using a 
-dedicated statistical software package discussed in ref.~\cite{Chatrchyan:2012tx}.  Using the distribution of the $CL_S$ test 
-statistic~\cite{Read:2002hq}, 95\% CL limits are calculated.
-Expected limits are derived from pseudoexperimental which are 
-generated based on expected distributions.  Nuisance parameters 
-associated with the different systematic uncertainties are 
-randomized when generating toys and profiled in fits.  
+dedicated statistical software package discussed in 
+ref.~\cite{Chatrchyan:2012tx}.  Using the distribution of the $CL_S$ test 
+statistic~\cite{Read:2002hq}, 95\% confidence level (CL) limits are
+calculated.  Expected limits are derived from pseudoexperiments
+which are generated based on expected distributions.  Nuisance
+parameters associated with the different systematic uncertainties
+are randomized when generating toys and profiled in fits.  
 
-For the low
-mass analysis, the median expected upper limit on the $H\to ZZ$ 
-cross section, solid black line, $1\sigma$ ($2\sigma$) band of 
-the expected limit, green (yellow), and the observed upper limit 
-as a function of $m_H$ is shown in the left plot of 
-figure~\ref{fig:HZZ2l2qLimitsSM4}.  Similarly, the expected and 
-observed distribution of upper limits on the $H\to ZZ$ cross 
-section are shown for the high mass region in right plot of 
-figure~\ref{fig:HZZ2l2qLimitsSM4}.  In both plots of 
-figure~\ref{fig:HZZ2l2qLimitsSM4}, the Higgs cross section
-within the SM model is shown in red.  
-Upper limits on the ratio of the 95\% CL cross section limits 
-with respect to the SM Higgs cross section, including all 
-theoretical uncertainties, are shown in 
-figure~\ref{fig:HZZ2l2qLimits}.  While the low mass region
-limits are at best around four times SM Higgs cross sections, 
+The expected and observed  distributions of the 
+95\% CL upper limit on the ratio of the observed cross section
+with respect to the Higgs cross section,
+$\sigma_{95\%}/\sigma_{SM}$, is shown 
+figure~\ref{fig:HZZ2l2qLimitsSM4}.  While the low mass region
+limits are at best around several times SM Higgs cross sections, 
 the high mass region has an expected exclusion for Higgs masses 
-between X.XX and Y.YY. The observed data excludes Higgs boson 
-masses between X.XX and Y.YY.
+in the range [310,460]~GeV. The observed data excludes Higgs boson 
+masses in the range [340,390]~GeV.
 
 \begin{figure}
 \begin{center}
-\includegraphics[width=.49\linewidth]{HZZ2l2qPlots/plot_low_ul.eps}
-\includegraphics[width=.49\linewidth]{HZZ2l2qPlots/plot_ul.eps}
+\includegraphics[trim=0 0 70 100,clip,width=.48\linewidth]{HZZ2l2qPlots/plot_low_ul.eps}
+\includegraphics[trim=0 0 0 0,clip,height=.46\linewidth]{HZZ2l2qPlots/ZZ2l2qLimit_gimp.eps}
 \caption{Observed (solid) and expected (dashed) 95\% CL upper limit on
 the ration f the production cross section o the SM expectation for the 
 HIggs boson obtained using the $CL_s$ technique.  The 68\% ($1\sigma$) 
