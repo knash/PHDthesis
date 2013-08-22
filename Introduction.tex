@@ -4,26 +4,27 @@
 
 The Standard Model (SM) of particle physics  
 is a mathematical description of the fundamental particles and 
-their interactions.  Particles are described by quantized 
-excitations of various types of fields.  Each field is a solution 
-to either the Klein-Gordon, Dirac, Proca, or Maxwell equation 
-which govern the time evolution of spin-0, spin-1/2, and spin-1 fields.
+their interactions.  Within the SM, particles are described by
+quantized excitations of spin-0, spin-1/2, and spin-1 fields which
+are solutions to the Klein-Gordon, Dirac, and Proca or
+Maxwell equations, respectively.  These equations govern the time
+evolution of each field.  
 Although bound states and possible extensions to the SM can have
-larger spin, the standard model doesn't explicitly describe the 
+higher spin, the SM doesn't explicitly describe the 
 interactions of these particles.  
 
-The interactions themselves are encoded in the Standard Model lagrangian.
-For example, the electromagnetic interactions of electrons are described by
-the lagrangian
+The interactions of fields are encoded in the SM
+Lagrangian.  For example, the electromagnetic interactions of
+electrons are described by the Lagrangian
 %\begin{center}
 \begin{equation}
 \mathscr{L}_{EM} = \bar{\psi}\left(i\gamma^{\mu}(\partial_{\mu}+ieA_{\mu})-m\right)\psi - \frac{1}{4}F_{\mu\nu}F^{\mu\nu}.
 \label{eq:EMlagrangian}
 \end{equation}
 %\end{center}
-The probability for some initial state, i, evolving into some final state, 
-j, can be be expanded in powers of the coupling constant, e, 
-according to the modulus squared matrix element
+The probability for some initial state evolving into some
+final state can be be expanded in powers of the coupling
+constant, $e$, according to the modulus squared matrix element
 %\begin{center}
 \begin{equation}
 \mid<ee\mid e^{\bar{\psi}\left(i\gamma^{\mu}(\partial_{\mu}+ieA_{\mu})-m\right)\psi+\frac{1}{4}F_{\mu\nu}F^{\mu\nu}}\mid ee>\mid^2.
@@ -31,9 +32,9 @@ according to the modulus squared matrix element
 \end{equation}
 %\end{center}
 Often, the amplitude of a process at some order in 
-the couplings is represented by a Feynman diagram such as the one in 
-figure~\ref{fig:eeScattering} representing 
-ectron-electron scattering to lowest order in a purely 
+the couplings is represented by a Feynman diagram such as the
+one in Figure~\ref{fig:eeScattering} which represents
+electron-electron scattering to lowest order in a purely 
 electromagnetic theory.
 
 \begin{figure}
@@ -60,28 +61,30 @@ symmetries and
 thus can be described through a symmetry group.  For example, the 
 electromagnetic interactions are known to be generated from a U(1) 
 gauge symmetry.  Each symmetry has a corresponding charge which is
-conserved and which the gauge mediators couple to; the photon 
-couples to the electric charge, e, in the above example.  
-Thus, understanding the gauge symmetries
-which generate the interactions of the standard model and the 
-charges of
-each particle tells us how the particles interact.
+conserved and which the gauge mediators couple to. For example,
+the photon couples to the electric charge, $e$.
+Thus, specifying the gauge symmetries and the charges of particles
+provides a clear description of particle interactions.
+%Thus, understanding the gauge symmetries
+%which generate the interactions of the SM and the 
+%charges of
+%each particle tells us how the particles interact.
 
-Currently, the SM describes three of the four known forces, the
-electromagnetic, the weak, and the strong force which are generated
-from SU(3), SU(2), and U(1) gauge symmetries, respectively.  
-The charges 
-of the fundamental
-fields known to exist in the standard model are shown in 
-table~\ref{table:SMcharges}.  
+Currently, the SM describes three of the four known forces: the
+electromagnetic, the weak, and the strong force, which are
+generated from U(1), SU(2), and SU(3) gauge symmetries,
+respectively.  The charges of the fundamental
+fields known to exist in the SM are shown in 
+Table~\ref{table:SMcharges}.  
 The photon only couples to electrically charged
 particles (Q), the W boson couples to particles charged under weak 
 isospin ($T_3$), 
 and the gluons couple to colored particles. As the names 
-suggest, at low energies, the strong froce is the strongest
-and the weak force is the weakest.  However, it is commonly believed that these interaction
-should all be unified at some energy scale where the strength will become
-comparable.   
+suggest, at low energies, the strong force is the strongest
+and the weak force is the weakest.  \textcolor{red}{However, it
+is commonly believed that these interactions
+should all be unified at some energy scale where the strength
+will become comparable.   }
 %One unique consequence of this charge 
 %structure is that the photon cannot couple to itself while the 
 %weak vector boson and the gluons can.  The is also indicitive of
@@ -100,111 +103,116 @@ $u_L$, $c_L$, $b_L$    & 2/3 & 1/2  & 1/3& yes \\
 $u_R$, $c_R$, $b_R$    & 2/3 & 0  & 4/3& yes \\ 
 $d_L$, $s_L$, $t_L$    & -1/3& -1/2 & 1/3& yes \\ 
 $d_R$, $s_R$, $t_R$    & -1/3& 0 & -2/3& yes \\
-H        & 0   & 1/2  & -- & no \\
-W        & 1   & 1    & -- & no \\
-Z        & 0   & --   & -- & no \\
-$\gamma$ & 0   & --   & -- & no \\
-gluon    & 0   & 0    & 0  & yes \\
+%H        & 0   & 1/2  & -- & no \\
+%W        & 1   & 1    & -- & no \\
+%Z        & 0   & --   & -- & no \\
+%$\gamma$ & 0   & --   & -- & no \\
+%gluon    & 0   & 0    & 0  & yes \\
 \hline
 \end{tabular}
 \end{center}
-\caption{List of standard model particles and their charges. 
+\caption{List of SM particles and their charges. 
 Q represents the charge of the $SU(1)_{em}$ gauge symmetry,
 $T_3$ the broken SU(2) gauge symmetry, and $Y_W$ the broken 
 U(1) gauge symmetry.}
 \label{table:SMcharges}
 \end{table}
 
-The idea of interactions arising from enforcing gauge symmetries, 
-naively,
-produces inconsistencies between theory and experiments.  Even at 
-the time when the SU(2) structure of the weak interactions was first
-proposed by Glashow~\cite{Glashow:1961}, the W boson was known 
-to be massive.  
-%One of the predictions of this guage structure, the 
+Naively, the idea of interactions arising from enforcing gauge
+symmetries produces inconsistencies between theory and
+experiments.  Even at the time when the SU(2) structure of the
+weak interactions was first proposed by
+Glashow~\cite{Glashow:1961}, the W boson was known to be massive.  
+%One of the predictions of this gauge structure, the 
 %existance of a neutral weak current, was later found to also 
 %be massive.  
 However, mass terms in a Lagrangian break gauge
-invariance.  This internal inconsistency was a major hurdle for 
-a theory of the electroweak interactions since 
-the SU(2) guage symmetry must be broken in a specific way in order
+invariance.  This internal inconsistency suggested that
+the SU(2) gauge symmetry must be broken in a specific way in order
 to allow the weak vector bosons to be massive, a process known
 as electroweak symmetry breaking.  
 
 \section{Electroweak Symmetry Breaking}
 \label{sec:Electroweak Symmetry Breaking}
 
-It was known in non-relativistic systems that spontaneously broken symmetries
-could provide a theoretical framework for explaining massive gauge 
-bosons\cite{Anderson:1963pc}. In the early 1960's these ideas were studied in the context
-of relativistic quantum field theories.  It was shown that a complex 
+In 1963, Phil Anderson proposed that spontaneously
+broken symmetries could provide a theoretical framework for
+explaining massive gauge bosons in non-relativistic
+systems\cite{Anderson:1963pc}. In 1964,
+these ideas were studied in the context of relativistic quantum field theories.  \textcolor{red}{It was shown that a complex 
 scalar field whose potential was particularly chosen could spontaneously 
 break a gauge symmetry and generate gauge boson masses through the 
 interaction of this field with the gauge 
-boson\cite{Higgs:1964,Englert:1964,Higgs:1964-2,Guralnik:1964}.  Most notably, 
-Peter Higgs suggested that this would also predict the presence of a new 
-massive scalar particle~\cite{Higgs:1964-2}.
+bosons\cite{Higgs:1964,Englert:1964,Higgs:1964-2,Guralnik:1964}}.  Most notably, 
+Peter Higgs suggested that this would also predict the presence
+of a new massive scalar particle~\cite{Higgs:1964-2}.
 
-It was shown by Glashow, Weinberg, and Salam~\cite{Glashow:1961,Weinberg:1967,Salam:1968} 
-that the Higgs mechanism 
-could be used to break a $SU(2)\times U(1)$ symmetry to a $U(1)_{em}$
-symmetry producing all of the known electroweak interactions and massive 
-weak gauge bosons, a model known as the Glashow-Weinberg-Salam (GWS) model.
-This model predicted a massive, neutral gauge boson, the Z boson,
-whose mass would be around 90 GeV which was later discovered
+Glashow, Weinberg, and
+Salam~\cite{Glashow:1961,Weinberg:1967,Salam:1968} 
+showed that the Higgs mechanism could be used to break a
+$SU(2)\times U(1)$ symmetry to a $U(1)_{em}$ symmetry producing all
+of the known electroweak interactions and massive 
+weak gauge bosons. The Glashow-Weinberg-Salam (GWS) model predicted
+a massive, neutral gauge boson, the Z boson,
+whose mass would be around 90~GeV; this was confirmed
 indirectly through electron-neutrino 
 scattering~\cite{Hasert:1973,Hasert:1973-2,Hasert:1974}.  
 The Z boson was later directly produced at the SpS~\cite{??}.
-Another experimental signature of the GWS model was that a chargeless,
-colorless, spinless, massive boson, similar to that suggested by Higgs should
-exist, which is now commonly referred to as the Higgs boson.
-Except for its mass all properties about this particle could be calculated
-whithin the framework of the SM (see Section~\ref{sec:HiggsPhen}).  
+Another experimental signature of the GWS model was that there
+should exist a chargeless,
+colorless, spinless, massive boson, similar to that suggested by Higgs; this particle is now commonly referred to as the Higgs boson.
+Except for its mass all properties of this particle could be
+calculated whithin the framework of the SM (see
+Section~\ref{sec:HiggsPhen}).  
 
-Electroweak symmetry breaking is the cornerstone of the SM model and 
-illuminating the exact mechanism is paramount to our 
-understanding of the universe.  Thus, the experimental verification
-of the Higgs boson and its properties has been for nearly
-fifty years the top priority of the field of particle physics.   
+Electroweak symmetry breaking is the cornerstone of the SM model
+and illuminating the exact mechanism by which it occurs is
+paramount to our understanding of the universe.  Thus, the
+experimental verification of the Higgs boson and its properties
+has been the top priority of the field of particle physics for
+nearly fifty years.
 
 \section{Higgs Boson Constraints}
 \label{sec:The Higgs boson}
 
-Several accelerators have been built to discover the Higgs, 
+Several accelerators have been built to discover the Higgs,   
 the first of which was the Large Electron-Positron (LEP) collider
 which accelerated electrons and positrons to energies up to 209 GeV.
 Although a broad range of Higgs masses 
 were accessible to LEP experiments, no evidence was found and 
-95\% CL exlusion limits were set for all masses up to 114.4~GeV~\cite{Barate:2003sz}.
-Despite no evidence of the Higgs boson was 
-found, the high precision measurements made on a number of SM 
-quantities could be used to constrain the Higgs mass, assuming it 
-were to exist according to the SM.  These constraints suggested 
-that a SM Higgs would be more likely in the range $m_H\lesssim185$~GeV~\cite{Group:2008aa}.  
+95\% confidence level exlusion limits were set for all masses up to 114.4~GeV~\cite{Barate:2003sz}.
+However, high precision
+measurements made on a number of SM 
+quantities could be used to constrain the Higgs mass under the
+assumption were to exist according to the SM.  These constraints
+suggested that a SM Higgs would be more likely in the range
+$m_H\lesssim185$~GeV~\cite{Group:2008aa}.  
 
-The Tevatron, built at Fermi National Accelerator Laboratory, 
+The Tevatron
+%, built at Fermi National Accelerator Laboratory, 
 and its experiments also contributed major efforts towards Higgs
 searches.  As a 2~TeV $p\bar{p}$ collider, considerably larger 
 Higgs masses were accessible.  However, no evidence of the 
 Higgs boson  was found and 95\% condifence level exclusion limits
 were set for Higgs boson mass between
 $162<m_H<166$~GeV~\cite{Aaltonen:2010yv}.  
-Despite the lack of an observation, the discovery of the
-top quark and measurement of its mass helped
-to refine calculations of the Higgs boson production cross section and 
-branching ratios which include top loops.  
+Despite the lack of a Higgs boson observation, the discovery of
+the top quark and measurement of its mass helped
+to refine calculations of the Higgs boson production cross section
+and branching ratios which include contributions from virtual
+top quarks.
 
-By the time the LHC was delivering beams to CMS, theory
+By the time the LHC was delivering beams, theory
 calculations had been refined and both direct limit and indirect
 limits had been set by LEP and Tevatron experiments.
 Figure~\ref{fig:HiggsConstraints} summarizes the 
 status of Higgs searches at this time.  Since the Higgs mechanism
 must unitarize VV scattering, there is a limited mass range for 
-which the Higgs mechanism makes sense, $m_H\lesssim1000$~GeV. This theoretical
-upper bound and the experimental lower bound from the LEP direct
-search limits suggest that the LHC would suffice to make the final
-statement about the existence of the Higgs boson, nearly 50 
-years after it was first proposed.  
+which the Higgs mechanism makes sense, $m_H\lesssim1000$~GeV.
+This theoretical upper bound and the experimental lower bound from
+the LEP direct search limits suggest that the LHC would suffice
+to make the final statement about the existence of the Higgs
+boson, nearly 50 years after it was first proposed.  
 
 \begin{figure}
 \begin{center}
@@ -221,33 +229,35 @@ evidence based on precision measurements.
 \section{Beyond the SM Higgs}
 
 The Higgs mechanism, as described in the SM, 
-via GWS, conveniently solved several problems: the existence of
-massive gauge bosons, the apparent disparity between the 
-electromagentic and weak forces, and the unitarity of weak boson 
-scattering. Yet, despite its success at describing terrestrial 
+via GWS model, conveniently solved several problems:
+the existence of massive gauge bosons, the apparent disparity
+between the electromagentic and weak forces, and the non-unitarity
+of longitudinal weak boson scattering. Yet, despite its success
+at describing terrestrial 
 experiments, the SM fails to explain a number of phenomena 
 observed in the universe.
   
 It is thought that more than 95\% of the known universe consists 
-of dark matter ($\sim27$\%) and dark energy ($\sim68$\%)\cite{??}.
+of dark matter ($\sim27$\%) and dark energy
+($\sim68$\%)\cite{Sullivan:2011kv}.
 Since there is currently no way to explain either dark matter or 
-dark energy within the SM, only about 5\% of the energy of 
-the universe can be explained by the SM.  
+dark energy within the SM, the SM can only attempt to explain
+about 5\% of the energy of the universe.
 
 The overabundance of matter, as opposed to anti-matter, in the 
-universe, a phenomenon known as the baryon asymmetry.
+universe, is a phenomenon known as the baryon asymmetry.
 It was shown by Sakharov\cite{Sakharov:1967dj} that there are 
 three necessary 
 conditions a model of baryogenesis must satisfy: baryon-number 
-violation, charge-symmetry (C-symmetry) violation, 
-charge-parity-symmetry violation (CP-violation), and interactions 
+violation, charge-symmetry and charge-parity-symmetry violation (CP-violation), and interactions 
 which are out of thermal equilibrium at early stages of the 
 universe.  Although it has been shown that the SM does
 contain the three necessary conditions for baryogenesis, it is 
 believed to be insufficient for explaining the degree of baryonic 
-asymmetry in the visible universe~\cite{???}.  As such, additional sources 
-of CP-violation in the SM would provide a promising solution to 
-the baryon-asymmetry problem.  
+asymmetry in the visible 
+universe~\cite{Jarlskog:1985ht,Shaposhnikov:1986jp}.  As such,
+additional sources of CP-violation in the SM would provide a
+promising solution to the baryon-asymmetry problem.  
 
 The expected naturalness of electroweak symmetry breaking is
 also often cited as evidence for physics beyond the SM.  
@@ -293,29 +303,28 @@ introduce a new strongly interacting QCD-like force above the
 electroweak scale.  It was shown by Randall and 
 Sundrum~\cite{Randall:1999ee} that
 higher-dimensional models with warped space-time metrics can 
-provide a natural explaination of the heirarchy and thus fine
-tuning.
+provide a natural explaination of the heirarchy problem and
+thus fine tuning.
 
 \section{Summary}
 
 Although many of the above arguments for naturalness in the SM 
 are heuristic, they suggest that the Higgs sector could be a 
 window to physics beyond
-the standard model through: the discovery of multiple scalars,
+the SM through: the discovery of multiple scalars,
 the discovery of CP-violation in Higgs interactions,
 or the discovery of Higgs compositeness.  Today, the muon 
 magnetic moment has been calculated and measured 
 to an extremely high precision and has been used as a 
 test of the SM as well as a probe for new physics.
 Analogously, the Higgs may become the next source of high 
-precision tests of the standard model which may
-ultimately illuminate the existence of physics beyond the 
-standard model.  
+precision tests of the SM which may
+ultimately illuminate the existence of new physics.
 
 %overview of material in thesis
 This thesis will discuss several analyses designed to search for 
 new resonances, especially those related to electroweak symmetry 
-breaking using tools which have been developed to provide not only 
+breaking, using tools which have been developed to provide not only 
 increased sensitivity to signal events but also to measure 
 properties of observed resonances. 
 Chapter~\ref{sec:ExpSetup} will 

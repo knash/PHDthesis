@@ -412,13 +412,14 @@ simulation of a SM Higgs, $m_H=126~GeV$.}
 \includegraphics[trim=270 0 0 0,clip,width=.32\linewidth]{HZZ4lPlots/KD_vs_m4l_lowMass_Signal.eps}
 \includegraphics[trim=270 0 0 0,clip,width=.32\linewidth]{HZZ4lPlots/KD_vs_m4l_highMass_Back.eps}
 \caption{
-%Distribution of $m_{4\ell}$ and $K_D$ in the low mass
-%region.  Contours in the left plot represent the background 
-%expectation of continuum ZZ events.  Contours in the right
-%plot represent SM Higgs, $m_H=126~GeV$, expectation.  Points
-%with error bars represent the individual events observed in
-%the four different final states.  Horizontal error bars 
-%represent the reconstructed mass uncertainties.
+Distribution of $m_{4\ell}$ and $K_D$ in various regions.  
+Contours in the left and right plot represent the background 
+expectation of continuum ZZ events.  Contours in the middle
+plot represent signal plus background expectation, where signal
+is a SM Higgs, $m_H=126~GeV$.  Points with error bars represent
+the individual events observed in the four different final states.
+Horizontal error bars represent the reconstructed mass
+uncertainties.
 }
 \label{fig:HZZ4lMassKDdist}
 \end{center}
@@ -739,52 +740,81 @@ Table with correction factors and event yields in the different
 channels of the alternative spin-0 hypotheses arising
 due to lepton interference and detector effects.}
 \centering % used for centering table
-\begin{tabular}{c c c c c c c c c} % centered columns (8 columns)
+\begin{tabular}{c c c c c c c c} % centered columns (8 columns)
 \hline \hline
- \multicolumn{9}{|c|}{$0^{+}_{m}$} \\ \hline 
-channel & $\sqrt{s}$ & $f_{i}^{J^P}$ & $\alpha_{\rm ideal} (i)$ & $\epsilon_{\rm reco} (i)$ & $\alpha_{\rm exp} (i)$ & $N^{J^P}_{\rm exp} (i)$ & $\alpha_{\rm norm} (i)$ & $N^{J^P}_{\rm norm} (i)$\\ \hline 
-4e & 7TeV & 0.2592 &  1.0  & 0.254878 &  1.0  & 0.681158 &  1.0  & 0.681158 \\ \hline 4mu & 7TeV & 0.2592 &  1.0  & 0.390734 &  1.0  & 1.05786 &  1.0  & 1.05786 \\ \hline 2mu2e & 7TeV & 0.4816 &  1.0  & 0.305464 &  1.0  & 1.5215 &  1.0  & 1.5215 \\ \hline \hline 4e & 8TeV & 0.2592 &  1.0  & 0.209051 &  1.0  & 2.83281 &  1.0  & 2.83281 \\ \hline 4mu & 8TeV & 0.2592 &  1.0  & 0.384041 &  1.0  & 5.20253 &  1.0  & 5.20253 \\ \hline 2mu2e & 8TeV & 0.4816 &  1.0  & 0.279299 &  1.0  & 7.02377 &  1.0  & 7.02377 \\ \hline \hline  \multicolumn{9}{|c|}{$0^{-}$} \\ \hline 
-channel & $\sqrt{s}$ & $f_{i}^{J^P}$ & $\alpha_{\rm ideal} (i)$ & $\epsilon_{\rm reco} (i)$ & $\alpha_{\rm exp} (i)$ & $N^{J^P}_{\rm exp} (i)$ & $\alpha_{\rm norm} (i)$ & $N^{J^P}_{\rm norm} (i)$\\ \hline 
-4e & 7TeV & 0.2382 & 0.845266 & 0.21946 & 0.730505
+
+ \multicolumn{8}{|c|}{$0^{+}_{m}$ $\sqrt{s}=7$~Tev} \\ \hline 
+
+channel & $f_{i}^{J^P}$ & $\alpha_{\rm ideal} (i)$ & $\epsilon_{\rm reco} (i)$ & $\alpha_{\rm exp} (i)$ & $N^{J^P}_{\rm exp} (i)$ & $\alpha_{\rm norm} (i)$ & $N^{J^P}_{\rm norm} (i)$\\ \hline 
+4e & 0.2592 &  1.0  & 0.254878 &  1.0  & 0.681158 &  1.0  & 0.681158 \\ \hline 
+4mu & 0.2592 &  1.0  & 0.390734 &  1.0  & 1.05786 &  1.0  & 1.05786 \\ \hline 
+2mu2e & 0.4816 &  1.0  & 0.305464 &  1.0  & 1.5215 &  1.0  & 1.5215 \\ \hline \hline 
+
+ \multicolumn{8}{|c|}{$0^{+}_{m}$ $\sqrt{s}=8$~Tev} \\ \hline 
+
+4e & 0.2592 &  1.0  & 0.209051 &  1.0  & 2.83281 &  1.0  & 2.83281 \\ \hline 
+4mu & 0.2592 &  1.0  & 0.384041 &  1.0  & 5.20253 &  1.0  & 5.20253 \\ \hline 
+2mu2e & 0.4816 &  1.0  & 0.279299 &  1.0  & 7.02377 &  1.0  & 7.02377 \\ \hline \hline  
+
+\multicolumn{8}{|c|}{$0^{-}$ $\sqrt{s}=7$~Tev} \\ \hline
+
+channel & $f_{i}^{J^P}$ & $\alpha_{\rm ideal} (i)$ & $\epsilon_{\rm reco} (i)$ & $\alpha_{\rm exp} (i)$ & $N^{J^P}_{\rm exp} (i)$ & $\alpha_{\rm norm} (i)$ & $N^{J^P}_{\rm norm} (i)$\\ \hline 
+4e & 0.2382 & 0.845266 & 0.21946 & 0.730505
  & 0.497589% N^{Higg} = 18.3196
 % N_{exp}^{JP} = 0.497589 + 0.858759 + 1.48305 + 2.08753 + 4.10322 + 6.76086 = 15.791
- & 0.847481 & 0.577268 \\ \hline 4mu & 7TeV & 0.2382 & 0.845266 & 0.375617 & 0.811788
+ & 0.847481 & 0.577268 \\ \hline 
+4mu & 0.2382 & 0.845266 & 0.375617 & 0.811788
  & 0.858759% N^{Higg} = 18.3196
 % N_{exp}^{JP} = 0.497589 + 0.858759 + 1.48305 + 2.08753 + 4.10322 + 6.76086 = 15.791
- & 0.94178 & 0.996272 \\ \hline 2mu2e & 7TeV & 0.5236 & 1.0  & 0.298035 & 0.974732
+ & 0.94178 & 0.996272 \\ \hline 
+2mu2e & 0.5236 & 1.0  & 0.298035 & 0.974732
  & 1.48305% N^{Higg} = 18.3196
 % N_{exp}^{JP} = 0.497589 + 0.858759 + 1.48305 + 2.08753 + 4.10322 + 6.76086 = 15.791
  & 1.13082 & 1.72054 \\ \hline \hline 
-4e & 8TeV & 0.2382 & 0.845266 & 0.182517 & 0.736911
+
+\multicolumn{8}{|c|}{$0^{-}$ $\sqrt{s}=8$~Tev} \\ \hline 
+
+4e & 0.2382 & 0.845266 & 0.182517 & 0.736911
  & 2.08753% N^{Higg} = 18.3196
 % N_{exp}^{JP} = 0.497589 + 0.858759 + 1.48305 + 2.08753 + 4.10322 + 6.76086 = 15.791
- & 0.854913 & 2.4218 \\ \hline 4mu & 8TeV & 0.2382 & 0.845266 & 0.358533 & 0.788697
+ & 0.854913 & 2.4218 \\ \hline 
+4mu & 0.2382 & 0.845266 & 0.358533 & 0.788697
  & 4.10322% N^{Higg} = 18.3196
 % N_{exp}^{JP} = 0.497589 + 0.858759 + 1.48305 + 2.08753 + 4.10322 + 6.76086 = 15.791
- & 0.914991 & 4.76026 \\ \hline 2mu2e & 8TeV & 0.5236 & 1.0  & 0.268579 & 0.962568
+ & 0.914991 & 4.76026 \\ \hline 
+2mu2e & 0.5236 & 1.0  & 0.268579 & 0.962568
  & 6.76086% N^{Higg} = 18.3196
 % N_{exp}^{JP} = 0.497589 + 0.858759 + 1.48305 + 2.08753 + 4.10322 + 6.76086 = 15.791
  & 1.1167 & 7.84348 \\ \hline \hline 
 % Sum N_{norm}^{JP} = 0.577268 + 0.996272 + 1.72054 + 2.4218 + 4.76026 + 7.84348 = 18.3196
- \multicolumn{9}{|c|}{$0^{+}_{h}$} \\ \hline 
-channel & $\sqrt{s}$ & $f_{i}^{J^P}$ & $\alpha_{\rm ideal} (i)$ & $\epsilon_{\rm reco} (i)$ & $\alpha_{\rm exp} (i)$ & $N^{J^P}_{\rm exp} (i)$ & $\alpha_{\rm norm} (i)$ & $N^{J^P}_{\rm norm} (i)$\\ \hline 
-4e & 7TeV & 0.2458 & 0.898313 & 0.271464 & 0.958688
+
+ \multicolumn{8}{|c|}{$0^{+}_{h}$ $\sqrt{s}=7$~Tev} \\ \hline 
+
+channel & $f_{i}^{J^P}$ & $\alpha_{\rm ideal} (i)$ & $\epsilon_{\rm reco} (i)$ & $\alpha_{\rm exp} (i)$ & $N^{J^P}_{\rm exp} (i)$ & $\alpha_{\rm norm} (i)$ & $N^{J^P}_{\rm norm} (i)$\\ \hline 
+4e & 0.2458 & 0.898313 & 0.271464 & 0.958688
  & 0.653018% N^{Higg} = 18.3196
 % N_{exp}^{JP} = 0.653018 + 1.00605 + 1.70679 + 2.749 + 5.01137 + 7.67655 = 18.8028
- & 0.934054 & 0.636238 \\ \hline 4mu & 7TeV & 0.2458 & 0.898313 & 0.42079 & 0.951022
+ & 0.934054 & 0.636238 \\ \hline 
+4mu & 0.2458 & 0.898313 & 0.42079 & 0.951022
  & 1.00605% N^{Higg} = 18.3196
 % N_{exp}^{JP} = 0.653018 + 1.00605 + 1.70679 + 2.749 + 5.01137 + 7.67655 = 18.8028
- & 0.926585 & 0.980197 \\ \hline 2mu2e & 7TeV & 0.5084 & 1.0  & 0.340119 & 1.12178
+ & 0.926585 & 0.980197 \\ \hline 
+2mu2e & 0.5084 & 1.0  & 0.340119 & 1.12178
  & 1.70679% N^{Higg} = 18.3196
 % N_{exp}^{JP} = 0.653018 + 1.00605 + 1.70679 + 2.749 + 5.01137 + 7.67655 = 18.8028
  & 1.09296 & 1.66294 \\ \hline \hline 
-4e & 8TeV & 0.2458 & 0.898313 & 0.223834 & 0.970414
+
+ \multicolumn{8}{|c|}{$0^{+}_{h}$ $\sqrt{s}=8$~Tev} \\ \hline 
+
+4e & 0.2458 & 0.898313 & 0.223834 & 0.970414
  & 2.749% N^{Higg} = 18.3196
 % N_{exp}^{JP} = 0.653018 + 1.00605 + 1.70679 + 2.749 + 5.01137 + 7.67655 = 18.8028
- & 0.945478 & 2.67836 \\ \hline 4mu & 8TeV & 0.2458 & 0.898313 & 0.412882 & 0.963257
+ & 0.945478 & 2.67836 \\ \hline 
+4mu & 0.2458 & 0.898313 & 0.412882 & 0.963257
  & 5.01137% N^{Higg} = 18.3196
 % N_{exp}^{JP} = 0.653018 + 1.00605 + 1.70679 + 2.749 + 5.01137 + 7.67655 = 18.8028
- & 0.938505 & 4.8826 \\ \hline 2mu2e & 8TeV & 0.5084 & 1.0  & 0.306175 & 1.09294
+ & 0.938505 & 4.8826 \\ \hline 
+2mu2e & 0.5084 & 1.0  & 0.306175 & 1.09294
  & 7.67655% N^{Higg} = 18.3196
 % N_{exp}^{JP} = 0.653018 + 1.00605 + 1.70679 + 2.749 + 5.01137 + 7.67655 = 18.8028
  & 1.06486 & 7.4793 \\ \hline \hline 
@@ -802,50 +832,68 @@ Table with correction factors and event yields in the different
 channels of the alternative spin-1 hypotheses arising
 due to lepton interference and detector effects.}
 \centering % used for centering table
-\begin{tabular}{c c c c c c c c c} % centered columns (8 columns)
+\begin{tabular}{c c c c c c c c} % centered columns (8 columns)
 \hline \hline
- \multicolumn{9}{|c|}{$1^{-}$} \\ \hline 
-channel & $\sqrt{s}$ & $f_{i}^{J^P}$ & $\alpha_{\rm ideal} (i)$ & $\epsilon_{\rm reco} (i)$ & $\alpha_{\rm exp} (i)$ & $N^{J^P}_{\rm exp} (i)$ & $\alpha_{\rm norm} (i)$ & $N^{J^P}_{\rm norm} (i)$\\ \hline 
-4e & 7TeV & 0.2395 & 0.854121 & 0.127888 & 0.429419
+
+ \multicolumn{8}{|c|}{$1^{-}$ $\sqrt{s}=7$~Tev} \\ \hline 
+
+channel & $f_{i}^{J^P}$ & $\alpha_{\rm ideal} (i)$ & $\epsilon_{\rm reco} (i)$ & $\alpha_{\rm exp} (i)$ & $N^{J^P}_{\rm exp} (i)$ & $\alpha_{\rm norm} (i)$ & $N^{J^P}_{\rm norm} (i)$\\ \hline 
+4e & 0.2395 & 0.854121 & 0.127888 & 0.429419
  & 0.292502% N^{Higg} = 18.3196
 % N_{exp}^{JP} = 0.292502 + 0.47399 + 0.837269 + 1.15378 + 2.34693 + 3.71105 = 8.81552
- & 0.89238 & 0.607852 \\ \hline 4mu & 7TeV & 0.2395 & 0.854121 & 0.207372 & 0.448064
+ & 0.89238 & 0.607852 \\ \hline 
+4mu & 0.2395 & 0.854121 & 0.207372 & 0.448064
  & 0.47399% N^{Higg} = 18.3196
 % N_{exp}^{JP} = 0.292502 + 0.47399 + 0.837269 + 1.15378 + 2.34693 + 3.71105 = 8.81552
- & 0.931127 & 0.985002 \\ \hline 2mu2e & 7TeV & 0.521 & 1.0  & 0.167307 & 0.550292
+ & 0.931127 & 0.985002 \\ \hline 
+2mu2e & 0.521 & 1.0  & 0.167307 & 0.550292
  & 0.837269% N^{Higg} = 18.3196
 % N_{exp}^{JP} = 0.292502 + 0.47399 + 0.837269 + 1.15378 + 2.34693 + 3.71105 = 8.81552
  & 1.14357 & 1.73994 \\ \hline \hline 
-4e & 8TeV & 0.2395 & 0.854121 & 0.100312 & 0.407292
+
+ \multicolumn{8}{|c|}{$1^{-}$ $\sqrt{s}=8$~Tev} \\ \hline 
+
+4e & 0.2395 & 0.854121 & 0.100312 & 0.407292
  & 1.15378% N^{Higg} = 18.3196
 % N_{exp}^{JP} = 0.292502 + 0.47399 + 0.837269 + 1.15378 + 2.34693 + 3.71105 = 8.81552
- & 0.846397 & 2.39768 \\ \hline 4mu & 8TeV & 0.2395 & 0.854121 & 0.202707 & 0.451114
+ & 0.846397 & 2.39768 \\ \hline 
+4mu & 0.2395 & 0.854121 & 0.202707 & 0.451114
  & 2.34693% N^{Higg} = 18.3196
 % N_{exp}^{JP} = 0.292502 + 0.47399 + 0.837269 + 1.15378 + 2.34693 + 3.71105 = 8.81552
- & 0.937464 & 4.87718 \\ \hline 2mu2e & 8TeV & 0.521 & 1.0  & 0.147179 & 0.528356
+ & 0.937464 & 4.87718 \\ \hline 
+2mu2e & 0.521 & 1.0  & 0.147179 & 0.528356
  & 3.71105% N^{Higg} = 18.3196
 % N_{exp}^{JP} = 0.292502 + 0.47399 + 0.837269 + 1.15378 + 2.34693 + 3.71105 = 8.81552
  & 1.09798 & 7.71197 \\ \hline \hline 
 % Sum N_{norm}^{JP} = 0.607852 + 0.985002 + 1.73994 + 2.39768 + 4.87718 + 7.71197 = 18.3196
- \multicolumn{9}{|c|}{$1^{+}$} \\ \hline 
-channel & $\sqrt{s}$ & $f_{i}^{J^P}$ & $\alpha_{\rm ideal} (i)$ & $\epsilon_{\rm reco} (i)$ & $\alpha_{\rm exp} (i)$ & $N^{J^P}_{\rm exp} (i)$ & $\alpha_{\rm norm} (i)$ & $N^{J^P}_{\rm norm} (i)$\\ \hline 
-4e & 7TeV & 0.2466 & 0.904082 & 0.151964 & 0.538705
+
+ \multicolumn{8}{|c|}{$1^{+}$ $\sqrt{s}=7$~Tev} \\ \hline 
+
+channel & $f_{i}^{J^P}$ & $\alpha_{\rm ideal} (i)$ & $\epsilon_{\rm reco} (i)$ & $\alpha_{\rm exp} (i)$ & $N^{J^P}_{\rm exp} (i)$ & $\alpha_{\rm norm} (i)$ & $N^{J^P}_{\rm norm} (i)$\\ \hline 
+4e & 0.2466 & 0.904082 & 0.151964 & 0.538705
  & 0.366943% N^{Higg} = 18.3196
 % N_{exp}^{JP} = 0.366943 + 0.61119 + 0.990764 + 1.47037 + 2.97901 + 4.45948 = 10.8778
- & 0.907252 & 0.617982 \\ \hline 4mu & 7TeV & 0.2466 & 0.904082 & 0.251755 & 0.57776
+ & 0.907252 & 0.617982 \\ \hline 
+4mu & 0.2466 & 0.904082 & 0.251755 & 0.57776
  & 0.61119% N^{Higg} = 18.3196
 % N_{exp}^{JP} = 0.366943 + 0.61119 + 0.990764 + 1.47037 + 2.97901 + 4.45948 = 10.8778
- & 0.973026 & 1.02933 \\ \hline 2mu2e & 7TeV & 0.5068 & 1.0  & 0.198025 & 0.651177
+ & 0.973026 & 1.02933 \\ \hline 
+2mu2e & 0.5068 & 1.0  & 0.198025 & 0.651177
  & 0.990764% N^{Higg} = 18.3196
 % N_{exp}^{JP} = 0.366943 + 0.61119 + 0.990764 + 1.47037 + 2.97901 + 4.45948 = 10.8778
  & 1.09667 & 1.66858 \\ \hline \hline 
-4e & 8TeV & 0.2466 & 0.904082 & 0.119758 & 0.519051
+
+ \multicolumn{8}{|c|}{$1^{+}$ $\sqrt{s}=8$~Tev} \\ \hline 
+
+4e & 0.2466 & 0.904082 & 0.119758 & 0.519051
  & 1.47037% N^{Higg} = 18.3196
 % N_{exp}^{JP} = 0.366943 + 0.61119 + 0.990764 + 1.47037 + 2.97901 + 4.45948 = 10.8778
- & 0.874151 & 2.4763 \\ \hline 4mu & 8TeV & 0.2466 & 0.904082 & 0.242716 & 0.572609
+ & 0.874151 & 2.4763 \\ \hline 
+4mu & 0.2466 & 0.904082 & 0.242716 & 0.572609
  & 2.97901% N^{Higg} = 18.3196
 % N_{exp}^{JP} = 0.366943 + 0.61119 + 0.990764 + 1.47037 + 2.97901 + 4.45948 = 10.8778
- & 0.964351 & 5.01706 \\ \hline 2mu2e & 8TeV & 0.5068 & 1.0  & 0.177697 & 0.634913
+ & 0.964351 & 5.01706 \\ \hline 
+2mu2e & 0.5068 & 1.0  & 0.177697 & 0.634913
  & 4.45948% N^{Higg} = 18.3196
 % N_{exp}^{JP} = 0.366943 + 0.61119 + 0.990764 + 1.47037 + 2.97901 + 4.45948 = 10.8778
  & 1.06928 & 7.51037 \\ \hline \hline 
@@ -862,73 +910,98 @@ Table with correction factors and event yields in the different
 channels of the alternative spin-2 hypotheses with minimal
 couplings arising due to lepton interference and detector effects.}
 \centering % used for centering table
-\begin{tabular}{c c c c c c c c c} % centered columns (8 columns)
+\begin{tabular}{c c c c c c c c} % centered columns (8 columns)
 \hline \hline
- \multicolumn{9}{|c|}{$2^{+}_{m} (gg)$} \\ \hline 
-channel & $\sqrt{s}$ & $f_{i}^{J^P}$ & $\alpha_{\rm ideal} (i)$ & $\epsilon_{\rm reco} (i)$ & $\alpha_{\rm exp} (i)$ & $N^{J^P}_{\rm exp} (i)$ & $\alpha_{\rm norm} (i)$ & $N^{J^P}_{\rm norm} (i)$\\ \hline 
-4e & 7TeV & 0.2368 & 0.835494 & 0.22689 & 0.745966
+
+ \multicolumn{8}{|c|}{$2^{+}_{m} (gg)$ $\sqrt{s}=7$~TeV} \\ \hline 
+
+channel & $f_{i}^{J^P}$ & $\alpha_{\rm ideal} (i)$ & $\epsilon_{\rm reco} (i)$ & $\alpha_{\rm exp} (i)$ & $N^{J^P}_{\rm exp} (i)$ & $\alpha_{\rm norm} (i)$ & $N^{J^P}_{\rm norm} (i)$\\ \hline 
+4e & 0.2368 & 0.835494 & 0.22689 & 0.745966
  & 0.508121% N^{Higg} = 18.3196
 % N_{exp}^{JP} = 0.508121 + 0.830746 + 1.47894 + 2.11001 + 4.08398 + 6.76734 = 15.7791
- & 0.866069 & 0.58993 \\ \hline 4mu & 7TeV & 0.2368 & 0.835494 & 0.368471 & 0.785308
+ & 0.866069 & 0.58993 \\ \hline 4mu & 0.2368 & 0.835494 & 0.368471 & 0.785308
  & 0.830746% N^{Higg} = 18.3196
 % N_{exp}^{JP} = 0.508121 + 0.830746 + 1.47894 + 2.11001 + 4.08398 + 6.76734 = 15.7791
- & 0.911745 & 0.964499 \\ \hline 2mu2e & 7TeV & 0.5265 & 1.0  & 0.296789 & 0.97203
+ & 0.911745 & 0.964499 \\ \hline 2mu2e & 0.5265 & 1.0  & 0.296789 & 0.97203
  & 1.47894% N^{Higg} = 18.3196
 % N_{exp}^{JP} = 0.508121 + 0.830746 + 1.47894 + 2.11001 + 4.08398 + 6.76734 = 15.7791
  & 1.12853 & 1.71706 \\ \hline \hline 
-4e & 8TeV & 0.2368 & 0.835494 & 0.18665 & 0.744846
+
+ \multicolumn{8}{|c|}{$2^{+}_{m} (gg)$ $\sqrt{s}=8$~TeV} \\ \hline 
+
+4e & 0.2368 & 0.835494 & 0.18665 & 0.744846
  & 2.11001% N^{Higg} = 18.3196
 % N_{exp}^{JP} = 0.508121 + 0.830746 + 1.47894 + 2.11001 + 4.08398 + 6.76734 = 15.7791
- & 0.864769 & 2.44972 \\ \hline 4mu & 8TeV & 0.2368 & 0.835494 & 0.361526 & 0.784999
+ & 0.864769 & 2.44972 \\ \hline 
+4mu & 0.2368 & 0.835494 & 0.361526 & 0.784999
  & 4.08398% N^{Higg} = 18.3196
 % N_{exp}^{JP} = 0.508121 + 0.830746 + 1.47894 + 2.11001 + 4.08398 + 6.76734 = 15.7791
- & 0.911387 & 4.74151 \\ \hline 2mu2e & 8TeV & 0.5265 & 1.0  & 0.268665 & 0.96349
+ & 0.911387 & 4.74151 \\ \hline 
+2mu2e & 0.5265 & 1.0  & 0.268665 & 0.96349
  & 6.76734% N^{Higg} = 18.3196
 % N_{exp}^{JP} = 0.508121 + 0.830746 + 1.47894 + 2.11001 + 4.08398 + 6.76734 = 15.7791
  & 1.11862 & 7.8569 \\ \hline \hline 
 % Sum N_{norm}^{JP} = 0.58993 + 0.964499 + 1.71706 + 2.44972 + 4.74151 + 7.8569 = 18.3196
- \multicolumn{9}{|c|}{$2^{+}_{m} (q\bar{q})$} \\ \hline 
-channel & $\sqrt{s}$ & $f_{i}^{J^P}$ & $\alpha_{\rm ideal} (i)$ & $\epsilon_{\rm reco} (i)$ & $\alpha_{\rm exp} (i)$ & $N^{J^P}_{\rm exp} (i)$ & $\alpha_{\rm norm} (i)$ & $N^{J^P}_{\rm norm} (i)$\\ \hline 
-4e & 7TeV & 0.2368 & 0.835494 & 0.180851 & 0.593713
+
+ \multicolumn{8}{|c|}{$2^{+}_{m} (q\bar{q})$ $\sqrt{s}=7$~TeV} \\ \hline 
+
+channel & $f_{i}^{J^P}$ & $\alpha_{\rm ideal} (i)$ & $\epsilon_{\rm reco} (i)$ & $\alpha_{\rm exp} (i)$ & $N^{J^P}_{\rm exp} (i)$ & $\alpha_{\rm norm} (i)$ & $N^{J^P}_{\rm norm} (i)$\\ \hline 
+4e & 0.2368 & 0.835494 & 0.180851 & 0.593713
  & 0.404413% N^{Higg} = 18.3196
 % N_{exp}^{JP} = 0.404413 + 0.673168 + 1.21801 + 1.70669 + 3.2149 + 5.50743 = 12.7246
- & 0.854769 & 0.582233 \\ \hline 4mu & 7TeV & 0.2368 & 0.835494 & 0.298801 & 0.636349
+ & 0.854769 & 0.582233 \\ \hline 
+4mu & 0.2368 & 0.835494 & 0.298801 & 0.636349
  & 0.673168% N^{Higg} = 18.3196
 % N_{exp}^{JP} = 0.404413 + 0.673168 + 1.21801 + 1.70669 + 3.2149 + 5.50743 = 12.7246
- & 0.916151 & 0.969161 \\ \hline 2mu2e & 7TeV & 0.5265 & 1.0  & 0.24418 & 0.800531
+ & 0.916151 & 0.969161 \\ \hline 
+2mu2e & 0.5265 & 1.0  & 0.24418 & 0.800531
  & 1.21801% N^{Higg} = 18.3196
 % N_{exp}^{JP} = 0.404413 + 0.673168 + 1.21801 + 1.70669 + 3.2149 + 5.50743 = 12.7246
  & 1.15253 & 1.75357 \\ \hline \hline 
-4e & 8TeV & 0.2368 & 0.835494 & 0.150986 & 0.602471
+
+ \multicolumn{8}{|c|}{$2^{+}_{m} (q\bar{q})$ $\sqrt{s}=8$~TeV} \\ \hline 
+
+4e & 0.2368 & 0.835494 & 0.150986 & 0.602471
  & 1.70669% N^{Higg} = 18.3196
 % N_{exp}^{JP} = 0.404413 + 0.673168 + 1.21801 + 1.70669 + 3.2149 + 5.50743 = 12.7246
- & 0.867378 & 2.45712 \\ \hline 4mu & 8TeV & 0.2368 & 0.835494 & 0.284727 & 0.61795
+ & 0.867378 & 2.45712 \\ \hline 
+4mu & 0.2368 & 0.835494 & 0.284727 & 0.61795
  & 3.2149% N^{Higg} = 18.3196
 % N_{exp}^{JP} = 0.404413 + 0.673168 + 1.21801 + 1.70669 + 3.2149 + 5.50743 = 12.7246
- & 0.889664 & 4.6285 \\ \hline 2mu2e & 8TeV & 0.5265 & 1.0  & 0.218591 & 0.784113
+ & 0.889664 & 4.6285 \\ \hline 
+2mu2e & 0.5265 & 1.0  & 0.218591 & 0.784113
  & 5.50743% N^{Higg} = 18.3196
 % N_{exp}^{JP} = 0.404413 + 0.673168 + 1.21801 + 1.70669 + 3.2149 + 5.50743 = 12.7246
  & 1.12889 & 7.92905 \\ \hline \hline 
 % Sum N_{norm}^{JP} = 0.582233 + 0.969161 + 1.75357 + 2.45712 + 4.6285 + 7.92905 = 18.3196
- \multicolumn{9}{|c|}{$2^{+}_{b}$} \\ \hline 
-channel & $\sqrt{s}$ & $f_{i}^{J^P}$ & $\alpha_{\rm ideal} (i)$ & $\epsilon_{\rm reco} (i)$ & $\alpha_{\rm exp} (i)$ & $N^{J^P}_{\rm exp} (i)$ & $\alpha_{\rm norm} (i)$ & $N^{J^P}_{\rm norm} (i)$\\ \hline 
-4e & 7TeV & 0.234 & 0.81758 & 0.222087 & 0.725251
+
+ \multicolumn{8}{|c|}{$2^{+}_{b}$ $\sqrt{s}=$8~TeV} \\ \hline 
+
+channel & $f_{i}^{J^P}$ & $\alpha_{\rm ideal} (i)$ & $\epsilon_{\rm reco} (i)$ & $\alpha_{\rm exp} (i)$ & $N^{J^P}_{\rm exp} (i)$ & $\alpha_{\rm norm} (i)$ & $N^{J^P}_{\rm norm} (i)$\\ \hline 
+4e & 0.234 & 0.81758 & 0.222087 & 0.725251
  & 0.494011% N^{Higg} = 18.3196
 % N_{exp}^{JP} = 0.494011 + 0.786165 + 1.45677 + 2.09386 + 3.80295 + 6.64082 = 15.2746
- & 0.869832 & 0.592493 \\ \hline 4mu & 7TeV & 0.234 & 0.81758 & 0.35873 & 0.743164
+ & 0.869832 & 0.592493 \\ \hline 
+4mu & 0.234 & 0.81758 & 0.35873 & 0.743164
  & 0.786165% N^{Higg} = 18.3196
 % N_{exp}^{JP} = 0.494011 + 0.786165 + 1.45677 + 2.09386 + 3.80295 + 6.64082 = 15.2746
- & 0.891317 & 0.942889 \\ \hline 2mu2e & 7TeV & 0.5319 & 1.0  & 0.293403 & 0.957458
+ & 0.891317 & 0.942889 \\ \hline 
+2mu2e & 0.5319 & 1.0  & 0.293403 & 0.957458
  & 1.45677% N^{Higg} = 18.3196
 % N_{exp}^{JP} = 0.494011 + 0.786165 + 1.45677 + 2.09386 + 3.80295 + 6.64082 = 15.2746
  & 1.14833 & 1.74718 \\ \hline \hline 
-4e & 8TeV & 0.234 & 0.81758 & 0.185353 & 0.739147
+
+ \multicolumn{8}{|c|}{$2^{+}_{b}$ $\sqrt{s}=$8~TeV} \\ \hline 
+
+4e & 0.234 & 0.81758 & 0.185353 & 0.739147
  & 2.09386% N^{Higg} = 18.3196
 % N_{exp}^{JP} = 0.494011 + 0.786165 + 1.45677 + 2.09386 + 3.80295 + 6.64082 = 15.2746
- & 0.886499 & 2.51128 \\ \hline 4mu & 8TeV & 0.234 & 0.81758 & 0.346648 & 0.730982
+ & 0.886499 & 2.51128 \\ \hline 
+4mu & 0.234 & 0.81758 & 0.346648 & 0.730982
  & 3.80295% N^{Higg} = 18.3196
 % N_{exp}^{JP} = 0.494011 + 0.786165 + 1.45677 + 2.09386 + 3.80295 + 6.64082 = 15.2746
- & 0.876706 & 4.56109 \\ \hline 2mu2e & 8TeV & 0.5319 & 1.0  & 0.265235 & 0.945478
+ & 0.876706 & 4.56109 \\ \hline 
+2mu2e & 0.5319 & 1.0  & 0.265235 & 0.945478
  & 6.64082% N^{Higg} = 18.3196
 % N_{exp}^{JP} = 0.494011 + 0.786165 + 1.45677 + 2.09386 + 3.80295 + 6.64082 = 15.2746
  & 1.13396 & 7.96469 \\ \hline \hline 
@@ -945,50 +1018,68 @@ channel & $\sqrt{s}$ & $f_{i}^{J^P}$ & $\alpha_{\rm ideal} (i)$ & $\epsilon_{\rm
 Table with correction factors and event yields in the different
 channels of the alternative spin-2 hypotheses with high dimensional
 couplings arising due to lepton interference and detector effects.}
-\begin{tabular}{c c c c c c c c c} % centered columns (8 columns)
+\begin{tabular}{c c c c c c c c} % centered columns (8 columns)
 \hline \hline
-\multicolumn{9}{|c|}{$2^{+}_{h}$} \\ \hline 
-channel & $\sqrt{s}$ & $f_{i}^{J^P}$ & $\alpha_{\rm ideal} (i)$ & $\epsilon_{\rm reco} (i)$ & $\alpha_{\rm exp} (i)$ & $N^{J^P}_{\rm exp} (i)$ & $\alpha_{\rm norm} (i)$ & $N^{J^P}_{\rm norm} (i)$\\ \hline 
-4e & 7TeV & 0.2453 & 0.894726 & 0.223832 & 0.791281
+
+\multicolumn{8}{|c|}{$2^{+}_{h}$ $\sqrt{s}=7$~TeV} \\ \hline 
+
+channel & $f_{i}^{J^P}$ & $\alpha_{\rm ideal} (i)$ & $\epsilon_{\rm reco} (i)$ & $\alpha_{\rm exp} (i)$ & $N^{J^P}_{\rm exp} (i)$ & $\alpha_{\rm norm} (i)$ & $N^{J^P}_{\rm norm} (i)$\\ \hline 
+4e & 0.2453 & 0.894726 & 0.223832 & 0.791281
  & 0.538988% N^{Higg} = 18.3196
 % N_{exp}^{JP} = 0.538988 + 0.845455 + 1.44081 + 2.2683 + 4.12916 + 6.56791 = 15.7906
- & 0.918012 & 0.625311 \\ \hline 4mu & 7TeV & 0.2453 & 0.894726 & 0.357244 & 0.799212
+ & 0.918012 & 0.625311 \\ \hline 
+4mu & 0.2453 & 0.894726 & 0.357244 & 0.799212
  & 0.845455% N^{Higg} = 18.3196
 % N_{exp}^{JP} = 0.538988 + 0.845455 + 1.44081 + 2.2683 + 4.12916 + 6.56791 = 15.7906
- & 0.927213 & 0.980862 \\ \hline 2mu2e & 7TeV & 0.5094 & 1.0  & 0.286971 & 0.946968
+ & 0.927213 & 0.980862 \\ \hline 
+2mu2e & 0.5094 & 1.0  & 0.286971 & 0.946968
  & 1.44081% N^{Higg} = 18.3196
 % N_{exp}^{JP} = 0.538988 + 0.845455 + 1.44081 + 2.2683 + 4.12916 + 6.56791 = 15.7906
  & 1.09863 & 1.67157 \\ \hline \hline 
-4e & 8TeV & 0.2453 & 0.894726 & 0.188832 & 0.800725
+
+\multicolumn{8}{|c|}{$2^{+}_{h}$ $\sqrt{s}=8$~TeV} \\ \hline 
+
+4e & 0.2453 & 0.894726 & 0.188832 & 0.800725
  & 2.2683% N^{Higg} = 18.3196
 % N_{exp}^{JP} = 0.538988 + 0.845455 + 1.44081 + 2.2683 + 4.12916 + 6.56791 = 15.7906
- & 0.928968 & 2.63159 \\ \hline 4mu & 8TeV & 0.2453 & 0.894726 & 0.343297 & 0.793683
+ & 0.928968 & 2.63159 \\ \hline 
+4mu & 0.2453 & 0.894726 & 0.343297 & 0.793683
  & 4.12916% N^{Higg} = 18.3196
 % N_{exp}^{JP} = 0.538988 + 0.845455 + 1.44081 + 2.2683 + 4.12916 + 6.56791 = 15.7906
- & 0.920798 & 4.79048 \\ \hline 2mu2e & 8TeV & 0.5094 & 1.0  & 0.259049 & 0.935098
+ & 0.920798 & 4.79048 \\ \hline 
+2mu2e & 0.5094 & 1.0  & 0.259049 & 0.935098
  & 6.56791% N^{Higg} = 18.3196
 % N_{exp}^{JP} = 0.538988 + 0.845455 + 1.44081 + 2.2683 + 4.12916 + 6.56791 = 15.7906
  & 1.08486 & 7.61982 \\ \hline \hline 
 % Sum N_{norm}^{JP} = 0.625311 + 0.980862 + 1.67157 + 2.63159 + 4.79048 + 7.61982 = 18.3196
- \multicolumn{9}{|c|}{$2^{-}_{h}$} \\ \hline 
-channel & $\sqrt{s}$ & $f_{i}^{J^P}$ & $\alpha_{\rm ideal} (i)$ & $\epsilon_{\rm reco} (i)$ & $\alpha_{\rm exp} (i)$ & $N^{J^P}_{\rm exp} (i)$ & $\alpha_{\rm norm} (i)$ & $N^{J^P}_{\rm norm} (i)$\\ \hline 
-4e & 7TeV & 0.2426 & 0.875596 & 0.205982 & 0.715726
+
+ \multicolumn{8}{|c|}{$2^{-}_{h}$ $\sqrt{s}=7$~TeV} \\ \hline 
+
+channel & $f_{i}^{J^P}$ & $\alpha_{\rm ideal} (i)$ & $\epsilon_{\rm reco} (i)$ & $\alpha_{\rm exp} (i)$ & $N^{J^P}_{\rm exp} (i)$ & $\alpha_{\rm norm} (i)$ & $N^{J^P}_{\rm norm} (i)$\\ \hline 
+4e & 0.2426 & 0.875596 & 0.205982 & 0.715726
  & 0.487522% N^{Higg} = 18.3196
 % N_{exp}^{JP} = 0.487522 + 0.792493 + 1.29849 + 2.08139 + 3.90183 + 5.95518 = 14.5169
- & 0.903211 & 0.615229 \\ \hline 4mu & 7TeV & 0.2426 & 0.875596 & 0.336909 & 0.749146
+ & 0.903211 & 0.615229 \\ \hline 
+4mu & 0.2426 & 0.875596 & 0.336909 & 0.749146
  & 0.792493% N^{Higg} = 18.3196
 % N_{exp}^{JP} = 0.487522 + 0.792493 + 1.29849 + 2.08139 + 3.90183 + 5.95518 = 14.5169
- & 0.945386 & 1.00009 \\ \hline 2mu2e & 7TeV & 0.5148 & 1.0  & 0.26108 & 0.853431
+ & 0.945386 & 1.00009 \\ \hline 
+2mu2e & 0.5148 & 1.0  & 0.26108 & 0.853431
  & 1.29849% N^{Higg} = 18.3196
 % N_{exp}^{JP} = 0.487522 + 0.792493 + 1.29849 + 2.08139 + 3.90183 + 5.95518 = 14.5169
  & 1.07699 & 1.63864 \\ \hline \hline 
-4e & 8TeV & 0.2426 & 0.875596 & 0.172541 & 0.734743
+
+ \multicolumn{8}{|c|}{$2^{-}_{h}$ $\sqrt{s}=8$~TeV} \\ \hline 
+
+4e & 0.2426 & 0.875596 & 0.172541 & 0.734743
  & 2.08139% N^{Higg} = 18.3196
 % N_{exp}^{JP} = 0.487522 + 0.792493 + 1.29849 + 2.08139 + 3.90183 + 5.95518 = 14.5169
- & 0.927209 & 2.62661 \\ \hline 4mu & 8TeV & 0.2426 & 0.875596 & 0.330978 & 0.749988
+ & 0.927209 & 2.62661 \\ \hline 
+4mu & 0.2426 & 0.875596 & 0.330978 & 0.749988
  & 3.90183% N^{Higg} = 18.3196
 % N_{exp}^{JP} = 0.487522 + 0.792493 + 1.29849 + 2.08139 + 3.90183 + 5.95518 = 14.5169
- & 0.946448 & 4.92392 \\ \hline 2mu2e & 8TeV & 0.5148 & 1.0  & 0.237978 & 0.847861
+ & 0.946448 & 4.92392 \\ \hline 
+2mu2e & 0.5148 & 1.0  & 0.237978 & 0.847861
  & 5.95518% N^{Higg} = 18.3196
 % N_{exp}^{JP} = 0.487522 + 0.792493 + 1.29849 + 2.08139 + 3.90183 + 5.95518 = 14.5169
  & 1.06996 & 7.51514 \\ \hline \hline 
@@ -1050,7 +1141,13 @@ of this statistical fluctuation.
 \includegraphics[width=.32\linewidth]{HZZ4lPlots/separation_1minus_prodind.eps}
 \includegraphics[width=.32\linewidth]{HZZ4lPlots/separation_1plus_prodind.eps}
 \includegraphics[width=.32\linewidth]{HZZ4lPlots/separation_2mplus_prodind.eps}
-\caption{}
+\caption{Distribution of expected and observed test statistics 
+for various hypothesis test.  Orange histograms represent toys
+generated under the null hypothesis, SM background plus a SM 
+Higgs boson.  Blue histograms represent toys generated under the
+alternative hypothesis.  The red arrow shows the value of the 
+observed test statistic.  All resonances are assumed to have a 
+mass of 126~GeV.}
 \label{fig:HZZ4lhypothTests}
 \end{center}
 \end{figure}
@@ -1139,7 +1236,7 @@ found to be $\mu=X.XX$, $f_{a3}=0.0$.  Profiling $\mu$, we
 arrive at the 1D $\ln\mathscr{L}$ scan versus $f_{a3}$ in 
 figure~\ref{fig:HZZ4lfa3Fit1D}.  The expected 68\% and 95\% CL 
 intervals, from fitting the asimov dataset, are found to be 
-\textcolor{red}{[0.0,0.39] and [0.0,0.7X]}, respectively. 
+[0.0,0.39] and [0.0,0.69], respectively. 
 The observed  68\% and 95\% CL 
 intervals are found to be [0.00,0.16] and [0.00,0.49], 
 respectively. 
