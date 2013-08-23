@@ -27,9 +27,9 @@
 \label{sec:HZZ4l}
 The $ZZ\to 4\ell$ channel, often refered to as the golden decay 
 channel, is one of the most promising channels for discovering a 
-Higgs like resonance over of broad range of masses because of 
+Higgs like resonance over a broad range of masses because of 
 the high mass resolution and low SM background rates.
-Using the tools developed in chapter~\ref{sec:HiggsPhen}, it will 
+Using the tools developed in Chapter~\ref{sec:HiggsPhen}, it will 
 be shown that this channel is also very condusive for property
 measurements of resonances.
 
@@ -48,17 +48,17 @@ for a SM Higgs boson with $m_H>$120~GeV.
 Monte Carlo (MC) simulations have been used to develop, optimize, 
 and validate analysis strategies.  Signal samples
 are generated using either \verb+POWHEG+~\cite{Frixione:2007vw} at next-to-leading 
-order (NLO) in $\alpha_s$ for SM Higgs couplings or with 
-\verb+JHUGen+~\cite{Gao:2010qx,Bolognesi:2012mm} at leading order 
-(LO) in $\alpha_s$ for either
-SM Higgs couplings or non-SM scalar couplings and higher spin
-models.  For simulation of Higgs bosons produced in association
+order (NLO) in $\alpha_s$ for SM Higgs samples via gluon-gluon 
+fusion or VBF.  For SM Higgs and non-SM signals samples at leading
+order,
+\verb+JHUGen+~\cite{Gao:2010qx,Bolognesi:2012mm}.  
+For simulation of Higgs bosons produced in association
 with either weak vector bosons, VH, or $t\bar{t}$ pairs, ttH, 
 the event generator \verb+PYTHIA+~\cite{Sjostrand:2006za} is used.  
 
 Since the \verb+PYTHIA+ samples do not model the interference
 of final leptons for the $4\mu$ and $4e$ channels.  These samples
-are reweighted using the JHUGen matrix element calculation where
+are reweighted using the \verb+JHUGen+ matrix element calculation where
 appropriate.  However, the branching fractions 
 $\mathscr{B}(H\to 4\ell)$ are taken from \verb+PROPHECY4F+ which 
 includes both interference effects and NLO QCD/EW corrections. 
@@ -69,11 +69,10 @@ the $m_{4\ell}$ line shape is reweighted to match the complex-pole
 scheme described in~\cite{Passarino:2010qk,Goria:2011wa,Kauer:2013cga}.  Effects from the intereference
 bewteen signal and the continuum $gg\to ZZ$ production is also 
 accounted for following the prescription of~\cite{Passarino:2012ri}.
-Events are weighted to account for the total production cross
-section of the Higgs boson according to 
-references~\cite{Anastasiou:2008tj,deFlorian:2009hc,Baglio:2010ae,Dittmaier:2011ti,Djouadi:1991tka,Dawson:1990zj,Spira:1995rr,Harlander:2002wh,Anastasiou:2002yz,Ravindran:2003um,Catani:2003zt,Actis:2008ug} 
+The total production cross section of the Higgs boson is taken from
+References~\cite{Anastasiou:2008tj,deFlorian:2009hc,Baglio:2010ae,Dittmaier:2011ti,Djouadi:1991tka,Dawson:1990zj,Spira:1995rr,Harlander:2002wh,Anastasiou:2002yz,Ravindran:2003um,Catani:2003zt,Actis:2008ug} 
 for gluon-gluon fusion process and according to 
-references~\cite{Dittmaier:2011ti,Ciccolini:2007jr,Ciccolini:2007ec,Figy:2003nv,Arnold:2008rz,Bolzoni:2010xr} 
+References~\cite{Dittmaier:2011ti,Ciccolini:2007jr,Ciccolini:2007ec,Figy:2003nv,Arnold:2008rz,Bolzoni:2010xr} 
 for VBF process.
 
 The SM continuum production of ZZ events via $q\bar{q}$
@@ -82,9 +81,8 @@ other diboson processes were simulated with
 \verb+MADGRAPH+\cite{Alwall:2007st}.
 The gluon-gluon
 fusion production of continuum ZZ events is simulated using
-\verb+GG2ZZ+~\cite{Binoth:2008pr}. Other di-boson background 
-as well 
-as Drell-Yan events  are simulated at LO using \verb+MADGRAPH+.  
+\verb+GG2ZZ+~\cite{Binoth:2008pr}. Drell-Yan events  are 
+simulated at LO using \verb+MADGRAPH+.  
 Di-boson samples produced at leading order are rescaled to match
 cross sections predicted by NLO calculations while Drell-Yan 
 samples are rescaled to match cross sections predicted by NNLO
@@ -98,12 +96,12 @@ for LO (NLO)
 generators.  Detector effects and event reconstruction is 
 simulated using \verb+GEANT4+~\cite{Allison:2006ve}.  The number 
 of reconstructed vertices per collision is reweighted to match 
-the distribution seen in data.  Addition energy deposited into
+the distribution seen in data.  Additional energy deposited into
 calorimeter from pileup interactions and from the underlying
 event is subtracted using the \verb+FASTJET+ algorithm~\cite{Cacciari:2007fd,Cacciari:2008gn,Cacciari:2011ma}. 
 
 The generators and cross sections for each of these event types 
-is shown in table~\ref{table:MCsamples}
+is shown in Table~\ref{table:MCsamples}
 
 \begin{table}
 \begin{center}
@@ -135,18 +133,16 @@ cross sections are ommitted for these samples.}
 \subsection{Event Selection and Categorization}
 \label{sec:HZZ4lselection}
 
-Selections are applied to increase the purity of signal events 
-as much as possible.  Selections based isolation and identification
+Selections based isolation and identification
 requirements are used to reduce background in which the physical
 process does not produce four leptons, e.g. $Z+jet$ events, 
 generally referred to as reducible backgrounds.  All 
 reconstructed leptons are also required to have in impact
 parameter which is sufficiently compatible with the primary 
-vertex, which is quantified by the significance of the impact 
-parameter, \sip. 
+vertex~\cite{CMS:xwa}.
 
 Events are then classified into a number of categories as 
-outlined in table~\ref{table:HZZ4lCategories}.  Categories 
+outlined in Table~\ref{table:HZZ4lCategories}.  Categories 
 which make up the 
 signal region always consist of events with two oppositely 
 charged lepton pairs. The signal regions are then further 
@@ -161,7 +157,8 @@ flavors. Since each flavor will have a different $m_{4\ell}$
 resolution, this categorization increases the overall
 sensitivity to signal events. 
 Control regions in which either looser ID requirements or 
-same-sign leptons pairs are used to estimate the amount of 
+same-sign leptons pairs are used.  These control regions
+are used to estimate the amount of 
 instrumental background from data. 
 
 %\begin{table}
@@ -186,7 +183,7 @@ instrumental background from data.
 %\end{center}
 %\end{table}
 
-A minimal amount of the kinematic selections are applied to 
+Minimal kinematic selections are applied to 
 further reduce the continuum ZZ backgrounds.  In order to 
 reduce the contamination of low-mass
 resonances, such as $J/\psi$'s, all dilepton pairings are 
@@ -212,38 +209,15 @@ distribution functions are calculated as a function of $m_{4\ell}$
 following the \verb+PDF4LHC+ prescription~\cite{Botje:2011sn,Alekhin:2011sk}. 
 The total uncertainties from QCD and PDFs are typically 8\%.  
 
-{\it NEED TO REWRITE}
-
-To estimate the reducible ($Zb\bar{b}$, $t\bar{t}$) and 
-instrumental ($Z+light jets$, $WZ+jets$) backgrounds, a 
-$Z_1+X$ background control region, well separated from the 
-signal region, is defineed.  In addition, a sample $Z_1+\ell_{reco}$,
-with at least one reconstructed lepton object, is defined for the
-measurement of the lepton misidentification probability - the
-probability for a reconstructed objet to pass the isolation and 
-identification requirements.  The contamination from WZ in these
-events is suppressed by requiring the imbalance of the measured
-energy deposition in the transverse plane to be below 25~\GeV. 
-Then lepton misidentification probability is compared, and found
-compatible, with the one derived from MC simulation.
-
-The event rates measured in the background control region are
-extrapolated to the signal region.  Two different approaches are
-used.  They differ in the way the contribution from electrons
-coming from photon conversions is handled.  Both start by 
-relaxing the isolation and identification criteria for two 
-additional reconstructed lepton objects.  The first approach 
-follows from the previous CMS analysis [14].  It aims at
-estimating all contributions of reducible background in one 
-single step.  The additional pair of leptons is required to have
-the same charge (to avoid signal contamination) and same flavour,
-a reconstructed invariant mass .. 
-
-{\it END OF REWRITE}
+Expected event yields for the reducible background is estimated
+by deriving an extrapolation between loose and tight identification
+requirements.  Event in the signal region are then extrapolated
+from a separate control region~\cite{CMS:xwa}.  
 
 Systematic uncertainties are evaluated from data for trigger 
 and combined lepton reconstruction, identification, and
-isolation efficiencies.  Samples of $Z\to\ell\ell$, 
+isolation efficiencies using the tag \& probe method.  
+Samples of $Z\to\ell\ell$, 
 $\Upsilon\to\ell\ell$, and $J/\psi\to\ell\ell$ events are used
 to set and validate the abolute momentum scale and momentum
 resolution.  
@@ -253,7 +227,7 @@ Additional systematics arrise from limited statistics in
 background control regions as well as systematic differences 
 between the control regions.  
 %All systematics for background
-%are tabulated in table~\ref{HZZ4lSystematics}.
+%are tabulated in Table~\ref{HZZ4lSystematics}.
 
 %\begin{table}
 %\begin{center}
@@ -278,12 +252,12 @@ between the control regions.
 %\end{table}
 
 Starting from Higgs boson production cross sections decsribed in 
-section~\ref{sec:HZZ4ldatasets}, signal event yields are calculated
+Section~\ref{sec:HZZ4ldatasets}, signal event yields are calculated
 using MC simulations to calculate efficiencies.   Shapes of 
 signal distributions are also taken from MC simulations.  
 %All systematic 
 %uncertainties for signal events are tabulated in 
-%table~\ref{HZZ4lSystematics}.
+%Table~\ref{HZZ4lSystematics}.
 
 There are a number of different measurables with which event 
 likelihoods will be evaluated.  For cross section measurements,
@@ -291,9 +265,9 @@ $m_{4\ell}$, \KD, and either $\mathscr{D}_jet$ or $p_{T,4\ell}$
 are used.  The first two
 variables provide discrimination between signal and background,
 while the latter two distinguish different production modes.
-\KD~is a discriment built within the MELA framework presented 
-in chapter~\ref{sec:HiggsPhen} and is described in 
-equation~\ref{eq:Dbkg}.
+\KD~is a discrimimant built within the MELA framework presented 
+in Chapter~\ref{sec:HiggsPhen} and is described in 
+Equation~\ref{eq:Dbkg}.
 \Djet~is used for events in the dijet category and is a linear 
 combination of the difference in pseudorapidity,
 $\Delta\eta$, and the invariant mass of the event's two leading 
@@ -304,12 +278,11 @@ events.  For events in the non-dijet category, $p_{T,4\ell}$ is used
 to distinguish different production mechanisms.  
 
 The signal and background 
-$m_{4\ell}$ distributions are described using emperical functions, 
+$m_{4\ell}$ distributions are described using empirical functions, 
 $\mathscr{P}_{bkg}(m_{4\ell})$ and $\mathscr{P}_{sig}(m_{4\ell};m_{H})$.  
-The signal modeling is derived 
-through a similar manner use in the semi-leptonic analysis and
-is ultimately parameterized as a function of the Higgs mass 
-hypothesis, $m_H$.
+The signal modeling is derived by interpolating function parameter
+from fit to individual Higgs mass hypotheses to intermediate masses,
+similar to the semi-leptonic analysis. 
 To account for the correlation between $m_{4\ell}$ and other
 variables, conditional probability distributions are built, 
 $\mathscr{P}($\KD$|m_{4\ell})$, $\mathscr{P}($\Djet$|m_{4\ell})$,
@@ -332,11 +305,11 @@ where $\mathscr{D}_{VBF}$ is used as short hand for either $p_{T,4\ell}$ or \Dje
 depending on which category the event belongs to. 
 
 For certain property measurements, distributions of \spinKD~
-and \superKD are used.  The \superKD~variable is an extension
+and \superKD~are used.  The \superKD~variable is an extension
 of \KD~which also includes $m_{4\ell}$ information for optimal 
 separation of signal and background,
 \begin{equation}
-\mathscr{D}_{bkg}=\left(1+\frac{\mathscr{P}^{kin}_{bkg}(m_{Z_1},m_{Z_2},\vec{\Omega}|m_{4\ell})\times\mathscr{P}^{mass}_{bkg}(m_{4\ell})}{\mathscr{P}^{kin}_{0^+}(m_{Z_1},m_{Z_2},\vec{\Omega}|m_{4\ell})\times\mathscr{P}^{mass}_{sig}(m_{4\ell}}\right)^{-1}.
+\mathscr{D}_{bkg}=\left(1+\frac{\mathscr{P}^{kin}_{bkg}(m_{Z_1},m_{Z_2},\vec{\Omega}|m_{4\ell})\times\mathscr{P}^{mass}_{bkg}(m_{4\ell})}{\mathscr{P}^{kin}_{0^+}(m_{Z_1},m_{Z_2},\vec{\Omega}|m_{4\ell})\times\mathscr{P}^{mass}_{sig}(m_{4\ell})}\right)^{-1}.
 \end{equation}
 
 Although spin-0 models are
@@ -354,20 +327,19 @@ is constructed
 from two observables, $\mathscr{L}$(\superKD,\spinKD), or 
 their production independent forms. 
 
-The input matrix element calculations used are the 
-analytical descriptions discussed in section~\ref{sec:HiggsPhen}
+The input matrix element calculations used for signal events
+are the analytical descriptions discussed in 
+Section~\ref{sec:HiggsPhen}
 and the \verb+JHUGen+ squared matrix element.  These calculations
 were checked against each other and were found to perform the 
-same in the $2e2\mu$ channel.  However, the since the analytical
-calculation doesn't incorporate lepton interference in the 
-$4e$ and $4\mu$ channels, the \verb+JHUGen+ calculation is used. 
-This was found to provide at most a 10-15\% improvement over the 
-analytical calculation. 
+same in the $2e2\mu$ channel. \verb+JHUGen+ is used
+since it has more processes implemented.  Background matrix
+element calculations are taken from \verb+MCFM+.
 
 The expected distributions that are used to build likelihoods
 are taken from MC simulation for both the signal and continuum
-backgrounds.  The \KD~and \spinKD distributions for the reducible
-background are found to be similar to those of the continuum ZZ
+backgrounds.  The \KD~and \spinKD~distributions for the reducible
+background control regions are found to be similar to those of the continuum ZZ
 backgrounds.  Because of the lack of statistics in the control
 regions, the continuum background distributions are used and then
 corrected to match the average shape in the opposite sign control 
@@ -375,21 +347,30 @@ regions.  The difference between the control region shapes and the
 continuum ZZ shapes are taken as a systematic uncertainty on the
 reducible background.   
 
-\subsection{Cross Section Measurement}
+\subsection{Observation}
 \label{sec:HZZ4lxsec}
 
 The expected and observed event yields for the different event 
 classes is shown in tables~\ref{table:HZZ4lYieldsLowMass},~\ref{table:HZZ4lYields}.  
 The expected and observed $m_{4\ell}$ distribution is show in 
-figure~\ref{fig:HZZ4lMassDistribution},
-where the reducible and irreducible backrounds are shown in green
-and blue respectively.  The expected shape of a 126~GeV SM Higgs
-boson is shown in red.  The expected and observed distribution of 
+Figure~\ref{fig:HZZ4lMassDistribution}.
+%where the reducible and irreducible backrounds are shown in green
+%and blue respectively.  The expected shape of a 126~GeV SM Higgs
+%boson is shown in red.  
+The expected and observed distribution of 
 events in the 
-$m_{4\ell}-K_D$ plane are shown in figure~\ref{fig:HZZ4lMassKDdist}.
+$m_{4\ell}-K_D$ plane are shown in Figure~\ref{fig:HZZ4lMassKDdist}.
 Finally, expected and observed distributions of events in the 
 $m_{4\ell}-p_{T,4\ell}$ and $m_{4\ell}-$\Djet~plane are 
-shown in figure~\ref{fig:HZZ4lVBFvars}. 
+shown in Figure~\ref{fig:HZZ4lVBFvars}. 
+The data show a clear excess of events around $m_{4\ell}=126$~GeV. 
+Elsewhere, no significant deviations from the background only expectation are found.  
+Events near the signal peak also tend to be distributed closer to 
+\KD=1, consistent with that of a Higgs-like signal, as demonstrated
+in Figure~\ref{fig:HZZ4lMassKDdist}. 
+%Since \KD~efficiently separates signal events from background,
+%selecting events at higher values of \KD~provides a subsample
+%of data which has a higher expected signal purity.
 
 \begin{figure}
 \begin{center}
@@ -441,20 +422,10 @@ and $2e2\mu$ (squares) events.}
 \end{center}
 \end{figure}
 
-The data show a clear excess of events around $m_{4\ell}=125$~GeV. 
-Elsewhere, there are no significant deviations from the 
-background only expectation found.  
-Events near the signal peak also tend to be distributed closer to 
-\KD=1, consistent with that of a Higgs-like signal, as demonstrated
-in figure~\ref{fig:HZZ4lMassKDdist}. 
-Since \KD~efficiently separates signal events from background,
-selecting events at higher values of \KD~provides a subsample
-of data which has a higher expected signal purity.
-
 %Thus, 
 %a convenient visualization is provided by plots of the 
 %$m_{4\ell}$ distribution after cutting on \KD.  
-%Three examples are shown in figure~\ref{fig:HZZ4lMassKDdistWithCut}.
+%Three examples are shown in Figure~\ref{fig:HZZ4lMassKDdistWithCut}.
 %The left plot is with no cut, the middle with a cut of \KD$>0.3$, 
 %and the right with a cut of \KD$>0.5$.  The observed distributions 
 %of $p_{T,4\ell}$ and \Djet~are also consistent with expectation from
@@ -477,30 +448,44 @@ of data which has a higher expected signal purity.
 %\end{figure}
 
 To quantify the statistical significance of the observed data
-with respect to either background or signal and background, 
-fit are done using either the 1D, 2D, or 3D likelihood as 
+with respect to signal and background expectation, 
+fits are done using either the 1D, 2D, or 3D likelihood as 
 described in the previous section.  
-
 Compatibility of data with respect to the background only
-hyothesis can also be quantified in terms of 95\% CL upper
-limits of $\mu$.  
-Figure~\ref{fig:HZZ4lUpperLimits} shows these upper limits as
-a function of $m_H$.  The median expected limits are represented
-by the dashed blue lines, while the 68\% and 95\% countours are 
-represented by green and yellow bands, respectively.  The 
-observed upper limits are represented by the solid black line. 
+hyothesis can also be quantified in terms of 95\% confidence
+level upper limits of $\mu$.  
+%Figure~\ref{fig:HZZ4lUpperLimits} shows these upper limits as
+%a function of $m_H$.  The median expected limits are represented
+%by the dashed blue lines, while the 68\% and 95\% countours are 
+%represented by green and yellow bands, respectively.  
+%The observed upper limits are represented by the solid black line. 
 Aside from the significant deviation
-from expectation near 125~\GeV, the observed upper limits are 
+from expectation near 126~\GeV, the observed upper limits are 
 always consistent with expectation to within $2\sigma$.  The
-observed upper limit imply that the current data is sufficient
-to rule out SM Higgs mass hypotheses bewteen $130<m_{H}<827$~\GeV.
+current data is sufficient to rule out SM Higgs mass hypotheses
+between $130<m_{H}<827$~\GeV~and between $114.5<m_{H}<119$~at 
+95\% confidence level.
 The large deviation from the expected limit around 126~GeV is 
 a reflection of the excess of events in this region.  
+The p-value scan as a function of the hypothetical Higgs mass
+is shown in Figure~\ref{fig:HZZ4lPvalues}.  The maximum local 
+p-value 
+occurs at 125.7~\GeV~and has a value of $6.8\sigma$.  This 
+significant deviation from the background-only hypothesis has 
+a cross section which is compatible 
+with that expected from the SM Higgs.  The ratio of the best-fit
+cross section with respected to the expected SM Higgs cross
+section if found to be $\mu=\sigma_{obs}/\sigma_{SM}=0.93^{+0.30}_{-0.24}$.  Figure~\ref{fig:HZZ4lfittedMu} shows the best-fit value
+in both the dijet ($\mu=1.46^{+0.89}_{-0.63}$) and the untagged ($\mu=0.83^{+0.31}_{-0.25}$) categories, as well as the combined.
+%The width of the particle is found to be 
+%constistent with be much smaller than the experimental resolution
+%of $m_{4\ell}$, consistent with the expectation of a 126~\GeV~SM 
+%Higgs boson.
 
 \begin{figure}
 \begin{center}
 \includegraphics[width=.49\linewidth]{HZZ4lPlots/UpperLimit_ASCLS_7p8TeV_wholeMass_Final2_2l2tau.eps}
-\caption{Expected and Observed 95\% CL upper limit on
+\caption{Expected and Observed 95\% confidence level upper limit on
 $\sigma/\sigma_{SM}$ as a function of the hypothetical 
 Higgs mass, $m_H$, in the range [110-1000].
 The green and yellow bands represent
@@ -509,23 +494,6 @@ respectively.}
 \label{fig:HZZ4lUpperLimits}
 \end{center}
 \end{figure}
-
-The excess around 126 GeV can be interpretted in terms of the 
-p-value with respected to the background only hypothesis.  
-The p-value scan as a function of the hypothetical Higgs mass
-is shown in figure~\ref{fig:HZZ4lPvalues}.  The maximum local 
-p-value 
-occurs at 125.7~\GeV~and has a value of $7.3\sigma$.  This 
-significant deviation from the background-only hypothesis, has 
-a cross section which is compatible 
-with that expected from the SM Higgs.  The ratio of the best-fit
-cross section with respected to the expected SM Higgs cross
-section if found to be $\mu=\sigma_{obs}/\sigma_{SM}=0.93^{+0.30}_{-0.24}$.  Figure~\ref{fig:HZZ4lfittedMu} shows the best-fit value
-in both the dijet ($\mu=1.46^{+0.89}_{-0.63}$)and untagged ($\mu=0.83^{+0.31}_{-0.25}$) categories, as well as the combined
-(black line).  The width of the particle is found to be 
-constistent with be much smaller than the experimental resolution
-of $m_{4\ell}$, consistent with the expectation of a 126~\GeV~SM 
-Higgs boson.
 
 \begin{figure}
 \begin{center}
@@ -614,15 +582,14 @@ Observed  & 89 & 134 & 247 & 470\\
 Assuming two basic conservation laws, electric charge and angular
 momentum, one can infer that the excess of events presented 
 above corresponds to a 
-new chargless, bosonic resonance.  However, little else can be
-concluded from the above data alone.  Furthermore, there are a
-number of resonances which could, in principle, mimic this 
-signal.  
+new chargeless, bosonic resonance.  However, little else can be
+concluded from the above data alone since beyond the SM
+resonances could mimis the above signatures.
 Understanding whether or not this new boson is the SM Higgs, 
 one of several Higgses, or even something more exotic, like 
-a graviton, is one of the most promising route to searching
+a graviton, is one of the most promising routes to searching
 for physics beyond the SM.  As demonstrated in 
-chapter~\ref{sec:HiggsPhen}, the MELA techniques can be employed
+Chapter~\ref{sec:HiggsPhen}, the MELA techniques can be employed
 to perform property measurements and infer more information 
 about the observed resonance. 
 
@@ -631,11 +598,11 @@ of data with respect to either the null hypothesis, the SM
 background plus a SM Higgs boson, or some alternative signal
 hypothesis.  The list of alternative signal hypotheses include:
 $J^P=0^-$, $0^+_h$, $q\bar{q}\to1^-$, $q\bar{q}\to1^+$, 
-$gg\to2_m^+$, $gg\to2_h^+,$, $gg\to2_h-$, $q\bar{q}\to2_m^+$, 
-and $gg\to2_b^+$ and are described in chapter~\ref{sec:HiggsPhen}.  
+$gg\to2_m^+$, $gg\to2_h^+$, $gg\to2_h-$, $q\bar{q}\to2_m^+$, 
+and $gg\to2_b^+$ and are described in Chapter~\ref{sec:HiggsPhen}.  
 %The list of hypotheses that are tested, a breif description of 
 %them, and the discriminants used for measurements is shown in 
-%table~\ref{???}.  
+%Table~\ref{???}.  
 In each case, a dedicated discriminant is built, 
 \spinKD, and used to distinguish kinematics of a SM Higgs boson 
 from the alternative signal hypothesis.  
@@ -665,16 +632,15 @@ from the alternative signal hypothesis.
 
 The expected and observed $\mathscr{D}_{bkg}$ and 
 $\mathscr{D}_{bkg}^{dec}$ distributions are shown in 
-figure~\ref{fig:HZZ4lsuperMELA}.  
+Figure~\ref{fig:HZZ4lsuperMELA}.  
 Although the $\mathscr{D}_{bkg}$ distributions of some 
 alternative signals are more background 
 like compared to the SM Higgs, these variations are typically 
 small compared to the difference between each signal and 
 background.  Thus, this variable serves as a sufficient, model 
 independent way of isolating signal events.  
-
 The distribution of each of the $D_{J^P}$ variables is shown in 
-figure~\ref{fig:HZZ4ldjp} for events which satisfy
+Figure~\ref{fig:HZZ4ldjp} for events which satisfy
 $D_{bkg}>0.5$.  Each plot shows that the SM 
 Higgs tends
 to be distributed more towards $D_{J^P}=1$ while the corresponding
@@ -710,7 +676,7 @@ background in blue, and the reducible background in green.}
 $0_h^+$, and $1^-$ (first row), $J^P=1^+$, $2_m^+(gg)$, and 
 $2_m^+(q\bar{q})$ (second row), $J^P=2_h^+$, $2_h^-$, and $2_b^+$ 
 (third row), and production independent tests of $J^P=1^-$, $1^+$,
-and $2_m^+$ (fourth row).  Expected shapes for a 125~GeV SM Higgs
+and $2_m^+$ (fourth row).  Expected shapes for a 126~GeV SM Higgs
 boson is shown in red, the continuum background in blue, the
 reducible background in green, and observed data in the point
 with error bars.}
@@ -720,13 +686,13 @@ with error bars.}
 
 The effect of different couplings on the ZZ branching 
 ratios as well as different relative efficiencies is accounted
-for by calculating scale factors for each of the six different 
+for by calculating correction factors for each of the six different 
 channels comparing SM Higgs against alternative $J^P$ samples 
 with \verb+JHUGen+.  Tables~\ref{table:HZZ4lyieldcorr_spin0},
 \ref{table:HZZ4lyieldcorr_spin1},
 \ref{table:HZZ4lyieldcorr_spin2_min},
 and \ref{table:HZZ4lyieldcorr_spin2_HD} show
- each of these scale
+ each of these correction
 factors for all alternative signals in all channels.  The large
 difference in the $q\bar{q}$ initiated samples are due to the
 more forward rapidity distributions of these samples relative to 
@@ -1090,20 +1056,20 @@ channel & $f_{i}^{J^P}$ & $\alpha_{\rm ideal} (i)$ & $\epsilon_{\rm reco} (i)$ &
 
 The test statistic used to distinguish the null hypothesis from
 the alternative hypothesis is a log-likelihood ratio,  
-$q=ln(\mathscr{L}_{SM}/\mathscr{L}_{J^P})$. Expected results are
-obtained in two different ways, generating pseudoexperiments using
-the SM Higgs cross section for each hypothesis, 
-or using the best-fit signal strength modifying, $\mu$, for each
+$q=-2ln(\mathscr{L}_{SM}/\mathscr{L}_{J^P})$. Expected results are
+obtained in two different ways: generating pseudoexperiments using
+the SM Higgs cross section for each hypothesis or using the best-fit signal strength modifier, $\mu$, for each
 hypothesis individually.  Since the expected production cross 
 section for alternative signal 
-models is highly model independent, using the best-fit signal
+models is highly model dependent, using the best-fit signal
 strength for generating toys allows for a more model independent 
 interpretation.
 
 Results are shown in 
-table~\ref{table:HZZ4lhypothTests} where observed $0^+$ ($J^P$) 
-refers to the p-value 
-of the observed test statistic, represented by the red arrow,
+Table~\ref{table:HZZ4lhypothTests} 
+where observed $0^+$ ($J^P$) refers to the p-value 
+of the observed test statistic, represented by the red arrow
+in Figure~\ref{fig:HZZ4lhypothTests},
 calculated according to the SM (alternative signal) toy 
 distribution, shown in yellow (blue), converted to normal 
 quantiles.  A $CL_s$ criterion is built from the p-values 
@@ -1112,20 +1078,20 @@ according to:
 CL_s = P(q>q_0|SM)/P(q>q_0|J^P)
 \end{equation}  
 All results show that data is more consistent with 
-the SM expectation and disfavor the alternative hypothesis
+the Higgs boson expectation and disfavor the alternative hypothesis
 at a level of 8.1\% or better.  
 
 Several results show large observed significance with respect to 
 the expected, namely the $1^+$, $1^-$, and $2_{m,q\bar{q}}^+$ tests.
-Each of these cases have $m_{Z}$ and $m_{Z*}$ distributions which 
+Each of these cases have $m_{1}$ and $m_{2}$ distributions which 
 are quite distinct from a SM Higgs boson.  As a result of a 
 statistical
 fluctuation observed in data in the tails of these distributions,
 these models all have large q-values.  This is one of the driving
-factors to why the discovery significance is larger than expected.
-However, it is important
-to note that not only are these results correlated as a result
-of this statistical fluctuation.
+factors to why the discovery significance is larger for the 
+2D analysis. However, it is important
+to note that these results are correlated due to this statistical
+fluctuation.
 
 \begin{figure}
 \begin{center}
@@ -1187,57 +1153,47 @@ $2_{~h}^-$     & $gg \to X$      &  4.4$\sigma$ (4.8$\sigma$)  & +1.1$\sigma$ & 
 \label{table:HZZ4lhypothTests}
 \end{table}
 
-Of the 8 results presented, one of the most interesting is the 
-$0^-$ hypothesis separation.  Since one of the simplest extensions
-to the SM, the class of two-Higgs-doublet models (2HDMs), 
-predicts the presence of a pure pseudo-scalar, ruling out the 
-pure $0^-$ model suggests that the observed resonance is very 
-unlikely to be a pure pseudoscalar. 
-
 \subsection{Constraining CP-violation}
 \label{sec:HZZ4lcpViolation}
 
-As discussed in chapter~\ref{sec:intro}, one solution to 
-fine tuning, SUSY, also predicts an additional scalar doublet, 
-resulting in four new 
-scalar resonances, two charge and two neutral, one of which 
-is CP-odd.  
-The CP-even and CP-odd
-scalars that are predicted by SUSY and the more generic class
-of 2HDM models can also mix to produce a parity-violating 
-resonance.  
-It has been recently argued~\cite{Shu:2013uua} that
-the additional amount of CP violation which is still allowed by
-experimental data could explaining the observed baryon assymetry
-in the universe.  Thus, constraining CP-violation in the HZZ 
+As discussed in Chapter~\ref{sec:intro}, SUSY and other 2HDMs
+can produce a parity-violating interactions.
+%It has been recently argued~\cite{Shu:2013uua} that
+%the additional amount of CP violation which is still allowed by
+%experimental data could explain the observed baryon asymmetry
+%in the universe.  
+Thus, constraining CP-violation in the HZZ 
 amplitude is one of the most promising ways of probing
-new physics of the SM which could help to explain not only 
+new physics beyond the SM which could help to explain not only 
 theoretical problems the SM is thought to suffer from, e.g. 
-fine tuning, but emperical facts the SM is currently thought to
+fine tuning, but empirical facts the SM is currently thought to
 be insufficient to explain.  
 
-The parameter $f_{a3}$, described in section~\ref{sec:HiggsPhen},
+The parameter $f_{a3}$\footnote{The definition of $f_{a3}$ is equivalent to $f_{g4}$ defined in Chapter~\ref{sec:HiggsPhen}}
 is a natural gauge of CP-violation in the HZZ amplitude.  Given 
 that $f_{a3}=1$
 has been ruled out through hypothesis testing in favor of the
 SM Higgs hypothesis at the level of $3.3\sigma$,  measuring any
-non-zero value of $f_{a3}$ would be direct evidence of CP-violation
-given that $f_{a2}$ is zero.  Furthermore, the $D_{0^-}$ variable 
-used for hypothesis testing in section~\ref{sec:HZZ4lspinParity} 
+non-zero value of $f_{a3}$ would be direct evidence of CP-violation,
+if $f_{a2}=0$.  Furthermore, the 
+$D_{0^-}$ variable used for hypothesis testing in 
+Section~\ref{sec:HZZ4lspinParity} 
 is suitable for measuring the value of $f_{a3}$ using the 
-simplified model for a mixed-CP state describe in 
-equation~\ref{eq:fa3}
+simplified model for a mixed-CP state described in 
+Equation~\ref{eq:fa3} (see Chapter~\ref{sec:HiggsPhen}).
 
 Using this model, a two parameter fit for $\mu$ and $f_{a3}$ was 
 performed.  
 Figure~\ref{fig:HZZ4lfa3Fit2D} shows the $\ln\mathscr{L}$ scan as a 
-function of the two parameters.  The best-fit values are 
-found to be $\mu=X.XX$, $f_{a3}=0.0$.  Profiling $\mu$, we 
+function of the two parameters.  
+%The best-fit values are 
+%found to be $\mu=X.XX$, $f_{a3}=0.0$.  
+Profiling $\mu$, we 
 arrive at the 1D $\ln\mathscr{L}$ scan versus $f_{a3}$ in 
-figure~\ref{fig:HZZ4lfa3Fit1D}.  The expected 68\% and 95\% CL 
+Figure~\ref{fig:HZZ4lfa3Fit1D}.  The expected 68\% and 95\% confidence level 
 intervals, from fitting the asimov dataset, are found to be 
 [0.0,0.39] and [0.0,0.69], respectively. 
-The observed  68\% and 95\% CL 
+The observed  68\% and 95\% confidence level
 intervals are found to be [0.00,0.16] and [0.00,0.49], 
 respectively. 
 
@@ -1267,13 +1223,15 @@ distribution. The signal strength, $\mu$, has been profiled.}
 
 \section{Summary}
 
+
 A search for a SM Higgs boson decaying into two Z boson which
 subsequently decay into to quark jets and two leptons has been 
 presented. The data used in this analysis constitute $4.6~fb^{-1}$ 
 of integrate luminosity.  No significant excess of events was 
-found and upper limits have been measure in the context of the 
-SM and SM4 models.  Although only a small portion of Higgs masses 
-have been excluded at 95\% CL, more data should allow sensitivity 
+found and upper limits on the observed cross section have been
+measured relative to the SM model expectation.  Higgs boson masses
+in the range [340,390] have been ruled out. 
+More data should allow sensitivity 
 which is sufficient for excluding almost the entire range between 
 200 and 600~GeV with this channel alone.  
 
@@ -1284,14 +1242,15 @@ at $\sqrt{s}=7$ and 8~TeV, respectively.  An excess of events
 has been observed around 126~GeV.  The properties of these 
 events have been analyzed in the context of the mass and angular
 distributions of the final state product using the MELA techniques
-outlined in chapter~\ref{sec:HiggsPhen}.  Hypothesis testing 
+outlined in Chapter~\ref{sec:HiggsPhen}.  Hypothesis testing 
 shows that data favors the SM Higgs boson hypothesis over all 
 others tested, although results for the $2_h^+$ are largely
 inconclusive.  Measurement of the scalar model parameter $f_{a3}$
 has also been presented and found to be consistent with zero.  
 The 95\% confidence interval is [0.0,0.49], thus providing a 
 direct constraint on the level of CP-violation in the HZZ
-amplitude. At higher values of $m_{4\ell}$, the data is consistent
+amplitude. At other values of $m_{4\ell}$, the data is consistent
 with the background only hypothesis.  In light of this, limits
 have been set on $\sigma/\sigma_{SM}$ and SM Higgs boson masses 
 in the range [114.5,119] and [129,800] have been ruled out.  
+
