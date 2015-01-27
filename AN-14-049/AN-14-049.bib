@@ -1,0 +1,555 @@
+--- COMMENTS may be placed outside the @ENTRYTYPE{ ... } stuctures
+--- CMS guidelines
+---- Every journal article citation should include the DOI, assuming one exists.
+---- All URLs for CMS notes, ANs, etc, should refer to the CDS server, not the CMS server. Use our standard format for them, as shown below.
+----  CMS Notes not available on CDS are regarded as private and may not be cited.
+----  CMS physics papers (i.e., those intended for publication in journals) may reference only POG PASs, not PAG PASs.
+---- For papers by collaborations, list the collaboration in the COLLABOROATION field and put the first author and "and others" in the AUTHOR field.
+----  If only the collaboration is listed as the author, put "{XXX Collaboration}" under AUTHOR.
+----  Note that we automatically replace the AUTHOR field with the collaboration name for ATLAS, CMS, LHCb, and ATLAS at submission time.
+---- Other items:
+----   PAGES: Please only list the first page, not the range.
+----   ISSUE: Please do not include in most cases.
+----   URL: Do not include this field if a DOI is available.
+---- Number of authors to list:
+----   PRL requests that we include all authors up to fifteen except for large collaborations, and we take this as our internal guide as well. If there
+----   are more than fifteen, just list the first author + "and others", as above.
+----   The individual journal bib style file (theirs, ours, PLB, etc.) will truncate at the appropriate point. We have ours set to _1_ for more than four.
+---- Use only the URL field instead of embedding an href (this is a change in our practice).
+---- A reference only published on the arXiv should be listed as UNPUBLISHED (with a note "Submitted to XXX" for large collaboration papers).
+----   Experimental papers only on the arXiv and not submitted for publication may not be cited.
+---- Some journals will lowercase the title: use {} to protect words which must be capitalized, e.g., {LHC}, {TeV}, {CERN}, {CMS}.
+----  Do not escape the entire title as it will then clash with the journal style.
+---- Journal names: the journals generally include the series in the journal name, "Physical Review D", vol 5, rather than PR D5
+
+@article{Tait:2000sh,
+      author         = "Tait, Timothy M.P. and Yuan, C.-P.",
+      title          = "{Single top quark production as a window to physics
+                        beyond the standard model}",
+      journal        = "Phys.Rev.",
+      volume         = "D63",
+      pages          = "014018",
+      doi            = "10.1103/PhysRevD.63.014018",
+      year           = "2000",
+      eprint         = "hep-ph/0007298",
+      archivePrefix  = "arXiv",
+      primaryClass   = "hep-ph",
+      reportNumber   = "ANL-HEP-PR-98-124, CERN-TH-2000-224",
+      SLACcitation   = "%%CITATION = HEP-PH/0007298;%%",
+}
+
+
+@article{Aad:2013rna,
+	      author         = "Aad, Georges and others",
+	      title          = "{Search for single $b^*$-quark production with the ATLAS detector at $\sqrt{s}=7$ TeV}",
+	      collaboration  = "The ATLAS",
+	      journal        = "Phys.Lett.",
+	      volume         = "B721",
+	      pages          = "171-189",
+	      doi            = "10.1016/j.physletb.2013.03.016",
+	      year           = "2013",
+	      eprint         = "1301.1583",
+	      archivePrefix  = "arXiv",
+	      primaryClass   = "hep-ex",
+	      reportNumber   = "CERN-PH-EP-2012-344",
+	      SLACcitation   = "%%CITATION = ARXIV:1301.1583;%%",
+}
+
+@TECHREPORT{ZP8TeV,
+      title         = "{Search for Anomalous Top Quark Pair Production in the
+                       Boosted All-Hadronic Final State using pp Collisions at
+                       sqrt(s) = 8 TeV}",
+      institution   = "CERN",
+      collaboration = "CMS",
+      address       = "Geneva",
+      number        = "CMS-PAS-B2G-12-005",
+      year          = "2013",
+}
+
+@TECHREPORT{WP8TeV,
+      title         = "{Search for t b resonances in all-hadronic final state}",
+      institution   = "CERN",
+      collaboration = "CMS",
+      address       = "Geneva",
+      number        = "CMS-PAS-B2G-12-009",
+      year          = "2012",
+}
+
+
+@article{PhysRevLett.100.211803,
+  title = {Search for W' Boson Resonances Decaying to a Top Quark and a Bottom Quark},
+  author = "{D0 Collaboration}",
+  journal = {Phys. Rev. Lett.},
+  volume = {100},
+  issue = {21},
+  pages = {211803},
+  numpages = {7},
+  year = {2008},
+  month = {May},
+  doi = {10.1103/PhysRevLett.100.211803},
+  url = {http://link.aps.org/doi/10.1103/PhysRevLett.100.211803},
+  publisher = {American Physical Society}
+}
+
+@article{Czakon:2013goa,
+      author         = "Czakon, Michał and Fiedler, Paul and Mitov, Alexander",
+      title          = "{Total Top-Quark Pair-Production Cross Section at Hadron
+                        Colliders Through $O(α\frac{4}{S})$}",
+      journal        = "Phys.Rev.Lett.",
+      number         = "25",
+      volume         = "110",
+      pages          = "252004",
+      doi            = "10.1103/PhysRevLett.110.252004",
+      year           = "2013",
+      eprint         = "1303.6254",
+      archivePrefix  = "arXiv",
+      primaryClass   = "hep-ph",
+      reportNumber   = "CERN-PH-TH-2013-056, TTK-13-08",
+      SLACcitation   = "%%CITATION = ARXIV:1303.6254;%%",
+}
+
+@article{Kidonakis:2012db,
+      author         = "Kidonakis, Nikolaos",
+      title          = "{Differential and total cross sections for top pair and
+                        single top production}",
+      pages          = "831-834",
+      doi            = "10.3204/DESY-PROC-2012-02/251",
+      year           = "2012",
+      eprint         = "1205.3453",
+      archivePrefix  = "arXiv",
+      primaryClass   = "hep-ph",
+      SLACcitation   = "%%CITATION = ARXIV:1205.3453;%%",
+}
+
+
+@article{Abazov2011145,
+
+      author         = "Abazov, Victor Mukhamedovich and others",
+      title          = "{Search for $W{^\prime}\rightarrow tb$ resonances with
+                        left- and right-handed couplings to fermions}",
+      collaboration  = "D0",
+      journal        = "Phys.Lett.",
+      volume         = "B699",
+      pages          = "145-150",
+      doi            = "10.1016/j.physletb.2011.03.066",
+      year           = "2011",
+      eprint         = "1101.0806",
+      archivePrefix  = "arXiv",
+      primaryClass   = "hep-ex",
+      reportNumber   = "FERMILAB-PUB-11-004-E",
+      SLACcitation   = "%%CITATION = ARXIV:1101.0806;%%",
+}
+
+
+@techreport{CMS-PAS-EXO-12-025,
+      title         = "{Search for W'/technirho in WZ using leptonic final
+                       states}",
+      institution   = "CERN",
+      collaboration = "CMS",
+      address       = "Geneva",
+      number        = "CMS-PAS-EXO-12-025",
+      year          = "2013",
+}
+
+@techreport{CMS-PAS-EXO-12-060,
+      title         = "{Search for leptonic decays of W' bosons in pp collisions
+                       at sqrt(s)=8 TeV}",
+      institution   = "CERN",
+      collaboration = "CMS",
+      address       = "Geneva",
+      number        = "CMS-PAS-EXO-12-060",
+      year          = "2013",
+}
+
+@article{doi:10.1146/annurev.nucl.55.090704.151502,
+author = {Schmaltz, Martin and Tucker-Smith, David},
+title = {LITTLE HIGGS THEORIES},
+journal = {Annual Review of Nuclear and Particle Science},
+volume = {55},
+number = {1},
+pages = {229-270},
+year = {2005},
+doi = {10.1146/annurev.nucl.55.090704.151502},
+}
+
+@article{PhysRevD.64.035002,
+  title = {Bounds on universal extra dimensions},
+  author = {Appelquist, Thomas and Cheng, Hsin-Chia and Dobrescu, Bogdan A.},
+  journal = {Phys. Rev. D},
+  volume = {64},
+  issue = {3},
+  pages = {035002},
+  numpages = {10},
+  year = {2001},
+  month = {Jun},
+  doi = {10.1103/PhysRevD.64.035002},
+  url = {http://link.aps.org/doi/10.1103/PhysRevD.64.035002},
+  publisher = {American Physical Society}
+}
+
+@article{PhysRevD.11.566,
+  title = {Left-right gauge symmetry and an 'isoconjugate' model of $\mathrm{CP}$ violation},
+  author = {Mohapatra, Rabindra N. and Pati, Jogesh C.},
+  journal = {Phys. Rev. D},
+  volume = {11},
+  issue = {3},
+  pages = {566--571},
+  year = {1975},
+  month = {Feb},
+  doi = {10.1103/PhysRevD.11.566},
+  url = {http://link.aps.org/doi/10.1103/PhysRevD.11.566},
+  publisher = {American Physical Society}
+}
+
+@techreport{CMS-PAS-LUM-13-001,
+      title         = "{CMS Luminosity Based on Pixel Cluster Counting - Summer
+                       2013 Update}",
+      institution   = "CERN",
+      collaboration = "CMS",
+      address       = "Geneva",
+      number        = "CMS-PAS-LUM-13-001",
+      year          = "2013",
+}
+
+@article{CMS-DP-2013-033,
+      title         = "{8 TeV Jet Energy Corrections and
+Uncertainties based on
+                       19.8 fb$^{-1}$ of data in CMS}",
+      collaboration = "CMS",
+      month         = "Oct",
+      year          = "2013",
+}
+
+@techreport{CMS-AN-049-2012,
+      author         = "A. Avetisyan et al.",
+      title        = {Search for W’ boson production in the 
+		      top quark decay channel},
+      institution  = "CERN",
+      address      = "Geneva",
+      number       = "CMS-AN-B2G-12-049",
+      year         = "2012",
+}
+
+@techreport{CMS-PAS-B2G-12-010,
+      title         = {Search for narrow t + b resonances in the leptonic final
+                       state at sqrt(s) = 8 TeV},
+      institution   = "CERN",
+      collaboration = "CMS",
+      address       = "Geneva",
+      number        = "CMS-PAS-B2G-12-010",
+      year          = "2013",
+}
+
+@article{PhysRevLett.109.081801,
+  title = {Search for $tb$ Resonances in Proton-Proton Collisions at $\sqrt{s}\mathbf{=}7\text{\,}\text{\,}\mathrm{TeV}$ with the ATLAS Detector},
+  author = "{ATLAS Collaboration}",
+  journal = {Phys. Rev. Lett.},
+  volume = {109},
+  issue = {8},
+  pages = {081801},
+  numpages = {19},
+  year = {2012},
+  month = {Aug},
+  doi = {10.1103/PhysRevLett.109.081801},
+  url = {http://link.aps.org/doi/10.1103/PhysRevLett.109.081801},
+  publisher = {American Physical Society}
+}
+
+
+@article{CompHEP,
+      author         = "Boos, E. and others",
+      title          = "{CompHEP 4.4: Automatic computations from Lagrangians to
+                        events}",
+      collaboration  = "CompHEP",
+      journal        = "Nucl.Instrum.Meth.",
+      volume         = "A534",
+      pages          = "250-259",
+      doi            = "10.1016/j.nima.2004.07.096",
+      year           = "2004",
+      eprint         = "hep-ph/0403113",
+      archivePrefix  = "arXiv",
+      primaryClass   = "hep-ph",
+}
+
+@article{Bourilkov:2006cj,
+      author         = "Bourilkov, D and Group, R C and Whalley, M R",
+      title          = "{LHAPDF: PDF use from the Tevatron to the LHC}",
+      year           = "2006",
+      eprint         = "hep-ph/0605240",
+      archivePrefix  = "arXiv",
+      primaryClass   = "hep-ph",
+      SLACcitation   = "%%CITATION = HEP-PH/0605240;%%",
+}
+@Article{atwlv,
+     author    = "{ATLAS Collaboration}",
+     title     = "{Search for a heavy gauge boson decaying to a charged lepton and a neutrino in 1$\fbinv$ of pp collisions at $\sqrt{s}$=7 {TeV} using the ATLAS detector}",
+     journal   = "Physics Letters B",
+     volume    = "705",
+     year      = "2011",
+     pages     = "28-46",
+     doi       = "10.1016/j.physletb.2011.09.093",
+}
+@Article{cmswlv,
+     author    = "{CMS Collaboration}",
+     title     = "{Search for a $\wpr$ boson decaying to a muon and a neutrino in pp collisions at $\sqrt{s}$=7 {TeV}}",
+     journal   = "Physics Letters B",
+     volume    = "701",
+     year      = "2011",
+     pages     = "160-179",
+     doi       = "10.1103/PhysRevLett.100.211803",
+     eprint    = "1103.0030",
+     archivePrefix = "arXiv",
+     SLACcitation  = "%%CITATION = 1103.0030;%%"
+} 
+@ARTICLE{CMS-PAS-EXO-12-001,
+      AUTHOR      = "{CMS Collaboration}",
+      COLLABORATION = {CMS},
+      TITLE       = "Jet Performance in pp Collisions at $\sqrt{s}$=7 {TeV}",
+      URL         = "https://cdsweb.cern.ch/record/1440888",
+      JOURNAL     = "CMS Physics Analysis Summary",
+      VOLUME      = "CMS-PAS-EXO-12-001",
+      YEAR        = "2012"
+}
+@Article{cmsexp,
+     author    = "{CMS}",
+ collaboration = "{CMS}",
+     title     = "{The CMS experiment at the CERN LHC}",
+     journal   = "JINST",
+     volume    = "3",
+     year      = "2008",
+     pages     = "S08004",
+     doi       = "10.1088/1748-0221/3/08/S08004",
+     SLACcitation  = "%%CITATION = JINST,3,S08004;%%"
+}
+
+@TECHREPORT{7tevZprime,
+      title         = "{Search for BSM \ttbar Production in the Boosted
+                       All-Hadronic Final State}",
+      institution   = "CERN",
+      collaboration = "CMS",
+      address       = "Geneva",
+      number        = "CMS-PAS-EXO-11-006",
+      year          = "2011",
+}
+
+@ARTICLE{JME13007,
+     TITLE="Boosted Top Jet Tagging at CMS",
+     COLLABORATION       = "CMS",
+     JOURNAL      = "CMS PAS JME-13-007",
+     YEAR         = "2013"
+     }
+
+
+@article{Thaler:2011gf,
+      author         = "Thaler, Jesse and Van Tilburg, Ken",
+      title          = "{Maximizing Boosted Top Identification by Minimizing
+                        N-subjettiness}",
+      journal        = "JHEP",
+      volume         = "1202",
+      pages          = "093",
+      doi            = "10.1007/JHEP02(2012)093",
+      year           = "2012",
+      eprint         = "1108.2701",
+      archivePrefix  = "arXiv",
+      primaryClass   = "hep-ph",
+      reportNumber   = "MIT-CTP-4287",
+      SLACcitation   = "%%CITATION = ARXIV:1108.2701;%%",
+}
+@ARTICLE{jec_spring10,
+     TITLE="Jet Energy Corrections determination at 7 TeV ",
+     COLLABORATION       = "CMS",
+     JOURNAL      = "CMS PAS JME-10-010",
+     YEAR         = "2010"
+     }
+@article{JEC2012,
+     author = "JetMET Group",
+     title = "{Jet Energy Corrections and Uncertainties. Detector Performance Plots for 2012.}",
+     url = "http://cms.cern.ch/iCMS/jsp/openfile.jsp?type=DP\&year=2012\&files=DP2012_012.pdf"
+}
+
+@article{btagging,
+     author = "B tagging POG",
+     title = "{Combination of b-tagging efficiency measurements in 2012 data at 8 TeV pp collision}",
+     url = "http://cms.cern.ch/iCMS/jsp/openfile.jsp?tp=draft&files=AN2012_470_v3.pdf"
+}
+@techreport{CMS-PAS-BTV-13-001,
+      title        = "Performance of b tagging at sqrt(s)=8 TeV in multijet,
+                      ttbar and boosted topology events",
+      institution  = "CERN",
+      address      = "Geneva",
+      number       = "CMS-PAS-BTV-13-001",
+      year         = "2013",
+}
+@ARTICLE{jetid,
+     title="Jet Performance in pp Collisions at $\sqrt{s} = $ 7 TeV",
+     COLLABORATION       = "CMS",
+     JOURNAL      = "CMS PAS JME-10-003",
+     YEAR         = "2010"
+     }
+@Article{jetarea_fastjet_pu,
+     author    = "Cacciari, Matteo and Salam, Gavin P.",
+     title     = "{Pileup subtraction using jet areas}",
+     journal   = "Phys. Lett. B",
+     volume    = "659",
+     year      = "2008",
+     pages     = "119-126",
+     eprint    = "0707.1378",
+     archivePrefix = "arXiv",
+     primaryClass  =  "hep-ph",
+     doi       = "10.1016/j.physletb.2007.09.077",
+     SLACcitation  = "%%CITATION = 0707.1378;%%"
+}
+
+@Article{jetarea_fastjet,
+     author    = "Cacciari, Matteo and Salam, Gavin P. and Soyez, Gregory",
+     title     = "{The Catchment Area of Jets}",
+     journal   = "JHEP",
+     volume    = "04",
+     year      = "2008",
+     pages     = "005",
+     eprint    = "0802.1188",
+     archivePrefix = "arXiv",
+     primaryClass  =  "hep-ph",
+     doi       = "10.1088/1126-6708/2008/04/005",
+     SLACcitation  = "%%CITATION = 0802.1188;%%"
+}
+@ARTICLE{madgraph,
+     author    = "Alwall, Johan and others",
+     title     = "{MadGraph/MadEvent v4: The New Web Generation}",
+     journal   = "JHEP",
+     volume    = "09",
+     year      = "2007",
+     pages     = "028",
+     eprint    = "0706.2334",
+     archivePrefix = "arXiv",
+     primaryClass  =  "hep-ph",
+     doi       = "10.1088/1126-6708/2007/09/028",
+     SLACcitation  = "%%CITATION = 0706.2334;%%"
+}
+@Article{CAcambridge,
+     author    = "Dokshitzer, Yuri L. and Leder, G. D. and Moretti, S. and
+                  Webber, B. R.",
+     title     = "{Better Jet Clustering Algorithms}",
+     journal   = "JHEP",
+     volume    = "08",
+     year      = "1997",
+     pages     = "001",
+     eprint    = "hep-ph/9707323",
+     archivePrefix = "arXiv",
+     SLACcitation  = "%%CITATION = HEP-PH/9707323;%%"
+}
+@Article{CAaachen,
+     author    = "Wobisch, M. and Wengler, T.",
+     title     = "{Hadronization corrections to jet cross sections in deep-
+                  inelastic  scattering}",
+     year      = "1998",
+     eprint    = "hep-ph/9907280",
+     archivePrefix = "arXiv",
+     SLACcitation  = "%%CITATION = HEP-PH/9907280;%%"
+}
+@Article{fastjet1,
+     author    = "Cacciari, Matteo and Salam, Gavin P.",
+     title     = "{Dispelling the N**3 myth for the k(t) jet-finder}",
+     journal   = "Phys. Lett. B",
+     volume    = "641",
+     year      = "2006",
+     pages     = "57-61",
+     eprint    = "hep-ph/0512210",
+     archivePrefix = "arXiv",
+     doi       = "10.1016/j.physletb.2006.08.037",
+     SLACcitation  = "%%CITATION = HEP-PH/0512210;%%"
+}
+@Article{fastjet2,
+     author    = "Cacciari, Matteo and Salam, Gavin P. and Soyez, G.",
+     title     = "fastjet Package",
+      URL         = "http://fastjet.fr/"
+}
+@Article{kfactor,
+     author    = "Z. Sullivan",
+     title     = "Fully differential W' production and decay to next-to-leading order in QCD",
+     journal   = "Phys. Rev. D",
+     volume    = "66",
+     year      = "2002",
+     eprint    = "075011",
+     archivePrefix = "arXiv",
+     primaryClass  =  "hep-ph",
+     doi       = "10.1103/PhysRevD.66.075011"
+}
+@ARTICLE{catop_cms,
+     COLLABORATION= "CMS",
+     VOLUME      = "CMS-PAS-JME-009-01",
+      JOURNAL     = "CMS Physics Analysis Summary",
+     TITLE        = "{\em A Cambridge-Aachen (C-A) based Jet Algorithm for boosted top-jet tagging}",
+     URL          = "http://cms-physics.web.cern.ch/cms-physics/public/JME-09-001-pas.pdf",
+     year="2009"
+}
+@Article{minuit,
+     author    = "F. James and M. Roos.",
+     title     = "{Minuit: A System for Function Minimization and
+Analysis of the Parameter Errors and Correlations.}",
+ journal   = "Comput. Phys. Commun.",
+     volume    = "10",
+     year      = "1975",
+     pages     = "343-367",
+}
+@TECHREPORT{theta,
+      author       = "Muller, Thomas and Ott, Jochen and Wagner-Kuhr, Jeannine",
+      title        = "theta - a framework for template-based modeling and
+                      inference",
+      TYPE = "CMS Internal Note",
+      NUMBER = "2010/017",
+	year         = "2010",
+}
+@article{Czakon:1532829,
+      author        = "Czakon, Michal and Fiedler, Paul and Mitov, Alexander",
+      title         = "{The total top quark pair production cross-section at
+                       hadron colliders through O(alpha_S^4)}",
+      journal       = "Phys. Rev. Lett.",
+      number        = "arXiv:1303.6254. CERN-PH-TH-2013-056. TTK-13-08",
+      volume        = "110",
+      pages         = "252004. 6 p",
+      month         = "Mar",
+      year          = "2013",
+      note          = "Comments: 6 pages, 4 figures",
+}
+@techreport{CMS-PAS-TOP-11-003,
+      title         = "{Measurement of ttbar Pair Production Cross Section at
+                       sqrt(s)=7 TeV using b-quark Jet Identification Techniques
+                       in Lepton + Jet Events}",
+      institution   = "CERN",
+      collaboration = "CMS",
+      address       = "Geneva",
+      number        = "CMS-PAS-TOP-11-003",
+      year          = "2011",
+}
+
+
+
+
+
+
+
+
+
+
+@techreport{CMS-PAS-EXO-12-025,
+      title         = "{Search for W'/technirho in WZ using leptonic final
+                       states}",
+      institution   = "CERN",
+      collaboration = "CMS",
+      address       = "Geneva",
+      number        = "CMS-PAS-EXO-12-025",
+      year          = "2013",
+}
+
+@techreport{CMS-PAS-EXO-12-060,
+      title         = "{Search for leptonic decays of W' bosons in pp collisions
+                       at sqrt(s)=8 TeV}",
+      institution   = "CERN",
+      collaboration = "CMS",
+      address       = "Geneva",
+      number        = "CMS-PAS-EXO-12-060",
+      year          = "2013",
+}
+
+

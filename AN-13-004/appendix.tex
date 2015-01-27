@@ -1,0 +1,329 @@
+\chapter{Appendix}
+\label{sec:appendix}
+\section{CA8 b-tagging}
+\label{sec:ca8toak5}
+%The Full statistics QCD Monte Carlo closure test can be seen in figure \ref{figs:QCDClosure1}.  Here there is an excess of full selection over background at high $M_{\tbbar}$.  
+%The kinematic bias is not manifest in the current data selection.
+
+%\begin{figure}[Htcb]
+%\begin{center}
+%\subfigure{\label{figs:MtbvsBkgQCDEOfullstats}\includegraphics[width=1.0\textwidth]{figs/MtbvsBkgQCDEOfullstats.pdf}}\\
+%\subfigure{\label{figs:MtbvsBkgsemilog_QCDEOfullstats}\includegraphics[width=1.0\textwidth]{figs/MtbvsBkgsemilog_QCDEOfullstats.pdf}}
+%\caption{
+%QCD Monte Carlo background estimation closure test.  The full selection is shown in black, 
+%the background estimation is shown in yellow, and the errors from the background estimation are shown as a red dashed line.}
+%\label{figs:QCDClosure1}
+%\end{center}
+%\end{figure}
+
+CA8 jet b-tagging comparison to AK5 jets. A 2\% uncertainty is applied to signal Monte Carlo samples in the analysis.  Jets are matched between AK5 and CA8 
+within a Delta(R) size of 0.3.
+Jets are ensured b flavor from Monte Carlo truth and are within the pt range of the analysis.  The constant fit to the efficiency ratio gives an upper limit to the uncertainty 
+for the change in $SF_b$ for use with CA8 jets.  No extra correction is applied to $SF_b$.  The following plots are from Signal Monte Carlo at 2700$/GeV$. 
+%Efficiency Ratio comparison in ttbar Monte Carlo can be seen in figure \ref{figs:EfficiencyCompr5ttbar}.  
+
+\begin{figure}[Htcb]
+\centering
+\includegraphics[width=1.0\textwidth]{figs/bpercentr32700.pdf}
+\caption{Percent of matched jets that register the same value for the CSVM cut.}
+\label{figs:bpercent}
+\end{figure}
+
+\begin{figure}[Htcb]
+\centering
+\includegraphics[width=1.0\textwidth]{figs/beffCAptr32700.pdf}
+\caption{Comparison of the efficiency of b-tagging matched CA8 and AK5 jets}
+\label{figs:beff}
+\end{figure}
+
+%\begin{figure}[Htcb]
+%\centering
+%\includegraphics[width=1.0\textwidth]{figs/EfficiencyCompCAptr3none.pdf}
+%\caption{Comparison of the ratio of efficiency of b-tagging matched CA8 and AK5 jets in ttbar Monte Carlo.  The fit here is 1.023}
+%\label{figs:EfficiencyCompr5ttbar}
+%\end{figure}
+
+
+%Fit comparison of the tagrates as extracted from the sideband and signal region Can be seen in Figure \ref{figs:tagrateetafitQCD_withSR}.  
+%This comparison was extracted from QCD Monte Carlo.
+%\begin{figure}[Htcb]
+%\begin{center}
+%\subfigure{\label{figs:tagrateeta1fitQCD_withSR}\includegraphics[width=0.75\textwidth]{figs/tagrateeta1fitQCD_withSR}}\\
+%\subfigure{\label{figs:tagrateeta2fitQCD_withSR}\includegraphics[width=0.75\textwidth]{figs/tagrateeta2fitQCD_withSR}}\\
+%\subfigure{\label{figs:tagrateeta3fitQCD_withSR}\includegraphics[width=0.75\textwidth]{figs/tagrateeta3fitQCD_withSR}}
+%\caption{
+%QCD MC $\pt$ parameterized tagrate fit comparison to the signal region from
+%(a) Low $\eta$ region  
+%(b) Transition $\eta$ region 
+%(c) High $\eta$ region 
+%the fit from the Signal Region is shown in black, the fit from the Sideband is shown in red.}
+%\label{figs:tagrateetafitQCD_withSR}
+%\end{center}
+%\end{figure}
+
+
+
+\section{Signal Region and Sideband Kinematic Comparison}
+\label{sec:SBvsSR}
+Figure \ref{figs:SBtoSR} shows a comparison in QCD Monte Carlo of kinematic variables of interest in the CMS top tagger selection and number of subjets sideband used for the determination of the average b-tagging rate.  There are some discrepancies 
+seen in the two regions, which is the main reason why we use the average b-tagging rate instead of the sideband itself.  Variables constrained to the top candidate jet such as top mass have a drastically different shape, so we need to look at the 
+b candidate jet in the opposite hemisphere to keep the background estimate unbiased.  Additionally, because we parameterize in $\pt$ the influence from the different b candidate $\pt$ shapes does not bias the background estimate.  Then the final 
+kinematic variable of interest is b candidate mass which shows good agreement.  
+
+
+\begin{figure}[Htcb]
+\centering
+\includegraphics[width=0.8\textwidth]{figs/SBtoSR.pdf}
+\caption{Comparison of kinematic variables in QCD Monte Carlo extracted from the CMS top tagger signal region and number of subjets sideband}
+\label{figs:SBtoSR}
+\end{figure}
+
+
+
+\section{Signal Kinematic Comparison}
+\label{sec:SigKinGen}
+Figure \ref{figs:genkin} shows a comparison of relevant kinematic variables for right, left, and mixed Signal Monte Carlo samples.
+
+
+\begin{figure}[Htcb]
+\centering
+\includegraphics[width=1.0\textwidth]{figs/CutCompqcdandsignalGencoupling.pdf}
+\caption{Comparison of kinematic variables in Signal Monte Carlo for right, left and mixed coupling all at the 2100$~\GeV$ mass point }
+\label{figs:genkin}
+\end{figure}
+
+
+
+%\clearpage
+
+%\section{Top Pt Re-weighting}
+%\label{sec:tptrw}
+%One possible improvement for the QCD background estimate relies on weighting the top pt.  The method is to weight events such that the pt of the 
+%top jet in full selection is equal to the background estimate.  In this implementation, the weight is obtained from QCD Monte Carlo and applied to data.
+%The weight can be seen in figure \ref{figs:QCDWeight}.  Applying this weight to the data full selection results in 
+%figure \ref{figs:tptweightedmtb}.  In QCD closure test for this procedure, the weight is extracted from even 
+%events in the QCD Monte Carlo and applied to odd events.  The resulting $M_{tb}$ plot is shown in figure \ref{figs:tptweightedmtbQCD}.
+
+%We also investigate the effect of this correction in the second sideband seen in figure \ref{figs:NewMtbSB2}.  Using the top pt weight as 
+%extracted from QCD Monte Carlo in this selection produces the $M_{tb}$ plot seen in figure \ref{figs:tptweightedmtbSB2}. % The limits extracted from this procedure are shown in figure \ref{figs:limits_theta_comb_log_tptweight}.
+
+%\begin{figure}[Htcb]
+%\centering
+%\includegraphics[width=1.0\textwidth]{figs/tptweightplotfromQCD.png}
+%\caption{Top pt weight as extracted from QCD Monte Carlo.}
+%\label{figs:QCDWeight}
+%\end{figure}
+
+%\begin{figure}[Htcb]
+%\centering
+%\includegraphics[width=1.0\textwidth]{figs/tptweightedmtb.png}
+%\caption{Top pt weighted full selection in the data full selection.}
+%\label{figs:tptweightedmtb}
+%\end{figure}
+
+%\begin{figure}[Htcb]
+%\centering
+%\includegraphics[width=1.0\textwidth]{figs/tptweightedmtbQCD.png}
+%\caption{Top pt weighted QCD closure test.}
+%\label{figs:tptweightedmtbQCD}
+%\end{figure}
+
+
+
+%\begin{figure}[Htcb]
+%\centering
+%\includegraphics[width=1.0\textwidth]{figs/tptweightedmtbSB2.png}
+%\caption{Control region $M_{tb}$ plot with top pt weighting.  As of this version of the note, systematics on this sample have not been computed.  
+%The sigma referenced in the lower green plot is just statistical.}
+%\label{figs:tptweightedmtbSB2}
+%\end{figure}
+
+%\begin{figure}[Htcb]
+%\centering
+%\includegraphics[width=1.0\textwidth]{figs/limits_theta_comb_log_tptweight.png}
+%\caption{Limits extracted by using the top pt weighting procedure}
+%\label{figs:limits_theta_comb_log_tptweight}
+%\end{figure}
+
+\clearpage
+
+\section{QCD Parameterization Uncertainty}
+\label{sec:qcdpunc}
+
+The QCD background prediction relies on the probability to tag a b~jet.  
+We parameterize this probability using physical variables that
+have a large effect on the b-tagging rate ($\pt$ and $\eta$ of the b
+candidate jet).  However, the variable of interest in the analysis
+is $M_{tb}$, and the background estimate involves integrating, for
+every bin in $M_{tb}$, along the $\pt$ axis.  To see this more
+explicitly, let us consider the signal region only, with pre-b-tag
+data divided into a two-dimensional matrix along $\pt$ and
+$M_{tb}$ axes, indexed by indices $i$ and $j$ respectively.
+Thus $n_{ij}$ is the number of pre-b-tag events within a given $\pt$
+bin (index $i$) and a given $M_{tb}$ bin (index $j$), 
+$\overline P_i$ is the average of true b-tagging probability for a slice 
+in $\pt$, whereas $P_{ij}$ is the true b-tagging probability for
+data in $n_{ij}$.
+
+The true number of b tags in two-dimensional bin $(i,j)$ is then
+$n_{ij} P_{ij}$.  The observed number of events in $M_{tb}$ bin $j$ is
+$N_j = \sum_i n_{ij} P_{ij}$.  However, the background
+estimate uses the average b-tagging probability, $\overline P_i$,
+averaged over all values of $j$ -- that is, over all values of 
+$M_{tb}$.\footnote{In the real measurement we
+furthermore obtain this number from the sideband, but to elucidate the
+point it is sufficient to consider the average of true b-tagging
+probabilities, $P_{ij}$, from the signal region.} 
+So a `perfect' background estimate (using probabilities from the
+signal region) therefore
+yields $N_j^{\rm bkg.est.} = \sum_i n_{ij} \overline P_i$.
+
+Our procedure for the estimation of the QCD background {\it assumes}
+that $P_{ij}$ is independent of $M_{tb}$ -- in other words, that
+$P_{ij} = \overline P_i$.  If that is the case, the bias of the
+background estimate
+\begin{equation}
+  \delta N_j = N_j - N_j^{\rm bkg.est.} = \sum_i n_{ij} (P_{ij} - \overline P_i)
+  \label{eq:qcd_bias}
+\end{equation}
+is indeed zero.
+
+If for some reason $P_{ij} \neq \overline P_i$, 
+Eq.(\ref{eq:qcd_bias}), depending on the values of $n_{ij}$, could
+result in non-zero bias $\delta N_j$ -- even when the used 
+average tagging probability
+corresponds to the signal region itself.
+
+Luckily, the assumption that the average b-tagging probability
+depends only on the jet itself (with $\pt$ and $\eta$ of the b~jet)
+is a very good one.  However, it is conceivable that second- or
+third-order effects could create small deviations in 
+$P_{ij} - \overline P_i$ and thus result in a small bias.
+These effects could be caused by other activity in the event,
+which could be a reason that the same values of $\pt$ and $\eta$ 
+could correspond to events with different $\pt$ of the top jet,
+and thus $M_{tb}$. To see that such effects exist (and also that
+they are small), it is sufficient to consider the top $\pt$ in
+Figure \ref{figs:kinplotsdata1}, where there seems to be a small but systematic bias of
+the background estimate, as evidenced by the pull distribution
+in the lower pane.  We have not studied the causes of these
+effects, but additional activity in the event (from other
+jets or pile-up) could contribute additional pixel and
+strip hits inside the volume of the b jet, and thus impact
+the average tagging rate at a low level.
+
+To investigate the ability of the b-tagging rate parameterization in
+$\pt$ and $\eta$ to predict $M_{tb}$, we incorporate $M_{tb}$ into the
+b-tagging rate parameterization,  The effect is first checked in the
+second sideband described above.  The three-dimensional b-tagging rate
+shown in Figure \ref{figs:sb2deta} is compared to the two dimensional
+tagging rate shown in \ref{figs:tagrateetafit} to see if this effect
+can be the cause of the deviations observed in the low $M_{tb}$
+region.  Figure \ref{figs:sb2comp} shows the differences in the three
+and two dimensional background estimates as well as the differences in
+the full selection of this control region and the background estimate.
+From this we conclude that there is an effect and the shape of the
+deviations is well approximated with this method.
+
+\begin{figure}[Htcb]
+\begin{center}
+\subfigure{\label{figs:SB2sdBkgMinusBkg}\includegraphics[width=1.0\textwidth]{figs/Mtb2dminus1dBE.pdf}}\\
+\subfigure{\label{figs:SB2SRMinusBkg}\includegraphics[width=1.0\textwidth]{figs/Mtb1dminusFS.pdf}}
+\caption{
+(a) Difference of the background estimation from three dimensional and two dimensional tagging rates
+(b) Difference of the background estimation from second sideband selection and two dimensional tagging rates
+}
+\label{figs:sb2comp}
+\end{center}
+\end{figure}
+
+
+\section{Signal Contamination Studies}
+\label{sec:sigcont}
+The following studies investigate signal contamination within our analysis.  These plots use the same color scheme seen in Figure \ref{figs:legend}.  
+The signal contamination within the sideband used for extraction of the average b-tagging rate can be seen in Figure \ref{figs:trsigcont} (this is signal injected 
+into the post b tagged plots in Figure \ref{figs:tagsandprobes8TeV}).  The signal contamination for the signal region can be seen in Figure \ref{figs:sigFS}.
+
+There is also some signal contamination within the sideband cross checks described in Section \ref{sec:secondsideband}.  The signal contamination within Figure \ref{figs:NewMtbSB2} can be seen in Figure \ref{figs:sigSB2}, 
+and the contamination in Figure \ref{figs:NewMtbSB3} can be seen in Figure \ref{figs:sigSB3}. 
+
+\begin{figure}[Htcb]
+\centering
+\includegraphics[width=0.45\textwidth]{figs/legend.pdf}
+\caption{Legend for the following studies}
+\label{figs:legend}
+\end{figure}
+
+\begin{figure}[Htcb]
+\begin{center}
+\subfigure{\label{figs:sceta1}\includegraphics[width=0.7\textwidth]{figs/sigvsTReta1.pdf}}\\
+\subfigure{\label{figs:sceta2}\includegraphics[width=0.7\textwidth]{figs/sigvsTReta2.pdf}}\\
+\subfigure{\label{figs:sceta3}\includegraphics[width=0.7\textwidth]{figs/sigvsTReta3.pdf}}
+\caption{
+Signal contamination in the post b tagged sideband used to extract the average b-tagging rate
+(a) Low $\eta$ region  
+(b) Transition $\eta$ region 
+(c) High $\eta$ region 
+}
+\label{figs:trsigcont}
+\end{center}
+\end{figure}
+
+\begin{figure}[Htcb]
+\centering
+\includegraphics[width=1.0\textwidth]{figs/sigcontsemilog.pdf}
+\caption{Signal contamination for the full selection.  The solid lines are the signal that passes the full selection.  The dashed lines are the signal that falls through the background estimate.}
+\label{figs:sigFS}
+\end{figure}
+
+\begin{figure}[Htcb]
+\centering
+\includegraphics[width=1.0\textwidth]{figs/NewMtbSB2semilogwithsignal.pdf}
+\caption{Signal contamination in sideband}
+\label{figs:sigSB2}
+\end{figure}
+
+\begin{figure}[Htcb]
+\centering
+\includegraphics[width=1.0\textwidth]{figs/NewMtbSB3semilogwithsignal.pdf}
+\caption{Signal contamination in sideband}
+\label{figs:sigSB3}
+\end{figure}
+
+
+\section{Generalized Coupling Signal Sample Comparison}
+\label{sec:sigcont}
+
+\begin{figure}[htcb]
+\begin{center}
+\subfigure{\label{figs:gen1}\includegraphics[width=0.7\textwidth]{figs/SignalmixedvsLplusR1300.pdf}}\\
+\subfigure{\label{figs:gen2}\includegraphics[width=0.7\textwidth]{figs/SignalmixedvsLplusR1700.pdf}}\\
+\subfigure{\label{figs:gen3}\includegraphics[width=0.7\textwidth]{figs/SignalmixedvsLplusR2100.pdf}}
+\caption{
+$M_{tb}$ spectrum of events comparing the summed $\wpr_{R}$ and $\wpr_{L}$ templates to the $\wpr_{LR}$ template.  The selection used for these plots only includes the kinematic cuts.
+}
+\label{figs:Gencomp1}
+\end{center}
+\end{figure}
+
+%\section{Top Tagging Scale Factor Studies in Signal Monte Carlo}
+%\label{sec:ttsfsigandttbar}
+%We study the applicability of the top tagging scale factor as derived from $\ttbar$ Monte Carlo.  Figures \ref{figs:effr1} and \ref{figs:effr2} shows top tagging efficiency comparisons as parameterized in $\pt$ and $\eta$.
+
+%\begin{figure}[Htcb]
+%\centering
+%\includegraphics[width=1.0\textwidth]{figs/effratioandpull1.pdf}
+%\caption{Study of the applicability of the top tagging scale factor to signal Monte Carlo.  Plots on the left are the ratio of top tagging efficiency in signal to $\ttbar$.  Plots on the right are the pull distributions (($Eff_{signal} - EFF_{ttbar}$)/$\sigma$). 
+%Where $\sigma$ is the statistical uncertainty.  From top to bottom we study $\wpr$ Monte Carlo mass points from 1300 to 3100 $~\GeV$}
+%\label{figs:effr1} - 
+%\end{figure}
+
+%\begin{figure}[Htcb]
+%\centering
+%\includegraphics[width=1.0\textwidth]{figs/effratioandpull2.pdf}
+%\caption{Study of the applicability of the top tagging scale factor to signal Monte Carlo.  Plots on the left are the ratio of top tagging efficiency in signal to $\ttbar$.  Plots on the right are the pull distributions (($Eff_{signal} - EFF_{ttbar}$)/$\sigma$). 
+%Where $\sigma$ is the statistical uncertainty.  From top to bottom we study $\wpr$ Monte Carlo mass points from 1300 to 3100 $~\GeV$}
+%\label{figs:effr2} - 
+%\end{figure}
+
+

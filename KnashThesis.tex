@@ -11,7 +11,7 @@
 \usepackage{amssymb}
 \usepackage{graphicx}
 %\usepackage{caption}
-%\usepackage{subcaption}
+\usepackage{subfigure}
 \usepackage{mathrsfs}
 \usepackage{color}
 \graphicspath{{./figs/}}
@@ -26,16 +26,18 @@
 \usepackage{fancyhdr}    % Use nice looking headers along with the required footer page numbers   
 %\usepackage[hypertex]{hyperref}
 
-\newcommand{\wpr}{\ensuremath{\mathrm{W}^\prime}}
-\newcommand{\zpr}{\ensuremath{\mathrm{Z}^\prime}}
+\newcommand{\wpr}{\ensuremath{\mathrm{W}^{\prime}}}
+\newcommand{\zpr}{\ensuremath{\mathrm{Z}^{\prime}}}
 \newcommand{\bs}{\ensuremath{\mathrm{b}^{*}}}
 \newcommand{\mum}{\ensuremath{\mathrm{\mu m}}}
 \newcommand{\mus}{\ensuremath{\mathrm{\mu s}}}
-\newcommand{\fbinv}{\ensuremath{\mathrm{fb^-1}}}
-\newcommand{\pbinv}{\ensuremath{\mathrm{pb^-1}}}
+\newcommand{\fbinv}{\ensuremath{\mathrm{fb^{-1}}}}
+\newcommand{\pbinv}{\ensuremath{\mathrm{pb^{-1}}}}
 \newcommand{\TeV}{\mathrm{TeV}}
 \newcommand{\MeV}{\mathrm{MeV}}
 \newcommand{\GeV}{\mathrm{GeV}}
+\newcommand{\ttbar}{\mathrm{t\overline{t}}}
+\newcommand{\tbbar}{\mathrm{t\overline{b}}}
 \newcommand{\pt}{\ensuremath{\mathrm{p_{T}}}}
 \newcommand{\MET}{\ensuremath{\mathrm{E_{T}^{miss}}}}
 \newcommand{\textdegree}{\ensuremath{\mathrm{^{\circ}}}}
@@ -75,8 +77,29 @@
 % add your chaptders, best way is to have separate TeX files for each chapter
 \include{Introduction}
 \include{ExperimentalSetup}
+\include{AN-13-004/introduction8TeV}
 
-%\include{appendix}
+\include{AN-13-004/AnalysisStrategy8TeV}
+\include{AN-13-004/DataSampleandEventSelection8TeV}
+\include{AN-13-004/BackgroundEstimation8TeV}
+\include{AN-13-004/DataResults}
+\include{AN-13-004/Systematics8TeV}
+\include{AN-13-004/Limits8TeV}
+\include{AN-13-004/Combination}
+%\include{AN-13-004/Summary}
+
+\include{AN-14-049/Introduction}
+\include{AN-14-049/AnalysisStrategy}
+\include{AN-14-049/DataSampleandEventSelection}
+\include{AN-14-049/BackgroundEstimation}
+\include{AN-14-049/DataResults}
+\include{AN-14-049/Systematics}
+\include{AN-14-049/Limits}
+\include{AN-14-049/combination}
+%\include{AN-14-049/Summary}
+
+%\include{Summary}
+\include{Appendix}
 
 %% REFERENCES
 

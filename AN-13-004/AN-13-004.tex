@@ -1,0 +1,112 @@
+% Customizable fields and text areas start with % >> below.
+% Lines starting with the comment character (%) are normally removed before release outside the collaboration, but not those comments ending lines
+
+% svn info. These are modified by svn at checkout time.
+% The last version of these macros found before the maketitle will be the one on the front page,
+% so only the main file is tracked.
+% Do not edit by hand!
+\RCS$Revision: 252990 $
+\RCS$HeadURL: svn+ssh://knash@svn.cern.ch/reps/tdr2/notes/AN-13-004/trunk/AN-13-004.tex $
+\RCS$Id: AN-13-004.tex 252990 2014-07-25 15:38:30Z knash $
+%%%%%%%%%%%%% local definitions %%%%%%%%%%%%%%%%%%%%%
+% This allows for switching between one column and two column (cms@external) layouts
+% The widths should  be modified for your particular figures. You'll need additional copies if you have more than one standard figure size.
+\newlength\cmsFigWidth
+\ifthenelse{\boolean{cms@external}}{\setlength\cmsFigWidth{0.85\columnwidth}}{\setlength\cmsFigWidth{0.4\textwidth}}
+\ifthenelse{\boolean{cms@external}}{\providecommand{\cmsLeft}{top}}{\providecommand{\cmsLeft}{left}}
+\ifthenelse{\boolean{cms@external}}{\providecommand{\cmsRight}{bottom}}{\providecommand{\cmsRight}{right}}
+\newcommand{\wpr}{\ensuremath{\mathrm{W}^\prime}\xspace}
+\newcommand{\tbbar}{\ensuremath{{t\overline{b}}}\xspace}
+%%%%%%%%%%%%%%%  Title page %%%%%%%%%%%%%%%%%%%%%%%%
+\cmsNoteHeader{AN-13-004} % This is over-written in the CMS environment: useful as preprint no. for export versions
+% >> Title: please make sure that the non-TeX equivalent is in PDFTitle below
+\title{Search for $\mathrm{W'} \to t\bar{b}$ in the all-hadronic final state}
+
+
+% >> Authors
+%Author is always "The CMS Collaboration" for PAS and papers, so author, etc, below will be ignored in those cases
+%For multiple affiliations, create an address entry for the combination
+%To mark authors as primary, use the \author* form
+
+\address[cern]{CERN}
+\address[jhu]{Johns Hopkins University}
+\address[ucd]{UC Davis}
+\address[sb]{SUNY Buffalo}
+
+\author[cern]{Benedikt Hegner}
+\author[jhu]{Guofan Hu}
+\author[ucd]{Justin Pilot}
+\author[jhu]{Petar Maksimovi\'c}
+\author[jhu]{Kevin Nash}
+\author[jhu]{Marc Osherson}
+\author[sb]{Salvatore Rappoccio}
+
+% >> Date
+% The date is in yyyy/mm/dd format. Today has been
+% redefined to match, but if the date needs to be fixed, please write it in this fashion.
+% For papers and PAS, \today is taken as the date the head file (this one) was last modified according to svn: see the RCS Id string above.
+% For the final version it is best to "touch" the head file to make sure it has the latest date.
+\date{\today}
+
+% >> Abstract
+% Abstract processing:
+% 1. **DO NOT use \include or \input** to include the abstract: our abstract extractor will not search through other files than this one.
+% 2. **DO NOT use %**                  to comment out sections of the abstract: the extractor will still grab those lines (and they won't be comments any longer!).
+% 3. **DO NOT use tex macros**         in the abstract: External TeX parsers used on the abstract don't understand them.
+
+\abstract{
+A search for the production of a massive W' boson at an integrated luminosity of 19.7~fb$^{-1}$ is presented.  
+We consider the hadronic decay of $W' \to tb$, focusing on events with sufficiently high mass to produce 
+highly boosted quarks.  A typical event has a dijet topology composed of a bottom quark and top quark, in which the decay 
+products of the latter are merged into a single jet.  Standard model hadronic jet background is reduced by utilizing jet substructure algorithms to identify the top quark jet. 
+The production of a right-handed W' with mass below 2.02 TeV is excluded at the 95\% C.L. in the all-hadronic final state.  The increased sensitivity from the combination of the all-hadronic and 
+semileptonic final states leads to an exclusion of a right-handed W' with mass below 2.15 TeV at the 95\% C.L. Limits on the W' left- and right-handed couplings are also presented. 
+}
+
+
+% >> PDF Metadata
+% Do not comment out the following hypersetup lines (metadata). They will disappear in NODRAFT mode and are needed by CDS.
+% Also: make sure that the values of the metadata items are sensible and are in plain text:
+% (1) no TeX! -- for \sqrt{s} use sqrt(s) -- this will show with extra quote marks in the draft version but is okay).
+% (2) no %.
+% (3) No curly braces {}.
+\hypersetup{%
+pdfauthor={Kevin Nash, Marc Osherson, Salvatore Rappoccio, Petar Maksimovic, Benedikt Hegner, Guofan Hu},%
+pdftitle={Search for W prime to tbbar in the all-hadronic final state},%
+pdfsubject={CMS},%
+pdfkeywords={CMS, physics, software, computing}}
+
+\maketitle %maketitle comes after all the front information has been supplied
+% >> Text
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%  Begin text %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% **DO NOT REMOVE THE BIBLIOGRAPHY** which is located before the appendix.
+%% You can take the text between here and the bibiliography as an example which you should replace with the actual text of your document.
+%% If you include other TeX files, be sure to use "\input{filename}" rather than "\input filename".
+%% The latter works for you, but our parser looks for the braces and will break when uploading the document.
+%%%%%%%%%%%%%%%
+\input{introduction8TeV.tex}
+\input{AnalysisStrategy8TeV.tex}
+% \input{CMSDetector8TeV.tex}
+\input{DataSampleandEventSelection8TeV.tex}
+% \input{SemiLep8TeV.tex}
+\input{BackgroundEstimation8TeV.tex}
+\input{DataResults.tex}
+\input{Systematics8TeV.tex}
+\input{Limits8TeV.tex}
+\input{Combination.tex}
+\input{Summary.tex}
+
+% >> acknowledgements (for journal papers)
+% Please include the latest version from https://twiki.cern.ch/twiki/bin/viewauth/CMS/Internal/PubAcknow.
+%\section*{Acknowledgements}
+% ack-text
+
+%% **DO NOT REMOVE BIBLIOGRAPHY**
+\bibliography{auto_generated}   % will be created by the tdr script.
+
+%% examples of appendices. **DO NOT PUT \end{document} at the end
+%\clearpage
+\appendix
+\input{appendix.tex}
+%%% DO NOT ADD \end{document}!
+

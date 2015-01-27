@@ -1,0 +1,1032 @@
+
+Processing plotBprime.C("bayesian","semileptonic","left")...
+ Start check left
+bayesian_expected_semileptonic_limits_left.txt
+ Expected limit : 0 to 945.394 [GeV] 
+ Observed limit : 0 to 1024.89 [GeV] 
+Info in <TCanvas::Print>: pdf file bayesian_semileptonic_left_limit_band_plot.pdf has been created
+Info in <TCanvas::Print>: png file bayesian_semileptonic_left_limit_band_plot.png has been created
+
+Processing plotBprime.C("bayesian","semileptonic","right")...
+ Start check right
+bayesian_expected_semileptonic_limits_right.txt
+ Expected limit : 0 to 991.556 [GeV] 
+ Observed limit : 0 to 1063.91 [GeV] 
+Info in <TCanvas::Print>: pdf file bayesian_semileptonic_right_limit_band_plot.pdf has been created
+Info in <TCanvas::Print>: png file bayesian_semileptonic_right_limit_band_plot.png has been created
+
+Processing plotBprime.C("bayesian","semileptonic","vector")...
+ Start check vector
+bayesian_expected_semileptonic_limits_vector.txt
+ Expected limit : 0 to 1155.39 [GeV] 
+ Observed limit : 0 to 1169.96 [GeV] 
+Info in <TCanvas::Print>: pdf file bayesian_semileptonic_vector_limit_band_plot.pdf has been created
+Info in <TCanvas::Print>: png file bayesian_semileptonic_vector_limit_band_plot.png has been created
+
+Processing plotBprime.C("bayesian","hadronic","left")...
+ Start check left
+bayesian_expected_hadronic_limits_left.txt
+ Expected limit : 890.068 to 1473.54 [GeV] 
+ Observed limit : 884.632 to 1398.96 [GeV] 
+Info in <TCanvas::Print>: pdf file bayesian_hadronic_left_limit_band_plot.pdf has been created
+Info in <TCanvas::Print>: png file bayesian_hadronic_left_limit_band_plot.png has been created
+
+Processing plotBprime.C("bayesian","hadronic","right")...
+ Start check right
+bayesian_expected_hadronic_limits_right.txt
+ Expected limit : 882.549 to 1550.14 [GeV] 
+ Observed limit : 842.862 to 1438.51 [GeV] 
+Info in <TCanvas::Print>: pdf file bayesian_hadronic_right_limit_band_plot.pdf has been created
+Info in <TCanvas::Print>: png file bayesian_hadronic_right_limit_band_plot.png has been created
+
+Processing plotBprime.C("bayesian","hadronic","vector")...
+ Start check vector
+bayesian_expected_hadronic_limits_vector.txt
+ Expected limit : 839.202 to 1699.43 [GeV] 
+ Observed limit : 0 to 1547.8 [GeV] 
+Info in <TCanvas::Print>: pdf file bayesian_hadronic_vector_limit_band_plot.pdf has been created
+Info in <TCanvas::Print>: png file bayesian_hadronic_vector_limit_band_plot.png has been created
+
+Processing plotBprime.C("bayesian","dileptonic","left")...
+ Start check left
+bayesian_expected_dileptonic_limits_left.txt
+ Expected limit : 0 to 1061.54 [GeV] 
+ Observed limit : 0 to 1017.5 [GeV] 
+Info in <TCanvas::Print>: pdf file bayesian_dileptonic_left_limit_band_plot.pdf has been created
+Info in <TCanvas::Print>: png file bayesian_dileptonic_left_limit_band_plot.png has been created
+
+Processing plotBprime.C("bayesian","dileptonic","right")...
+ Start check right
+bayesian_expected_dileptonic_limits_right.txt
+ Expected limit : 0 to 1097.56 [GeV] 
+ Observed limit : 0 to 1045.16 [GeV] 
+Info in <TCanvas::Print>: pdf file bayesian_dileptonic_right_limit_band_plot.pdf has been created
+Info in <TCanvas::Print>: png file bayesian_dileptonic_right_limit_band_plot.png has been created
+
+Processing plotBprime.C("bayesian","dileptonic","vector")...
+ Start check vector
+bayesian_expected_dileptonic_limits_vector.txt
+ Expected limit : 0 to 1214.13 [GeV] 
+ Observed limit : 0 to 1154.66 [GeV] 
+Info in <TCanvas::Print>: pdf file bayesian_dileptonic_vector_limit_band_plot.pdf has been created
+Info in <TCanvas::Print>: png file bayesian_dileptonic_vector_limit_band_plot.png has been created
+
+Processing plotBprime.C("bayesian","hadronic_semileptonic","left")...
+ Start check left
+bayesian_expected_hadronic_semileptonic_limits_left.txt
+ Expected limit : 0 to 1499.15 [GeV] 
+ Observed limit : 0 to 1399.25 [GeV] 
+Info in <TCanvas::Print>: pdf file bayesian_hadronic_semileptonic_left_limit_band_plot.pdf has been created
+Info in <TCanvas::Print>: png file bayesian_hadronic_semileptonic_left_limit_band_plot.png has been created
+
+Processing plotBprime.C("bayesian","hadronic_semileptonic","right")...
+ Start check right
+bayesian_expected_hadronic_semileptonic_limits_right.txt
+ Expected limit : 0 to 1585.01 [GeV] 
+ Observed limit : 0 to 1442.23 [GeV] 
+Info in <TCanvas::Print>: pdf file bayesian_hadronic_semileptonic_right_limit_band_plot.pdf has been created
+Info in <TCanvas::Print>: png file bayesian_hadronic_semileptonic_right_limit_band_plot.png has been created
+
+Processing plotBprime.C("bayesian","hadronic_semileptonic","vector")...
+ Start check vector
+bayesian_expected_hadronic_semileptonic_limits_vector.txt
+ Expected limit : 0 to 1737.78 [GeV] 
+ Observed limit : 0 to 1539.4 [GeV] 
+Info in <TCanvas::Print>: pdf file bayesian_hadronic_semileptonic_vector_limit_band_plot.pdf has been created
+Info in <TCanvas::Print>: png file bayesian_hadronic_semileptonic_vector_limit_band_plot.png has been created
+
+Processing plotBprime2D.C("bayesian","semileptonic","left")...
+theory max = 0.1872 vs min 0
+limit for 800 GeV B' : 1.33838 pb 
+limit for 900 GeV B' : 1.20013 pb 
+limit for 1000 GeV B' : 1.03547 pb 
+limit for 1100 GeV B' : 0.825581 pb 
+limit for 1200 GeV B' : 0.615939 pb 
+limit for 1300 GeV B' : 0.516971 pb 
+limit for 1400 GeV B' : 0.437012 pb 
+limit for 1500 GeV B' : 0.36068 pb 
+limit for 1600 GeV B' : 0.32476 pb 
+limit for 1700 GeV B' : 0.285785 pb 
+limit for 1800 GeV B' : 0.263079 pb 
+limit for 1900 GeV B' : 0.241279 pb 
+limit for 2000 GeV B' : 0.230143 pb 
+###################### start check 
+check color 0  416 0.855756
+x[0]=0.57931, y[0]=1
+check color 1  419 0.599075
+x[0]=0.865174, y[0]=1
+check color 2  629 0.632707
+x[0]=1, y[0]=1
+check color 3  632 0.700646
+x[0]=1, y[0]=1
+check color 4  635 0.630921
+x[0]=1, y[0]=1
+check color 5  597 0.638836
+x[0]=1, y[0]=1
+check color 6  603 0.58249
+x[0]=1, y[0]=1
+check color 7  1 0.507273
+x[0]=1, y[0]=1
+check color 8  420 0.496709
+x[0]=1, y[0]=1
+check color 9  422 0.401929
+Info in <TCanvas::Print>: pdf file bayesian_expected_semileptonic_left_2Dlimit_plot.pdf has been created
+Info in <TCanvas::Print>: png file bayesian_expected_semileptonic_left_2Dlimit_plot.png has been created
+x[0]=1, y[0]=1
+
+Processing plotBprime2D.C("bayesian","semileptonic","right")...
+theory max = 0.1872 vs min 0
+limit for 800 GeV B' : 1.04904 pb 
+limit for 900 GeV B' : 0.935011 pb 
+limit for 1000 GeV B' : 0.783505 pb 
+limit for 1100 GeV B' : 0.594675 pb 
+limit for 1200 GeV B' : 0.443181 pb 
+limit for 1300 GeV B' : 0.338217 pb 
+limit for 1400 GeV B' : 0.284529 pb 
+limit for 1500 GeV B' : 0.240932 pb 
+limit for 1600 GeV B' : 0.213639 pb 
+limit for 1700 GeV B' : 0.21445 pb 
+limit for 1800 GeV B' : 0.188098 pb 
+limit for 1900 GeV B' : 0.182043 pb 
+limit for 2000 GeV B' : 0.167599 pb 
+###################### start check 
+check color 0  416 0.696451
+x[0]=0.50221, y[0]=1
+check color 1  419 0.498963
+x[0]=0.726665, y[0]=1
+check color 2  629 0.505517
+x[0]=1, y[0]=1
+check color 3  632 0.51882
+x[0]=1, y[0]=1
+check color 4  635 0.468811
+x[0]=1, y[0]=1
+check color 5  597 0.377448
+x[0]=1, y[0]=1
+check color 6  603 0.370439
+x[0]=1, y[0]=1
+check color 7  1 0.319744
+x[0]=1, y[0]=1
+check color 8  420 0.289572
+x[0]=1, y[0]=1
+check color 9  422 0.287169
+Info in <TCanvas::Print>: pdf file bayesian_expected_semileptonic_right_2Dlimit_plot.pdf has been created
+Info in <TCanvas::Print>: png file bayesian_expected_semileptonic_right_2Dlimit_plot.png has been created
+x[0]=1, y[0]=1
+
+Processing plotBprime2D.C("bayesian","semileptonic","vector")...
+theory max = 0.3744 vs min 0
+limit for 800 GeV B' : 1.15734 pb 
+limit for 900 GeV B' : 1.04403 pb 
+limit for 1000 GeV B' : 0.891491 pb 
+limit for 1100 GeV B' : 0.680586 pb 
+limit for 1200 GeV B' : 0.500401 pb 
+limit for 1300 GeV B' : 0.398098 pb 
+limit for 1400 GeV B' : 0.341115 pb 
+limit for 1500 GeV B' : 0.284433 pb 
+limit for 1600 GeV B' : 0.250594 pb 
+limit for 1700 GeV B' : 0.238166 pb 
+limit for 1800 GeV B' : 0.217793 pb 
+limit for 1900 GeV B' : 0.206943 pb 
+limit for 2000 GeV B' : 0.194363 pb 
+###################### start check 
+check color 0  416 0.736307
+x[0]=0.360748, y[0]=1
+check color 1  419 0.538506
+x[0]=0.507589, y[0]=1
+check color 2  629 0.570816
+x[0]=0.695761, y[0]=1
+check color 3  632 0.591822
+x[0]=0.900793, y[0]=1
+check color 4  635 0.502218
+x[0]=1, y[0]=1
+check color 5  597 0.480483
+x[0]=1, y[0]=1
+check color 6  603 0.462301
+x[0]=1, y[0]=1
+check color 7  1 0.393768
+x[0]=1, y[0]=1
+check color 8  420 0.354543
+x[0]=1, y[0]=1
+check color 9  422 0.322302
+Info in <TCanvas::Print>: pdf file bayesian_expected_semileptonic_vector_2Dlimit_plot.pdf has been created
+Info in <TCanvas::Print>: png file bayesian_expected_semileptonic_vector_2Dlimit_plot.png has been created
+x[0]=1, y[0]=1
+
+Processing plotBprime2D.C("bayesian","hadronic","left")...
+theory max = 0.1872 vs min 0
+limit for 800 GeV B' : 9.45484 pb 
+limit for 900 GeV B' : 0.735121 pb 
+limit for 1000 GeV B' : 0.217127 pb 
+limit for 1100 GeV B' : 0.137627 pb 
+limit for 1200 GeV B' : 0.0986729 pb 
+limit for 1300 GeV B' : 0.0687534 pb 
+limit for 1400 GeV B' : 0.0529274 pb 
+limit for 1500 GeV B' : 0.0449914 pb 
+limit for 1600 GeV B' : 0.037819 pb 
+limit for 1700 GeV B' : 0.0331563 pb 
+limit for 1800 GeV B' : 0.029876 pb 
+limit for 1900 GeV B' : 0.0289192 pb 
+limit for 2000 GeV B' : 0.0293512 pb 
+###################### start check 
+check color 0  416 8.77398
+x[0]=1, y[0]=1
+check color 1  419 0.397069
+x[0]=0.623088, y[0]=1
+check color 2  629 0.11361
+x[0]=0.451675, y[0]=1
+check color 3  632 0.151737
+x[0]=0.500889, y[0]=1
+check color 4  635 0.110096
+x[0]=0.589254, y[0]=1
+check color 5  597 0.0631708
+x[0]=0.67647, y[0]=1
+check color 6  603 0.0683763
+x[0]=0.827233, y[0]=1
+check color 7  1 0.0743805
+x[0]=1, y[0]=1
+check color 8  420 0.0715151
+x[0]=1, y[0]=1
+check color 9  422 0.0477431
+Info in <TCanvas::Print>: pdf file bayesian_expected_hadronic_left_2Dlimit_plot.pdf has been created
+Info in <TCanvas::Print>: png file bayesian_expected_hadronic_left_2Dlimit_plot.png has been created
+x[0]=1, y[0]=1
+
+Processing plotBprime2D.C("bayesian","hadronic","right")...
+theory max = 0.1872 vs min 0
+limit for 800 GeV B' : 6.98597 pb 
+limit for 900 GeV B' : 0.602335 pb 
+limit for 1000 GeV B' : 0.180087 pb 
+limit for 1100 GeV B' : 0.111637 pb 
+limit for 1200 GeV B' : 0.0749439 pb 
+limit for 1300 GeV B' : 0.052599 pb 
+limit for 1400 GeV B' : 0.0418014 pb 
+limit for 1500 GeV B' : 0.0343338 pb 
+limit for 1600 GeV B' : 0.028877 pb 
+limit for 1700 GeV B' : 0.0252536 pb 
+limit for 1800 GeV B' : 0.0222897 pb 
+limit for 1900 GeV B' : 0.0213301 pb 
+limit for 2000 GeV B' : 0.0214063 pb 
+###################### start check 
+check color 0  416 3.82283
+x[0]=1, y[0]=1
+check color 1  419 0.326793
+x[0]=0.55198, y[0]=1
+check color 2  629 0.0920567
+x[0]=0.406791, y[0]=1
+check color 3  632 0.125222
+x[0]=0.444227, y[0]=1
+check color 4  635 0.0818132
+x[0]=0.500546, y[0]=1
+check color 5  597 0.0480046
+x[0]=0.5726, y[0]=1
+check color 6  603 0.0553879
+x[0]=0.703291, y[0]=1
+check color 7  1 0.05946
+x[0]=0.893342, y[0]=1
+check color 8  420 0.0547827
+x[0]=1, y[0]=1
+check color 9  422 0.0342509
+Info in <TCanvas::Print>: pdf file bayesian_expected_hadronic_right_2Dlimit_plot.pdf has been created
+Info in <TCanvas::Print>: png file bayesian_expected_hadronic_right_2Dlimit_plot.png has been created
+x[0]=1, y[0]=1
+
+Processing plotBprime2D.C("bayesian","hadronic","vector")...
+theory max = 0.3744 vs min 0
+limit for 800 GeV B' : 7.41434 pb 
+limit for 900 GeV B' : 0.64553 pb 
+limit for 1000 GeV B' : 0.197186 pb 
+limit for 1100 GeV B' : 0.123241 pb 
+limit for 1200 GeV B' : 0.0849299 pb 
+limit for 1300 GeV B' : 0.0595846 pb 
+limit for 1400 GeV B' : 0.0468945 pb 
+limit for 1500 GeV B' : 0.0392856 pb 
+limit for 1600 GeV B' : 0.0327917 pb 
+limit for 1700 GeV B' : 0.0286228 pb 
+limit for 1800 GeV B' : 0.0256927 pb 
+limit for 1900 GeV B' : 0.0247116 pb 
+limit for 2000 GeV B' : 0.024687 pb 
+###################### start check 
+check color 0  416 4.40049
+x[0]=1, y[0]=1
+check color 1  419 0.3435
+x[0]=0.387411, y[0]=1
+check color 2  629 0.105193
+x[0]=0.294201, y[0]=1
+check color 3  632 0.137914
+x[0]=0.321216, y[0]=1
+check color 4  635 0.0926424
+x[0]=0.364269, y[0]=1
+check color 5  597 0.0546699
+x[0]=0.41225, y[0]=1
+check color 6  603 0.0608125
+x[0]=0.493562, y[0]=1
+check color 7  1 0.0655646
+x[0]=0.61236, y[0]=1
+check color 8  420 0.0621766
+x[0]=0.763477, y[0]=1
+check color 9  422 0.0400416
+Info in <TCanvas::Print>: pdf file bayesian_expected_hadronic_vector_2Dlimit_plot.pdf has been created
+Info in <TCanvas::Print>: png file bayesian_expected_hadronic_vector_2Dlimit_plot.png has been created
+x[0]=1, y[0]=1
+
+Processing plotBprime2D.C("bayesian","dileptonic","left")...
+theory max = 0.1872 vs min 0
+limit for 800 GeV B' : 0.852477 pb 
+limit for 900 GeV B' : 0.686073 pb 
+limit for 1000 GeV B' : 0.57287 pb 
+limit for 1100 GeV B' : 0.490607 pb 
+limit for 1200 GeV B' : 0.439081 pb 
+limit for 1300 GeV B' : 0.409728 pb 
+limit for 1400 GeV B' : 0.385646 pb 
+limit for 1500 GeV B' : 0.500059 pb 
+limit for 1600 GeV B' : 0.394049 pb 
+limit for 1700 GeV B' : 0.395693 pb 
+limit for 1800 GeV B' : 0.414945 pb 
+limit for 1900 GeV B' : 0.439787 pb 
+limit for 2000 GeV B' : 0.490202 pb 
+###################### start check 
+check color 0  416 1.05432
+x[0]=0.446277, y[0]=1
+check color 1  419 0.859489
+x[0]=0.59692, y[0]=1
+check color 2  629 0.678449
+x[0]=0.825795, y[0]=1
+check color 3  632 0.660348
+x[0]=1, y[0]=1
+check color 4  635 0.629442
+x[0]=1, y[0]=1
+check color 5  597 0.595362
+x[0]=1, y[0]=1
+check color 6  603 0.606396
+x[0]=1, y[0]=1
+check color 7  1 0.740594
+x[0]=1, y[0]=1
+check color 8  420 0.522244
+x[0]=1, y[0]=1
+check color 9  422 0.501976
+Info in <TCanvas::Print>: pdf file bayesian_expected_dileptonic_left_2Dlimit_plot.pdf has been created
+Info in <TCanvas::Print>: png file bayesian_expected_dileptonic_left_2Dlimit_plot.png has been created
+x[0]=1, y[0]=1
+
+Processing plotBprime2D.C("bayesian","dileptonic","right")...
+theory max = 0.1872 vs min 0
+limit for 800 GeV B' : 0.621658 pb 
+limit for 900 GeV B' : 0.50431 pb 
+limit for 1000 GeV B' : 0.442242 pb 
+limit for 1100 GeV B' : 0.395945 pb 
+limit for 1200 GeV B' : 0.370388 pb 
+limit for 1300 GeV B' : 0.34304 pb 
+limit for 1400 GeV B' : 0.344193 pb 
+limit for 1500 GeV B' : 0.346125 pb 
+limit for 1600 GeV B' : 0.346755 pb 
+limit for 1700 GeV B' : 0.369008 pb 
+limit for 1800 GeV B' : 0.382331 pb 
+limit for 1900 GeV B' : 0.413538 pb 
+limit for 2000 GeV B' : 0.460909 pb 
+###################### start check 
+check color 0  416 0.820818
+x[0]=0.375147, y[0]=1
+check color 1  419 0.620013
+x[0]=0.497512, y[0]=1
+check color 2  629 0.605994
+x[0]=0.692185, y[0]=1
+check color 3  632 0.546605
+x[0]=1, y[0]=1
+check color 4  635 0.527679
+x[0]=1, y[0]=1
+check color 5  597 0.530836
+x[0]=1, y[0]=1
+check color 6  603 0.490974
+x[0]=1, y[0]=1
+check color 7  1 0.497641
+x[0]=1, y[0]=1
+check color 8  420 0.461215
+x[0]=1, y[0]=1
+check color 9  422 0.460122
+Info in <TCanvas::Print>: pdf file bayesian_expected_dileptonic_right_2Dlimit_plot.pdf has been created
+Info in <TCanvas::Print>: png file bayesian_expected_dileptonic_right_2Dlimit_plot.png has been created
+x[0]=1, y[0]=1
+
+Processing plotBprime2D.C("bayesian","dileptonic","vector")...
+theory max = 0.3744 vs min 0
+limit for 800 GeV B' : 0.713294 pb 
+limit for 900 GeV B' : 0.579165 pb 
+limit for 1000 GeV B' : 0.502845 pb 
+limit for 1100 GeV B' : 0.438022 pb 
+limit for 1200 GeV B' : 0.399978 pb 
+limit for 1300 GeV B' : 0.373819 pb 
+limit for 1400 GeV B' : 0.363828 pb 
+limit for 1500 GeV B' : 0.412446 pb 
+limit for 1600 GeV B' : 0.370166 pb 
+limit for 1700 GeV B' : 0.378012 pb 
+limit for 1800 GeV B' : 0.402379 pb 
+limit for 1900 GeV B' : 0.42285 pb 
+limit for 2000 GeV B' : 0.46787 pb 
+###################### start check 
+check color 0  416 0.908191
+x[0]=0.279046, y[0]=1
+check color 1  419 0.712879
+x[0]=0.365167, y[0]=1
+check color 2  629 0.633502
+x[0]=0.490954, y[0]=1
+check color 3  632 0.600239
+x[0]=0.664169, y[0]=1
+check color 4  635 0.569411
+x[0]=0.956303, y[0]=1
+check color 5  597 0.560079
+x[0]=1, y[0]=1
+check color 6  603 0.551851
+x[0]=1, y[0]=1
+check color 7  1 0.605295
+x[0]=1, y[0]=1
+check color 8  420 0.504521
+x[0]=1, y[0]=1
+check color 9  422 0.481926
+Info in <TCanvas::Print>: pdf file bayesian_expected_dileptonic_vector_2Dlimit_plot.pdf has been created
+Info in <TCanvas::Print>: png file bayesian_expected_dileptonic_vector_2Dlimit_plot.png has been created
+x[0]=1, y[0]=1
+
+Processing plotBprime2D.C("bayesian","hadronic_semileptonic","left")...
+theory max = 0.1872 vs min 0
+limit for 800 GeV B' : 0.679757 pb 
+limit for 900 GeV B' : 0.396664 pb 
+limit for 1000 GeV B' : 0.179815 pb 
+limit for 1100 GeV B' : 0.118107 pb 
+limit for 1200 GeV B' : 0.0792924 pb 
+limit for 1300 GeV B' : 0.0587336 pb 
+limit for 1400 GeV B' : 0.0461487 pb 
+limit for 1500 GeV B' : 0.0398263 pb 
+limit for 1600 GeV B' : 0.0335993 pb 
+limit for 1700 GeV B' : 0.0293819 pb 
+limit for 1800 GeV B' : 0.0267614 pb 
+limit for 1900 GeV B' : 0.026067 pb 
+limit for 2000 GeV B' : 0.0262153 pb 
+###################### start check 
+check color 0  416 0.615964
+x[0]=0.393865, y[0]=1
+check color 1  419 0.261066
+x[0]=0.434085, y[0]=1
+check color 2  629 0.094633
+x[0]=0.406454, y[0]=1
+check color 3  632 0.129108
+x[0]=0.458568, y[0]=1
+check color 4  635 0.101084
+x[0]=0.517043, y[0]=1
+check color 5  597 0.0617808
+x[0]=0.612131, y[0]=1
+check color 6  603 0.0682271
+x[0]=0.751883, y[0]=1
+check color 7  1 0.0792919
+x[0]=1, y[0]=1
+check color 8  420 0.0753548
+x[0]=1, y[0]=1
+check color 9  422 0.0476276
+Info in <TCanvas::Print>: pdf file bayesian_expected_hadronic_semileptonic_left_2Dlimit_plot.pdf has been created
+Info in <TCanvas::Print>: png file bayesian_expected_hadronic_semileptonic_left_2Dlimit_plot.png has been created
+x[0]=1, y[0]=1
+
+Processing plotBprime2D.C("bayesian","hadronic_semileptonic","right")...
+theory max = 0.1872 vs min 0
+limit for 800 GeV B' : 0.501345 pb 
+limit for 900 GeV B' : 0.310318 pb 
+limit for 1000 GeV B' : 0.147088 pb 
+limit for 1100 GeV B' : 0.0941189 pb 
+limit for 1200 GeV B' : 0.0601465 pb 
+limit for 1300 GeV B' : 0.0447635 pb 
+limit for 1400 GeV B' : 0.0367069 pb 
+limit for 1500 GeV B' : 0.0295461 pb 
+limit for 1600 GeV B' : 0.0253794 pb 
+limit for 1700 GeV B' : 0.022344 pb 
+limit for 1800 GeV B' : 0.0205253 pb 
+limit for 1900 GeV B' : 0.0196054 pb 
+limit for 2000 GeV B' : 0.019373 pb 
+###################### start check 
+check color 0  416 0.520989
+x[0]=0.334087, y[0]=1
+check color 1  419 0.206352
+x[0]=0.379222, y[0]=1
+check color 2  629 0.0803674
+x[0]=0.364021, y[0]=1
+check color 3  632 0.104767
+x[0]=0.404016, y[0]=1
+check color 4  635 0.0738789
+x[0]=0.441473, y[0]=1
+check color 5  597 0.0481358
+x[0]=0.519942, y[0]=1
+check color 6  603 0.0532969
+x[0]=0.646997, y[0]=1
+check color 7  1 0.0594838
+x[0]=0.800705, y[0]=1
+check color 8  420 0.0540062
+x[0]=1, y[0]=1
+check color 9  422 0.0342152
+Info in <TCanvas::Print>: pdf file bayesian_expected_hadronic_semileptonic_right_2Dlimit_plot.pdf has been created
+Info in <TCanvas::Print>: png file bayesian_expected_hadronic_semileptonic_right_2Dlimit_plot.png has been created
+x[0]=1, y[0]=1
+
+Processing plotBprime2D.C("bayesian","hadronic_semileptonic","vector")...
+theory max = 0.3744 vs min 0
+limit for 800 GeV B' : 0.57832 pb 
+limit for 900 GeV B' : 0.355643 pb 
+limit for 1000 GeV B' : 0.160278 pb 
+limit for 1100 GeV B' : 0.104145 pb 
+limit for 1200 GeV B' : 0.0693064 pb 
+limit for 1300 GeV B' : 0.0513744 pb 
+limit for 1400 GeV B' : 0.0407668 pb 
+limit for 1500 GeV B' : 0.0336108 pb 
+limit for 1600 GeV B' : 0.0287429 pb 
+limit for 1700 GeV B' : 0.025196 pb 
+limit for 1800 GeV B' : 0.0229853 pb 
+limit for 1900 GeV B' : 0.0224827 pb 
+limit for 2000 GeV B' : 0.0224962 pb 
+###################### start check 
+check color 0  416 0.569598
+x[0]=0.250199, y[0]=1
+check color 1  419 0.242783
+x[0]=0.281575, y[0]=1
+check color 2  629 0.0871307
+x[0]=0.263774, y[0]=1
+check color 3  632 0.11707
+x[0]=0.293818, y[0]=1
+check color 4  635 0.084613
+x[0]=0.326361, y[0]=1
+check color 5  597 0.0553554
+x[0]=0.380073, y[0]=1
+check color 6  603 0.0616763
+x[0]=0.455542, y[0]=1
+check color 7  1 0.0687865
+x[0]=0.556762, y[0]=1
+check color 8  420 0.0633424
+x[0]=0.69878, y[0]=1
+check color 9  422 0.0394879
+Info in <TCanvas::Print>: pdf file bayesian_expected_hadronic_semileptonic_vector_2Dlimit_plot.pdf has been created
+Info in <TCanvas::Print>: png file bayesian_expected_hadronic_semileptonic_vector_2Dlimit_plot.png has been created
+x[0]=0.907499, y[0]=1
+
+Processing plotBprime2D.C("bayesian","semileptonic","left",true)...
+theory max = 0.1872 vs min 0
+limit for 800 GeV B' : 0.855756 pb 
+limit for 900 GeV B' : 0.599075 pb 
+limit for 1000 GeV B' : 0.632707 pb 
+limit for 1100 GeV B' : 0.700646 pb 
+limit for 1200 GeV B' : 0.630921 pb 
+limit for 1300 GeV B' : 0.638836 pb 
+limit for 1400 GeV B' : 0.58249 pb 
+limit for 1500 GeV B' : 0.507273 pb 
+limit for 1600 GeV B' : 0.496709 pb 
+limit for 1700 GeV B' : 0.401929 pb 
+limit for 1800 GeV B' : 0.314097 pb 
+limit for 1900 GeV B' : 0.362808 pb 
+limit for 2000 GeV B' : 0.316159 pb 
+###################### start check 
+check color 0  416 0.855756
+x[0]=0.447252, y[0]=1
+check color 1  419 0.599075
+x[0]=0.550204, y[0]=1
+check color 2  629 0.632707
+x[0]=0.887921, y[0]=1
+check color 3  632 0.700646
+x[0]=1, y[0]=1
+check color 4  635 0.630921
+x[0]=1, y[0]=1
+check color 5  597 0.638836
+x[0]=1, y[0]=1
+check color 6  603 0.58249
+x[0]=1, y[0]=1
+check color 7  1 0.507273
+x[0]=1, y[0]=1
+check color 8  420 0.496709
+x[0]=1, y[0]=1
+check color 9  422 0.401929
+Info in <TCanvas::Print>: pdf file bayesian_observed_semileptonic_left_2Dlimit_plot.pdf has been created
+Info in <TCanvas::Print>: png file bayesian_observed_semileptonic_left_2Dlimit_plot.png has been created
+x[0]=1, y[0]=1
+
+Processing plotBprime2D.C("bayesian","semileptonic","right",true)...
+theory max = 0.1872 vs min 0
+limit for 800 GeV B' : 0.696451 pb 
+limit for 900 GeV B' : 0.498963 pb 
+limit for 1000 GeV B' : 0.505517 pb 
+limit for 1100 GeV B' : 0.51882 pb 
+limit for 1200 GeV B' : 0.468811 pb 
+limit for 1300 GeV B' : 0.377448 pb 
+limit for 1400 GeV B' : 0.370439 pb 
+limit for 1500 GeV B' : 0.319744 pb 
+limit for 1600 GeV B' : 0.289572 pb 
+limit for 1700 GeV B' : 0.287169 pb 
+limit for 1800 GeV B' : 0.24852 pb 
+limit for 1900 GeV B' : 0.235503 pb 
+limit for 2000 GeV B' : 0.242387 pb 
+###################### start check 
+check color 0  416 0.696451
+x[0]=0.399243, y[0]=1
+check color 1  419 0.498963
+x[0]=0.49441, y[0]=1
+check color 2  629 0.505517
+x[0]=0.756899, y[0]=1
+check color 3  632 0.51882
+x[0]=1, y[0]=1
+check color 4  635 0.468811
+x[0]=1, y[0]=1
+check color 5  597 0.377448
+x[0]=1, y[0]=1
+check color 6  603 0.370439
+x[0]=1, y[0]=1
+check color 7  1 0.319744
+x[0]=1, y[0]=1
+check color 8  420 0.289572
+x[0]=1, y[0]=1
+check color 9  422 0.287169
+Info in <TCanvas::Print>: pdf file bayesian_observed_semileptonic_right_2Dlimit_plot.pdf has been created
+Info in <TCanvas::Print>: png file bayesian_observed_semileptonic_right_2Dlimit_plot.png has been created
+x[0]=1, y[0]=1
+
+Processing plotBprime2D.C("bayesian","semileptonic","vector",true)...
+theory max = 0.3744 vs min 0
+limit for 800 GeV B' : 0.736307 pb 
+limit for 900 GeV B' : 0.538506 pb 
+limit for 1000 GeV B' : 0.570816 pb 
+limit for 1100 GeV B' : 0.591822 pb 
+limit for 1200 GeV B' : 0.502218 pb 
+limit for 1300 GeV B' : 0.480483 pb 
+limit for 1400 GeV B' : 0.462301 pb 
+limit for 1500 GeV B' : 0.393768 pb 
+limit for 1600 GeV B' : 0.354543 pb 
+limit for 1700 GeV B' : 0.322302 pb 
+limit for 1800 GeV B' : 0.302457 pb 
+limit for 1900 GeV B' : 0.28769 pb 
+limit for 2000 GeV B' : 0.275019 pb 
+###################### start check 
+check color 0  416 0.736307
+x[0]=0.283634, y[0]=1
+check color 1  419 0.538506
+x[0]=0.351204, y[0]=1
+check color 2  629 0.570816
+x[0]=0.528704, y[0]=1
+check color 3  632 0.591822
+x[0]=0.813189, y[0]=1
+check color 4  635 0.502218
+x[0]=1, y[0]=1
+check color 5  597 0.480483
+x[0]=1, y[0]=1
+check color 6  603 0.462301
+x[0]=1, y[0]=1
+check color 7  1 0.393768
+x[0]=1, y[0]=1
+check color 8  420 0.354543
+x[0]=1, y[0]=1
+check color 9  422 0.322302
+Info in <TCanvas::Print>: pdf file bayesian_observed_semileptonic_vector_2Dlimit_plot.pdf has been created
+Info in <TCanvas::Print>: png file bayesian_observed_semileptonic_vector_2Dlimit_plot.png has been created
+x[0]=1, y[0]=1
+
+Processing plotBprime2D.C("bayesian","hadronic","left",true)...
+theory max = 0.1872 vs min 0
+limit for 800 GeV B' : 8.77398 pb 
+limit for 900 GeV B' : 0.397069 pb 
+limit for 1000 GeV B' : 0.11361 pb 
+limit for 1100 GeV B' : 0.151737 pb 
+limit for 1200 GeV B' : 0.110096 pb 
+limit for 1300 GeV B' : 0.0631708 pb 
+limit for 1400 GeV B' : 0.0683763 pb 
+limit for 1500 GeV B' : 0.0743805 pb 
+limit for 1600 GeV B' : 0.0715151 pb 
+limit for 1700 GeV B' : 0.0477431 pb 
+limit for 1800 GeV B' : 0.0309378 pb 
+limit for 1900 GeV B' : 0.0276187 pb 
+limit for 2000 GeV B' : 0.0299415 pb 
+###################### start check 
+check color 0  416 8.77398
+x[0]=1, y[0]=1
+check color 1  419 0.397069
+x[0]=0.434333, y[0]=1
+check color 2  629 0.11361
+x[0]=0.316979, y[0]=1
+check color 3  632 0.151737
+x[0]=0.530156, y[0]=1
+check color 4  635 0.110096
+x[0]=0.631056, y[0]=1
+check color 5  597 0.0631708
+x[0]=0.640599, y[0]=1
+check color 6  603 0.0683763
+x[0]=1, y[0]=1
+check color 7  1 0.0743805
+x[0]=1, y[0]=1
+check color 8  420 0.0715151
+x[0]=1, y[0]=1
+check color 9  422 0.0477431
+Info in <TCanvas::Print>: pdf file bayesian_observed_hadronic_left_2Dlimit_plot.pdf has been created
+Info in <TCanvas::Print>: png file bayesian_observed_hadronic_left_2Dlimit_plot.png has been created
+x[0]=1, y[0]=1
+
+Processing plotBprime2D.C("bayesian","hadronic","right",true)...
+theory max = 0.1872 vs min 0
+limit for 800 GeV B' : 3.82283 pb 
+limit for 900 GeV B' : 0.326793 pb 
+limit for 1000 GeV B' : 0.0920567 pb 
+limit for 1100 GeV B' : 0.125222 pb 
+limit for 1200 GeV B' : 0.0818132 pb 
+limit for 1300 GeV B' : 0.0480046 pb 
+limit for 1400 GeV B' : 0.0553879 pb 
+limit for 1500 GeV B' : 0.05946 pb 
+limit for 1600 GeV B' : 0.0547827 pb 
+limit for 1700 GeV B' : 0.0342509 pb 
+limit for 1800 GeV B' : 0.0226122 pb 
+limit for 1900 GeV B' : 0.0206345 pb 
+limit for 2000 GeV B' : 0.0214549 pb 
+###################### start check 
+check color 0  416 3.82283
+x[0]=1, y[0]=1
+check color 1  419 0.326793
+x[0]=0.390061, y[0]=1
+check color 2  629 0.0920567
+x[0]=0.283692, y[0]=1
+check color 3  632 0.125222
+x[0]=0.474172, y[0]=1
+check color 4  635 0.0818132
+x[0]=0.526591, y[0]=1
+check color 5  597 0.0480046
+x[0]=0.541923, y[0]=1
+check color 6  603 0.0553879
+x[0]=0.855021, y[0]=1
+check color 7  1 0.05946
+x[0]=1, y[0]=1
+check color 8  420 0.0547827
+x[0]=1, y[0]=1
+check color 9  422 0.0342509
+Info in <TCanvas::Print>: pdf file bayesian_observed_hadronic_right_2Dlimit_plot.pdf has been created
+Info in <TCanvas::Print>: png file bayesian_observed_hadronic_right_2Dlimit_plot.png has been created
+x[0]=1, y[0]=1
+
+Processing plotBprime2D.C("bayesian","hadronic","vector",true)...
+theory max = 0.3744 vs min 0
+limit for 800 GeV B' : 4.40049 pb 
+limit for 900 GeV B' : 0.3435 pb 
+limit for 1000 GeV B' : 0.105193 pb 
+limit for 1100 GeV B' : 0.137914 pb 
+limit for 1200 GeV B' : 0.0926424 pb 
+limit for 1300 GeV B' : 0.0546699 pb 
+limit for 1400 GeV B' : 0.0608125 pb 
+limit for 1500 GeV B' : 0.0655646 pb 
+limit for 1600 GeV B' : 0.0621766 pb 
+limit for 1700 GeV B' : 0.0400416 pb 
+limit for 1800 GeV B' : 0.0260108 pb 
+limit for 1900 GeV B' : 0.0240415 pb 
+limit for 2000 GeV B' : 0.0248485 pb 
+###################### start check 
+check color 0  416 4.40049
+x[0]=0.797032, y[0]=1
+check color 1  419 0.3435
+x[0]=0.276598, y[0]=1
+check color 2  629 0.105193
+x[0]=0.212031, y[0]=1
+check color 3  632 0.137914
+x[0]=0.341121, y[0]=1
+check color 4  635 0.0926424
+x[0]=0.381937, y[0]=1
+check color 5  597 0.0546699
+x[0]=0.393192, y[0]=1
+check color 6  603 0.0608125
+x[0]=0.575304, y[0]=1
+check color 7  1 0.0655646
+x[0]=0.863416, y[0]=1
+check color 8  420 0.0621766
+x[0]=1, y[0]=1
+check color 9  422 0.0400416
+Info in <TCanvas::Print>: pdf file bayesian_observed_hadronic_vector_2Dlimit_plot.pdf has been created
+Info in <TCanvas::Print>: png file bayesian_observed_hadronic_vector_2Dlimit_plot.png has been created
+x[0]=1, y[0]=1
+
+Processing plotBprime2D.C("bayesian","dileptonic","left",true)...
+theory max = 0.1872 vs min 0
+limit for 800 GeV B' : 1.05432 pb 
+limit for 900 GeV B' : 0.859489 pb 
+limit for 1000 GeV B' : 0.678449 pb 
+limit for 1100 GeV B' : 0.660348 pb 
+limit for 1200 GeV B' : 0.629442 pb 
+limit for 1300 GeV B' : 0.595362 pb 
+limit for 1400 GeV B' : 0.606396 pb 
+limit for 1500 GeV B' : 0.740594 pb 
+limit for 1600 GeV B' : 0.522244 pb 
+limit for 1700 GeV B' : 0.501976 pb 
+limit for 1800 GeV B' : 0.549028 pb 
+limit for 1900 GeV B' : 0.536427 pb 
+limit for 2000 GeV B' : 0.519562 pb 
+###################### start check 
+check color 0  416 1.05432
+x[0]=0.503659, y[0]=1
+check color 1  419 0.859489
+x[0]=0.687674, y[0]=1
+check color 2  629 0.678449
+x[0]=0.93681, y[0]=1
+check color 3  632 0.660348
+x[0]=1, y[0]=1
+check color 4  635 0.629442
+x[0]=1, y[0]=1
+check color 5  597 0.595362
+x[0]=1, y[0]=1
+check color 6  603 0.606396
+x[0]=1, y[0]=1
+check color 7  1 0.740594
+x[0]=1, y[0]=1
+check color 8  420 0.522244
+x[0]=1, y[0]=1
+check color 9  422 0.501976
+Info in <TCanvas::Print>: pdf file bayesian_observed_dileptonic_left_2Dlimit_plot.pdf has been created
+Info in <TCanvas::Print>: png file bayesian_observed_dileptonic_left_2Dlimit_plot.png has been created
+x[0]=1, y[0]=1
+
+Processing plotBprime2D.C("bayesian","dileptonic","right",true)...
+theory max = 0.1872 vs min 0
+limit for 800 GeV B' : 0.820818 pb 
+limit for 900 GeV B' : 0.620013 pb 
+limit for 1000 GeV B' : 0.605994 pb 
+limit for 1100 GeV B' : 0.546605 pb 
+limit for 1200 GeV B' : 0.527679 pb 
+limit for 1300 GeV B' : 0.530836 pb 
+limit for 1400 GeV B' : 0.490974 pb 
+limit for 1500 GeV B' : 0.497641 pb 
+limit for 1600 GeV B' : 0.461215 pb 
+limit for 1700 GeV B' : 0.460122 pb 
+limit for 1800 GeV B' : 0.479885 pb 
+limit for 1900 GeV B' : 0.478893 pb 
+limit for 2000 GeV B' : 0.529931 pb 
+###################### start check 
+check color 0  416 0.820818
+x[0]=0.436866, y[0]=1
+check color 1  419 0.620013
+x[0]=0.561608, y[0]=1
+check color 2  629 0.605994
+x[0]=0.860141, y[0]=1
+check color 3  632 0.546605
+x[0]=1, y[0]=1
+check color 4  635 0.527679
+x[0]=1, y[0]=1
+check color 5  597 0.530836
+x[0]=1, y[0]=1
+check color 6  603 0.490974
+x[0]=1, y[0]=1
+check color 7  1 0.497641
+x[0]=1, y[0]=1
+check color 8  420 0.461215
+x[0]=1, y[0]=1
+check color 9  422 0.460122
+Info in <TCanvas::Print>: pdf file bayesian_observed_dileptonic_right_2Dlimit_plot.pdf has been created
+Info in <TCanvas::Print>: png file bayesian_observed_dileptonic_right_2Dlimit_plot.png has been created
+x[0]=1, y[0]=1
+
+Processing plotBprime2D.C("bayesian","dileptonic","vector",true)...
+theory max = 0.3744 vs min 0
+limit for 800 GeV B' : 0.908191 pb 
+limit for 900 GeV B' : 0.712879 pb 
+limit for 1000 GeV B' : 0.633502 pb 
+limit for 1100 GeV B' : 0.600239 pb 
+limit for 1200 GeV B' : 0.569411 pb 
+limit for 1300 GeV B' : 0.560079 pb 
+limit for 1400 GeV B' : 0.551851 pb 
+limit for 1500 GeV B' : 0.605295 pb 
+limit for 1600 GeV B' : 0.504521 pb 
+limit for 1700 GeV B' : 0.481926 pb 
+limit for 1800 GeV B' : 0.520023 pb 
+limit for 1900 GeV B' : 0.528845 pb 
+limit for 2000 GeV B' : 0.530643 pb 
+###################### start check 
+check color 0  416 0.908191
+x[0]=0.316929, y[0]=1
+check color 1  419 0.712879
+x[0]=0.40911, y[0]=1
+check color 2  629 0.633502
+x[0]=0.562292, y[0]=1
+check color 3  632 0.600239
+x[0]=0.821221, y[0]=1
+check color 4  635 0.569411
+x[0]=1, y[0]=1
+check color 5  597 0.560079
+x[0]=1, y[0]=1
+check color 6  603 0.551851
+x[0]=1, y[0]=1
+check color 7  1 0.605295
+x[0]=1, y[0]=1
+check color 8  420 0.504521
+x[0]=1, y[0]=1
+check color 9  422 0.481926
+Info in <TCanvas::Print>: pdf file bayesian_observed_dileptonic_vector_2Dlimit_plot.pdf has been created
+Info in <TCanvas::Print>: png file bayesian_observed_dileptonic_vector_2Dlimit_plot.png has been created
+x[0]=1, y[0]=1
+
+Processing plotBprime2D.C("bayesian","hadronic_semileptonic","left",true)...
+theory max = 0.1872 vs min 0
+limit for 800 GeV B' : 0.615964 pb 
+limit for 900 GeV B' : 0.261066 pb 
+limit for 1000 GeV B' : 0.094633 pb 
+limit for 1100 GeV B' : 0.129108 pb 
+limit for 1200 GeV B' : 0.101084 pb 
+limit for 1300 GeV B' : 0.0617808 pb 
+limit for 1400 GeV B' : 0.0682271 pb 
+limit for 1500 GeV B' : 0.0792919 pb 
+limit for 1600 GeV B' : 0.0753548 pb 
+limit for 1700 GeV B' : 0.0476276 pb 
+limit for 1800 GeV B' : 0.03077 pb 
+limit for 1900 GeV B' : 0.0283192 pb 
+limit for 2000 GeV B' : 0.0292249 pb 
+###################### start check 
+check color 0  416 0.615964
+x[0]=0.373245, y[0]=1
+check color 1  419 0.261066
+x[0]=0.345338, y[0]=1
+check color 2  629 0.094633
+x[0]=0.287834, y[0]=1
+check color 3  632 0.129108
+x[0]=0.482561, y[0]=1
+check color 4  635 0.101084
+x[0]=0.598105, y[0]=1
+check color 5  597 0.0617808
+x[0]=0.631823, y[0]=1
+check color 6  603 0.0682271
+x[0]=1, y[0]=1
+check color 7  1 0.0792919
+x[0]=1, y[0]=1
+check color 8  420 0.0753548
+x[0]=1, y[0]=1
+check color 9  422 0.0476276
+Info in <TCanvas::Print>: pdf file bayesian_observed_hadronic_semileptonic_left_2Dlimit_plot.pdf has been created
+Info in <TCanvas::Print>: png file bayesian_observed_hadronic_semileptonic_left_2Dlimit_plot.png has been created
+x[0]=1, y[0]=1
+
+Processing plotBprime2D.C("bayesian","hadronic_semileptonic","right",true)...
+theory max = 0.1872 vs min 0
+limit for 800 GeV B' : 0.520989 pb 
+limit for 900 GeV B' : 0.206352 pb 
+limit for 1000 GeV B' : 0.0803674 pb 
+limit for 1100 GeV B' : 0.104767 pb 
+limit for 1200 GeV B' : 0.0738789 pb 
+limit for 1300 GeV B' : 0.0481358 pb 
+limit for 1400 GeV B' : 0.0532969 pb 
+limit for 1500 GeV B' : 0.0594838 pb 
+limit for 1600 GeV B' : 0.0540062 pb 
+limit for 1700 GeV B' : 0.0342152 pb 
+limit for 1800 GeV B' : 0.0249769 pb 
+limit for 1900 GeV B' : 0.0215591 pb 
+limit for 2000 GeV B' : 0.0229517 pb 
+###################### start check 
+check color 0  416 0.520989
+x[0]=0.340995, y[0]=1
+check color 1  419 0.206352
+x[0]=0.304627, y[0]=1
+check color 2  629 0.0803674
+x[0]=0.264168, y[0]=1
+check color 3  632 0.104767
+x[0]=0.428754, y[0]=1
+check color 4  635 0.0738789
+x[0]=0.496408, y[0]=1
+check color 5  597 0.0481358
+x[0]=0.542809, y[0]=1
+check color 6  603 0.0532969
+x[0]=0.831413, y[0]=1
+check color 7  1 0.0594838
+x[0]=1, y[0]=1
+check color 8  420 0.0540062
+x[0]=1, y[0]=1
+check color 9  422 0.0342152
+Info in <TCanvas::Print>: pdf file bayesian_observed_hadronic_semileptonic_right_2Dlimit_plot.pdf has been created
+Info in <TCanvas::Print>: png file bayesian_observed_hadronic_semileptonic_right_2Dlimit_plot.png has been created
+x[0]=1, y[0]=1
+
+Processing plotBprime2D.C("bayesian","hadronic_semileptonic","vector",true)...
+theory max = 0.3744 vs min 0
+limit for 800 GeV B' : 0.569598 pb 
+limit for 900 GeV B' : 0.242783 pb 
+limit for 1000 GeV B' : 0.0871307 pb 
+limit for 1100 GeV B' : 0.11707 pb 
+limit for 1200 GeV B' : 0.084613 pb 
+limit for 1300 GeV B' : 0.0553554 pb 
+limit for 1400 GeV B' : 0.0616763 pb 
+limit for 1500 GeV B' : 0.0687865 pb 
+limit for 1600 GeV B' : 0.0633424 pb 
+limit for 1700 GeV B' : 0.0394879 pb 
+limit for 1800 GeV B' : 0.0269284 pb 
+limit for 1900 GeV B' : 0.0248084 pb 
+limit for 2000 GeV B' : 0.0247007 pb 
+###################### start check 
+check color 0  416 0.569598
+x[0]=0.248174, y[0]=1
+check color 1  419 0.242783
+x[0]=0.230835, y[0]=1
+check color 2  629 0.0871307
+x[0]=0.2, y[0]=1
+check color 3  632 0.11707
+x[0]=0.312499, y[0]=1
+check color 4  635 0.084613
+x[0]=0.363531, y[0]=1
+check color 5  597 0.0553554
+x[0]=0.395921, y[0]=1
+check color 6  603 0.0616763
+x[0]=0.580303, y[0]=1
+check color 7  1 0.0687865
+x[0]=0.894486, y[0]=1
+check color 8  420 0.0633424
+x[0]=1, y[0]=1
+check color 9  422 0.0394879
+Info in <TCanvas::Print>: pdf file bayesian_observed_hadronic_semileptonic_vector_2Dlimit_plot.pdf has been created
+Info in <TCanvas::Print>: png file bayesian_observed_hadronic_semileptonic_vector_2Dlimit_plot.png has been created
+x[0]=1, y[0]=1

@@ -3,6 +3,23 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: KnashThesis.aux
 A level-1 auxiliary file: Introduction.aux
 A level-1 auxiliary file: ExperimentalSetup.aux
+A level-1 auxiliary file: AN-13-004/introduction8TeV.aux
+A level-1 auxiliary file: AN-13-004/AnalysisStrategy8TeV.aux
+A level-1 auxiliary file: AN-13-004/DataSampleandEventSelection8TeV.aux
+A level-1 auxiliary file: AN-13-004/BackgroundEstimation8TeV.aux
+A level-1 auxiliary file: AN-13-004/DataResults.aux
+A level-1 auxiliary file: AN-13-004/Systematics8TeV.aux
+A level-1 auxiliary file: AN-13-004/Limits8TeV.aux
+A level-1 auxiliary file: AN-13-004/Combination.aux
+A level-1 auxiliary file: AN-14-049/Introduction.aux
+A level-1 auxiliary file: AN-14-049/AnalysisStrategy.aux
+A level-1 auxiliary file: AN-14-049/DataSampleandEventSelection.aux
+A level-1 auxiliary file: AN-14-049/BackgroundEstimation.aux
+A level-1 auxiliary file: AN-14-049/DataResults.aux
+A level-1 auxiliary file: AN-14-049/Systematics.aux
+A level-1 auxiliary file: AN-14-049/Limits.aux
+A level-1 auxiliary file: AN-14-049/combination.aux
+A level-1 auxiliary file: Appendix.aux
 The style file: IEEEtran.bst
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
@@ -19,52 +36,119 @@ I was expecting a `,' or a `}'---line 123 of file KnashThesis.bib
  :       volume         = "
  :                         72",
 I'm skipping whatever remains of this entry
-Warning--I didn't find a database entry for "CITE"
+Repeated entry---line 317 of file KnashThesis.bib
+ : @article{Chatrchyan:2014koa
+ :                            ,
+I'm skipping whatever remains of this entry
+You're missing a field name---line 557 of file KnashThesis.bib
+ :    
+ :    %  url = "http://cms.cern.ch/iCMS/jsp/openfile.jsp?type=DP\&year=2012\&files=DP2012_012.pdf"
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Repeated entry---line 754 of file KnashThesis.bib
+ : @techreport{CMS-PAS-EXO-12-025
+ :                               ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 774 of file KnashThesis.bib
+ : @article{Abazov2011145
+ :                       ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 792 of file KnashThesis.bib
+ : @article{PhysRevLett.100.211803
+ :                                ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 808 of file KnashThesis.bib
+ : @article{PhysRevLett.109.081801
+ :                                ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 831 of file KnashThesis.bib
+ : @techreport{7tevZprime
+ :                       ,
+I'm skipping whatever remains of this entry
+You're missing a field name---line 876 of file KnashThesis.bib
+ :      
+ :      % URL         = "cms.cern.ch/iCMS/jsp/openfile.jsp?tp=draft\&files=AN2014_049_v3.pdf",
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+You're missing a field name---line 885 of file KnashThesis.bib
+ :     
+ :     %  URL         = "cms.cern.ch/iCMS/jsp/openfile.jsp?tp=draft\&files=AN2014_103_v3.pdf",
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+You're missing a field name---line 894 of file KnashThesis.bib
+ :    
+ :    %   URL         = "cms.cern.ch/iCMS/jsp/openfile.jsp?tp=draft\&files=AN2013_415_v3.pdf",
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
 -- IEEEtran.bst version 1.13 (2008/09/30) by Michael Shell.
 -- http://www.michaelshell.org/tex/ieeetran/bibtex/
 -- See the "IEEEtran_bst_HOWTO.pdf" manual for usage information.
 Warning--empty journal in Vecchi:2013bja
+Warning--empty author in CMS-PAS-B2G-12-010
+Warning--empty author in CMS-PAS-EXO-12-060
+Warning--empty author in CMS-PAS-EXO-12-025
+Warning--empty author in 7tevZprime
+Warning--missing institution in theta
+Warning--empty journal in Kidonakis:2012db
+Warning--empty author in CMS-DP-2013-033
+Warning--empty journal in CMS-DP-2013-033
+Warning--empty journal in CAaachen
+Warning--empty author in catop_cms
+Warning--empty journal in JEC2012
+Warning--empty year in JEC2012
+Warning--empty author in jetid
+Warning--empty author in JME13007
+Warning--empty author in CMS-PAS-BTV-13-001
+Warning--empty author in ZP8TeV
+Warning--empty journal in Bourilkov:2006cj
+Warning--empty author in CMS-PAS-LUM-13-001
+Warning--empty journal in CMS-AN-14-049
+Warning--empty year in CMS-AN-14-049
+Warning--empty journal in CMS-AN-14-103
+Warning--empty year in CMS-AN-14-103
+Warning--empty journal in CMS-AN-13-415
+Warning--empty year in CMS-AN-13-415
 
 Done.
-You've used 7 entries,
+You've used 39 entries,
             4039 wiz_defined-function locations,
-            868 strings with 8385 characters,
-and the built_in function-call counts, 4486 in all, are:
-= -- 394
-> -- 79
-< -- 27
-+ -- 44
-- -- 15
-* -- 219
-:= -- 740
-add.period$ -- 14
-call.type$ -- 7
-change.case$ -- 7
-chr.to.int$ -- 48
-cite$ -- 8
-duplicate$ -- 352
-empty$ -- 347
-format.name$ -- 21
-if$ -- 1011
+            1048 strings with 13213 characters,
+and the built_in function-call counts, 19789 in all, are:
+= -- 1742
+> -- 297
+< -- 97
++ -- 165
+- -- 56
+* -- 909
+:= -- 3348
+add.period$ -- 77
+call.type$ -- 39
+change.case$ -- 39
+chr.to.int$ -- 147
+cite$ -- 64
+duplicate$ -- 1696
+empty$ -- 1602
+format.name$ -- 76
+if$ -- 4418
 int.to.chr$ -- 0
-int.to.str$ -- 7
-missing$ -- 56
-newline$ -- 46
-num.names$ -- 7
-pop$ -- 118
+int.to.str$ -- 39
+missing$ -- 292
+newline$ -- 146
+num.names$ -- 28
+pop$ -- 639
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 2
-skip$ -- 360
+skip$ -- 1600
 stack$ -- 0
-substring$ -- 146
-swap$ -- 270
-text.length$ -- 11
+substring$ -- 483
+swap$ -- 1193
+text.length$ -- 48
 text.prefix$ -- 0
 top$ -- 5
-type$ -- 7
-warning$ -- 1
-while$ -- 16
-width$ -- 8
-write$ -- 92
-(There were 2 error messages)
+type$ -- 39
+warning$ -- 25
+while$ -- 60
+width$ -- 41
+write$ -- 376
+(There were 12 error messages)
