@@ -5,24 +5,24 @@
 Various systematics are taken into account, both 
 on our expected signal and background estimate. Some systematic uncertainties will affect only the normalization of certain event rates, 
 and are reported as overall normalization uncertainties. Other systematics affect the shapes of the reconstructed signal or backgrounds, as well as their normalization.  
-%The Systematic uncertainties that are used in the analysis are summarized in table \ref{table:bsnuisance}.
 
-\section{Jet Energy Scale}
-We evaluate the effect of uncertainty on the jet energy scale on samples derived from Monte Carlo simulation.  
-To do so, we vary the jet four-momentum up and down by the jet energy 
-scale uncertainty, which is $\pt$ and $\eta$ dependent.  W‎e take an additional $3\%$ uncertainty to account 
-for the use of CA8 jets as derived from the difference in measured and simulated $W$ masses \cite{ZP8TeV}. 
+The uncertainty sources of jet energy scale, trigger, jet energy resolution, jet angular resolution,  parton distribution functions, pileup, and $\mathrm{Q^2}$ scale are considered 
+and we use the prescriptions outlined in Section~\ref{sec:systematics}.  Figure \ref{figs:bsttbarJES} shows the systematic shapes from the 
+jet energy scale on the $\ttbar$ distribution.  Jet energy scale variation on signal Monte Carlo is shown in Figure \ref{figs:bssignalJES} for 1200$~\GeV$,
+ 1300$~\GeV$, and 1400$~\GeV$ mass points.  The effects of this on the $\ttbar$ 
+distribution due to the trigger systematic variation is shown in Figure \ref{figs:bsttbartrig}. The trigger weighting systematic uncertainty on signal Monte Carlo is 
+shown in Figure \ref{figs:bssignaltrig} for 1200$~\GeV$,
+ 1300$~\GeV$, and 1400$~\GeV$ mass points.  The uncertainty is low in the mass range of interest for limit setting.  
+The jet energy resolution variation in $\ttbar$ Monte Carlo can be seen in Figure \ref{figs:bsttbarJER}.  Jet energy resolution variation on signal Monte Carlo 
+is shown in Figure \ref{figs:bssignalJER} for 1200$~\GeV$, 1300$~\GeV$, and 1400$~\GeV$ mass points.  
+The jet angular resolution variation in $\ttbar$ Monte Carlo can be seen in Figure \ref{figs:bsttbarJAR} . Jet angular resolution 
+variation on signal Monte Carlo is shown in Figure \ref{figs:bssignalJAR} for 1200$~\GeV$, 1300$~\GeV$, and 1400$~\GeV$ mass points.  
+The effect is very small and thus not considered in setting limits.  PDF variation on signal Monte Carlo is shown in Figure \ref{figs:bssignalPDF} for 1200$~\GeV$,
+ 1300$~\GeV$, and 1400$~\GeV$ mass points.  PDF variation on $\ttbar$ Monte Carlo is shown in Figure \ref{figs:bsttbarPDF}.  
+The effect is very small and thus not considered in setting limits.  The pileup reweighting uncertainty variation for signal  
+can be seen in figure \ref{figs:bssignalPU}.  The effect is very small and thus not considered in setting limits.  
+The $\mathrm{Q^2}$ scale uncertainty can be seen in Figure \ref{figs:bsq2scale}.
 
-Varying the jet momentum can cause a jet to fall below or rise above the $\pt$ cut in the analysis, thus shifting the invariant 
-mass spectrum of the signal and reconstructed $\ttbar$ samples. Figure \ref{figs:bsttbarJES} shows the systematic shapes from the 
-jet energy scale on the $\ttbar$ distribution.  Jet Energy scale variation on signal Monte Carlo is shown in Figure \ref{figs:bssignalJES} for 1200$~\GeV$,
- 1300$~\GeV$, and 1400$~\GeV$ mass points.
-
-\section{Trigger}
-We include an uncertainty based on the measured trigger efficiency for all Monte Carlo Samples. The trigger efficiency is discussed in Section \ref{sec:bstrigger}. 
-To obtain shape systematics from this effect, we vary the trigger by half the trigger \textit{in}efficiency (figure~\ref{figs:bsteffsys}). The effects of this on the $\ttbar$ 
-distribution is shown in Figure \ref{figs:bsttbartrig}. Trigger weighting on signal Monte Carlo is shown in Figure \ref{figs:bssignaltrig} for 1200$~\GeV$,
- 1300$~\GeV$, and 1400$~\GeV$ mass points.  The uncertainty is low in the mass range of interest for limit setting.
 
 \begin{figure}[htcb]
 \begin{center}
@@ -34,37 +34,6 @@ Trigger efficiency systematic variation.
 \end{center}
 \end{figure}
 
-
-\section{Jet Energy Resolution}
-\label{sec:bsJER}
-We apply a systematic due to the known differences in jet energy resolution in data and simulation.  We use the nominal$\eta$ dependent smearing (see \cite{ZP8TeV}) as recommended by the JER group.  
-We apply the reccomended systematic uncertainty to this nominal smearing to the $t\overline{t}$ and signal $M_{tW}$ distribution. 
-The jet energy resolution variation in $\ttbar$ Monte Carlo can be seen in Figure \ref{figs:bsttbarJER}.  Jet energy resolution variation on signal Monte Carlo is shown in Figure \ref{figs:bssignalJER} for 1200$~\GeV$,
- 1300$~\GeV$, and 1400$~\GeV$ mass points. 
-
-\section{Jet Angular Resolution}
-A smearing of $10\%$ is assumed on $\eta$ and $\phi$ and shape uncertainties are generated by considering smearing $10\%$ 
-lower and higher. We apply this systematic uncertainty to the $t\overline{t}$ and signal $M_{tW}$ distribution.  The jet angular resolution variation in $\ttbar$ Monte Carlo can be seen in Figure \ref{figs:bsttbarJAR} . Jet Angular Resolution 
-variation on signal Monte Carlo is shown in Figure \ref{figs:bssignalJAR} for 1200$~\GeV$,
- 1300$~\GeV$, and 1400$~\GeV$ mass points.  The effect is very small and thus not considered in setting limits.
-
-\section{PDF Uncertainty}
-The uncertainty in the parton distribution function used for Monte Carlo sample generation is investigated.  We take the average of the $\pm$1$\sigma$ eigenvalue 
-variation of the pdf master equations \cite{Bourilkov:2006cj} 
-for the NNPDF, MSTW2008nnlo, and CT10 pdf sets to weight the signal and $\ttbar$ Monte Carlo samples and investigate the impact on the full selection.  From this we get three 
-approximations of the PDF uncertainty. 
-Of these uncertainty approximations, the PDF set that provides the maximum uncertainty is then used for the $\pm$1$\sigma$ PDF uncertainty.  For the $\ttbar$ sample this set is NNPDF and for the signal samples this set is either NNPDF or CT10. PDF 
-variation on signal Monte Carlo is shown in Figure \ref{figs:bssignalPDF} for 1200$~\GeV$,
- 1300$~\GeV$, and 1400$~\GeV$ mass points.  PDF variation on $\ttbar$ Monte Carlo is shown in Figure \ref{figs:bsttbarPDF}.  The effect is very small and thus not considered in setting limits.
-
-\section{Pileup}
-A study of pileup uncertainty is conducted by varying the minimum bias cross-section by 5\% as a measure of systematic uncertainty.  The results 
-can be seen in figure \ref{figs:bssignalPU}.  The effect is very small and thus not considered in setting limits.
-
-\section{$Q^2$ Scale Uncertainty}
-We use additional $\ttbar$ samples generated with twice and half the nominal $Q^2$ 
-scale used in the $\ttbar$ samples listed in table \ref{table:bsdatasets}.  These samples vary the renormalization and factorization scales to account for 
-missing higher order corrections in our simulation.  Figure \ref{figs:bsq2scale} shows the shape based uncertainty due to this effect.
 
 \begin{figure}[htcb]
 \begin{center}
@@ -80,7 +49,8 @@ $Q^2$ systematic variation for $\ttbar$ Monte Carlo
 \section{Normalization Uncertainties}
 As mentioned in Section \ref{sec:bsttbarsideband}, the uncertainty on the overall normalization scale factor used for $\ttbar$ is extracted from data and is $22\%$.   
 
-We must apply a $13\%$ uncertainty on the top tagging scale factor described in Section \ref{sec:bssubjetSF} to signal Monte Carlo events due to uncertainty in the difference in subjet efficiency from data to Monte Carlo.
+We must apply a $13\%$ uncertainty on the top tagging scale factor described in Section \ref{sec:subjetSF} 
+to signal Monte Carlo events due to uncertainty in the difference in subjet efficiency from data to Monte Carlo.
 
 The cross-section uncertainty of 20\%,15\%,30\% applies single-top quark background tW,t,and s channels respectively are applied.
 

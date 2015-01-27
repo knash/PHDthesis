@@ -19,6 +19,7 @@ A level-1 auxiliary file: AN-14-049/DataResults.aux
 A level-1 auxiliary file: AN-14-049/Systematics.aux
 A level-1 auxiliary file: AN-14-049/Limits.aux
 A level-1 auxiliary file: AN-14-049/combination.aux
+A level-1 auxiliary file: Summary.aux
 A level-1 auxiliary file: Appendix.aux
 The style file: IEEEtran.bst
 Reallocated singl_function (elt_size=4) to 100 items from 50.
@@ -112,7 +113,7 @@ Warning--empty year in CMS-AN-13-415
 Done.
 You've used 39 entries,
             4039 wiz_defined-function locations,
-            1048 strings with 13213 characters,
+            1049 strings with 13224 characters,
 and the built_in function-call counts, 19789 in all, are:
 = -- 1742
 > -- 297

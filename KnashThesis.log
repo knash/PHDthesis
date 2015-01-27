@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.6.11)  27 JAN 2015 03:13
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.6.11)  27 JAN 2015 15:14
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -321,7 +321,7 @@ LaTeX Warning: Label `table:bsupperxsecL' multiply defined.
 
 LaTeX Warning: Label `table:bsupperxsecLR' multiply defined.
 
-) (./Appendix.aux
+) (./Summary.aux) (./Appendix.aux
 
 LaTeX Warning: Label `sec:sigcont' multiply defined.
 
@@ -2265,9 +2265,6 @@ Package pdftex.def Info: AN-14-049/figs/KinPlots_Data2.pdf used on input line 7
 
  (./AN-14-049/Systematics.tex
 Chapter 16.
-Missing character: There is no â in font cmr12!
-Missing character: There is no € in font cmr12!
-Missing character: There is no Ž in font cmr12!
 [160
 
 
@@ -2285,350 +2282,345 @@ ile (type pdf)
 Package pdftex.def Info: AN-14-049/figs/Trigger_Comparison_Htdijet_dataonly_wit
 hsyst.pdf used on input line 29.
 (pdftex.def)             Requested size: 303.53267pt x 205.57611pt.
- [161]
-[162 <./AN-14-049/figs/Trigger_Comparison_Htdijet_dataonly_withsyst.pdf, page i
-s rotated 90 degrees>]
 
-LaTeX Warning: Reference `table:bsdatasets' on page 163 undefined on input line
- 66.
-
-[163] <AN-14-049/figs/TTbar_Q2Scale.pdf, id=5769, 569.12625pt x 385.44pt>
+<AN-14-049/figs/TTbar_Q2Scale.pdf, id=5716, 569.12625pt x 385.44pt>
 File: AN-14-049/figs/TTbar_Q2Scale.pdf Graphic file (type pdf)
 
 <use AN-14-049/figs/TTbar_Q2Scale.pdf>
-Package pdftex.def Info: AN-14-049/figs/TTbar_Q2Scale.pdf used on input line 71
+Package pdftex.def Info: AN-14-049/figs/TTbar_Q2Scale.pdf used on input line 40
 .
 (pdftex.def)             Requested size: 303.53267pt x 205.57611pt.
- [164 <./AN-14-049/figs/TTbar_Q2Scale.pdf, page is rotated 90 degrees>] [165] [
-166
+ [161] [162 <./AN-14-049/figs/Trigger_Comparison_Htdijet_dataonly_withsyst.pdf,
+ page is rotated 90 degrees>] [163 <./AN-14-049/figs/TTbar_Q2Scale.pdf, page is
+ rotated 90 degrees>] [164
 
 ]
-Overfull \hbox (12.97374pt too wide) in paragraph at lines 116--116
+Overfull \hbox (12.97374pt too wide) in paragraph at lines 86--86
 []\OT1/cmr/bx/n/17.28 Two-Dimensional vs. Three-Dimensional Pa-
  []
 
 
-Overfull \hbox (21.49771pt too wide) in paragraph at lines 116--116
+Overfull \hbox (21.49771pt too wide) in paragraph at lines 86--86
 \OT1/cmr/bx/n/17.28 ram-e-ter-i-za-tion of the Av-er-age Top-Mistagging
  []
 
-[167]
-<AN-14-049/figs/Signal_M1200_PtScaling.pdf, id=5825, 569.12625pt x 385.44pt>
+[165]
+<AN-14-049/figs/Signal_M1200_PtScaling.pdf, id=5819, 569.12625pt x 385.44pt>
 File: AN-14-049/figs/Signal_M1200_PtScaling.pdf Graphic file (type pdf)
 
 <use AN-14-049/figs/Signal_M1200_PtScaling.pdf>
 Package pdftex.def Info: AN-14-049/figs/Signal_M1200_PtScaling.pdf used on inpu
-t line 165.
+t line 135.
 (pdftex.def)             Requested size: 173.44534pt x 117.46786pt.
 
-<AN-14-049/figs/Signal_M1300_PtScaling.pdf, id=5826, 569.12625pt x 385.44pt>
+<AN-14-049/figs/Signal_M1300_PtScaling.pdf, id=5820, 569.12625pt x 385.44pt>
 File: AN-14-049/figs/Signal_M1300_PtScaling.pdf Graphic file (type pdf)
 
 <use AN-14-049/figs/Signal_M1300_PtScaling.pdf>
 Package pdftex.def Info: AN-14-049/figs/Signal_M1300_PtScaling.pdf used on inpu
-t line 166.
+t line 136.
 (pdftex.def)             Requested size: 173.44534pt x 117.46786pt.
 
-<AN-14-049/figs/Signal_M1400_PtScaling.pdf, id=5827, 569.12625pt x 385.44pt>
+<AN-14-049/figs/Signal_M1400_PtScaling.pdf, id=5821, 569.12625pt x 385.44pt>
 File: AN-14-049/figs/Signal_M1400_PtScaling.pdf Graphic file (type pdf)
 
 <use AN-14-049/figs/Signal_M1400_PtScaling.pdf>
 Package pdftex.def Info: AN-14-049/figs/Signal_M1400_PtScaling.pdf used on inpu
-t line 167.
+t line 137.
 (pdftex.def)             Requested size: 173.44534pt x 117.46786pt.
 
-<AN-14-049/figs/TTbar_PtScaling.pdf, id=5828, 569.12625pt x 385.44pt>
+<AN-14-049/figs/TTbar_PtScaling.pdf, id=5822, 569.12625pt x 385.44pt>
 File: AN-14-049/figs/TTbar_PtScaling.pdf Graphic file (type pdf)
 
 <use AN-14-049/figs/TTbar_PtScaling.pdf>
 Package pdftex.def Info: AN-14-049/figs/TTbar_PtScaling.pdf used on input line 
-180.
+150.
 (pdftex.def)             Requested size: 303.53267pt x 205.57611pt.
 
-<AN-14-049/figs/Signal_M1200_TriggerWeighting.pdf, id=5829, 569.12625pt x 385.4
+<AN-14-049/figs/Signal_M1200_TriggerWeighting.pdf, id=5823, 569.12625pt x 385.4
 4pt>
 File: AN-14-049/figs/Signal_M1200_TriggerWeighting.pdf Graphic file (type pdf)
  <use AN-14-049/figs/Signal_M1200_TriggerWeighting.pdf>
 Package pdftex.def Info: AN-14-049/figs/Signal_M1200_TriggerWeighting.pdf used 
-on input line 188.
+on input line 158.
 (pdftex.def)             Requested size: 195.12767pt x 132.14767pt.
 
-<AN-14-049/figs/Signal_M1300_TriggerWeighting.pdf, id=5830, 569.12625pt x 385.4
+<AN-14-049/figs/Signal_M1300_TriggerWeighting.pdf, id=5824, 569.12625pt x 385.4
 4pt>
 File: AN-14-049/figs/Signal_M1300_TriggerWeighting.pdf Graphic file (type pdf)
  <use AN-14-049/figs/Signal_M1300_TriggerWeighting.pdf>
 Package pdftex.def Info: AN-14-049/figs/Signal_M1300_TriggerWeighting.pdf used 
-on input line 189.
+on input line 159.
 (pdftex.def)             Requested size: 195.12767pt x 132.14767pt.
 
-<AN-14-049/figs/Signal_M1400_TriggerWeighting.pdf, id=5831, 569.12625pt x 385.4
+<AN-14-049/figs/Signal_M1400_TriggerWeighting.pdf, id=5825, 569.12625pt x 385.4
 4pt>
 File: AN-14-049/figs/Signal_M1400_TriggerWeighting.pdf Graphic file (type pdf)
  <use AN-14-049/figs/Signal_M1400_TriggerWeighting.pdf>
 Package pdftex.def Info: AN-14-049/figs/Signal_M1400_TriggerWeighting.pdf used 
-on input line 190.
+on input line 160.
 (pdftex.def)             Requested size: 195.12767pt x 132.14767pt.
 
-<AN-14-049/figs/TTbar_TriggerWeighting.pdf, id=5832, 569.12625pt x 385.44pt>
+<AN-14-049/figs/TTbar_TriggerWeighting.pdf, id=5826, 569.12625pt x 385.44pt>
 File: AN-14-049/figs/TTbar_TriggerWeighting.pdf Graphic file (type pdf)
 
 <use AN-14-049/figs/TTbar_TriggerWeighting.pdf>
 Package pdftex.def Info: AN-14-049/figs/TTbar_TriggerWeighting.pdf used on inpu
-t line 203.
+t line 173.
 (pdftex.def)             Requested size: 303.53267pt x 205.57611pt.
 
-<AN-14-049/figs/Signal_M1200_PtSmearing.pdf, id=5833, 569.12625pt x 385.44pt>
+<AN-14-049/figs/Signal_M1200_PtSmearing.pdf, id=5827, 569.12625pt x 385.44pt>
 File: AN-14-049/figs/Signal_M1200_PtSmearing.pdf Graphic file (type pdf)
 
 <use AN-14-049/figs/Signal_M1200_PtSmearing.pdf>
 Package pdftex.def Info: AN-14-049/figs/Signal_M1200_PtSmearing.pdf used on inp
-ut line 212.
+ut line 182.
 (pdftex.def)             Requested size: 195.12767pt x 132.14767pt.
 
-<AN-14-049/figs/Signal_M1300_PtSmearing.pdf, id=5834, 569.12625pt x 385.44pt>
+<AN-14-049/figs/Signal_M1300_PtSmearing.pdf, id=5828, 569.12625pt x 385.44pt>
 File: AN-14-049/figs/Signal_M1300_PtSmearing.pdf Graphic file (type pdf)
 
 <use AN-14-049/figs/Signal_M1300_PtSmearing.pdf>
 Package pdftex.def Info: AN-14-049/figs/Signal_M1300_PtSmearing.pdf used on inp
-ut line 213.
+ut line 183.
 (pdftex.def)             Requested size: 195.12767pt x 132.14767pt.
 
-<AN-14-049/figs/Signal_M1400_PtSmearing.pdf, id=5835, 569.12625pt x 385.44pt>
+<AN-14-049/figs/Signal_M1400_PtSmearing.pdf, id=5829, 569.12625pt x 385.44pt>
 File: AN-14-049/figs/Signal_M1400_PtSmearing.pdf Graphic file (type pdf)
 
 <use AN-14-049/figs/Signal_M1400_PtSmearing.pdf>
 Package pdftex.def Info: AN-14-049/figs/Signal_M1400_PtSmearing.pdf used on inp
-ut line 214.
+ut line 184.
 (pdftex.def)             Requested size: 195.12767pt x 132.14767pt.
 
-<AN-14-049/figs/TTbar_PtSmearing.pdf, id=5836, 569.12625pt x 385.44pt>
+<AN-14-049/figs/TTbar_PtSmearing.pdf, id=5830, 569.12625pt x 385.44pt>
 File: AN-14-049/figs/TTbar_PtSmearing.pdf Graphic file (type pdf)
 
 <use AN-14-049/figs/TTbar_PtSmearing.pdf>
 Package pdftex.def Info: AN-14-049/figs/TTbar_PtSmearing.pdf used on input line
- 227.
+ 197.
 (pdftex.def)             Requested size: 303.53267pt x 205.57611pt.
 
-<AN-14-049/figs/Signal_M1200_EtaScaling.pdf, id=5837, 569.12625pt x 385.44pt>
+<AN-14-049/figs/Signal_M1200_EtaScaling.pdf, id=5831, 569.12625pt x 385.44pt>
 File: AN-14-049/figs/Signal_M1200_EtaScaling.pdf Graphic file (type pdf)
 
 <use AN-14-049/figs/Signal_M1200_EtaScaling.pdf>
 Package pdftex.def Info: AN-14-049/figs/Signal_M1200_EtaScaling.pdf used on inp
-ut line 235.
+ut line 205.
 (pdftex.def)             Requested size: 195.12767pt x 132.14767pt.
 
-<AN-14-049/figs/Signal_M1300_EtaScaling.pdf, id=5838, 569.12625pt x 385.44pt>
+<AN-14-049/figs/Signal_M1300_EtaScaling.pdf, id=5832, 569.12625pt x 385.44pt>
 File: AN-14-049/figs/Signal_M1300_EtaScaling.pdf Graphic file (type pdf)
 
 <use AN-14-049/figs/Signal_M1300_EtaScaling.pdf>
 Package pdftex.def Info: AN-14-049/figs/Signal_M1300_EtaScaling.pdf used on inp
-ut line 236.
+ut line 206.
 (pdftex.def)             Requested size: 195.12767pt x 132.14767pt.
 
-<AN-14-049/figs/Signal_M1400_EtaScaling.pdf, id=5839, 569.12625pt x 385.44pt>
+<AN-14-049/figs/Signal_M1400_EtaScaling.pdf, id=5833, 569.12625pt x 385.44pt>
 File: AN-14-049/figs/Signal_M1400_EtaScaling.pdf Graphic file (type pdf)
 
 <use AN-14-049/figs/Signal_M1400_EtaScaling.pdf>
 Package pdftex.def Info: AN-14-049/figs/Signal_M1400_EtaScaling.pdf used on inp
-ut line 237.
+ut line 207.
 (pdftex.def)             Requested size: 195.12767pt x 132.14767pt.
 
-<AN-14-049/figs/TTbar_EtaScaling.pdf, id=5840, 569.12625pt x 385.44pt>
+<AN-14-049/figs/TTbar_EtaScaling.pdf, id=5834, 569.12625pt x 385.44pt>
 File: AN-14-049/figs/TTbar_EtaScaling.pdf Graphic file (type pdf)
 
 <use AN-14-049/figs/TTbar_EtaScaling.pdf>
 Package pdftex.def Info: AN-14-049/figs/TTbar_EtaScaling.pdf used on input line
- 250.
+ 220.
 (pdftex.def)             Requested size: 303.53267pt x 205.57611pt.
 
-<AN-14-049/figs/Signal_M1200_PdfScaleNNPDF23.pdf, id=5841, 569.12625pt x 385.44
+<AN-14-049/figs/Signal_M1200_PdfScaleNNPDF23.pdf, id=5835, 569.12625pt x 385.44
 pt>
 File: AN-14-049/figs/Signal_M1200_PdfScaleNNPDF23.pdf Graphic file (type pdf)
  <use AN-14-049/figs/Signal_M1200_PdfScaleNNPDF23.pdf>
 Package pdftex.def Info: AN-14-049/figs/Signal_M1200_PdfScaleNNPDF23.pdf used o
-n input line 258.
+n input line 228.
 (pdftex.def)             Requested size: 195.12767pt x 132.14767pt.
 
-<AN-14-049/figs/Signal_M1300_PdfScaleNNPDF23.pdf, id=5842, 569.12625pt x 385.44
+<AN-14-049/figs/Signal_M1300_PdfScaleNNPDF23.pdf, id=5836, 569.12625pt x 385.44
 pt>
 File: AN-14-049/figs/Signal_M1300_PdfScaleNNPDF23.pdf Graphic file (type pdf)
  <use AN-14-049/figs/Signal_M1300_PdfScaleNNPDF23.pdf>
 Package pdftex.def Info: AN-14-049/figs/Signal_M1300_PdfScaleNNPDF23.pdf used o
-n input line 259.
+n input line 229.
 (pdftex.def)             Requested size: 195.12767pt x 132.14767pt.
 
-<AN-14-049/figs/Signal_M1400_PdfScaleNNPDF23.pdf, id=5843, 569.12625pt x 385.44
+<AN-14-049/figs/Signal_M1400_PdfScaleNNPDF23.pdf, id=5837, 569.12625pt x 385.44
 pt>
 File: AN-14-049/figs/Signal_M1400_PdfScaleNNPDF23.pdf Graphic file (type pdf)
  <use AN-14-049/figs/Signal_M1400_PdfScaleNNPDF23.pdf>
 Package pdftex.def Info: AN-14-049/figs/Signal_M1400_PdfScaleNNPDF23.pdf used o
-n input line 260.
+n input line 230.
 (pdftex.def)             Requested size: 195.12767pt x 132.14767pt.
 
-<AN-14-049/figs/TTbar_PdfScaleNNPDF23.pdf, id=5844, 569.12625pt x 385.44pt>
+<AN-14-049/figs/TTbar_PdfScaleNNPDF23.pdf, id=5838, 569.12625pt x 385.44pt>
 File: AN-14-049/figs/TTbar_PdfScaleNNPDF23.pdf Graphic file (type pdf)
 
 <use AN-14-049/figs/TTbar_PdfScaleNNPDF23.pdf>
 Package pdftex.def Info: AN-14-049/figs/TTbar_PdfScaleNNPDF23.pdf used on input
- line 273.
+ line 243.
 (pdftex.def)             Requested size: 303.53267pt x 205.57611pt.
 
-<AN-14-049/figs/Signal_M1200_PileupReweighting.pdf, id=5845, 569.12625pt x 385.
+<AN-14-049/figs/Signal_M1200_PileupReweighting.pdf, id=5839, 569.12625pt x 385.
 44pt>
 File: AN-14-049/figs/Signal_M1200_PileupReweighting.pdf Graphic file (type pdf)
 
  <use AN-14-049/figs/Signal_M1200_PileupReweighting.pdf>
 Package pdftex.def Info: AN-14-049/figs/Signal_M1200_PileupReweighting.pdf used
- on input line 281.
+ on input line 251.
 (pdftex.def)             Requested size: 195.12767pt x 132.14767pt.
 
-<AN-14-049/figs/Signal_M1300_PileupReweighting.pdf, id=5846, 569.12625pt x 385.
+<AN-14-049/figs/Signal_M1300_PileupReweighting.pdf, id=5840, 569.12625pt x 385.
 44pt>
 File: AN-14-049/figs/Signal_M1300_PileupReweighting.pdf Graphic file (type pdf)
 
  <use AN-14-049/figs/Signal_M1300_PileupReweighting.pdf>
 Package pdftex.def Info: AN-14-049/figs/Signal_M1300_PileupReweighting.pdf used
- on input line 282.
+ on input line 252.
 (pdftex.def)             Requested size: 195.12767pt x 132.14767pt.
 
-<AN-14-049/figs/Signal_M1400_PileupReweighting.pdf, id=5847, 569.12625pt x 385.
+<AN-14-049/figs/Signal_M1400_PileupReweighting.pdf, id=5841, 569.12625pt x 385.
 44pt>
 File: AN-14-049/figs/Signal_M1400_PileupReweighting.pdf Graphic file (type pdf)
 
  <use AN-14-049/figs/Signal_M1400_PileupReweighting.pdf>
 Package pdftex.def Info: AN-14-049/figs/Signal_M1400_PileupReweighting.pdf used
- on input line 283.
+ on input line 253.
 (pdftex.def)             Requested size: 195.12767pt x 132.14767pt.
 
-<AN-14-049/figs/BKGFITCOMPLOGE1.pdf, id=5848, 569.12625pt x 385.44pt>
+<AN-14-049/figs/BKGFITCOMPLOGE1.pdf, id=5842, 569.12625pt x 385.44pt>
 File: AN-14-049/figs/BKGFITCOMPLOGE1.pdf Graphic file (type pdf)
 
 <use AN-14-049/figs/BKGFITCOMPLOGE1.pdf>
 Package pdftex.def Info: AN-14-049/figs/BKGFITCOMPLOGE1.pdf used on input line 
-304.
+274.
 (pdftex.def)             Requested size: 303.53267pt x 205.57611pt.
 
-<AN-14-049/figs/BKGFITCOMPLOGE2.pdf, id=5849, 569.12625pt x 385.44pt>
+<AN-14-049/figs/BKGFITCOMPLOGE2.pdf, id=5843, 569.12625pt x 385.44pt>
 File: AN-14-049/figs/BKGFITCOMPLOGE2.pdf Graphic file (type pdf)
 
 <use AN-14-049/figs/BKGFITCOMPLOGE2.pdf>
 Package pdftex.def Info: AN-14-049/figs/BKGFITCOMPLOGE2.pdf used on input line 
-305.
+275.
 (pdftex.def)             Requested size: 303.53267pt x 205.57611pt.
 
-<AN-14-049/figs/BKGCOMP.pdf, id=5850, 569.12625pt x 385.44pt>
+<AN-14-049/figs/BKGCOMP.pdf, id=5844, 569.12625pt x 385.44pt>
 File: AN-14-049/figs/BKGCOMP.pdf Graphic file (type pdf)
 
 <use AN-14-049/figs/BKGCOMP.pdf>
-Package pdftex.def Info: AN-14-049/figs/BKGCOMP.pdf used on input line 317.
+Package pdftex.def Info: AN-14-049/figs/BKGCOMP.pdf used on input line 287.
 (pdftex.def)             Requested size: 303.53267pt x 205.57611pt.
 
-<AN-14-049/figs/BKGCOMPLOG.pdf, id=5851, 569.12625pt x 385.44pt>
+<AN-14-049/figs/BKGCOMPLOG.pdf, id=5845, 569.12625pt x 385.44pt>
 File: AN-14-049/figs/BKGCOMPLOG.pdf Graphic file (type pdf)
 
 <use AN-14-049/figs/BKGCOMPLOG.pdf>
-Package pdftex.def Info: AN-14-049/figs/BKGCOMPLOG.pdf used on input line 318.
+Package pdftex.def Info: AN-14-049/figs/BKGCOMPLOG.pdf used on input line 288.
 (pdftex.def)             Requested size: 303.53267pt x 205.57611pt.
 
-<AN-14-049/figs/BKGFITERR.pdf, id=5852, 569.12625pt x 385.44pt>
+<AN-14-049/figs/BKGFITERR.pdf, id=5846, 569.12625pt x 385.44pt>
 File: AN-14-049/figs/BKGFITERR.pdf Graphic file (type pdf)
 
 <use AN-14-049/figs/BKGFITERR.pdf>
-Package pdftex.def Info: AN-14-049/figs/BKGFITERR.pdf used on input line 328.
+Package pdftex.def Info: AN-14-049/figs/BKGFITERR.pdf used on input line 298.
 (pdftex.def)             Requested size: 303.53267pt x 205.57611pt.
 
-<AN-14-049/figs/BKGFITERRLOG.pdf, id=5853, 569.12625pt x 385.44pt>
+<AN-14-049/figs/BKGFITERRLOG.pdf, id=5847, 569.12625pt x 385.44pt>
 File: AN-14-049/figs/BKGFITERRLOG.pdf Graphic file (type pdf)
 
 <use AN-14-049/figs/BKGFITERRLOG.pdf>
-Package pdftex.def Info: AN-14-049/figs/BKGFITERRLOG.pdf used on input line 329
+Package pdftex.def Info: AN-14-049/figs/BKGFITERRLOG.pdf used on input line 299
 .
 (pdftex.def)             Requested size: 303.53267pt x 205.57611pt.
 
-<AN-14-049/figs/TagrateEta1SB2dSB1.pdf, id=5854, 569.12625pt x 337.26pt>
+<AN-14-049/figs/TagrateEta1SB2dSB1.pdf, id=5848, 569.12625pt x 337.26pt>
 File: AN-14-049/figs/TagrateEta1SB2dSB1.pdf Graphic file (type pdf)
 
 <use AN-14-049/figs/TagrateEta1SB2dSB1.pdf>
 Package pdftex.def Info: AN-14-049/figs/TagrateEta1SB2dSB1.pdf used on input li
-ne 339.
+ne 309.
 (pdftex.def)             Requested size: 303.53267pt x 179.8791pt.
 
-<AN-14-049/figs/TagrateEta2SB2dSB1.pdf, id=5855, 569.12625pt x 337.26pt>
+<AN-14-049/figs/TagrateEta2SB2dSB1.pdf, id=5849, 569.12625pt x 337.26pt>
 File: AN-14-049/figs/TagrateEta2SB2dSB1.pdf Graphic file (type pdf)
 
 <use AN-14-049/figs/TagrateEta2SB2dSB1.pdf>
 Package pdftex.def Info: AN-14-049/figs/TagrateEta2SB2dSB1.pdf used on input li
-ne 340.
+ne 310.
 (pdftex.def)             Requested size: 303.53267pt x 179.8791pt.
 
-<AN-14-049/figs/Mtw2dvs1dBE.pdf, id=5856, 569.12625pt x 385.44pt>
+<AN-14-049/figs/Mtw2dvs1dBE.pdf, id=5850, 569.12625pt x 385.44pt>
 File: AN-14-049/figs/Mtw2dvs1dBE.pdf Graphic file (type pdf)
 
 <use AN-14-049/figs/Mtw2dvs1dBE.pdf>
-Package pdftex.def Info: AN-14-049/figs/Mtw2dvs1dBE.pdf used on input line 353.
+Package pdftex.def Info: AN-14-049/figs/Mtw2dvs1dBE.pdf used on input line 323.
 
 (pdftex.def)             Requested size: 303.53267pt x 205.57611pt.
 
-<AN-14-049/figs/Mtw2dvs1dBEsemilog.pdf, id=5857, 569.12625pt x 385.44pt>
+<AN-14-049/figs/Mtw2dvs1dBEsemilog.pdf, id=5851, 569.12625pt x 385.44pt>
 File: AN-14-049/figs/Mtw2dvs1dBEsemilog.pdf Graphic file (type pdf)
 
 <use AN-14-049/figs/Mtw2dvs1dBEsemilog.pdf>
 Package pdftex.def Info: AN-14-049/figs/Mtw2dvs1dBEsemilog.pdf used on input li
-ne 354.
+ne 324.
 (pdftex.def)             Requested size: 303.53267pt x 205.57611pt.
 
-<AN-14-049/figs/Mtw2dstatssubtracted.pdf, id=5858, 569.12625pt x 385.44pt>
+<AN-14-049/figs/Mtw2dstatssubtracted.pdf, id=5852, 569.12625pt x 385.44pt>
 File: AN-14-049/figs/Mtw2dstatssubtracted.pdf Graphic file (type pdf)
 
 <use AN-14-049/figs/Mtw2dstatssubtracted.pdf>
 Package pdftex.def Info: AN-14-049/figs/Mtw2dstatssubtracted.pdf used on input 
-line 364.
+line 334.
 (pdftex.def)             Requested size: 303.53267pt x 205.57611pt.
-) [168] [169 <./AN-14-049/figs/Signal_M1200_PtScaling.pdf, page is rotated 90 d
+) [166] [167 <./AN-14-049/figs/Signal_M1200_PtScaling.pdf, page is rotated 90 d
 egrees> <./AN-14-049/figs/Signal_M1300_PtScaling.pdf, page is rotated 90 degree
 s> <./AN-14-049/figs/Signal_M1400_PtScaling.pdf, page is rotated 90 degrees> <.
-/AN-14-049/figs/TTbar_PtScaling.pdf, page is rotated 90 degrees>] [170 <./AN-14
+/AN-14-049/figs/TTbar_PtScaling.pdf, page is rotated 90 degrees>] [168 <./AN-14
 -049/figs/Signal_M1200_TriggerWeighting.pdf, page is rotated 90 degrees> <./AN-
 14-049/figs/Signal_M1300_TriggerWeighting.pdf, page is rotated 90 degrees> <./A
 N-14-049/figs/Signal_M1400_TriggerWeighting.pdf, page is rotated 90 degrees> <.
-/AN-14-049/figs/TTbar_TriggerWeighting.pdf, page is rotated 90 degrees>] [171 <
+/AN-14-049/figs/TTbar_TriggerWeighting.pdf, page is rotated 90 degrees>] [169 <
 ./AN-14-049/figs/Signal_M1200_PtSmearing.pdf, page is rotated 90 degrees> <./AN
 -14-049/figs/Signal_M1300_PtSmearing.pdf, page is rotated 90 degrees> <./AN-14-
 049/figs/Signal_M1400_PtSmearing.pdf, page is rotated 90 degrees> <./AN-14-049/
-figs/TTbar_PtSmearing.pdf, page is rotated 90 degrees>] [172 <./AN-14-049/figs/
+figs/TTbar_PtSmearing.pdf, page is rotated 90 degrees>] [170 <./AN-14-049/figs/
 Signal_M1200_EtaScaling.pdf, page is rotated 90 degrees> <./AN-14-049/figs/Sign
 al_M1300_EtaScaling.pdf, page is rotated 90 degrees> <./AN-14-049/figs/Signal_M
 1400_EtaScaling.pdf, page is rotated 90 degrees> <./AN-14-049/figs/TTbar_EtaSca
-ling.pdf, page is rotated 90 degrees>] [173 <./AN-14-049/figs/Signal_M1200_PdfS
+ling.pdf, page is rotated 90 degrees>] [171 <./AN-14-049/figs/Signal_M1200_PdfS
 caleNNPDF23.pdf, page is rotated 90 degrees> <./AN-14-049/figs/Signal_M1300_Pdf
 ScaleNNPDF23.pdf, page is rotated 90 degrees> <./AN-14-049/figs/Signal_M1400_Pd
 fScaleNNPDF23.pdf, page is rotated 90 degrees> <./AN-14-049/figs/TTbar_PdfScale
-NNPDF23.pdf, page is rotated 90 degrees>] [174 <./AN-14-049/figs/Signal_M1200_P
+NNPDF23.pdf, page is rotated 90 degrees>] [172 <./AN-14-049/figs/Signal_M1200_P
 ileupReweighting.pdf, page is rotated 90 degrees> <./AN-14-049/figs/Signal_M130
 0_PileupReweighting.pdf, page is rotated 90 degrees> <./AN-14-049/figs/Signal_M
-1400_PileupReweighting.pdf, page is rotated 90 degrees>] [175 <./AN-14-049/figs
+1400_PileupReweighting.pdf, page is rotated 90 degrees>] [173 <./AN-14-049/figs
 /BKGFITCOMPLOGE1.pdf, page is rotated 90 degrees> <./AN-14-049/figs/BKGFITCOMPL
-OGE2.pdf, page is rotated 90 degrees>] [176 <./AN-14-049/figs/BKGCOMP.pdf, page
+OGE2.pdf, page is rotated 90 degrees>] [174 <./AN-14-049/figs/BKGCOMP.pdf, page
  is rotated 90 degrees> <./AN-14-049/figs/BKGCOMPLOG.pdf, page is rotated 90 de
-grees>] [177 <./AN-14-049/figs/BKGFITERR.pdf, page is rotated 90 degrees> <./AN
--14-049/figs/BKGFITERRLOG.pdf, page is rotated 90 degrees>] [178 <./AN-14-049/f
+grees>] [175 <./AN-14-049/figs/BKGFITERR.pdf, page is rotated 90 degrees> <./AN
+-14-049/figs/BKGFITERRLOG.pdf, page is rotated 90 degrees>] [176 <./AN-14-049/f
 igs/TagrateEta1SB2dSB1.pdf, page is rotated 90 degrees> <./AN-14-049/figs/Tagra
-teEta2SB2dSB1.pdf, page is rotated 90 degrees>] [179 <./AN-14-049/figs/Mtw2dvs1
+teEta2SB2dSB1.pdf, page is rotated 90 degrees>] [177 <./AN-14-049/figs/Mtw2dvs1
 dBE.pdf, page is rotated 90 degrees> <./AN-14-049/figs/Mtw2dvs1dBEsemilog.pdf, 
 page is rotated 90 degrees>]
-[180 <./AN-14-049/figs/Mtw2dstatssubtracted.pdf, page is rotated 90 degrees>]
+[178 <./AN-14-049/figs/Mtw2dstatssubtracted.pdf, page is rotated 90 degrees>]
 \openout2 = `AN-14-049/Limits.aux'.
 
 
 (./AN-14-049/Limits.tex
 Chapter 17.
-[181
+[179
 
 
 
 
-] [182] [183]
-<AN-14-049/figs/limits_theta_had_right_log.pdf, id=7379, 569.12625pt x 467.7475
+] [180] [181]
+<AN-14-049/figs/limits_theta_had_right_log.pdf, id=7373, 569.12625pt x 467.7475
 pt>
 File: AN-14-049/figs/limits_theta_had_right_log.pdf Graphic file (type pdf)
  <use AN-14-049/figs/limits_theta_had_right_log.pdf>
@@ -2636,7 +2628,7 @@ Package pdftex.def Info: AN-14-049/figs/limits_theta_had_right_log.pdf used on
 input line 201.
 (pdftex.def)             Requested size: 195.12767pt x 160.3667pt.
 
-<AN-14-049/figs/limits_theta_had_left_log.pdf, id=7380, 569.12625pt x 467.7475p
+<AN-14-049/figs/limits_theta_had_left_log.pdf, id=7374, 569.12625pt x 467.7475p
 t>
 File: AN-14-049/figs/limits_theta_had_left_log.pdf Graphic file (type pdf)
  <use AN-14-049/figs/limits_theta_had_left_log.pdf>
@@ -2644,7 +2636,7 @@ Package pdftex.def Info: AN-14-049/figs/limits_theta_had_left_log.pdf used on i
 nput line 202.
 (pdftex.def)             Requested size: 195.12767pt x 160.3667pt.
 
-<AN-14-049/figs/limits_theta_had_vector_log.pdf, id=7381, 569.12625pt x 467.747
+<AN-14-049/figs/limits_theta_had_vector_log.pdf, id=7375, 569.12625pt x 467.747
 5pt>
 File: AN-14-049/figs/limits_theta_had_vector_log.pdf Graphic file (type pdf)
  <use AN-14-049/figs/limits_theta_had_vector_log.pdf>
@@ -2652,7 +2644,7 @@ Package pdftex.def Info: AN-14-049/figs/limits_theta_had_vector_log.pdf used on
  input line 203.
 (pdftex.def)             Requested size: 195.12767pt x 160.3667pt.
 
-<AN-14-049/figs/bayesian_observed_hadronic_right_2Dlimit_plot.pdf, id=7382, 569
+<AN-14-049/figs/bayesian_observed_hadronic_right_2Dlimit_plot.pdf, id=7376, 569
 .12625pt x 408.52625pt>
 File: AN-14-049/figs/bayesian_observed_hadronic_right_2Dlimit_plot.pdf Graphic 
 file (type pdf)
@@ -2662,7 +2654,7 @@ Package pdftex.def Info: AN-14-049/figs/bayesian_observed_hadronic_right_2Dlimi
 t_plot.pdf used on input line 215.
 (pdftex.def)             Requested size: 216.81pt x 155.62807pt.
 
-<AN-14-049/figs/bayesian_observed_hadronic_left_2Dlimit_plot.pdf, id=7383, 569.
+<AN-14-049/figs/bayesian_observed_hadronic_left_2Dlimit_plot.pdf, id=7377, 569.
 12625pt x 408.52625pt>
 File: AN-14-049/figs/bayesian_observed_hadronic_left_2Dlimit_plot.pdf Graphic f
 ile (type pdf)
@@ -2672,7 +2664,7 @@ Package pdftex.def Info: AN-14-049/figs/bayesian_observed_hadronic_left_2Dlimit
 _plot.pdf used on input line 216.
 (pdftex.def)             Requested size: 216.81pt x 155.62807pt.
 
-<AN-14-049/figs/bayesian_observed_hadronic_vector_2Dlimit_plot.pdf, id=7384, 56
+<AN-14-049/figs/bayesian_observed_hadronic_vector_2Dlimit_plot.pdf, id=7378, 56
 9.12625pt x 408.52625pt>
 File: AN-14-049/figs/bayesian_observed_hadronic_vector_2Dlimit_plot.pdf Graphic
  file (type pdf)
@@ -2682,7 +2674,7 @@ Package pdftex.def Info: AN-14-049/figs/bayesian_observed_hadronic_vector_2Dlim
 it_plot.pdf used on input line 217.
 (pdftex.def)             Requested size: 216.81pt x 155.62807pt.
 
-<AN-14-049/figs/bayesian_expected_hadronic_right_2Dlimit_plot.pdf, id=7385, 569
+<AN-14-049/figs/bayesian_expected_hadronic_right_2Dlimit_plot.pdf, id=7379, 569
 .12625pt x 408.52625pt>
 File: AN-14-049/figs/bayesian_expected_hadronic_right_2Dlimit_plot.pdf Graphic 
 file (type pdf)
@@ -2692,7 +2684,7 @@ Package pdftex.def Info: AN-14-049/figs/bayesian_expected_hadronic_right_2Dlimi
 t_plot.pdf used on input line 225.
 (pdftex.def)             Requested size: 216.81pt x 155.62807pt.
 
-<AN-14-049/figs/bayesian_expected_hadronic_left_2Dlimit_plot.pdf, id=7386, 569.
+<AN-14-049/figs/bayesian_expected_hadronic_left_2Dlimit_plot.pdf, id=7380, 569.
 12625pt x 408.52625pt>
 File: AN-14-049/figs/bayesian_expected_hadronic_left_2Dlimit_plot.pdf Graphic f
 ile (type pdf)
@@ -2702,7 +2694,7 @@ Package pdftex.def Info: AN-14-049/figs/bayesian_expected_hadronic_left_2Dlimit
 _plot.pdf used on input line 226.
 (pdftex.def)             Requested size: 216.81pt x 155.62807pt.
 
-<AN-14-049/figs/bayesian_expected_hadronic_vector_2Dlimit_plot.pdf, id=7387, 56
+<AN-14-049/figs/bayesian_expected_hadronic_vector_2Dlimit_plot.pdf, id=7381, 56
 9.12625pt x 408.52625pt>
 File: AN-14-049/figs/bayesian_expected_hadronic_vector_2Dlimit_plot.pdf Graphic
  file (type pdf)
@@ -2712,14 +2704,14 @@ Package pdftex.def Info: AN-14-049/figs/bayesian_expected_hadronic_vector_2Dlim
 it_plot.pdf used on input line 227.
 (pdftex.def)             Requested size: 216.81pt x 155.62807pt.
 
-[184] [185] [186 <./AN-14-049/figs/limits_theta_had_right_log.pdf, page is rota
+[182] [183] [184 <./AN-14-049/figs/limits_theta_had_right_log.pdf, page is rota
 ted 90 degrees> <./AN-14-049/figs/limits_theta_had_left_log.pdf, page is rotate
 d 90 degrees> <./AN-14-049/figs/limits_theta_had_vector_log.pdf, page is rotate
-d 90 degrees>] [187 <./AN-14-049/figs/bayesian_observed_hadronic_right_2Dlimit_
+d 90 degrees>] [185 <./AN-14-049/figs/bayesian_observed_hadronic_right_2Dlimit_
 plot.pdf, page is rotated 90 degrees> <./AN-14-049/figs/bayesian_observed_hadro
 nic_left_2Dlimit_plot.pdf, page is rotated 90 degrees> <./AN-14-049/figs/bayesi
 an_observed_hadronic_vector_2Dlimit_plot.pdf, page is rotated 90 degrees>]
-[188 <./AN-14-049/figs/bayesian_expected_hadronic_right_2Dlimit_plot.pdf, page 
+[186 <./AN-14-049/figs/bayesian_expected_hadronic_right_2Dlimit_plot.pdf, page 
 is rotated 90 degrees> <./AN-14-049/figs/bayesian_expected_hadronic_left_2Dlimi
 t_plot.pdf, page is rotated 90 degrees> <./AN-14-049/figs/bayesian_expected_had
 ronic_vector_2Dlimit_plot.pdf, page is rotated 90 degrees>])
@@ -2728,14 +2720,14 @@ ronic_vector_2Dlimit_plot.pdf, page is rotated 90 degrees>])
 
 (./AN-14-049/combination.tex
 Chapter 18.
-[189
+[187
 
 
 
 
-] [190]
+] [188]
 <AN-14-049/figs/bstarLeptonJetdataMC_CompEl1+j53XallJetLeptonMETMass_logy.pdf, 
-id=7798, 569.12625pt x 385.44pt>
+id=7792, 569.12625pt x 385.44pt>
 File: AN-14-049/figs/bstarLeptonJetdataMC_CompEl1+j53XallJetLeptonMETMass_logy.
 pdf Graphic file (type pdf)
 
@@ -2746,7 +2738,7 @@ LeptonMETMass_logy.pdf used on input line 42.
 (pdftex.def)             Requested size: 260.17464pt x 176.21062pt.
 
 <AN-14-049/figs/bstarLeptonJetdataMC_CompMu1+j53XallJetLeptonMETMass_logy.pdf, 
-id=7799, 569.12625pt x 385.44pt>
+id=7793, 569.12625pt x 385.44pt>
 File: AN-14-049/figs/bstarLeptonJetdataMC_CompMu1+j53XallJetLeptonMETMass_logy.
 pdf Graphic file (type pdf)
 
@@ -2756,7 +2748,7 @@ Package pdftex.def Info: AN-14-049/figs/bstarLeptonJetdataMC_CompMu1+j53XallJet
 LeptonMETMass_logy.pdf used on input line 43.
 (pdftex.def)             Requested size: 260.17464pt x 176.21062pt.
 
-<AN-14-049/figs/ScalarSumPt_nGoodJetslog_mm.pdf, id=7800, 569.12625pt x 408.526
+<AN-14-049/figs/ScalarSumPt_nGoodJetslog_mm.pdf, id=7794, 569.12625pt x 408.526
 25pt>
 File: AN-14-049/figs/ScalarSumPt_nGoodJetslog_mm.pdf Graphic file (type pdf)
  <use AN-14-049/figs/ScalarSumPt_nGoodJetslog_mm.pdf>
@@ -2764,7 +2756,7 @@ Package pdftex.def Info: AN-14-049/figs/ScalarSumPt_nGoodJetslog_mm.pdf used on
  input line 50.
 (pdftex.def)             Requested size: 260.17464pt x 186.76491pt.
 
-<AN-14-049/figs/ScalarSumPt_nGoodJetslog_ee.pdf, id=7801, 569.12625pt x 408.526
+<AN-14-049/figs/ScalarSumPt_nGoodJetslog_ee.pdf, id=7795, 569.12625pt x 408.526
 25pt>
 File: AN-14-049/figs/ScalarSumPt_nGoodJetslog_ee.pdf Graphic file (type pdf)
  <use AN-14-049/figs/ScalarSumPt_nGoodJetslog_ee.pdf>
@@ -2772,7 +2764,7 @@ Package pdftex.def Info: AN-14-049/figs/ScalarSumPt_nGoodJetslog_ee.pdf used on
  input line 51.
 (pdftex.def)             Requested size: 260.17464pt x 186.76491pt.
 
-<AN-14-049/figs/ScalarSumPt_nGoodJetslog_em.pdf, id=7802, 569.12625pt x 408.526
+<AN-14-049/figs/ScalarSumPt_nGoodJetslog_em.pdf, id=7796, 569.12625pt x 408.526
 25pt>
 File: AN-14-049/figs/ScalarSumPt_nGoodJetslog_em.pdf Graphic file (type pdf)
  <use AN-14-049/figs/ScalarSumPt_nGoodJetslog_em.pdf>
@@ -2789,7 +2781,7 @@ Package pdftex.def Info: AN-14-049/figs/MtwvsBkgsemilog_BifPoly_fit.pdf used on
  input line 59.
 (pdftex.def)             Requested size: 260.17464pt x 176.21062pt.
 
-<AN-14-049/figs/bayesian_semileptonic_left_limit_band_plot.png, id=7803, 638.38
+<AN-14-049/figs/bayesian_semileptonic_left_limit_band_plot.png, id=7797, 638.38
 5pt x 473.77pt>
 File: AN-14-049/figs/bayesian_semileptonic_left_limit_band_plot.png Graphic fil
 e (type png)
@@ -2799,7 +2791,7 @@ Package pdftex.def Info: AN-14-049/figs/bayesian_semileptonic_left_limit_band_p
 lot.png used on input line 67.
 (pdftex.def)             Requested size: 260.17464pt x 193.08307pt.
 
-<AN-14-049/figs/bayesian_semileptonic_right_limit_band_plot.png, id=7804, 638.3
+<AN-14-049/figs/bayesian_semileptonic_right_limit_band_plot.png, id=7798, 638.3
 85pt x 473.77pt>
 File: AN-14-049/figs/bayesian_semileptonic_right_limit_band_plot.png Graphic fi
 le (type png)
@@ -2809,7 +2801,7 @@ Package pdftex.def Info: AN-14-049/figs/bayesian_semileptonic_right_limit_band_
 plot.png used on input line 68.
 (pdftex.def)             Requested size: 260.17464pt x 193.08307pt.
 
-<AN-14-049/figs/bayesian_semileptonic_vector_limit_band_plot.png, id=7805, 638.
+<AN-14-049/figs/bayesian_semileptonic_vector_limit_band_plot.png, id=7799, 638.
 385pt x 473.77pt>
 File: AN-14-049/figs/bayesian_semileptonic_vector_limit_band_plot.png Graphic f
 ile (type png)
@@ -2823,7 +2815,7 @@ _plot.png used on input line 69.
 LaTeX Warning: Float too large for page by 31.14915pt on input line 72.
 
 
-<AN-14-049/figs/bayesian_dileptonic_left_limit_band_plot.png, id=7806, 638.385p
+<AN-14-049/figs/bayesian_dileptonic_left_limit_band_plot.png, id=7800, 638.385p
 t x 473.77pt>
 File: AN-14-049/figs/bayesian_dileptonic_left_limit_band_plot.png Graphic file 
 (type png)
@@ -2833,7 +2825,7 @@ Package pdftex.def Info: AN-14-049/figs/bayesian_dileptonic_left_limit_band_plo
 t.png used on input line 76.
 (pdftex.def)             Requested size: 260.17464pt x 193.08307pt.
 
-<AN-14-049/figs/bayesian_dileptonic_right_limit_band_plot.png, id=7807, 638.385
+<AN-14-049/figs/bayesian_dileptonic_right_limit_band_plot.png, id=7801, 638.385
 pt x 473.77pt>
 File: AN-14-049/figs/bayesian_dileptonic_right_limit_band_plot.png Graphic file
  (type png)
@@ -2843,7 +2835,7 @@ Package pdftex.def Info: AN-14-049/figs/bayesian_dileptonic_right_limit_band_pl
 ot.png used on input line 77.
 (pdftex.def)             Requested size: 260.17464pt x 193.08307pt.
 
-<AN-14-049/figs/bayesian_dileptonic_vector_limit_band_plot.png, id=7808, 638.38
+<AN-14-049/figs/bayesian_dileptonic_vector_limit_band_plot.png, id=7802, 638.38
 5pt x 473.77pt>
 File: AN-14-049/figs/bayesian_dileptonic_vector_limit_band_plot.png Graphic fil
 e (type png)
@@ -2857,7 +2849,7 @@ lot.png used on input line 78.
 LaTeX Warning: Float too large for page by 31.14915pt on input line 81.
 
 
-<AN-14-049/figs/bayesian_hadronic_left_limit_band_plot.png, id=7809, 638.385pt 
+<AN-14-049/figs/bayesian_hadronic_left_limit_band_plot.png, id=7803, 638.385pt 
 x 473.77pt>
 File: AN-14-049/figs/bayesian_hadronic_left_limit_band_plot.png Graphic file (t
 ype png)
@@ -2866,7 +2858,7 @@ Package pdftex.def Info: AN-14-049/figs/bayesian_hadronic_left_limit_band_plot.
 png used on input line 85.
 (pdftex.def)             Requested size: 260.17464pt x 193.08307pt.
 
-<AN-14-049/figs/bayesian_hadronic_right_limit_band_plot.png, id=7810, 638.385pt
+<AN-14-049/figs/bayesian_hadronic_right_limit_band_plot.png, id=7804, 638.385pt
  x 473.77pt>
 File: AN-14-049/figs/bayesian_hadronic_right_limit_band_plot.png Graphic file (
 type png)
@@ -2875,7 +2867,7 @@ Package pdftex.def Info: AN-14-049/figs/bayesian_hadronic_right_limit_band_plot
 .png used on input line 86.
 (pdftex.def)             Requested size: 260.17464pt x 193.08307pt.
 
-<AN-14-049/figs/bayesian_hadronic_vector_limit_band_plot.png, id=7811, 638.385p
+<AN-14-049/figs/bayesian_hadronic_vector_limit_band_plot.png, id=7805, 638.385p
 t x 473.77pt>
 File: AN-14-049/figs/bayesian_hadronic_vector_limit_band_plot.png Graphic file 
 (type png)
@@ -2890,7 +2882,7 @@ LaTeX Warning: Float too large for page by 31.14915pt on input line 90.
 
 
 <AN-14-049/figs/bayesian_hadronic_semileptonic_right_limit_band_plot.pdf, id=78
-12, 569.12625pt x 422.57875pt>
+06, 569.12625pt x 422.57875pt>
 File: AN-14-049/figs/bayesian_hadronic_semileptonic_right_limit_band_plot.pdf G
 raphic file (type pdf)
 
@@ -2899,8 +2891,8 @@ Package pdftex.def Info: AN-14-049/figs/bayesian_hadronic_semileptonic_right_li
 mit_band_plot.pdf used on input line 108.
 (pdftex.def)             Requested size: 216.81pt x 160.98137pt.
 
-<AN-14-049/figs/bayesian_hadronic_semileptonic_left_limit_band_plot.pdf, id=781
-3, 569.12625pt x 422.57875pt>
+<AN-14-049/figs/bayesian_hadronic_semileptonic_left_limit_band_plot.pdf, id=780
+7, 569.12625pt x 422.57875pt>
 File: AN-14-049/figs/bayesian_hadronic_semileptonic_left_limit_band_plot.pdf Gr
 aphic file (type pdf)
 
@@ -2910,7 +2902,7 @@ it_band_plot.pdf used on input line 109.
 (pdftex.def)             Requested size: 216.81pt x 160.98137pt.
 
 <AN-14-049/figs/bayesian_hadronic_semileptonic_vector_limit_band_plot.pdf, id=7
-814, 569.12625pt x 422.57875pt>
+808, 569.12625pt x 422.57875pt>
 File: AN-14-049/figs/bayesian_hadronic_semileptonic_vector_limit_band_plot.pdf 
 Graphic file (type pdf)
 
@@ -2920,7 +2912,7 @@ imit_band_plot.pdf used on input line 110.
 (pdftex.def)             Requested size: 216.81pt x 160.98137pt.
 
 <AN-14-049/figs/bayesian_observed_hadronic_semileptonic_right_2Dlimit_plot.pdf,
- id=7815, 569.12625pt x 408.52625pt>
+ id=7809, 569.12625pt x 408.52625pt>
 File: AN-14-049/figs/bayesian_observed_hadronic_semileptonic_right_2Dlimit_plot
 .pdf Graphic file (type pdf)
 
@@ -2931,7 +2923,7 @@ _right_2Dlimit_plot.pdf used on input line 121.
 (pdftex.def)             Requested size: 260.17464pt x 186.76491pt.
 
 <AN-14-049/figs/bayesian_observed_hadronic_semileptonic_left_2Dlimit_plot.pdf, 
-id=7816, 569.12625pt x 408.52625pt>
+id=7810, 569.12625pt x 408.52625pt>
 File: AN-14-049/figs/bayesian_observed_hadronic_semileptonic_left_2Dlimit_plot.
 pdf Graphic file (type pdf)
 
@@ -2942,7 +2934,7 @@ _left_2Dlimit_plot.pdf used on input line 122.
 (pdftex.def)             Requested size: 260.17464pt x 186.76491pt.
 
 <AN-14-049/figs/bayesian_observed_hadronic_semileptonic_vector_2Dlimit_plot.pdf
-, id=7817, 569.12625pt x 408.52625pt>
+, id=7811, 569.12625pt x 408.52625pt>
 File: AN-14-049/figs/bayesian_observed_hadronic_semileptonic_vector_2Dlimit_plo
 t.pdf Graphic file (type pdf)
 
@@ -2953,7 +2945,7 @@ _vector_2Dlimit_plot.pdf used on input line 123.
 (pdftex.def)             Requested size: 260.17464pt x 186.76491pt.
 
 <AN-14-049/figs/bayesian_expected_hadronic_semileptonic_right_2Dlimit_plot.pdf,
- id=7818, 569.12625pt x 408.52625pt>
+ id=7812, 569.12625pt x 408.52625pt>
 File: AN-14-049/figs/bayesian_expected_hadronic_semileptonic_right_2Dlimit_plot
 .pdf Graphic file (type pdf)
 
@@ -2964,7 +2956,7 @@ _right_2Dlimit_plot.pdf used on input line 130.
 (pdftex.def)             Requested size: 260.17464pt x 186.76491pt.
 
 <AN-14-049/figs/bayesian_expected_hadronic_semileptonic_left_2Dlimit_plot.pdf, 
-id=7819, 569.12625pt x 408.52625pt>
+id=7813, 569.12625pt x 408.52625pt>
 File: AN-14-049/figs/bayesian_expected_hadronic_semileptonic_left_2Dlimit_plot.
 pdf Graphic file (type pdf)
 
@@ -2975,7 +2967,7 @@ _left_2Dlimit_plot.pdf used on input line 131.
 (pdftex.def)             Requested size: 260.17464pt x 186.76491pt.
 
 <AN-14-049/figs/bayesian_expected_hadronic_semileptonic_vector_2Dlimit_plot.pdf
-, id=7820, 569.12625pt x 408.52625pt>
+, id=7814, 569.12625pt x 408.52625pt>
 File: AN-14-049/figs/bayesian_expected_hadronic_semileptonic_vector_2Dlimit_plo
 t.pdf Graphic file (type pdf)
 
@@ -2985,7 +2977,7 @@ Package pdftex.def Info: AN-14-049/figs/bayesian_expected_hadronic_semileptonic
 _vector_2Dlimit_plot.pdf used on input line 132.
 (pdftex.def)             Requested size: 260.17464pt x 186.76491pt.
 
-<AN-14-049/figs/nuisancerightbs1200.pdf, id=7821, 569.12625pt x 153.57375pt>
+<AN-14-049/figs/nuisancerightbs1200.pdf, id=7815, 569.12625pt x 153.57375pt>
 File: AN-14-049/figs/nuisancerightbs1200.pdf Graphic file (type pdf)
 
 <use AN-14-049/figs/nuisancerightbs1200.pdf>
@@ -2993,7 +2985,7 @@ Package pdftex.def Info: AN-14-049/figs/nuisancerightbs1200.pdf used on input l
 ine 140.
 (pdftex.def)             Requested size: 607.95009pt x 164.06685pt.
 
-<AN-14-049/figs/nuisancerightbs1400.pdf, id=7822, 569.12625pt x 153.57375pt>
+<AN-14-049/figs/nuisancerightbs1400.pdf, id=7816, 569.12625pt x 153.57375pt>
 File: AN-14-049/figs/nuisancerightbs1400.pdf Graphic file (type pdf)
 
 <use AN-14-049/figs/nuisancerightbs1400.pdf>
@@ -3001,50 +2993,61 @@ Package pdftex.def Info: AN-14-049/figs/nuisancerightbs1400.pdf used on input l
 ine 141.
 (pdftex.def)             Requested size: 607.95009pt x 164.06685pt.
 
-<AN-14-049/figs/nuisancerightbs1600.pdf, id=7823, 569.12625pt x 153.57375pt>
+<AN-14-049/figs/nuisancerightbs1600.pdf, id=7817, 569.12625pt x 153.57375pt>
 File: AN-14-049/figs/nuisancerightbs1600.pdf Graphic file (type pdf)
 
 <use AN-14-049/figs/nuisancerightbs1600.pdf>
 Package pdftex.def Info: AN-14-049/figs/nuisancerightbs1600.pdf used on input l
 ine 142.
 (pdftex.def)             Requested size: 607.95009pt x 164.06685pt.
- [191] [192 <./AN-14-049/figs/bstarLeptonJetdataMC_CompEl1+j53XallJetLeptonMETM
+ [189] [190 <./AN-14-049/figs/bstarLeptonJetdataMC_CompEl1+j53XallJetLeptonMETM
 ass_logy.pdf, page is rotated 90 degrees> <./AN-14-049/figs/bstarLeptonJetdataM
-C_CompMu1+j53XallJetLeptonMETMass_logy.pdf, page is rotated 90 degrees>] [193 <
+C_CompMu1+j53XallJetLeptonMETMass_logy.pdf, page is rotated 90 degrees>] [191 <
 ./AN-14-049/figs/ScalarSumPt_nGoodJetslog_mm.pdf, page is rotated 90 degrees> <
 ./AN-14-049/figs/ScalarSumPt_nGoodJetslog_ee.pdf, page is rotated 90 degrees> <
 ./AN-14-049/figs/ScalarSumPt_nGoodJetslog_em.pdf, page is rotated 90 degrees>] 
-[194] [195 <./AN-14-049/figs/bayesian_semileptonic_left_limit_band_plot.png> <.
+[192] [193 <./AN-14-049/figs/bayesian_semileptonic_left_limit_band_plot.png> <.
 /AN-14-049/figs/bayesian_semileptonic_right_limit_band_plot.png> <./AN-14-049/f
-igs/bayesian_semileptonic_vector_limit_band_plot.png>] [196 <./AN-14-049/figs/b
+igs/bayesian_semileptonic_vector_limit_band_plot.png>] [194 <./AN-14-049/figs/b
 ayesian_dileptonic_left_limit_band_plot.png> <./AN-14-049/figs/bayesian_dilepto
 nic_right_limit_band_plot.png> <./AN-14-049/figs/bayesian_dileptonic_vector_lim
-it_band_plot.png>] [197 <./AN-14-049/figs/bayesian_hadronic_left_limit_band_plo
+it_band_plot.png>] [195 <./AN-14-049/figs/bayesian_hadronic_left_limit_band_plo
 t.png> <./AN-14-049/figs/bayesian_hadronic_right_limit_band_plot.png> <./AN-14-
-049/figs/bayesian_hadronic_vector_limit_band_plot.png>] [198 <./AN-14-049/figs/
+049/figs/bayesian_hadronic_vector_limit_band_plot.png>] [196 <./AN-14-049/figs/
 bayesian_hadronic_semileptonic_right_limit_band_plot.pdf, page is rotated 90 de
 grees> <./AN-14-049/figs/bayesian_hadronic_semileptonic_left_limit_band_plot.pd
 f, page is rotated 90 degrees> <./AN-14-049/figs/bayesian_hadronic_semileptonic
-_vector_limit_band_plot.pdf, page is rotated 90 degrees>] [199 <./AN-14-049/fig
+_vector_limit_band_plot.pdf, page is rotated 90 degrees>] [197 <./AN-14-049/fig
 s/bayesian_observed_hadronic_semileptonic_right_2Dlimit_plot.pdf, page is rotat
 ed 90 degrees> <./AN-14-049/figs/bayesian_observed_hadronic_semileptonic_left_2
 Dlimit_plot.pdf, page is rotated 90 degrees> <./AN-14-049/figs/bayesian_observe
 d_hadronic_semileptonic_vector_2Dlimit_plot.pdf, page is rotated 90 degrees>] [
-200 <./AN-14-049/figs/bayesian_expected_hadronic_semileptonic_right_2Dlimit_plo
+198 <./AN-14-049/figs/bayesian_expected_hadronic_semileptonic_right_2Dlimit_plo
 t.pdf, page is rotated 90 degrees> <./AN-14-049/figs/bayesian_expected_hadronic
 _semileptonic_left_2Dlimit_plot.pdf, page is rotated 90 degrees> <./AN-14-049/f
 igs/bayesian_expected_hadronic_semileptonic_vector_2Dlimit_plot.pdf, page is ro
-tated 90 degrees>] [201 <./AN-14-049/figs/nuisancerightbs1200.pdf, page is rota
+tated 90 degrees>] [199 <./AN-14-049/figs/nuisancerightbs1200.pdf, page is rota
 ted 90 degrees> <./AN-14-049/figs/nuisancerightbs1400.pdf, page is rotated 90 d
 egrees> <./AN-14-049/figs/nuisancerightbs1600.pdf, page is rotated 90 degrees>]
- [202
+ [200
 
-] [203] [204])
+] [201] [202])
+\openout2 = `Summary.aux'.
+
+ (./Summary.tex
+Chapter 19.
+[203
+
+
+
+
+
+] [204]) [205]
 \openout2 = `Appendix.aux'.
 
  (./Appendix.tex
-Chapter 19.
-<AN-13-004/figs/bpercentr32700.pdf, id=8603, 569.12625pt x 387.4475pt>
+Chapter 20.
+<AN-13-004/figs/bpercentr32700.pdf, id=8607, 569.12625pt x 387.4475pt>
 File: AN-13-004/figs/bpercentr32700.pdf Graphic file (type pdf)
 
 <use AN-13-004/figs/bpercentr32700.pdf>
@@ -3052,7 +3055,7 @@ Package pdftex.def Info: AN-13-004/figs/bpercentr32700.pdf used on input line 2
 8.
 (pdftex.def)             Requested size: 433.62pt x 295.21397pt.
 
-<AN-13-004/figs/beffCAptr32700.pdf, id=8604, 569.12625pt x 387.4475pt>
+<AN-13-004/figs/beffCAptr32700.pdf, id=8608, 569.12625pt x 387.4475pt>
 File: AN-13-004/figs/beffCAptr32700.pdf Graphic file (type pdf)
 
 <use AN-13-004/figs/beffCAptr32700.pdf>
@@ -3064,20 +3067,19 @@ Overfull \hbox (10.4297pt too wide) in paragraph at lines 67--67
 []\OT1/cmr/bx/n/17.28 Signal Re-gion and Side-band Kine-matic Com-
  []
 
-[205
+[206
 
 
 
-
-] [206 <./AN-13-004/figs/bpercentr32700.pdf, page is rotated 90 degrees>]
-<AN-13-004/figs/SBtoSR.pdf, id=8655, 502.87875pt x 739.76375pt>
+] [207 <./AN-13-004/figs/bpercentr32700.pdf, page is rotated 90 degrees>]
+<AN-13-004/figs/SBtoSR.pdf, id=8658, 502.87875pt x 739.76375pt>
 File: AN-13-004/figs/SBtoSR.pdf Graphic file (type pdf)
 
 <use AN-13-004/figs/SBtoSR.pdf>
 Package pdftex.def Info: AN-13-004/figs/SBtoSR.pdf used on input line 77.
 (pdftex.def)             Requested size: 346.89731pt x 510.30208pt.
 
-<AN-13-004/figs/CutCompqcdandsignalGencoupling.pdf, id=8656, 569.12625pt x 555.
+<AN-13-004/figs/CutCompqcdandsignalGencoupling.pdf, id=8659, 569.12625pt x 555.
 07375pt>
 File: AN-13-004/figs/CutCompqcdandsignalGencoupling.pdf Graphic file (type pdf)
 
@@ -3085,12 +3087,12 @@ File: AN-13-004/figs/CutCompqcdandsignalGencoupling.pdf Graphic file (type pdf)
 Package pdftex.def Info: AN-13-004/figs/CutCompqcdandsignalGencoupling.pdf used
  on input line 91.
 (pdftex.def)             Requested size: 433.62pt x 422.93607pt.
- [207 <./AN-13-004/figs/beffCAptr32700.pdf, page is rotated 90 degrees>] [208 <
-./AN-13-004/figs/SBtoSR.pdf>] [209 <./AN-13-004/figs/CutCompqcdandsignalGencoup
-ling.pdf, page is rotated 90 degrees>] [210
+ [208 <./AN-13-004/figs/beffCAptr32700.pdf, page is rotated 90 degrees>] [209 <
+./AN-13-004/figs/SBtoSR.pdf>] [210 <./AN-13-004/figs/CutCompqcdandsignalGencoup
+ling.pdf, page is rotated 90 degrees>] [211
 
-] [211]
-<AN-13-004/figs/Mtb2dminus1dBE.pdf, id=8804, 569.12625pt x 385.44pt>
+] [212]
+<AN-13-004/figs/Mtb2dminus1dBE.pdf, id=8807, 569.12625pt x 385.44pt>
 File: AN-13-004/figs/Mtb2dminus1dBE.pdf Graphic file (type pdf)
 
 <use AN-13-004/figs/Mtb2dminus1dBE.pdf>
@@ -3098,7 +3100,7 @@ Package pdftex.def Info: AN-13-004/figs/Mtb2dminus1dBE.pdf used on input line 2
 31.
 (pdftex.def)             Requested size: 433.62pt x 293.68437pt.
 
-<AN-13-004/figs/Mtb1dminusFS.pdf, id=8805, 569.12625pt x 385.44pt>
+<AN-13-004/figs/Mtb1dminusFS.pdf, id=8808, 569.12625pt x 385.44pt>
 File: AN-13-004/figs/Mtb1dminusFS.pdf Graphic file (type pdf)
 
 <use AN-13-004/figs/Mtb1dminusFS.pdf>
@@ -3109,14 +3111,14 @@ Package pdftex.def Info: AN-13-004/figs/Mtb1dminusFS.pdf used on input line 232
 
 LaTeX Warning: Float too large for page by 61.26869pt on input line 239.
 
-<AN-13-004/figs/legend.pdf, id=8806, 511.9125pt x 739.76375pt>
+<AN-13-004/figs/legend.pdf, id=8809, 511.9125pt x 739.76375pt>
 File: AN-13-004/figs/legend.pdf Graphic file (type pdf)
 
 <use AN-13-004/figs/legend.pdf>
 Package pdftex.def Info: AN-13-004/figs/legend.pdf used on input line 253.
 (pdftex.def)             Requested size: 195.12767pt x 281.97102pt.
 
-<AN-13-004/figs/sigvsTReta1.pdf, id=8807, 569.12625pt x 337.26pt>
+<AN-13-004/figs/sigvsTReta1.pdf, id=8810, 569.12625pt x 337.26pt>
 File: AN-13-004/figs/sigvsTReta1.pdf Graphic file (type pdf)
 
 <use AN-13-004/figs/sigvsTReta1.pdf>
@@ -3124,7 +3126,7 @@ Package pdftex.def Info: AN-13-004/figs/sigvsTReta1.pdf used on input line 260.
 
 (pdftex.def)             Requested size: 303.53267pt x 179.8791pt.
 
-<AN-13-004/figs/sigvsTReta2.pdf, id=8808, 569.12625pt x 337.26pt>
+<AN-13-004/figs/sigvsTReta2.pdf, id=8811, 569.12625pt x 337.26pt>
 File: AN-13-004/figs/sigvsTReta2.pdf Graphic file (type pdf)
 
 <use AN-13-004/figs/sigvsTReta2.pdf>
@@ -3132,7 +3134,7 @@ Package pdftex.def Info: AN-13-004/figs/sigvsTReta2.pdf used on input line 261.
 
 (pdftex.def)             Requested size: 303.53267pt x 179.8791pt.
 
-<AN-13-004/figs/sigvsTReta3.pdf, id=8809, 569.12625pt x 337.26pt>
+<AN-13-004/figs/sigvsTReta3.pdf, id=8812, 569.12625pt x 337.26pt>
 File: AN-13-004/figs/sigvsTReta3.pdf Graphic file (type pdf)
 
 <use AN-13-004/figs/sigvsTReta3.pdf>
@@ -3143,7 +3145,7 @@ Package pdftex.def Info: AN-13-004/figs/sigvsTReta3.pdf used on input line 262.
 
 LaTeX Warning: Float too large for page by 10.03726pt on input line 271.
 
-<AN-13-004/figs/sigcontsemilog.pdf, id=8810, 569.12625pt x 467.7475pt>
+<AN-13-004/figs/sigcontsemilog.pdf, id=8813, 569.12625pt x 467.7475pt>
 File: AN-13-004/figs/sigcontsemilog.pdf Graphic file (type pdf)
 
 <use AN-13-004/figs/sigcontsemilog.pdf>
@@ -3151,7 +3153,7 @@ Package pdftex.def Info: AN-13-004/figs/sigcontsemilog.pdf used on input line 2
 75.
 (pdftex.def)             Requested size: 433.62pt x 356.39821pt.
 
-<AN-13-004/figs/NewMtbSB2semilogwithsignal.pdf, id=8811, 569.12625pt x 385.44pt
+<AN-13-004/figs/NewMtbSB2semilogwithsignal.pdf, id=8814, 569.12625pt x 385.44pt
 >
 File: AN-13-004/figs/NewMtbSB2semilogwithsignal.pdf Graphic file (type pdf)
  <use AN-13-004/figs/NewMtbSB2semilogwithsignal.pdf>
@@ -3159,7 +3161,7 @@ Package pdftex.def Info: AN-13-004/figs/NewMtbSB2semilogwithsignal.pdf used on
 input line 282.
 (pdftex.def)             Requested size: 433.62pt x 293.68437pt.
 
-<AN-13-004/figs/NewMtbSB3semilogwithsignal.pdf, id=8812, 569.12625pt x 385.44pt
+<AN-13-004/figs/NewMtbSB3semilogwithsignal.pdf, id=8815, 569.12625pt x 385.44pt
 >
 File: AN-13-004/figs/NewMtbSB3semilogwithsignal.pdf Graphic file (type pdf)
  <use AN-13-004/figs/NewMtbSB3semilogwithsignal.pdf>
@@ -3167,7 +3169,7 @@ Package pdftex.def Info: AN-13-004/figs/NewMtbSB3semilogwithsignal.pdf used on
 input line 289.
 (pdftex.def)             Requested size: 433.62pt x 293.68437pt.
 
-<AN-13-004/figs/SignalmixedvsLplusR1300.pdf, id=8813, 569.12625pt x 385.44pt>
+<AN-13-004/figs/SignalmixedvsLplusR1300.pdf, id=8816, 569.12625pt x 385.44pt>
 File: AN-13-004/figs/SignalmixedvsLplusR1300.pdf Graphic file (type pdf)
 
 <use AN-13-004/figs/SignalmixedvsLplusR1300.pdf>
@@ -3175,7 +3177,7 @@ Package pdftex.def Info: AN-13-004/figs/SignalmixedvsLplusR1300.pdf used on inp
 ut line 300.
 (pdftex.def)             Requested size: 303.53267pt x 205.57611pt.
 
-<AN-13-004/figs/SignalmixedvsLplusR1700.pdf, id=8814, 569.12625pt x 385.44pt>
+<AN-13-004/figs/SignalmixedvsLplusR1700.pdf, id=8817, 569.12625pt x 385.44pt>
 File: AN-13-004/figs/SignalmixedvsLplusR1700.pdf Graphic file (type pdf)
 
 <use AN-13-004/figs/SignalmixedvsLplusR1700.pdf>
@@ -3183,7 +3185,7 @@ Package pdftex.def Info: AN-13-004/figs/SignalmixedvsLplusR1700.pdf used on inp
 ut line 301.
 (pdftex.def)             Requested size: 303.53267pt x 205.57611pt.
 
-<AN-13-004/figs/SignalmixedvsLplusR2100.pdf, id=8815, 569.12625pt x 385.44pt>
+<AN-13-004/figs/SignalmixedvsLplusR2100.pdf, id=8818, 569.12625pt x 385.44pt>
 File: AN-13-004/figs/SignalmixedvsLplusR2100.pdf Graphic file (type pdf)
 
 <use AN-13-004/figs/SignalmixedvsLplusR2100.pdf>
@@ -3194,7 +3196,7 @@ ut line 302.
 
 LaTeX Warning: Float too large for page by 101.62828pt on input line 308.
 
-[212] <AN-14-049/figs/qcdtrcomp.pdf, id=8819, 569.12625pt x 385.44pt>
+[213] <AN-14-049/figs/qcdtrcomp.pdf, id=8822, 569.12625pt x 385.44pt>
 File: AN-14-049/figs/qcdtrcomp.pdf Graphic file (type pdf)
 
 <use AN-14-049/figs/qcdtrcomp.pdf>
@@ -3205,18 +3207,18 @@ Overfull \hbox (17.34077pt too wide) in paragraph at lines 522--523
  [][] 
  []
 
-[213] [214 <./AN-13-004/figs/Mtb2dminus1dBE.pdf, page is rotated 90 degrees> <.
-/AN-13-004/figs/Mtb1dminusFS.pdf, page is rotated 90 degrees>] [215 <./AN-13-00
-4/figs/legend.pdf>] [216 <./AN-13-004/figs/sigvsTReta1.pdf, page is rotated 90 
+[214] [215 <./AN-13-004/figs/Mtb2dminus1dBE.pdf, page is rotated 90 degrees> <.
+/AN-13-004/figs/Mtb1dminusFS.pdf, page is rotated 90 degrees>] [216 <./AN-13-00
+4/figs/legend.pdf>] [217 <./AN-13-004/figs/sigvsTReta1.pdf, page is rotated 90 
 degrees> <./AN-13-004/figs/sigvsTReta2.pdf, page is rotated 90 degrees> <./AN-1
-3-004/figs/sigvsTReta3.pdf, page is rotated 90 degrees>] [217 <./AN-13-004/figs
-/sigcontsemilog.pdf, page is rotated 90 degrees>] [218 <./AN-13-004/figs/NewMtb
-SB2semilogwithsignal.pdf, page is rotated 90 degrees>] [219 <./AN-13-004/figs/N
-ewMtbSB3semilogwithsignal.pdf, page is rotated 90 degrees>] [220 <./AN-13-004/f
+3-004/figs/sigvsTReta3.pdf, page is rotated 90 degrees>] [218 <./AN-13-004/figs
+/sigcontsemilog.pdf, page is rotated 90 degrees>] [219 <./AN-13-004/figs/NewMtb
+SB2semilogwithsignal.pdf, page is rotated 90 degrees>] [220 <./AN-13-004/figs/N
+ewMtbSB3semilogwithsignal.pdf, page is rotated 90 degrees>] [221 <./AN-13-004/f
 igs/SignalmixedvsLplusR1300.pdf, page is rotated 90 degrees> <./AN-13-004/figs/
 SignalmixedvsLplusR1700.pdf, page is rotated 90 degrees> <./AN-13-004/figs/Sign
-almixedvsLplusR2100.pdf, page is rotated 90 degrees>] [221 <./AN-14-049/figs/qc
-dtrcomp.pdf, page is rotated 90 degrees>] [222] [223] [224] [225]
+almixedvsLplusR2100.pdf, page is rotated 90 degrees>] [222 <./AN-14-049/figs/qc
+dtrcomp.pdf, page is rotated 90 degrees>] [223] [224] [225] [226]
 Overfull \hbox (0.99176pt too wide) in paragraph at lines 701--703
  [][] 
  []
@@ -3226,20 +3228,20 @@ Overfull \hbox (4.40584pt too wide) in paragraph at lines 818--820
  [][] 
  []
 
-) [226] [227] [228] [229] (./KnashThesis.bbl [230
+) [227] [228] [229] [230] (./KnashThesis.bbl [231
 
 
 
-] [231]
+] [232]
 Missing character: There is no Ã in font cmr12!
 Missing character: There is no Ž in font cmr12!
 Missing character: There is no Â in font cmr12!
 Missing character: There is no ± in font cmr12!
- [232] [233]
+ [233] [234]
 Missing character: There is no â in font cmr12!
 Missing character: There is no ˆ in font cmr12!
 Missing character: There is no š in font cmr12!
-) [234]
+) [235]
 (./KnashThesis.aux (./Introduction.aux) (./ExperimentalSetup.aux)
 (./AN-13-004/introduction8TeV.aux) (./AN-13-004/AnalysisStrategy8TeV.aux)
 (./AN-13-004/DataSampleandEventSelection8TeV.aux)
@@ -3249,19 +3251,16 @@ Missing character: There is no š in font cmr12!
 (./AN-14-049/AnalysisStrategy.aux) (./AN-14-049/DataSampleandEventSelection.aux
 ) (./AN-14-049/BackgroundEstimation.aux) (./AN-14-049/DataResults.aux)
 (./AN-14-049/Systematics.aux) (./AN-14-049/Limits.aux)
-(./AN-14-049/combination.aux) (./Appendix.aux))
-
-LaTeX Warning: There were undefined references.
-
+(./AN-14-049/combination.aux) (./Summary.aux) (./Appendix.aux))
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 5642 strings out of 493304
- 110871 string characters out of 6139871
- 196302 words of memory out of 5000000
- 8635 multiletter control sequences out of 15000+600000
+ 5648 strings out of 493304
+ 110931 string characters out of 6139871
+ 196616 words of memory out of 5000000
+ 8634 multiletter control sequences out of 15000+600000
  25051 words of font info for 99 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
  38i,16n,45p,1298b,539s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -3284,10 +3283,10 @@ st/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/font
 s/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texlive/texmf-dist/fonts/type
 1/public/amsfonts/cm/cmtt12.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
 ic/amsfonts/symbols/msam10.pfb>
-Output written on KnashThesis.pdf (234 pages, 5689721 bytes).
+Output written on KnashThesis.pdf (235 pages, 5693130 bytes).
 PDF statistics:
- 9524 PDF objects out of 10688 (max. 8388607)
- 4107 compressed objects within 42 object streams
+ 9528 PDF objects out of 10688 (max. 8388607)
+ 4110 compressed objects within 42 object streams
  0 named destinations out of 1000 (max. 500000)
  1091 words of extra memory for PDF output out of 10000 (max. 10000000)
 
