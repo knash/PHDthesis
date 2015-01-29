@@ -36,11 +36,10 @@ The cross section of some SM processes are shown in Figure \ref{figs:SMxsecs}.
 Luminosity is a measure of the intensity of the colliding beams and is the number of collisions expected per unit time per unit area.  
 To look for BSM physics, we need to collect an ensemble of useful collisions (events), and thus higher luminosity leads to a larger ensemble and higher statistical precision.  
 Additionally, collecting data over time leads to a larger ensemble, so the time-integrated luminosity is a more useful variable to describe the total amount of data collected, 
-which is reported in $\fbinv$.  Given in relevant collider properties, the luminosity can be defined as: 
+which is reported in $\fbinv$.  Given in relevant collider properties, the luminosity can be defined as~\cite{Bayatian:922757}: 
 \begin{eqnarray}
 \mathrm{L = \frac{\gamma f k_{B} N_{p}^{2}}{4 \pi \epsilon \beta^{*}} F}
 \end{eqnarray}  
-
 where $\gamma$ is the Lorentz factor,  f is the frequency of revolution, $k_{B}$ is the number of bunches in the beam, $N_{p}$ is the number of protons per bunch, 
 $\epsilon$ is the transverse emittance, $\beta^{*}$ is the betatron function, and F is a reduction factor based on the crossing angle.  
 
@@ -61,15 +60,15 @@ These protons beams are then collided at a center-of-mass energy ($\sqrt{s}$) of
 The life of a proton at the LHC starts out as hydrogen gas within the injector of LINAC 2 linear accelerator.  
 The atoms are ionized using an electric field, stripping the electron.  
 The resulting proton is accelerated using an oscillating electric field.  
-The protons are accelerated in a straight line to an energy of 50$\MeV$, or 31\%the speed of light.  
+The protons are accelerated in a straight line to an energy of 50~$\MeV$, or 31\% the speed of light.  
 
-At this energy, linear acceleration is not practical, and the protons enter the Proton Synchrotron Booster (PSB).  
-The PSB is composed of four 157 m circumference superimposed synchrotrons that accelerate the protons using electric fields that are synchronized to the revolution frequency of the beams.  
+At this energy, linear acceleration is not practical, and the protons enter the Proton Synchrotron Booster (PSB).  The PSB is composed of four 157 m 
+circumference superimposed synchrotrons that accelerate the protons using electric fields that are synchronized to the revolution frequency of the beams.  
 The protons are kept on the circular accelerator with a magnetic field directed into the plane formed by the accelerator ring, which increases in strength as the protons gain energy.  
-After the acceleration from the booster, the protons are at en energy of 1.4$\GeV$, or 92\%the speed of light.
+After the acceleration from the booster, the protons are at en energy of 1.4~$\GeV$, or 92\% the speed of light.
 
-After the PSB, the protons enter the Proton Synchrotron (PS), a 628 m circumference synchrotron, which accelerates the protons to 25$\GeV$, or 99.93\%the speed of light.  
-After the PS, the protons enter the Super Proton Synchrotron (SPS), a 7 km circumference synchrotron, which accelerates the protons to 450$\GeV$, or 99.9998\%the speed of light.
+After the PSB, the protons enter the Proton Synchrotron (PS), a 628 m circumference synchrotron, which accelerates the protons to 25~$\GeV$, or 99.93\% the speed of light.  
+After the PS, the protons enter the Super Proton Synchrotron (SPS), a 7 km circumference synchrotron, which accelerates the protons to 450~$\GeV$, or 99.9998\% the speed of light.
 
 Finally, the beams enter the LHC.  This is the final synchrotron ring, with a circumference of 27 km.  
 After the SPS, the protons are inserted into the LHC in one of two evacuated tunnels depending on which direction around the ring the beam is to travel.  
@@ -78,7 +77,7 @@ The LHC uses 1232 dipole magnets to keep the protons in the ring as they acceler
 In order to deliver such a field, the magnets use superconducting niobium-titanium cables.  
 These cables are cooled by superfluid helium to -271.3 C in order to achieve this superconductivity.  
 During each revolution the energy of each proton in the LHC ring increases by 5 MeV.  
-After being fully accelerated in the LHC, the protons are at an energy of 4$\TeV$, or 99.999997\%the speed of light.
+After being fully accelerated in the LHC, the protons are at an energy of 4~$\TeV$, or 99.999997 \%the speed of light.
 
 The proton beams are then directed together for collisions in four positions around the ring.  
 Each beam in the LHC ring contains 2808 bunches of protons, and each bunch contains 110 billion protons. 
@@ -93,12 +92,12 @@ CMS and ATLAS are large general purpose detectors.
 These detectors are used for many different types of physics searches, and are the two detectors responsible for the Higgs boson discovery.  
 For the purposes of this thesis we will be concentrating on the CMS detector
   
-These accelerator segments and detectors can be shown in Figure~\ref{figs:lhc}.
+These accelerator segments and detectors are shown in Figure~\ref{figs:lhc}.
 
 \begin{figure}
 \begin{center}
 \includegraphics[width=1.0\linewidth]{figs/lhc.png}
-\caption{A diagram of the LHC.}
+\caption{A diagram of the LHC~\cite{lhcbrochure}.}
 \label{figs:lhc}
 \end{center}
 \end{figure}
@@ -109,11 +108,9 @@ Here we will detail the basics of the CMS detector subsystems, for a more comple
 The purpose of the CMS detector is to measure properties of particles that are created in a collision such as the energy and trajectory. 
 The detector needs to supply enough information so that particles can be reconstructed and classified.  
 Generally, we can reconstruct most physics signatures by analyzing electrons, muons, photon, charged hadrons, and neutral hadrons. 
-The CMS detector has dedicated algorithms and systems that are specifically designed to identify each of these categories.  
+The CMS detector has dedicated algorithms and systems that are specifically designed to identify each of these categories.  In order to reconstruct these particles, we impose a uniform axial magnetic field throughout the inner detector with the use of a superconducting magnet. 
 
-In order to reconstruct these particles, we impose a uniform axial magnetic field throughout the inner detector with the use of a superconducting magnet. 
-
-The trajectory of charged particles is important to extract information such as charge and momentum.  
+The trajectory of charged particles is important for extracting information such as charge and momentum.  
 The process of reconstructing the trajectory of these  particles is called tracking.  
 Near the interaction point tracks are very dense, and tracking becomes very difficult.  
 In this region we use a fine array of silicon pixels that register a charge particles position based on charge deposited in the device.  
@@ -121,7 +118,7 @@ Additional measurements are made by a second series of silicon detectors called 
 Using a series of these position measurements, we can fit a charged particle track.  
 
 Energy can be measured by the use of calorimeter systems.  
-A calorimeter is a detector designed such that a particle will deposit all of its energy within the detector in the form of photons, 
+A calorimeter is a detector designed such that a particle will deposit all of its energy within its volume in the form of photons, 
 which can be detected to extract a measure of the total energy. 
 These systems are subdivided into the Electromagnetic Calorimeter (ECAL) and Hadronic Calorimeter (HCAL).  
 The ECAL uses scintillation crystals to detect particles that interact primarily with the electromagnetic force such as electrons and photons.  
@@ -130,7 +127,7 @@ create a shower of secondary particles, and then measure the total energy of the
 
 The detection of muons requires a specially designed system that lies outside of the ECAL, HCAL, and magnet.  
 Muons pass through the ECAL and HCAL without losing a substantial fraction of their energy.  
-To reconstruct the trajectory of muons, we use several different tracking systems both inside and outside the magnet.
+To reconstruct the trajectory of muons, we use several different systems both inside and outside the magnet.
 
 See Figure~\ref{figs:CMSdiagram1} for a diagram of the full detector, and Figure~\ref{figs:CMSdiagram} for a cross-sectional view of the detector subsystems.
 
@@ -161,10 +158,10 @@ The electrons and their corresponding hole are detected on the pixel surface as 
 This signal allows us to extract a position measurement for the charged particle.  
 
 The entire system exists in a magnetic field, so the trajectory of the electrons and holes are deflected in the r,$\phi$ plane before detection.  
-The angle of this Lorentz drift is 23$\textdegree$, which causes the electron-hole pairs to be detected over a wide region covering multiple pixels.  
+The angle of this Lorentz drift is 23$\textdegrees$, which causes the electron-hole pairs to be detected over a wide region covering multiple pixels.  
 This effect improves the spacial resolution to 10 $\mum$ in r-$\phi$ space due to the fact that the charge center can be reconstructed by more measurements, 
 whereas the z resolution is 20 $\mum$ due to the fact that there is no magnetic deflection in this direction. 
-The pixel detectors in the endcap disks are angled at 20$\textdegree$ in a turbine-like design to take advantage of this effect.  
+The pixel detectors in the endcap disks are angled at 20$\textdegrees$ in a turbine-like design to take advantage of this effect.  
 
 Figure \ref{figs:CMSpixel} shows a diagram of the full pixel detector.    
 

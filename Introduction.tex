@@ -20,7 +20,8 @@ The three lepton generations are defined by the electron, muon, tau and their co
 The +2/3e charge quarks are the up, charm, and top; whereas the -1/3e charge quarks are the down, strange, and bottom.  
 These quarks and leptons are summarized in Table~\ref{table:SMferm} along with their charge and mass.
     
-Quarks and leptons define all known fermionic matter, with bosonic particles being responsible for particle interactions.
+Quarks and leptons define all known fermionic matter, with gauge boson particles being responsible for particle interactions.  
+The final particle, the Higgs boson, is responsible for the mechanism by which particles aquire mass.  
     
 
 \begin{table}[h]
@@ -42,7 +43,7 @@ t & +2/3 & 173.2 $\times \mathrm{10^3}$\\
 \hline
 \end{tabular}
 \end{center}
-\caption{List of SM fermions with their charge and mass.  These particles all have spin 1/2.}
+\caption{List of SM fermions with their charge and mass.  These particles all have spin 1/2~\cite{PDG-2014}.}
 \label{table:SMferm}
 \end{table}
 
@@ -54,16 +55,15 @@ The intrinsic properties of these force carrying particles are responsible for t
 
 
 The electromagnetic force is responsible for well known phenomena such as molecular bonds.  
-This force is mediated be the photon, a massless, charge-less, spin 1 particle.  
-The photon interacts with charged particles only.        
+This force is mediated be the photon, a massless, chargeless, spin 1 particle, which photon interacts with charged particles only.        
 The fact that the photon is massless leads to the infinite range of the electromagnetic force.  
 
 
 The weak nuclear force manifests itself in nuclear decay, and is described by three force carrying bosons; the $\mathrm{W^+}$,$\mathrm{W^-}$, and Z.  
 These bosons are massive, which leads to the weak force being short range.  
-The $W^{\pm}$ bosons have integer charge whereas the Z boson is charge-less, and all three have spin 1.  
+The $\mathrm{W^{\pm}}$ bosons have a charge of $\pm$e   whereas the Z boson is chargeless, and all three have spin 1.  
 The weak force is responsible for transitions between flavors\footnote{The six quark types} of quarks (see Section~\ref{sec:weaktheory}).
-Quarks and leptons alike interact by the weak force.
+Quarks and leptons both interact by the weak force.
 
 
 The strong nuclear force is responsible for binding quarks together to form hadrons.  
@@ -73,11 +73,11 @@ This force is mediated by gluons, which are massless and interact with quarks.
 The strong force is the strongest and shortest range of the known forces.  
 The theory behind the strong force is described in more detail in Section~\ref{sec:qcdtheory}
 
-The known force carrying bosons and their properties are listed in table \ref{table:SMbos}
-
 The fourth known force, gravity, is both the most recognizable and least understood of the forces.  
 All attempts at including gravity into the SM have failed, but hypothetically gravity should be mediated by the spin 2 graviton, which interacts with massive particles..
 Gravity is by far the weakest of the fundamental forces. 
+
+The force carrying bosons and their properties are listed in table \ref{table:SMbos}
 
 
 \begin{table}
@@ -94,19 +94,19 @@ gr & 0 & 2 & $<$ 6 $\times$ $\mathrm{10^{-38}}$ \\
 \hline
 \end{tabular}
 \end{center}
-\caption{List of SM force carrying bosons with their charge, mass and spin.  The graviton has not yet been observed.}
+\caption{List of SM force carrying bosons with their charge, mass and spin.  The graviton has not yet been observed~\cite{PDG-2014}.}
 \label{table:SMbos}
 \end{table}
 
 
 \section{Feynman Diagrams}
 Calculations in theoretical particle physics are facilitated by the use of feynman diagrams.  
-Feynman diagrams are pictorial representations.  
+Feynman diagrams are pictorial representations that aid in the calculation of physical observables.  
 These diagrams include the particles that interact (external lines), as well as the particles that mediate the interaction (internal lines), 
-and where these external and internal lines intersect (vertices).
+and where these external and internal lines intersect (vertices).  
 An example diagram is shown in Figure~\ref{figs:emuScattering}.  
-The electrons interact with a photon ($\gamma$), and a force is observed.
-This diagram represents electromagnetic repulsion (coulomb force).  
+In this diagram, an electron and a positron\footnote{Shown as an electron with an inverted line direction} interact with a photon ($\gamma$), and a force is observed.
+This diagram represents Bhabha scattering (responsible for electromagnetic attraction).  
 
 \begin{figure}
 \begin{center}
@@ -118,9 +118,9 @@ This diagram represents electromagnetic repulsion (coulomb force).
 \fmf{fermion}{sp2,v2,i2}
 \fmf{photon,label=$\gamma$}{v1,v2}
 \fmflabel{$e^-$}{i1}
-\fmflabel{$e^+$}{i2}
+\fmflabel{$e^-$}{i2}
 \fmflabel{$e^-$}{sp1}
-\fmflabel{$e^+$}{sp2}
+\fmflabel{$e^-$}{sp2}
 \end{fmfgraph*}
 \end{fmffile}
 \end{center}
@@ -132,50 +132,19 @@ the electromagnetic interaction.}
 
 The rules governing the calculation of physical observables from these diagrams are defined by the theory of Quantum Electrodynamics (QED).
 Using these diagrams, the rules of QED let us calculate the matrix element ($\cal{M}$).  
+
 $\cal{M}$ can by related to physical quantities through the square modulus ($|\cal{M}|^{\mathrm{2}}$), which is the probability density for a process to occur.   
 From this, relevant quantities such as the cross section (see Section~\ref{sec:LumiXsec}) of the process can be calculated.  
 
 Additionally, in the case that a particle decays we can evaluate the decay width ($\Gamma$).  
 When a particle of mass M decays, there is a range of observed values of mass following a Breit-Wigner distribution centered at M.
-The decay width represents the width of this distribution at half the maximum.  The average lifetime of the particle is 1/$\Gamma$.
+The decay width represents the width of this distribution at half the maximum.  The average lifetime of the particle is 1/$\Gamma$.  
 
 For a given process there can be multiple contributing diagrams, for instance for a calculation involving the Coulomb attraction shown in Figure~\ref{figs:emuScattering}, 
 one must also consider the 
-diagrams shown in Figure~\ref{figs:emuScattering2}, which have the same incoming and outgoing particles.  
+diagram shown in Figure~\ref{figs:emuScattering2}, which has the same incoming and outgoing particles.  
 Diagrams such as this interfere with each other constructively or destructively in the calculation of the matrix element, 
-which can increase or decrease the cross section of the full process.
-
-\begin{figure}
-\begin{center}
-\unitlength=1mm
-\begin{fmffile}{feynman/emuScattering1}
-\begin{fmfgraph*}(40,30) \fmfpen{thick}
-\fmfleft{i1,i2} 
-\fmfright{sp1,sp2}
-\fmf{fermion}{v1,i1}
-\fmf{phantom}{v1,sp1}
-\fmf{fermion,tension=0}{v2,sp1}
-
-\fmf{phantom}{v2,sp2}
-\fmf{fermion,tension=0}{sp2,v1}
-
-\fmf{photon,label=$\gamma$}{v1,v2}
-
-\fmf{fermion}{i2,v2}
-
-\fmflabel{$e^-$}{i1}
-\fmflabel{$e^+$}{i2}
-\fmflabel{$e^+$}{sp1}
-\fmflabel{$e^-$}{sp2}
-
-\end{fmfgraph*}
-\end{fmffile}
-\end{center}
-%\caption{Feynman diagram depicting electron-positron scattering via
-%the electromagnetic interaction in the u channel.}
-%\label{figs:emuScattering1}
-\end{figure}
-
+which can increase or decrease the cross section of the full process.  
 
 \begin{figure}
 \begin{center}
@@ -198,14 +167,14 @@ which can increase or decrease the cross section of the full process.
 
 \end{center}
 \caption{Feynman diagram depicting electron-positron scattering via
-the electromagnetic interaction in the u channel (top) and s channel (bottom).}
+the electromagnetic interaction in the s channel.}
 \label{figs:emuScattering2}
 \end{figure}
 
 
 Vertices in a Feynman diagram are points where energy and momentum are conserved in the calculation.  
 Each of the vertices contributes a factor of the coupling constant $\alpha$ to the matrix element computation.  
-In the calculation of the full matrix element for the electron positron attraction shown in Figures~\ref{figs:emuScattering} and~\ref{figs:emuScattering2}, 
+In the calculation of the full matrix element for the electron positron scattering shown in Figures~\ref{figs:emuScattering} and~\ref{figs:emuScattering2}, 
 we must consider diagrams with higher vertex multiplicity such as those seen in Figure~\ref{figs:emuScatteringnlo2}.  
 To approximate $\cal{M}$ in QED, we can perform an expansion in the vertex multiplicity n, summing over matrix elements within the same order i ($\cal{M}_{\mathrm{i}}^{\mathrm{n}}$). 
  .  
@@ -305,7 +274,7 @@ Although quarks can not be observed alone, there are ways of precisely determini
 \begin{figure}
 \begin{center}
 \includegraphics[width=1.0\linewidth]{figs/alphasrunning.png}
-\caption{The QCD coupling constant $\alpha_{\mathrm{S}}$ as a function of the energy scale Q.}
+\caption{The QCD coupling constant $\alpha_{\mathrm{S}}$ as a function of the energy scale Q~\cite{PDG-2014}.}
 \label{figs:alphasrunning}
 \end{center}
 \end{figure}
@@ -317,23 +286,55 @@ As the separation of these quarks increases, the energy of the QCD field between
 If this separation is high enough, the energy between the quarks will reach a threshold where quark pair production is energetically favorable.  
 At this threshold, the constituent quarks are then joined by these pair produced quarks.  
 Additional quark pairs can be created many times, and the initial quark is detected as many hadrons that are collimated into a stream of particles called a jet.  
-This process is called hadronization, 
+This process is called hadronization.  
 
 The $\alpha_s$ parameter is low at short distances (or equivalently high energy); 
-just like in QED, the impact of higher order diagrams is low.  
-This allows the calculation of QCD diagrams using a finite perturbative expansion, and allows us to only consider only free quarks in high energy QCD calculations. 
-The characteristic interaction energy where free quarks can be considered is around 400$\MeV$, which is much lower than energy scales 
-considered in this thesis, so we will only be referring to free quark interactions.  
+just like in QED, the impact of higher order diagrams is small.  
+In this regime, QCD calculations using a finite expansion is possible which allows us to only consider free quarks. 
+The characteristic interaction energy where free quarks can be considered is above the constant $\Lambda$, which is in the range of 100~$\MeV$ to 500~$\MeV$.
+This is much lower than energy scales considered in this thesis, so we will only be referring to free quark interactions \cite{Griffiths}.  
+
+
+\section{Parton Distribution Functions}
+\label{sec:pdftheory}
+Hadrons are composite objects made up of two or three ``valence'' quarks, but also contain quark-antiquark pairs (``sea quarks'') and gluons (see Figure~\ref{figs:partons}).  
+These sea quarks and gluons are very important to consider when analyzing hadrons.  
+Take for instance the quark masses listed in Table~\ref{table:SMferm}.  
+Summing the valence quark mass for a proton, we would assume a proton would have a mass of 9.4$~\MeV$, but the proton has a measured mass of 938.3$~\MeV$.  
+
+Therefore, the energy of a proton is shared among the partons, and for calculations it is useful to define parton distribution functions (PDFs). 
+PDFs define the probability of a parton to carry a fraction x of the hadron.  
+Figure~\ref{figs:pdfs} shows parton distribution functions for the proton at two characteristic energy scales.  
+
+
+\begin{figure}
+\begin{center}
+\includegraphics[width=0.4\linewidth]{figs/partons.jpg}
+\caption{An illustration of a proton emphasizing the sea quark contribution~\cite{fnal}.}
+\label{figs:partons}
+\end{center}
+\end{figure}
+%fnal.gov
+
+\begin{figure}
+\begin{center}
+\includegraphics[width=.8\linewidth]{figs/pdfs.png}
+\caption{Parton distrubution functions for the proton.  The left plot is evaluated at an energy scale of $\mathrm{\mu^{2}~=~10~\GeV^{2}}$, and the 
+right plot at $\mathrm{\mu^{2}~=~10^{4}~\GeV^{2}}$~\cite{PDG-2014}.   }
+\label{figs:pdfs}
+\end{center}
+\end{figure}
+%pdg
 
 
 \section{The Weak Force}
 \label{sec:weaktheory}
-The weak force is felt by quarks and leptons alike.  
+The weak force is felt by both quarks and leptons.  
 It is weaker than both the electromagnetic and the strong force, which leads to longer decay times for weakly decaying particles.  
 The weak force is responsible for changing of quark flavor in an interaction.  
-A vertex involving a change is quark flavor contributes a factor of $V_{ij}$ to the matrix element, where $V_{ij}$ is an element of the Cabibbo Kobayashi Maskawa (CKM) matrix 
+A vertex involving a change is quark flavor contributes a factor of $\mathrm{V_{ij}}$ to the matrix element, where $\mathrm{V_{ij}}$ is an element of the Cabibbo Kobayashi Maskawa (CKM) matrix 
 (shown in Figure\ref{figs:CKM}).  
-For example, the calculation of the diagram in Figure~\ref{figs:betaDecay} (beta decay) includes a factor of $V_{ud}$ = 0.97427.  
+For example, the calculation of the diagram in Figure~\ref{figs:betaDecay} (beta decay) includes a factor of $\mathrm{V_{ud}}$ = 0.97427.  
 The CKM matrix is roughly diagonal, which means that a process which changes quark generation is rare.  
 
 \begin{figure}
@@ -371,7 +372,7 @@ The W boson only interacts with left-handed fermions whereas the Z boson interac
 \begin{figure}
 \begin{center}
 \includegraphics[width=1.0\linewidth]{figs/CKM.png}
-\caption{The CKM quark mixing matrix.}
+\caption{The CKM quark mixing matrix~\cite{PDG-2014}.}
 \label{figs:CKM}
 \end{center}
 \end{figure}
@@ -410,7 +411,7 @@ M_{W}^2 = \frac{g^{2}v^{2}}{4}\\
 M_{Z}^2 = \frac{(g^{'2}+g^{2})v^{2}}{4}
 \end{eqnarray}  
 
-One new particle is predicted, a massive chargeless spin 0 particle called the Higgs boson.  
+One new particle is predicted, a massive, chargeless, spin 0 boson called the Higgs.  
 A particle consistent with the Higgs boson has been discovered in 2012 at the LHC.  
 %https://cds.cern.ch/record/1638469/plots
 
@@ -422,7 +423,7 @@ We know that there are physical phenomena that the SM does not predict.
 The presence of dark matter and dark energy in the universe~\cite{Bennett:2003ba} is not currently explained by the SM.  
 Given that dark matter and energy account for approximately 95\% of the universe, this is not a small issue.  
 The SM does not explain the observation of neutrino oscillations~\cite{An:2012eh}, which implies that neutrinos have mass.  
-The SM also does not naturally explain the relative values of fundamental constants such as why the weak force is $10^{33}$ times as strong as gravity.  
+The SM also does not naturally explain the relative values of fundamental constants such as why the weak force is $10^{29}$ times as strong as gravity.  
 This issue is known as the hierarchy problem, and it is assumed that a complete theory would have a natural explanation for the seemingly random values of these constants.  
 
 It is essential for a complete understanding of the universe that we probe beyond the standard model (BSM) theories that provide solutions to these issues.  
@@ -431,9 +432,7 @@ In these theories forces propegate in higher dimensions that are compactified.
 In this theory, the propagation of SM massive fields in higher dimensions leads to discrete modes, which are detectable as new massive particles.  
 The propagation of the SM W or Z leads to excited modes that are referred to as the $\wpr$ and $\zpr$.
 A novel way to look for BSM physics then is to attempt the creation and detection of massive states such as these bosons. 
-In this thesis we discuss one such search for a W' boson.  
-
-The W' boson is a particle predicted by many BSM theories such as Little Higgs~\cite{doi:10.1146/annurev.nucl.55.090704.151502}, 
+In this thesis we discuss one such search for a W' boson, which is additionally predicted by many BSM theories such as Little Higgs~\cite{doi:10.1146/annurev.nucl.55.090704.151502}, 
 Composite Higgs models~\cite{Vecchi:2013bja}, and Noncommuting Extended Technicolor~\cite{Chivukula:1995gu}.  
 
 

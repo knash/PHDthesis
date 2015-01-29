@@ -101,13 +101,13 @@ Bstar\_fullHad\_left\_M-2000\_TuneZ2star\_8TeV-madgraph & 0.00156 \\
 \section{Trigger Selection}
 \label{sec:bstrigger}
 Similar to the $\wpr$ search, we use the \texttt{HLT\_HT750} trigger. 
-The trigger efficiency is measured in data and Monte Carlo by investigating the looser \texttt{HLT\_HT550} trigger.  The selection used for this measurement includes a 
+The trigger efficiency is measured in data and MC by investigating the looser \texttt{HLT\_HT550} trigger.  The selection used for this measurement includes a 
 loose kinematic selection in which we require two jets with $\pt > 300$ $\GeV$.
 The denominator is defined as passing this selection and the \texttt{HLT\_HT550} trigger, whereas the 
 numerator is required to pass the selection and both the \texttt{HLT\_HT550} and \texttt{HLT\_HT750} trigger.  
 The efficiency is shown in Figure \ref{figs:bsTrigger_Comparison_Ht} and is parameterized as a function of summed leading and sub-leading jet $\pt$.  The extracted trigger efficiency is used to weight 
-the Monte Carlo samples used in the analysis to account for the loss in efficiency in the turn-on.  We do not observe perfect agreement in data and Monte Carlo, 
-so we use the trigger efficiency derived from data to weight our Monte Carlo samples, and therefore use a conservative uncertainty on the efficiency measurement (see section \ref{sec:bssystematics}).  
+the MC samples used in the analysis to account for the loss in efficiency in the turn-on.  We do not observe perfect agreement in data and MC, 
+so we use the trigger efficiency derived from data to weight our MC samples, and therefore use a conservative uncertainty on the efficiency measurement (see section \ref{sec:bssystematics}).  
 The red dashed line in figure \ref{figs:bsTrigger_Comparison_Ht} indicates the minimum for the analysis, 
 at which point the trigger is nearly fully efficient.
 
@@ -124,14 +124,14 @@ at which point the trigger is nearly fully efficient.
 %The $\bs$ quark of interest is very massive, and produces highly boosted top quarks.  The decay products of these top quarks become more collimated as the boost 
 %increases.  When the top decays hadronically, we observe one merged jet over the two distinct jets that would be detected at a lower boost.  This jet has a 
 %large characteristic radius and a distinct substructure.  This high energy jet merging is investigated in Figure \ref{figs:bstopmerge}.  Here, the `top candidate' 
-%is just the leading jet in the event.  It is also required to be hemispherically separated from a Monte Carlo truth b jet.  This jet is generally a merged W %boson at low $\pt$ and a merged top at high $\pt$.
+%is just the leading jet in the event.  It is also required to be hemispherically separated from a MC truth b jet.  This jet is generally a merged W %boson at low $\pt$ and a merged top at high $\pt$.
 %The `W candidate' (used for the bottom plots) is assembled from the pair of generator level non-b quarks that are close to the W mass (within 2.0$\GeV$).  
 %The central feature of this analysis is using this jet merging to discriminate signal from background.
 
 %\begin{figure}[htcb]
 %\centering
 %\includegraphics[width=0.9\textwidth]{AN-14-049/figs/topmerge.pdf}
-%\caption{Investigation of top merging within Monte Carlo samples of interest.  $\ttbar$ (left) $\wpr_R$ Monte Carlo at 1300$\GeV$ (middle) $\wpr_R$ Monte Carlo %at 1900$\GeV$ (right).  The red lines on the top and middle plots indicate the top candidate mass cut in the full selection (see Section \ref{sec:bstoptagging}). % The red line on the bottom plots indicate the characteristic jet radius used to investigate fully merged top jets (see Section \ref{sec:bsreconstruction}).}
+%\caption{Investigation of top merging within MC samples of interest.  $\ttbar$ (left) $\wpr_R$ MC at 1300$\GeV$ (middle) $\wpr_R$ MC %at 1900$\GeV$ (right).  The red lines on the top and middle plots indicate the top candidate mass cut in the full selection (see Section \ref{sec:bstoptagging}). % The red line on the bottom plots indicate the characteristic jet radius used to investigate fully merged top jets (see Section \ref{sec:bsreconstruction}).}
 %\label{figs:bstopmerge}
 %\end{figure}
 
@@ -175,8 +175,8 @@ $\bs$ mass exclusion point is lower, and this cut is highly energy dependent.
 
 %\section{$\ttbar$ $\pt$ Re-weighting}
 %\label{sec:bsttptrw}
-%In order to correct for known differences in the top $\pt$ spectrum between data and $\ttbar$ Monte Carlo, we re-weight Monte Carlo using the Generator level $\pt%$ of the top and anti-top with the recommended prescription.  
-%With $p_{T_{t}}$ and $p_{T_{\overline{t}}}$ being the generator $\pt$ of the top and anti-top respectively, the scale factor applied to each event in the $\ttbar%$ Monte Carlo expectation is:%
+%In order to correct for known differences in the top $\pt$ spectrum between data and $\ttbar$ MC, we re-weight MC using the Generator level $\pt%$ of the top and anti-top with the recommended prescription.  
+%With $p_{T_{t}}$ and $p_{T_{\overline{t}}}$ being the generator $\pt$ of the top and anti-top respectively, the scale factor applied to each event in the $\ttbar%$ MC expectation is:%
 %\begin{eqnarray}
 %SF =\sqrt{e^{0.156-.00137p_{T_{t}}} \times e^{0.156-.00137p_{T_{\overline{t}}}}}
 %\end{eqnarray}
@@ -185,12 +185,12 @@ $\bs$ mass exclusion point is lower, and this cut is highly energy dependent.
 
 \section{Pileup Correction}
 \label{sec:bspileup}
-We re-weight our Monte Carlo samples to account for differences due to pileup using the recommended procedure (see Section~\ref{sec:pileup}).  
+We re-weight our MC samples to account for differences due to pileup using the recommended procedure (see Section~\ref{sec:pileup}).  
 Figure \ref{figs:bsnpvweight} shows the distribution of reconstructed primary vertices in data, $\ttbar$,
-and signal Monte Carlo before and after the re-weighting has been applied. The pileup correction has very little effect on the eventual $\mathrm{M_{tW}}$ 
+and signal MC before and after the re-weighting has been applied. The pileup correction has very little effect on the eventual $\mathrm{M_{tW}}$ 
 full selection, as 
-seen in Figure \ref{figs:bspileup3}, for $\bs_R$ signal Monte Carlo at the 1300$~\GeV$ mass point. Similarly, there is little effect 
-$\ttbar$ Monte Carlo as can be seen in Figure \ref{figs:bspileup3ttbar}.  
+seen in Figure \ref{figs:bspileup3}, for $\bs_R$ signal MC at the 1300$~\GeV$ mass point. Similarly, there is little effect 
+$\ttbar$ MC as can be seen in Figure \ref{figs:bspileup3ttbar}.  
 A study has been conducted to investigate the effect of the suggested systematic uncertainty of 5\% on the minbias cross-section as can be seen in Section \ref{sec:bssystematics}.  
 
 
@@ -206,14 +206,14 @@ A study has been conducted to investigate the effect of the suggested systematic
 \begin{figure}[htcb]
 \centering
 \includegraphics[width=0.9\textwidth]{AN-14-049/figs/Signal_M1300_PileupComp.pdf}
-\caption{Effect of pileup re-weighting on the right-handed $\bs$ Signal Monte Carlo.}
+\caption{Effect of pileup re-weighting on the right-handed $\bs$ Signal MC.}
 \label{figs:bspileup3}
 \end{figure}
 
 \begin{figure}[htcb]
 \centering
 \includegraphics[width=0.9\textwidth]{AN-14-049/figs/TTbar_PileupComp.pdf}
-\caption{Effect of pileup re-weighting on the $\ttbar$ Monte Carlo.}
+\caption{Effect of pileup re-weighting on the $\ttbar$ MC.}
 \label{figs:bspileup3ttbar}
 \end{figure}
 
@@ -223,15 +223,15 @@ A study has been conducted to investigate the effect of the suggested systematic
 \label{sec:bstoptagging}
 \label{sec:bssubjetSF}
 The CMS top tagging algorithm is described in detail in Section~\ref{sec:toptagging}.
-Figure \ref{figs:bsNsubCOMP} shows $\tau_3/\tau_2$ comparison using signal and QCD Monte Carlo samples.  We use the standard operating point of $\tau_3/\tau_2 < 0.55$ in the full selection.
-Figure \ref{figs:bsBtagCOMP} shows the maximum subjet CSV b discriminant comparison using signal and QCD Monte Carlo samples.  We use the standard CSV working point $SJ_{CSVMAX} > 0.679$.
+Figure \ref{figs:bsNsubCOMP} shows $\tau_3/\tau_2$ comparison using signal and QCD MC samples.  We use the standard operating point of $\tau_3/\tau_2 < 0.55$ in the full selection.
+Figure \ref{figs:bsBtagCOMP} shows the maximum subjet CSV b discriminant comparison using signal and QCD MC samples.  We use the standard CSV working point $SJ_{CSVMAX} > 0.679$.
 
 \begin{figure}[htcb]
 \begin{center}
 \includegraphics[width=0.7\textwidth]{AN-14-049/figs/tau32rightCompqcdandsignal.pdf}\\
 \includegraphics[width=0.7\textwidth]{AN-14-049/figs/tau32rightSNRqcdandsignal.pdf}
 \caption{
-$\tau_3/\tau_2$ distributions in Signal and QCD Monte Carlo samples (top).  The selection here includes the full signal region with the exception of subjet b-tagging in order to preserve QCD Monte Carlo statistics.  Plot of Signal/$\sqrt{\text{Background}}$ (bottom), derived from the top plot.
+$\tau_3/\tau_2$ distributions in Signal and QCD MC samples (top).  The selection here includes the full signal region with the exception of subjet b-tagging in order to preserve QCD MC statistics.  Plot of Signal/$\sqrt{\text{Background}}$ (bottom), derived from the top plot.
 }
 \label{figs:bsNsubCOMP}
 \end{center}
@@ -245,7 +245,7 @@ $\tau_3/\tau_2$ distributions in Signal and QCD Monte Carlo samples (top).  The 
 \includegraphics[width=0.7\textwidth]{AN-14-049/figs/TopBDiscsjmaxCSVrightCompqcdandsignal.pdf}\\
 \includegraphics[width=0.7\textwidth]{AN-14-049/figs/TopBDiscsjmaxCSVrightSNRqcdandsignal.pdf}
 \caption{
-Maximum subjet CSV distributions in Signal and QCD Monte Carlo samples (top).  Plot of Signal/$\sqrt{\text{Background}}$ (bottom), derived from the top plot. 
+Maximum subjet CSV distributions in Signal and QCD MC samples (top).  Plot of Signal/$\sqrt{\text{Background}}$ (bottom), derived from the top plot. 
 }
 \label{figs:bsBtagCOMP}
 \end{center}
@@ -273,8 +273,8 @@ The full selection for the reconstruction of the $\bs$ invariant mass then inclu
 \item $|\Delta \phi| > \pi/2$ between the two jets
 \end{itemize}
 After this selection, the b* invariant mass is reconstructed using the top-W candidate mass ($\mathrm{M_{tW}}$).
-The cutflow for this selection in data, $\ttbar$ Monte Carlo, and $\bs$ signal Monte Carlo can be found in Table \ref{table:bsCutflow}.
-Figure \ref{figs:bsGCFS} shows this full selection in signal Monte Carlo for various $\bs$ masses.  
+The cutflow for this selection in data, $\ttbar$ MC, and $\bs$ signal MC can be found in Table \ref{table:bsCutflow}.
+Figure \ref{figs:bsGCFS} shows this full selection in signal MC for various $\bs$ masses.  
 
 
 

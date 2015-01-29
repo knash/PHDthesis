@@ -2,8 +2,8 @@
 \newpage
 \chapter{Background Estimation}
 \label{sec:bsbackgroundEstimation}
-The primary sources of Standard Model background for this analysis are QCD multijet and $\ttbar$ production. 
-The shape of the $\ttbar$ contribution to the background is taken from Monte Carlo, and the normalization is derived from data by using a $\ttbar$ rich control region.  The QCD multijet 
+The primary sources of SM background for this analysis are QCD multijet and $\ttbar$ production. 
+The shape of the $\ttbar$ contribution to the background is taken from MC, and the normalization is derived from data by using a $\ttbar$ rich control region.  The QCD multijet 
 background contribution is derived from data by inverting the W candidate mass requirement for W-tagging.
 
 \section{QCD Background Estimation}
@@ -90,17 +90,17 @@ The application of the top-mistagging rate on the pre top-tagged sample provides
 However, there is a known shape based discrepancy in the modeling of the top-candidate jet mass (see \cite{7tevZprime}). 
 Before the number of subjets and minimum pairwise mass requirements, the QCD top candidate mass spectrum is a rapidly falling function, whereas after 
 this selection the QCD top candidate mass spectrum is nearly flat.  To investigate this discrepancy, we take the top candidate mass 
-spectrum from QCD Monte Carlo before and after the number of subjets, minimum pairwise mass, and N-subjettiness requirements.  
+spectrum from QCD MC before and after the number of subjets, minimum pairwise mass, and N-subjettiness requirements.  
 The ratio of these normalized templates gives an approximate correction for this effect (see Figure \ref{figs:bsmodmass}).  The uncertainty for this procedure is taken as half the correction.  
 The correction and uncertainty are both interpolated to roughly correct for binning.  This correction can be seen for data in Figure \ref{figs:bsdatatmass}
 
-The effect of this correction on the $M_{tW}$ and top candidate $\pt$ templates can be seen in figure \ref{figs:bsmodmasseffect}.
+The effect of this correction on the $\mathrm{M_{tW}}$ and top candidate $\pt$ templates can be seen in figure \ref{figs:bsmodmasseffect}.
 
 \begin{figure}[Htcb]
 \centering
 \subfigure{\label{figs:bsqcdtmass}\includegraphics[width=.7\textwidth]{AN-14-049/figs/QCDtmasscomp.pdf}}\\
 \subfigure{\label{figs:bsmodmassplot}\includegraphics[width=.7\textwidth]{AN-14-049/figs/ModmassPlot.pdf}}
-\caption{A plot of the top candidate mass spectrum in QCD Monte Carlo before and after top-tagging (top).  The correction used for this 
+\caption{A plot of the top candidate mass spectrum in QCD MC before and after top-tagging (top).  The correction used for this 
 discrepancy (bottom) created by dividing the templates in the top plot.  The uncertainty used for this correction is shown as the blue dashed line.}
 \label{figs:bsmodmass}
 \end{figure}
@@ -116,7 +116,7 @@ discrepancy (bottom) created by dividing the templates in the top plot.  The unc
 \centering
 \subfigure{\label{figs:bsqcdtmass}\includegraphics[width=.6\textwidth]{AN-14-049/figs/Mmeffecttpt.pdf}}\\
 \subfigure{\label{figs:bsmodmassplot}\includegraphics[width=.6\textwidth]{AN-14-049/figs/MmeffectMtw.pdf}}
-\caption{A plot of the QCD background estimate before and after the top mass correction.  the top plots show the effect on top $\pt$, and the bottom plot shows the effect on $M_{tW}$.}
+\caption{A plot of the QCD background estimate before and after the top mass correction.  the top plots show the effect on top $\pt$, and the bottom plot shows the effect on $\mathrm{M_{tW}}$.}
 \label{figs:bsmodmasseffect}
 \end{figure}
 
@@ -143,7 +143,7 @@ down the $\ttbar$ normalization.
 \centering
 \subfigure{\label{figs:bsNewMtbSB21}\includegraphics[width=0.7\textwidth]{AN-14-049/figs/MtwvsBkgwsbBifPoly_fit.pdf}}\\
 \subfigure{\label{figs:bsNewMtbSB22}\includegraphics[width=0.7\textwidth]{AN-14-049/figs/MtwvsBkgwsbsemilogBifPoly_fit.pdf}}
-\caption{A plot of $M_{tW}$ in the W-tagging sideband selection.  The top and bottom plots are the same but with linear and log y-axis scale.}
+\caption{A plot of $\mathrm{M_{tW}}$ in the W-tagging sideband selection.  The top and bottom plots are the same but with linear and log y-axis scale.}
 \label{figs:bsNewMtbSB2}
 \end{figure}
 
@@ -156,8 +156,8 @@ we investigate the following control region:
 \item {\bf N-subjettiness} $\mathrm{\boldmath \tau_2/\tau_1 \geq 0.5}$ 
 \end{itemize}
 This selection has an amplified $\ttbar$ fraction and is statistically independent from all other sidebands in the analysis.    
-We extract the $\ttbar$ normalization by comparing the QCD background (extracted using the same top-mistagging rate as the signal region) and $\ttbar$ Monte Carlo to the selection in data.
-%Here, the $\ttbar$ template is scaled to theory cross section using Monte Carlo to data scale factors used in the signal region except the W-tagging scale factor which is replaced by the W-mistagging scale factor described in section \ref{sec:bsCRSF}.  
+We extract the $\ttbar$ normalization by comparing the QCD background (extracted using the same top-mistagging rate as the signal region) and $\ttbar$ MC to the selection in data.
+%Here, the $\ttbar$ template is scaled to theory cross section using MC to data scale factors used in the signal region except the W-tagging scale factor which is replaced by the W-mistagging scale factor described in section \ref{sec:bsCRSF}.  
 The fit allows the QCD background template to move only within its errors, whereas the normalization on $\ttbar$ is unconstrained. 
 We use the top candidate mass spectrum for fitting, which minimizes the correlation between the 
 QCD and $\ttbar$ templates within the fit due to the top mass peak. This fit can be seen in Figure \ref{figs:bsttbarfit}.  For this maximum likelihood fit we use the Theta package.

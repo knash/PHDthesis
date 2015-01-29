@@ -21,6 +21,21 @@
 \providecommand{\BIBdecl}{\relax}
 \BIBdecl
 
+\bibitem{PDG-2014}
+K.~Olive \emph{et~al.}, ``Review of particle physics,'' \emph{Chin.Phys.}, vol.
+  C38, p. 090001, 2014.
+
+\bibitem{Griffiths}
+\BIBentryALTinterwordspacing
+D.~Griffiths, \emph{Introduction to Elementary Particles}, ser. Physics
+  textbook.\hskip 1em plus 0.5em minus 0.4em\relax Wiley, 2008. [Online].
+  Available: \url{http://books.google.com/books?id=w9Dz56myXm8C}
+\BIBentrySTDinterwordspacing
+
+\bibitem{fnal}
+``Fermilab today,''
+  http://www.fnal.gov/pub/today/archive/archive$\_$2009/today09-11-12.html.
+
 \bibitem{Bennett:2003ba}
 C.~L. Bennett \emph{et~al.}, ``The microwave anisotropy probe (map) mission,''
   \emph{Astrophys. J.}, vol. 583, p.~1, 2003.
@@ -52,6 +67,10 @@ S.~Chatrchyan \emph{et~al.}, \emph{{CMS Physics: Technical Design Report Volume
   1: Detector Performance and Software}}, ser. Technical Design Report
   CMS.\hskip 1em plus 0.5em minus 0.4em\relax Geneva: CERN, 2006, there is an
   error on cover due to a technical problem for some items.
+
+\bibitem{lhcbrochure}
+``Lhc the guide,''
+  http://cds.cern.ch/record/1092437/files/CERN-Brochure-2008-001-Eng.pdf.
 
 \bibitem{PhysRevLett.100.211803}
 \BIBentryALTinterwordspacing
@@ -184,16 +203,27 @@ G.~Aad \emph{et~al.}, ``{Search for single $b^*$-quark production with the
   171--189, 2013.
 
 \bibitem{CMS-AN-14-049}
+\BIBentryALTinterwordspacing
 P.~M. Kevin~Nash, ``{Search for single b*-quark production in the all hadronic
-  final state}.''
+  final state},'' \emph{CMS Analysis Note}, vol. AN2014/049, 2014. [Online].
+  Available:
+  \url{cms.cern.ch/iCMS/jsp/openfile.jsp?tp=draft\&files=AN2014_049_v3.pdf}
+\BIBentrySTDinterwordspacing
 
 \bibitem{CMS-AN-14-103}
+\BIBentryALTinterwordspacing
 G.~C. X. M. S. S.~H. Zhang and S.~Zhu, ``{Search for singly produced b*
   decaying to Wt in the lepton+jets channel with the CMS detector at √s = 8
-  TeV}.''
+  TeV},'' \emph{CMS Analysis Note}, vol. AN2014/103, 2014. [Online]. Available:
+  \url{cms.cern.ch/iCMS/jsp/openfile.jsp?tp=draft\&files=AN2014_103_v3.pdf}
+\BIBentrySTDinterwordspacing
 
 \bibitem{CMS-AN-13-415}
+\BIBentryALTinterwordspacing
 H.~Z. Rachel~Bartek, Freya~Blekman, ``{Search for single b*-quark production in
-  the dilepton final state}.''
+  the dilepton final state},'' \emph{CMS Analysis Note}, vol. AN2013/415, 2013.
+  [Online]. Available:
+  \url{cms.cern.ch/iCMS/jsp/openfile.jsp?tp=draft\&files=AN2013_415_v3.pdf}
+\BIBentrySTDinterwordspacing
 
 \end{thebibliography}

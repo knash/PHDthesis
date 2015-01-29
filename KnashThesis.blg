@@ -28,58 +28,43 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: KnashThesis.bib
-I was expecting a `{' or a `('---line 103 of file KnashThesis.bib
+I was expecting a `{' or a `('---line 125 of file KnashThesis.bib
  : 
  : @article{ATLAS:2012pu,
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 123 of file KnashThesis.bib
+I was expecting a `,' or a `}'---line 145 of file KnashThesis.bib
  :       volume         = "
  :                         72",
 I'm skipping whatever remains of this entry
-Repeated entry---line 317 of file KnashThesis.bib
+Repeated entry---line 339 of file KnashThesis.bib
  : @article{Chatrchyan:2014koa
  :                            ,
 I'm skipping whatever remains of this entry
-You're missing a field name---line 557 of file KnashThesis.bib
+You're missing a field name---line 579 of file KnashThesis.bib
  :    
  :    %  url = "http://cms.cern.ch/iCMS/jsp/openfile.jsp?type=DP\&year=2012\&files=DP2012_012.pdf"
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-Repeated entry---line 754 of file KnashThesis.bib
+Repeated entry---line 776 of file KnashThesis.bib
  : @techreport{CMS-PAS-EXO-12-025
  :                               ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 774 of file KnashThesis.bib
+Repeated entry---line 796 of file KnashThesis.bib
  : @article{Abazov2011145
  :                       ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 792 of file KnashThesis.bib
+Repeated entry---line 814 of file KnashThesis.bib
  : @article{PhysRevLett.100.211803
  :                                ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 808 of file KnashThesis.bib
+Repeated entry---line 830 of file KnashThesis.bib
  : @article{PhysRevLett.109.081801
  :                                ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 831 of file KnashThesis.bib
+Repeated entry---line 853 of file KnashThesis.bib
  : @techreport{7tevZprime
  :                       ,
-I'm skipping whatever remains of this entry
-You're missing a field name---line 876 of file KnashThesis.bib
- :      
- :      % URL         = "cms.cern.ch/iCMS/jsp/openfile.jsp?tp=draft\&files=AN2014_049_v3.pdf",
-(Error may have been on previous line)
-I'm skipping whatever remains of this entry
-You're missing a field name---line 885 of file KnashThesis.bib
- :     
- :     %  URL         = "cms.cern.ch/iCMS/jsp/openfile.jsp?tp=draft\&files=AN2014_103_v3.pdf",
-(Error may have been on previous line)
-I'm skipping whatever remains of this entry
-You're missing a field name---line 894 of file KnashThesis.bib
- :    
- :    %   URL         = "cms.cern.ch/iCMS/jsp/openfile.jsp?tp=draft\&files=AN2013_415_v3.pdf",
-(Error may have been on previous line)
 I'm skipping whatever remains of this entry
 -- IEEEtran.bst version 1.13 (2008/09/30) by Michael Shell.
 -- http://www.michaelshell.org/tex/ieeetran/bibtex/
@@ -103,53 +88,47 @@ Warning--empty author in CMS-PAS-BTV-13-001
 Warning--empty author in ZP8TeV
 Warning--empty journal in Bourilkov:2006cj
 Warning--empty author in CMS-PAS-LUM-13-001
-Warning--empty journal in CMS-AN-14-049
-Warning--empty year in CMS-AN-14-049
-Warning--empty journal in CMS-AN-14-103
-Warning--empty year in CMS-AN-14-103
-Warning--empty journal in CMS-AN-13-415
-Warning--empty year in CMS-AN-13-415
 
 Done.
-You've used 39 entries,
+You've used 43 entries,
             4039 wiz_defined-function locations,
-            1049 strings with 13224 characters,
-and the built_in function-call counts, 19789 in all, are:
-= -- 1742
-> -- 297
-< -- 97
-+ -- 165
-- -- 56
-* -- 909
-:= -- 3348
-add.period$ -- 77
-call.type$ -- 39
-change.case$ -- 39
+            1076 strings with 13871 characters,
+and the built_in function-call counts, 21775 in all, are:
+= -- 1942
+> -- 311
+< -- 102
++ -- 173
+- -- 59
+* -- 990
+:= -- 3729
+add.period$ -- 85
+call.type$ -- 43
+change.case$ -- 42
 chr.to.int$ -- 147
-cite$ -- 64
-duplicate$ -- 1696
-empty$ -- 1602
-format.name$ -- 76
-if$ -- 4418
+cite$ -- 62
+duplicate$ -- 1858
+empty$ -- 1781
+format.name$ -- 80
+if$ -- 4869
 int.to.chr$ -- 0
-int.to.str$ -- 39
-missing$ -- 292
-newline$ -- 146
-num.names$ -- 28
-pop$ -- 639
+int.to.str$ -- 43
+missing$ -- 321
+newline$ -- 166
+num.names$ -- 30
+pop$ -- 690
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 2
-skip$ -- 1600
+skip$ -- 1788
 stack$ -- 0
-substring$ -- 483
-swap$ -- 1193
-text.length$ -- 48
+substring$ -- 498
+swap$ -- 1308
+text.length$ -- 53
 text.prefix$ -- 0
 top$ -- 5
-type$ -- 39
-warning$ -- 25
-while$ -- 60
-width$ -- 41
-write$ -- 376
-(There were 12 error messages)
+type$ -- 43
+warning$ -- 19
+while$ -- 63
+width$ -- 45
+write$ -- 427
+(There were 9 error messages)

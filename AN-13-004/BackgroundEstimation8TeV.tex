@@ -29,7 +29,7 @@ To extract a QCD background estimate, we weight the events that pass the full se
 the average b-tagging probability (measured in the top jet sideband).  This gives us an accurate expectation of the QCD background in the signal region.
 The b-tagging rate is defined as the inverse ratio of the number of b candidate jets, 
 defined as $\pt > 370~\GeV$ jets in the hemisphere opposite the top jet to the number of b candidate jets that are b-tagged.  
-%This ratio is shown if Figure \ref{figs:partonflav} in bins of parton flavor for signal region and sideband as extracted from QCD Monte Carlo.    
+%This ratio is shown if Figure \ref{figs:partonflav} in bins of parton flavor for signal region and sideband as extracted from QCD MC.    
 
 \begin{figure}[htbp]
 \begin{center}
@@ -88,10 +88,10 @@ Figure \ref{figs:tagrateetafit} shows the three fitted average b-tagging rates p
 \section{$\ttbar$ Subtraction}
 \label{sec:ttSubtraction}
 \label{sec:bsttSubtraction}
-The $\ttbar$ contribution to background is computed from Monte Carlo that passes the full selection. To avoid double-counting, we must remove $\ttbar$ from our QCD estimate. 
-In creating the b-tagging rate, the $\ttbar$ contribution to the numerator and denominator is subtracted away using $\ttbar$ Monte Carlo. 
+The $\ttbar$ contribution to background is computed from MC that passes the full selection. To avoid double-counting, we must remove $\ttbar$ from our QCD estimate. 
+In creating the b-tagging rate, the $\ttbar$ contribution to the numerator and denominator is subtracted away using $\ttbar$ MC. 
 Additionally, we account for the $\ttbar$ contamination of the QCD background estimate by applying 
-the average b-tagging rate to $\ttbar$ Monte Carlo in the same way as data.  This is a measure of $\ttbar$ that is expected to fall 
+the average b-tagging rate to $\ttbar$ MC in the same way as data.  This is a measure of $\ttbar$ that is expected to fall 
 through the QCD background estimate and is subtracted away. 
 
 %We can similarly consider the possible effect of the single-top contribution to this tag rate. 
@@ -153,7 +153,7 @@ $\pt$ parameterized average b-tagging rate from
 \end{figure}
 
 %\section{QCD Closure}
-%As a closure test, the background estimation is performed on the QCD Monte Carlo samples listed in Table \ref{table:datasetsQCD}.  
+%As a closure test, the background estimation is performed on the QCD MC samples listed in Table \ref{table:datasetsQCD}.  
 
 %\begin{table}
 %\begin{center}
@@ -170,7 +170,7 @@ $\pt$ parameterized average b-tagging rate from
 %\hline
 %\end{tabular}
 %\end{center}
-%\caption{QCD Monte Carlo Sample.}
+%\caption{QCD MC Sample.}
 %\label{table:datasetsQCD}
 %\end{table}
 
@@ -178,9 +178,9 @@ $\pt$ parameterized average b-tagging rate from
 %Here, the tagrate was extracted with the procedure noted in Sections \ref{sec:qcdBackgroundEstimationProcedure} 
 %and \ref{sec:tagrateparameterization}, as the $\ttbar$ contribution is not present here.  The closure test was performed by using the tagrates to weigh 
 %pre b tagged jets within the relevant $|\eta|$ and $\pt$ regions with the tagrate as fitted with the bifurcated polynomial fit outlined in Section \ref{sec:tagrateparameterization}.  For this closure test, 
-%the tagrates were extracted from the sideband using only even numbered events from the Monte Carlo and applied to only the odd numbered events in the signal region.  
+%the tagrates were extracted from the sideband using only even numbered events from the MC and applied to only the odd numbered events in the signal region.  
 %The results are shown in Figure\ref{figs:QCDClosure}.    
-%The Monte Carlo here is scaled to the total number of events in our full selection in data, and the error bars represent 
+%The MC here is scaled to the total number of events in our full selection in data, and the error bars represent 
 %$\sqrt{N}$ where N is the bin content.  This procedure allows us to investigate the effect of any possible bias given the current integrated luminosity.  The QCD closure analysis performed on the full statistic QCD sample can be seen in 
 %\ref{figs:QCDClosure1}.  
 %The tagrate comparison of signal region and sideband is shown in Figure\ref{figs:tagrateetaQCD_withSR}
@@ -220,7 +220,7 @@ $\pt$ parameterized average b-tagging rate from
 %\subfigure{\label{figs:MtbvsBkgQCDEO}\includegraphics[width=1.0\textwidth]{AN-13-004/figs/MtbvsBkgQCDEO.pdf}}\\
 %\subfigure{\label{figs:MtbvsBkgsemilog_QCDEO}\includegraphics[width=1.0\textwidth]{AN-13-004/figs/MtbvsBkgsemilog_QCDEO.pdf}}
 %\caption{
-%QCD Monte Carlo background estimation closure test.  The background estimation is extracted from the tagrates shown in Figure\ref{figs:tagrateetafitQCD}.  The full selection is shown in black, 
+%QCD MC background estimation closure test.  The background estimation is extracted from the tagrates shown in Figure\ref{figs:tagrateetafitQCD}.  The full selection is shown in black, 
 %the background estimation is shown in yellow, and the errors from the background estimation are shown as a red dashed line.  Top and bottom plots are the same but on linear and log y-axis scale. }
 %\label{figs:QCDClosure}
 %\end{center}
@@ -245,7 +245,7 @@ The average b-tagging rate used for this closure test is extracted from the same
 \centering
 \subfigure{\label{figs:NewMtbSB21}\includegraphics[width=.9\textwidth]{AN-13-004/figs/NewMtbSB2.pdf}}\\
 \subfigure{\label{figs:NewMtbSB22}\includegraphics[width=.9\textwidth]{AN-13-004/figs/NewMtbSB2semilog.pdf}}
-\caption{A plot of $M_{tb}$ in the control region defined by inverting the minimum pairwise mass and N-subjettiness cuts used in the full selection.  The top and bottom plots are the same but with linear and log y-axis scale.}
+\caption{A plot of $\mathrm{M_{tb}}$ in the control region defined by inverting the minimum pairwise mass and N-subjettiness cuts used in the full selection.  The top and bottom plots are the same but with linear and log y-axis scale.}
 \label{figs:NewMtbSB2}
 \end{figure}
 
@@ -263,7 +263,7 @@ The closure test can be seen in Figure \ref{figs:NewMtbSB3}.
 \centering
 \subfigure{\label{figs:NewMtbSB31}\includegraphics[width=.9\textwidth]{AN-13-004/figs/NewMtbSB3.pdf}}\\
 \subfigure{\label{figs:NewMtbSB32}\includegraphics[width=.9\textwidth]{AN-13-004/figs/NewMtbSB3semilog.pdf}}
-\caption{A plot of $M_{tb}$ in the control region defined by inverting the subjet b tagging cut used in the full selection.  The top and bottom plots are the same but with linear and log y-axis scale.}
+\caption{A plot of $\mathrm{M_{tb}}$ in the control region defined by inverting the subjet b tagging cut used in the full selection.  The top and bottom plots are the same but with linear and log y-axis scale.}
 \label{figs:NewMtbSB3}
 \end{figure}
 
@@ -272,10 +272,10 @@ The closure test can be seen in Figure \ref{figs:NewMtbSB3}.
 In order to study the contribution from $\ttbar$ to tbe full background estimate, we turn to a sideband defined by inverting the b candidate mass requirement in the signal region.
 This selection has an amplified $\ttbar$ fraction and is statistically independent from all other sidebands in the analysis.  
 This makes the selection ideal for extracting the $\ttbar$ fraction in data.  
-In order to extract this fraction, we compare the data-driven QCD background and $\ttbar$ Monte Carlo expectation to the selection in data.  
+In order to extract this fraction, we compare the data-driven QCD background and $\ttbar$ MC expectation to the selection in data.  
 
 We perform a template fit to the invariant mass of the b 
-candidate, using scaled $\ttbar$ Monte Carlo as one template, and the QCD background prediction as the other.  The fit allows
+candidate, using scaled $\ttbar$ MC as one template, and the QCD background prediction as the other.  The fit allows
 the QCD background template to move only within its errors, whereas the normalization on $\ttbar$ is unconstrained. 
 The optimal parameterization for this fit is in a variable that has distinctly different shapes in $\ttbar$ and QCD.  
 We therefore use the b candidate mass, which minimizes the correlation between the QCD and $\ttbar$ templates within the fit. The fit can be seen in Figure \ref{figs:ttbarfit}.  For this maximum likelihood fit we use the Theta package.
