@@ -90,45 +90,45 @@ Warning--empty journal in Bourilkov:2006cj
 Warning--empty author in CMS-PAS-LUM-13-001
 
 Done.
-You've used 43 entries,
+You've used 44 entries,
             4039 wiz_defined-function locations,
-            1076 strings with 13871 characters,
-and the built_in function-call counts, 21775 in all, are:
-= -- 1942
-> -- 311
-< -- 102
-+ -- 173
-- -- 59
-* -- 990
-:= -- 3729
-add.period$ -- 85
-call.type$ -- 43
-change.case$ -- 42
-chr.to.int$ -- 147
-cite$ -- 62
-duplicate$ -- 1858
-empty$ -- 1781
-format.name$ -- 80
-if$ -- 4869
+            1083 strings with 13959 characters,
+and the built_in function-call counts, 22461 in all, are:
+= -- 2003
+> -- 320
+< -- 109
++ -- 179
+- -- 60
+* -- 1020
+:= -- 3841
+add.period$ -- 87
+call.type$ -- 44
+change.case$ -- 43
+chr.to.int$ -- 162
+cite$ -- 63
+duplicate$ -- 1909
+empty$ -- 1834
+format.name$ -- 81
+if$ -- 5028
 int.to.chr$ -- 0
-int.to.str$ -- 43
-missing$ -- 321
-newline$ -- 166
-num.names$ -- 30
-pop$ -- 690
+int.to.str$ -- 44
+missing$ -- 328
+newline$ -- 169
+num.names$ -- 31
+pop$ -- 702
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 2
-skip$ -- 1788
+skip$ -- 1844
 stack$ -- 0
-substring$ -- 498
-swap$ -- 1308
-text.length$ -- 53
+substring$ -- 534
+swap$ -- 1350
+text.length$ -- 55
 text.prefix$ -- 0
 top$ -- 5
-type$ -- 43
+type$ -- 44
 warning$ -- 19
-while$ -- 63
-width$ -- 45
-write$ -- 427
+while$ -- 67
+width$ -- 46
+write$ -- 437
 (There were 9 error messages)

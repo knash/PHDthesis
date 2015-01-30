@@ -81,15 +81,15 @@ can be seen in figure \ref{figs:signalPU}.  The effect is very small and thus no
 \label{sec:btagunc}
 The uncertainty in the b-tagging scale factor described in Section \ref{sec:btagging} is applied based on the b candidate pt.  The binning and associated errors 
 listed below are the suggested EPS13 prescription generated from measurements in both muon-jet and ttbar data representing 20$~\fbinv$ of integrated 
-luminosity.  The absolute uncertainty on $SF_b$ for a b candidate jet within the listed $\pt$ range is applied as shown in table \ref{table:btaggingerrors} 
+luminosity.  The absolute uncertainty on $\mathrm{SF_b}$ for a b candidate jet within the listed $\pt$ range is applied as shown in table \ref{table:btaggingerrors} 
 for $\pt < 800~\GeV$.  B candidate jets with $\pt > 800~\GeV$ are assigned an uncertainty equal to twice the listed value for $600~\GeV < \pt < 800~\GeV$
 
 \begin{table}
 \begin{center}
-\begin{tabular}{|l|r|} 
-\hline
-\bf{$\pt$ range } & \bf{Absolute Error on $SF_b$} \\
-\hline
+\begin{tabular}{l|c} 
+\hline\hline
+\bf{$\pt$ range } & \bf{Absolute Error on $\mathrm{SF_b}$} \\
+\hline\hline
 $320~\GeV < \pt < 400~\GeV$ & 0.0313175 \\
 $400~\GeV < \pt < 500~\GeV$ & 0.0415417 \\
 $500~\GeV < \pt < 600~\GeV$ & 0.0740446 \\
@@ -104,8 +104,8 @@ $600~\GeV < \pt < 800~\GeV$ & 0.0596716 \\
 
 %\clearpage
 
-\section{$Q^2$ Scale Uncertainty}
-We use additional $\ttbar$ samples generated with twice and half the nominal $Q^2$ 
+\section{$\mathrm{Q^2}$ Scale Uncertainty}
+We use additional $\ttbar$ samples generated with twice and half the nominal $\mathrm{Q^2}$ 
 scale used in the $\ttbar$ samples listed in table \ref{table:datasets}.  These samples vary the renormalization and factorization scales to account for 
 missing higher order corrections in our simulation.  Figure \ref{figs:q2scale} shows the shape based uncertainty due to this effect.
 
@@ -113,7 +113,7 @@ missing higher order corrections in our simulation.  Figure \ref{figs:q2scale} s
 \begin{center}
 \includegraphics[width=0.7\textwidth]{AN-13-004/figs/TTbar_Q2Scale}
 \caption{
-$Q^2$ systematic variation for $\ttbar$ MC 
+$\mathrm{Q^2}$ systematic variation for $\ttbar$ MC 
 }
 \label{figs:q2scale}
 \end{center}
@@ -200,26 +200,18 @@ the limit-setting macro.
 \begin{center}
 \bf{Rate Effects of Systematic Uncertainties}\\
 \scalebox{0.5}{
-\begin{tabular}{|c||c|c|c|c|c|c|c|c|c|c|c|}
-\hline
-\bf{Sample} & \bf{CA btag SF}  & \bf{QCD total} & \bf{b-tagging}  & \bf{JES}  & \bf{Lumi}  & \bf{$\pt$ Reweight} & \bf{JER}  & \bf{$Q^2$}  & \bf{Subjet SF}  & \bf{Trigger}  & \bf{$\ttbar$ Norm} \\
-\hline
+\begin{tabular}{c||c|c|c|c|c|c|c|c|c|c|c}
+\hline\hline
+\bf{Sample} & \bf{CA btag SF}  & \bf{QCD total} & \bf{b-tagging}  & \bf{JES}  & \bf{Lumi}  & \bf{$\pt$ Reweight} & \bf{JER}  & \bf{$\mathrm{Q^2}$}  & \bf{Subjet SF}  & \bf{Trigger}  & \bf{$\ttbar$ Norm} \\
+\hline\hline
 qcd & --- & +9.05,-8.94 & --- & --- & --- & --- & --- & --- & --- & --- & ---\\
-\hline
 ttbar & --- & --- & +4.49,-4.49 & -0.42,+0.49 & +16.49,-15.27 & --- & +21.77,-14.96 & -74.04,+77.89 & --- & +0.30,-0.30 & +19.00,-15.97\\
-\hline
 1300 & +2.00,-1.96 & --- & +6.08,-6.08 & -0.27,+0.29 & +2.06,-3.85 & +2.60,-2.53 & --- & --- & +12.50,-11.11 & +0.06,-0.06 & ---\\
-\hline
 1500 & +2.00,-1.96 & --- & +6.48,-6.48 & -0.03,+0.17 & -0.29,-0.19 & +2.60,-2.53 & --- & --- & +12.50,-11.11 & +0.02,-0.02 & ---\\
-\hline
 1700 & +2.00,-1.96 & --- & +6.94,-6.94 & -0.02,+0.12 & -1.27,+1.17 & +2.60,-2.53 & --- & --- & +12.50,-11.11 & +0.01,-0.01 & ---\\
-\hline
 1900 & +2.00,-1.96 & --- & +8.12,-8.12 & -0.08,+0.02 & -1.76,+1.78 & +2.60,-2.53 & --- & --- & +12.50,-11.11 & +0.01,-0.01 & ---\\
-\hline
 2100 & +2.00,-1.96 & --- & +9.39,-9.39 & +0.06,-0.05 & -1.81,+1.61 & +2.60,-2.53 & --- & --- & +12.50,-11.11 & +0.01,-0.01 & ---\\
-\hline
 2300 & +2.00,-1.96 & --- & +10.01,-10.01 & +0.02,+0.09 & -1.76,+1.24 & +2.60,-2.53 & --- & --- & +12.50,-11.11 & +0.02,-0.02 & ---\\
-\hline
 2700 & +2.00,-1.96 & --- & +9.49,-9.49 & -0.25,+0.08 & -0.33,+0.47 & +2.60,-2.53 & --- & --- & +12.50,-11.11 & +0.04,-0.04 & ---\\
 \hline
 \end{tabular}
