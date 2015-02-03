@@ -25,16 +25,33 @@
 K.~Olive \emph{et~al.}, ``Review of particle physics,'' \emph{Chin.Phys.}, vol.
   C38, p. 090001, 2014.
 
+\bibitem{Czakon:2013goa}
+M.~Czakon, P.~Fiedler, and A.~Mitov, ``{Total Top-Quark Pair-Production Cross
+  Section at Hadron Colliders Through $O(Î±\frac{4}{S})$},''
+  \emph{Phys.Rev.Lett.}, vol. 110, no.~25, p. 252004, 2013.
+
+\bibitem{Kidonakis:2012db}
+N.~Kidonakis, ``{Differential and total cross sections for top pair and single
+  top production},'' pp. 831--834, 2012.
+
+\bibitem{Ocariz:1701936}
+J.~Ocariz, ``{Probability and Statistics for Particle Physicists},'' no.
+  arXiv:1405.3402, p. 28 p, May 2014.
+
+\bibitem{fnal}
+``Fermilab today,''
+  http://www.fnal.gov/pub/today/archive/archive$\_$2009/today09-11-12.html.
+
+\bibitem{lhcbrochure}
+``Lhc the guide,''
+  http://cds.cern.ch/record/1092437/files/CERN-Brochure-2008-001-Eng.pdf.
+
 \bibitem{Griffiths}
 \BIBentryALTinterwordspacing
 D.~Griffiths, \emph{Introduction to Elementary Particles}, ser. Physics
   textbook.\hskip 1em plus 0.5em minus 0.4em\relax Wiley, 2008. [Online].
   Available: \url{http://books.google.com/books?id=w9Dz56myXm8C}
 \BIBentrySTDinterwordspacing
-
-\bibitem{fnal}
-``Fermilab today,''
-  http://www.fnal.gov/pub/today/archive/archive$\_$2009/today09-11-12.html.
 
 \bibitem{Bennett:2003ba}
 C.~L. Bennett \emph{et~al.}, ``The microwave anisotropy probe (map) mission,''
@@ -67,10 +84,6 @@ S.~Chatrchyan \emph{et~al.}, \emph{{CMS Physics: Technical Design Report Volume
   1: Detector Performance and Software}}, ser. Technical Design Report
   CMS.\hskip 1em plus 0.5em minus 0.4em\relax Geneva: CERN, 2006, there is an
   error on cover due to a technical problem for some items.
-
-\bibitem{lhcbrochure}
-``Lhc the guide,''
-  http://cds.cern.ch/record/1092437/files/CERN-Brochure-2008-001-Eng.pdf.
 
 \bibitem{PhysRevLett.100.211803}
 \BIBentryALTinterwordspacing
@@ -116,15 +129,6 @@ T.~Muller, J.~Ott, and J.~Wagner-Kuhr, ``theta - a framework for template-based
 \bibitem{Oleari:2010nx}
 C.~Oleari, ``{The POWHEG-BOX},'' \emph{Nucl.Phys.Proc.Suppl.}, vol. 205-206,
   pp. 36--41, 2010.
-
-\bibitem{Czakon:2013goa}
-M.~Czakon, P.~Fiedler, and A.~Mitov, ``{Total Top-Quark Pair-Production Cross
-  Section at Hadron Colliders Through $O(Î±\frac{4}{S})$},''
-  \emph{Phys.Rev.Lett.}, vol. 110, no.~25, p. 252004, 2013.
-
-\bibitem{Kidonakis:2012db}
-N.~Kidonakis, ``{Differential and total cross sections for top pair and single
-  top production},'' pp. 831--834, 2012.
 
 \bibitem{CompHEP}
 E.~Boos \emph{et~al.}, ``{CompHEP 4.4: Automatic computations from Lagrangians

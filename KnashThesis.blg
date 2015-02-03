@@ -1,6 +1,7 @@
 This is BibTeX, Version 0.99d (TeX Live 2013/Debian)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: KnashThesis.aux
+A level-1 auxiliary file: Preface.aux
 A level-1 auxiliary file: Introduction.aux
 A level-1 auxiliary file: ExperimentalSetup.aux
 A level-1 auxiliary file: AN-13-004/introduction8TeV.aux
@@ -28,54 +29,55 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: KnashThesis.bib
-I was expecting a `{' or a `('---line 125 of file KnashThesis.bib
+I was expecting a `{' or a `('---line 133 of file KnashThesis.bib
  : 
  : @article{ATLAS:2012pu,
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 145 of file KnashThesis.bib
+I was expecting a `,' or a `}'---line 153 of file KnashThesis.bib
  :       volume         = "
  :                         72",
 I'm skipping whatever remains of this entry
-Repeated entry---line 339 of file KnashThesis.bib
+Repeated entry---line 347 of file KnashThesis.bib
  : @article{Chatrchyan:2014koa
  :                            ,
 I'm skipping whatever remains of this entry
-You're missing a field name---line 579 of file KnashThesis.bib
+You're missing a field name---line 587 of file KnashThesis.bib
  :    
  :    %  url = "http://cms.cern.ch/iCMS/jsp/openfile.jsp?type=DP\&year=2012\&files=DP2012_012.pdf"
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-Repeated entry---line 776 of file KnashThesis.bib
+Repeated entry---line 784 of file KnashThesis.bib
  : @techreport{CMS-PAS-EXO-12-025
  :                               ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 796 of file KnashThesis.bib
+Repeated entry---line 804 of file KnashThesis.bib
  : @article{Abazov2011145
  :                       ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 814 of file KnashThesis.bib
+Repeated entry---line 822 of file KnashThesis.bib
  : @article{PhysRevLett.100.211803
  :                                ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 830 of file KnashThesis.bib
+Repeated entry---line 838 of file KnashThesis.bib
  : @article{PhysRevLett.109.081801
  :                                ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 853 of file KnashThesis.bib
+Repeated entry---line 861 of file KnashThesis.bib
  : @techreport{7tevZprime
  :                       ,
 I'm skipping whatever remains of this entry
 -- IEEEtran.bst version 1.13 (2008/09/30) by Michael Shell.
 -- http://www.michaelshell.org/tex/ieeetran/bibtex/
 -- See the "IEEEtran_bst_HOWTO.pdf" manual for usage information.
+Warning--empty journal in Kidonakis:2012db
+Warning--empty journal in Ocariz:1701936
 Warning--empty journal in Vecchi:2013bja
 Warning--empty author in CMS-PAS-B2G-12-010
 Warning--empty author in CMS-PAS-EXO-12-060
 Warning--empty author in CMS-PAS-EXO-12-025
 Warning--empty author in 7tevZprime
 Warning--missing institution in theta
-Warning--empty journal in Kidonakis:2012db
 Warning--empty author in CMS-DP-2013-033
 Warning--empty journal in CMS-DP-2013-033
 Warning--empty journal in CAaachen
@@ -90,45 +92,45 @@ Warning--empty journal in Bourilkov:2006cj
 Warning--empty author in CMS-PAS-LUM-13-001
 
 Done.
-You've used 44 entries,
+You've used 45 entries,
             4039 wiz_defined-function locations,
-            1083 strings with 13959 characters,
-and the built_in function-call counts, 22461 in all, are:
-= -- 2003
-> -- 320
-< -- 109
-+ -- 179
-- -- 60
-* -- 1020
-:= -- 3841
-add.period$ -- 87
-call.type$ -- 44
-change.case$ -- 43
+            1090 strings with 14078 characters,
+and the built_in function-call counts, 22952 in all, are:
+= -- 2050
+> -- 324
+< -- 111
++ -- 181
+- -- 61
+* -- 1040
+:= -- 3925
+add.period$ -- 89
+call.type$ -- 45
+change.case$ -- 44
 chr.to.int$ -- 162
-cite$ -- 63
-duplicate$ -- 1909
-empty$ -- 1834
-format.name$ -- 81
-if$ -- 5028
+cite$ -- 65
+duplicate$ -- 1955
+empty$ -- 1873
+format.name$ -- 82
+if$ -- 5140
 int.to.chr$ -- 0
-int.to.str$ -- 44
-missing$ -- 328
-newline$ -- 169
-num.names$ -- 31
-pop$ -- 702
+int.to.str$ -- 45
+missing$ -- 335
+newline$ -- 172
+num.names$ -- 32
+pop$ -- 716
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 2
-skip$ -- 1844
+skip$ -- 1886
 stack$ -- 0
-substring$ -- 534
-swap$ -- 1350
-text.length$ -- 55
+substring$ -- 543
+swap$ -- 1384
+text.length$ -- 57
 text.prefix$ -- 0
 top$ -- 5
-type$ -- 44
-warning$ -- 19
-while$ -- 67
-width$ -- 46
-write$ -- 437
+type$ -- 45
+warning$ -- 20
+while$ -- 69
+width$ -- 47
+write$ -- 446
 (There were 9 error messages)

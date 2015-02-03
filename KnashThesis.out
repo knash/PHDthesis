@@ -1,97 +1,103 @@
-\BOOKMARK [0][-]{chapter.1}{Introduction}{}% 1
-\BOOKMARK [1][-]{section.1.1}{Fundamental Particles}{chapter.1}% 2
-\BOOKMARK [1][-]{section.1.2}{Fundamental Interactions}{chapter.1}% 3
-\BOOKMARK [1][-]{section.1.3}{Feynman Diagrams}{chapter.1}% 4
-\BOOKMARK [1][-]{section.1.4}{Quantum Chromodynamics}{chapter.1}% 5
-\BOOKMARK [1][-]{section.1.5}{Parton Distribution Functions}{chapter.1}% 6
-\BOOKMARK [1][-]{section.1.6}{The Weak Force}{chapter.1}% 7
-\BOOKMARK [1][-]{section.1.7}{Electroweak Symmetry Breaking}{chapter.1}% 8
-\BOOKMARK [1][-]{section.1.8}{Beyond the Standard Model}{chapter.1}% 9
-\BOOKMARK [0][-]{chapter.2}{Experimental Setup}{}% 10
-\BOOKMARK [1][-]{section.2.1}{Luminosity and Cross Section}{chapter.2}% 11
-\BOOKMARK [1][-]{section.2.2}{The LHC}{chapter.2}% 12
-\BOOKMARK [1][-]{section.2.3}{CMS detector}{chapter.2}% 13
-\BOOKMARK [2][-]{subsection.2.3.1}{Pixel Tracker}{section.2.3}% 14
-\BOOKMARK [2][-]{subsection.2.3.2}{Silicon Strip Tracker}{section.2.3}% 15
-\BOOKMARK [2][-]{subsection.2.3.3}{Electromagnetic Calorimeter}{section.2.3}% 16
-\BOOKMARK [2][-]{subsection.2.3.4}{Hadronic Calorimeter}{section.2.3}% 17
-\BOOKMARK [2][-]{subsection.2.3.5}{Magnet}{section.2.3}% 18
-\BOOKMARK [2][-]{subsection.2.3.6}{Muon System}{section.2.3}% 19
-\BOOKMARK [2][-]{subsection.2.3.7}{Trigger}{section.2.3}% 20
-\BOOKMARK [0][-]{chapter.3}{Introduction to the W Search}{}% 21
-\BOOKMARK [0][-]{chapter.4}{Analysis Strategy}{}% 22
-\BOOKMARK [0][-]{chapter.5}{Data Sample and Event Selection}{}% 23
-\BOOKMARK [1][-]{section.5.1}{Signal Samples}{chapter.5}% 24
-\BOOKMARK [1][-]{section.5.2}{Trigger Selection}{chapter.5}% 25
-\BOOKMARK [1][-]{section.5.3}{Signal Characteristics}{chapter.5}% 26
-\BOOKMARK [1][-]{section.5.4}{Jet Reconstruction}{chapter.5}% 27
-\BOOKMARK [1][-]{section.5.5}{Event Pre-selection}{chapter.5}% 28
-\BOOKMARK [1][-]{section.5.6}{tt pT Re-weighting}{chapter.5}% 29
-\BOOKMARK [1][-]{section.5.7}{Pileup Correction}{chapter.5}% 30
-\BOOKMARK [1][-]{section.5.8}{Combined CMS Top Tagging Algorithm}{chapter.5}% 31
-\BOOKMARK [1][-]{section.5.9}{Delta Rapidity Cut}{chapter.5}% 32
-\BOOKMARK [1][-]{section.5.10}{b-jet Identification}{chapter.5}% 33
-\BOOKMARK [1][-]{section.5.11}{Reconstruction of W' Invariant Mass}{chapter.5}% 34
-\BOOKMARK [0][-]{chapter.6}{Background Estimation}{}% 35
-\BOOKMARK [1][-]{section.6.1}{Substructure Sideband}{chapter.6}% 36
-\BOOKMARK [1][-]{section.6.2}{QCD Background Estimation}{chapter.6}% 37
-\BOOKMARK [1][-]{section.6.3}{tt Subtraction}{chapter.6}% 38
-\BOOKMARK [1][-]{section.6.4}{Sideband Closure}{chapter.6}% 39
-\BOOKMARK [1][-]{section.6.5}{Deriving the normalization of the SM tt production}{chapter.6}% 40
-\BOOKMARK [0][-]{chapter.7}{Data Results}{}% 41
-\BOOKMARK [0][-]{chapter.8}{Systematic Uncertainties}{}% 42
-\BOOKMARK [1][-]{section.8.1}{Jet Energy Scale}{chapter.8}% 43
-\BOOKMARK [1][-]{section.8.2}{Trigger}{chapter.8}% 44
-\BOOKMARK [1][-]{section.8.3}{Jet Energy Resolution}{chapter.8}% 45
-\BOOKMARK [1][-]{section.8.4}{Jet Angular Resolution}{chapter.8}% 46
-\BOOKMARK [1][-]{section.8.5}{PDF Uncertainty}{chapter.8}% 47
-\BOOKMARK [1][-]{section.8.6}{Pileup}{chapter.8}% 48
-\BOOKMARK [1][-]{section.8.7}{b-Tagging Scale Factor Uncertainty}{chapter.8}% 49
-\BOOKMARK [1][-]{section.8.8}{Q2 Scale Uncertainty}{chapter.8}% 50
-\BOOKMARK [1][-]{section.8.9}{tt pT Re-weighting}{chapter.8}% 51
-\BOOKMARK [1][-]{section.8.10}{Normalization Uncertainties}{chapter.8}% 52
-\BOOKMARK [1][-]{section.8.11}{Uncertainties related to the QCD Background Estimate}{chapter.8}% 53
-\BOOKMARK [2][-]{subsection.8.11.1}{Choice of the functional form for the average b-tagging rate}{section.8.11}% 54
-\BOOKMARK [2][-]{subsection.8.11.2}{Two-dimensional vs. three-dimensional parameterization of the average b-tagging rate}{section.8.11}% 55
-\BOOKMARK [0][-]{chapter.9}{Results}{}% 56
-\BOOKMARK [1][-]{section.9.1}{Limits}{chapter.9}% 57
-\BOOKMARK [1][-]{section.9.2}{Generalized Coupling Limits}{chapter.9}% 58
-\BOOKMARK [0][-]{chapter.10}{Combination}{}% 59
-\BOOKMARK [0][-]{chapter.11}{Introduction to the b* Search}{}% 60
-\BOOKMARK [0][-]{chapter.12}{Analysis Strategy}{}% 61
-\BOOKMARK [0][-]{chapter.13}{Data Sample and Event Selection}{}% 62
-\BOOKMARK [1][-]{section.13.1}{Signal Samples}{chapter.13}% 63
-\BOOKMARK [1][-]{section.13.2}{Trigger Selection}{chapter.13}% 64
-\BOOKMARK [1][-]{section.13.3}{Event Pre-selection}{chapter.13}% 65
-\BOOKMARK [1][-]{section.13.4}{Pileup Correction}{chapter.13}% 66
-\BOOKMARK [1][-]{section.13.5}{Combined CMS Top Tagging Algorithm}{chapter.13}% 67
-\BOOKMARK [1][-]{section.13.6}{W Jet Identification}{chapter.13}% 68
-\BOOKMARK [1][-]{section.13.7}{Reconstruction of b* invariant mass}{chapter.13}% 69
-\BOOKMARK [0][-]{chapter.14}{Background Estimation}{}% 70
-\BOOKMARK [1][-]{section.14.1}{QCD Background Estimation}{chapter.14}% 71
-\BOOKMARK [1][-]{section.14.2}{Top Candidate Mass Correction}{chapter.14}% 72
-\BOOKMARK [1][-]{section.14.3}{Sideband Closure}{chapter.14}% 73
-\BOOKMARK [1][-]{section.14.4}{Deriving the Normalization of the SM tt Production}{chapter.14}% 74
-\BOOKMARK [1][-]{section.14.5}{Control Region Scale Factors}{chapter.14}% 75
-\BOOKMARK [0][-]{chapter.15}{Data Results}{}% 76
-\BOOKMARK [0][-]{chapter.16}{Systematic Uncertainties}{}% 77
-\BOOKMARK [1][-]{section.16.1}{Normalization Uncertainties}{chapter.16}% 78
-\BOOKMARK [1][-]{section.16.2}{Uncertainties Related to the QCD Background Estimate}{chapter.16}% 79
-\BOOKMARK [2][-]{subsection.16.2.1}{Choice of the Functional Form for the Average Top-Mistagging Rate}{section.16.2}% 80
-\BOOKMARK [2][-]{subsection.16.2.2}{Top Candidate Mass Correction}{section.16.2}% 81
-\BOOKMARK [2][-]{subsection.16.2.3}{Two-Dimensional vs. Three-Dimensional Parameterization of the Average Top-Mistagging Rate}{section.16.2}% 82
-\BOOKMARK [0][-]{chapter.17}{Results}{}% 83
-\BOOKMARK [1][-]{section.17.1}{Limits}{chapter.17}% 84
-\BOOKMARK [0][-]{chapter.18}{Combination}{}% 85
-\BOOKMARK [0][-]{chapter.19}{Summary}{}% 86
-\BOOKMARK [1][-]{section.19.1}{Summary of the W Search}{chapter.19}% 87
-\BOOKMARK [1][-]{section.19.2}{Summary of the b* Search}{chapter.19}% 88
-\BOOKMARK [0][-]{chapter.20}{Appendix}{}% 89
-\BOOKMARK [1][-]{section.20.1}{W Search}{chapter.20}% 90
-\BOOKMARK [2][-]{subsection.20.1.1}{CA8 b-tagging}{section.20.1}% 91
-\BOOKMARK [2][-]{subsection.20.1.2}{Signal Region and Sideband Kinematic Comparison}{section.20.1}% 92
-\BOOKMARK [2][-]{subsection.20.1.3}{QCD Parameterization Uncertainty}{section.20.1}% 93
-\BOOKMARK [2][-]{subsection.20.1.4}{Signal Contamination Studies}{section.20.1}% 94
-\BOOKMARK [1][-]{section.20.2}{b* Search}{chapter.20}% 95
-\BOOKMARK [0][-]{chapter*.1}{Bibliography}{}% 96
-\BOOKMARK [0][-]{chapter*.2}{Vita}{}% 97
+\BOOKMARK [0][-]{chapter*.1}{Abstract}{}% 1
+\BOOKMARK [0][-]{chapter*.2}{Acknowledgments}{}% 2
+\BOOKMARK [0][-]{chapter*.4}{List of Tables}{}% 3
+\BOOKMARK [0][-]{chapter*.5}{List of Figures}{}% 4
+\BOOKMARK [0][-]{chapter.1}{Introduction}{}% 5
+\BOOKMARK [1][-]{section.1.1}{Fundamental Particles}{chapter.1}% 6
+\BOOKMARK [1][-]{section.1.2}{Fundamental Interactions}{chapter.1}% 7
+\BOOKMARK [1][-]{section.1.3}{Feynman Diagrams}{chapter.1}% 8
+\BOOKMARK [1][-]{section.1.4}{Quantum Chromodynamics}{chapter.1}% 9
+\BOOKMARK [1][-]{section.1.5}{Parton Distribution Functions}{chapter.1}% 10
+\BOOKMARK [1][-]{section.1.6}{The Weak Force}{chapter.1}% 11
+\BOOKMARK [1][-]{section.1.7}{Electroweak Symmetry Breaking}{chapter.1}% 12
+\BOOKMARK [1][-]{section.1.8}{Beyond the Standard Model}{chapter.1}% 13
+\BOOKMARK [0][-]{chapter.2}{Experimental Setup}{}% 14
+\BOOKMARK [1][-]{section.2.1}{Luminosity and Cross Section}{chapter.2}% 15
+\BOOKMARK [1][-]{section.2.2}{The LHC}{chapter.2}% 16
+\BOOKMARK [1][-]{section.2.3}{CMS detector}{chapter.2}% 17
+\BOOKMARK [2][-]{subsection.2.3.1}{Pixel Tracker}{section.2.3}% 18
+\BOOKMARK [2][-]{subsection.2.3.2}{Silicon Strip Tracker}{section.2.3}% 19
+\BOOKMARK [2][-]{subsection.2.3.3}{Electromagnetic Calorimeter}{section.2.3}% 20
+\BOOKMARK [2][-]{subsection.2.3.4}{Hadronic Calorimeter}{section.2.3}% 21
+\BOOKMARK [2][-]{subsection.2.3.5}{Magnet}{section.2.3}% 22
+\BOOKMARK [2][-]{subsection.2.3.6}{Muon System}{section.2.3}% 23
+\BOOKMARK [2][-]{subsection.2.3.7}{Trigger}{section.2.3}% 24
+\BOOKMARK [0][-]{chapter.3}{The W Search}{}% 25
+\BOOKMARK [1][-]{section.3.1}{Introduction}{chapter.3}% 26
+\BOOKMARK [2][-]{subsection.3.1.1}{Analysis Strategy}{section.3.1}% 27
+\BOOKMARK [1][-]{section.3.2}{Data Sample}{chapter.3}% 28
+\BOOKMARK [2][-]{subsection.3.2.1}{Signal Samples}{section.3.2}% 29
+\BOOKMARK [2][-]{subsection.3.2.2}{Trigger Selection}{section.3.2}% 30
+\BOOKMARK [2][-]{subsection.3.2.3}{Signal Characteristics}{section.3.2}% 31
+\BOOKMARK [2][-]{subsection.3.2.4}{Jet Reconstruction}{section.3.2}% 32
+\BOOKMARK [2][-]{subsection.3.2.5}{Event Pre-selection}{section.3.2}% 33
+\BOOKMARK [2][-]{subsection.3.2.6}{tt pT Re-weighting}{section.3.2}% 34
+\BOOKMARK [2][-]{subsection.3.2.7}{Pileup Correction}{section.3.2}% 35
+\BOOKMARK [2][-]{subsection.3.2.8}{Combined CMS Top Tagging Algorithm}{section.3.2}% 36
+\BOOKMARK [2][-]{subsection.3.2.9}{Delta Rapidity Cut}{section.3.2}% 37
+\BOOKMARK [2][-]{subsection.3.2.10}{b-jet Identification}{section.3.2}% 38
+\BOOKMARK [2][-]{subsection.3.2.11}{Reconstruction of W' Invariant Mass}{section.3.2}% 39
+\BOOKMARK [1][-]{section.3.3}{Background Estimation}{chapter.3}% 40
+\BOOKMARK [2][-]{subsection.3.3.1}{Substructure Sideband}{section.3.3}% 41
+\BOOKMARK [2][-]{subsection.3.3.2}{QCD Background Estimation}{section.3.3}% 42
+\BOOKMARK [2][-]{subsection.3.3.3}{tt Subtraction}{section.3.3}% 43
+\BOOKMARK [2][-]{subsection.3.3.4}{Sideband Closure}{section.3.3}% 44
+\BOOKMARK [2][-]{subsection.3.3.5}{Deriving the normalization of the SM tt production}{section.3.3}% 45
+\BOOKMARK [1][-]{section.3.4}{Data Results}{chapter.3}% 46
+\BOOKMARK [1][-]{section.3.5}{Systematic Uncertainties}{chapter.3}% 47
+\BOOKMARK [2][-]{subsection.3.5.1}{Jet Energy Scale}{section.3.5}% 48
+\BOOKMARK [2][-]{subsection.3.5.2}{Trigger}{section.3.5}% 49
+\BOOKMARK [2][-]{subsection.3.5.3}{Jet Energy Resolution}{section.3.5}% 50
+\BOOKMARK [2][-]{subsection.3.5.4}{Jet Angular Resolution}{section.3.5}% 51
+\BOOKMARK [2][-]{subsection.3.5.5}{PDF Uncertainty}{section.3.5}% 52
+\BOOKMARK [2][-]{subsection.3.5.6}{Pileup}{section.3.5}% 53
+\BOOKMARK [2][-]{subsection.3.5.7}{b-Tagging Scale Factor Uncertainty}{section.3.5}% 54
+\BOOKMARK [2][-]{subsection.3.5.8}{Q2 Scale Uncertainty}{section.3.5}% 55
+\BOOKMARK [2][-]{subsection.3.5.9}{tt pT Re-weighting}{section.3.5}% 56
+\BOOKMARK [2][-]{subsection.3.5.10}{Normalization Uncertainties}{section.3.5}% 57
+\BOOKMARK [2][-]{subsection.3.5.11}{Uncertainties related to the QCD Background Estimate}{section.3.5}% 58
+\BOOKMARK [3][-]{subsubsection.3.5.11.1}{Choice of the functional form for the average b-tagging rate}{subsection.3.5.11}% 59
+\BOOKMARK [3][-]{subsubsection.3.5.11.2}{Two-dimensional vs. three-dimensional parameterization of the average b-tagging rate}{subsection.3.5.11}% 60
+\BOOKMARK [1][-]{section.3.6}{Results}{chapter.3}% 61
+\BOOKMARK [2][-]{subsection.3.6.1}{Limits}{section.3.6}% 62
+\BOOKMARK [2][-]{subsection.3.6.2}{Generalized Coupling Limits}{section.3.6}% 63
+\BOOKMARK [1][-]{section.3.7}{Combination}{chapter.3}% 64
+\BOOKMARK [0][-]{chapter.4}{The b* Search}{}% 65
+\BOOKMARK [1][-]{section.4.1}{Introduction}{chapter.4}% 66
+\BOOKMARK [2][-]{subsection.4.1.1}{Analysis Strategy}{section.4.1}% 67
+\BOOKMARK [1][-]{section.4.2}{Data Sample and Event Selection}{chapter.4}% 68
+\BOOKMARK [2][-]{subsection.4.2.1}{Signal Samples}{section.4.2}% 69
+\BOOKMARK [2][-]{subsection.4.2.2}{Trigger Selection}{section.4.2}% 70
+\BOOKMARK [2][-]{subsection.4.2.3}{Event Pre-selection}{section.4.2}% 71
+\BOOKMARK [2][-]{subsection.4.2.4}{Pileup Correction}{section.4.2}% 72
+\BOOKMARK [2][-]{subsection.4.2.5}{Combined CMS Top Tagging Algorithm}{section.4.2}% 73
+\BOOKMARK [2][-]{subsection.4.2.6}{W Jet Identification}{section.4.2}% 74
+\BOOKMARK [2][-]{subsection.4.2.7}{Reconstruction of b* invariant mass}{section.4.2}% 75
+\BOOKMARK [1][-]{section.4.3}{Background Estimation}{chapter.4}% 76
+\BOOKMARK [2][-]{subsection.4.3.1}{QCD Background Estimation}{section.4.3}% 77
+\BOOKMARK [2][-]{subsection.4.3.2}{Top Candidate Mass Correction}{section.4.3}% 78
+\BOOKMARK [2][-]{subsection.4.3.3}{Sideband Closure}{section.4.3}% 79
+\BOOKMARK [2][-]{subsection.4.3.4}{Deriving the Normalization of the SM tt Production}{section.4.3}% 80
+\BOOKMARK [2][-]{subsection.4.3.5}{Control Region Scale Factors}{section.4.3}% 81
+\BOOKMARK [1][-]{section.4.4}{Data Results}{chapter.4}% 82
+\BOOKMARK [1][-]{section.4.5}{Systematic Uncertainties}{chapter.4}% 83
+\BOOKMARK [2][-]{subsection.4.5.1}{Normalization Uncertainties}{section.4.5}% 84
+\BOOKMARK [2][-]{subsection.4.5.2}{Uncertainties Related to the QCD Background Estimate}{section.4.5}% 85
+\BOOKMARK [3][-]{subsubsection.4.5.2.1}{Choice of the Functional Form for the Average Top-Mistagging Rate}{subsection.4.5.2}% 86
+\BOOKMARK [3][-]{subsubsection.4.5.2.2}{Top Candidate Mass Correction}{subsection.4.5.2}% 87
+\BOOKMARK [3][-]{subsubsection.4.5.2.3}{Two-Dimensional vs. Three-Dimensional Parameterization of the Average Top-Mistagging Rate}{subsection.4.5.2}% 88
+\BOOKMARK [1][-]{section.4.6}{Results}{chapter.4}% 89
+\BOOKMARK [2][-]{subsection.4.6.1}{Limits}{section.4.6}% 90
+\BOOKMARK [1][-]{section.4.7}{Combination}{chapter.4}% 91
+\BOOKMARK [0][-]{chapter.5}{Summary}{}% 92
+\BOOKMARK [1][-]{section.5.1}{Summary of the W Search}{chapter.5}% 93
+\BOOKMARK [1][-]{section.5.2}{Summary of the b* Search}{chapter.5}% 94
+\BOOKMARK [0][-]{chapter.6}{Appendix}{}% 95
+\BOOKMARK [1][-]{section.6.1}{W Search}{chapter.6}% 96
+\BOOKMARK [2][-]{subsection.6.1.1}{CA8 b-tagging}{section.6.1}% 97
+\BOOKMARK [2][-]{subsection.6.1.2}{Signal Region and Sideband Kinematic Comparison}{section.6.1}% 98
+\BOOKMARK [2][-]{subsection.6.1.3}{QCD Parameterization Uncertainty}{section.6.1}% 99
+\BOOKMARK [2][-]{subsection.6.1.4}{Signal Contamination Studies}{section.6.1}% 100
+\BOOKMARK [1][-]{section.6.2}{b* Search}{chapter.6}% 101
+\BOOKMARK [0][-]{chapter*.6}{Bibliography}{}% 102
+\BOOKMARK [0][-]{chapter*.7}{Vita}{}% 103

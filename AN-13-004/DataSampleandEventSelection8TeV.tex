@@ -1,4 +1,4 @@
-\chapter{Data Sample and Event Selection}
+\section{Data Sample}
 \label{sec:datasampleAndSelection}
 The data sample used for this analysis corresponds to 19.7$\pm0.5~\fbinv$ of integrated 
 luminosity collected in 2012 at $\sqrt{s} = 8~\TeV$.  See Table \ref{table:datasets} for a summary of the datasets used in the analysis.
@@ -48,7 +48,7 @@ QCD\_Pt-1400to1800\_TuneZ2star\_8TeV\_pythia6 & $0.0335$ \\
 \label{table:datasets}
 \end{table}
 
-\section{Signal Samples}
+\subsection{Signal Samples}
 \label{sec:signal}
 The Lagrangian presented in equation \ref{eqn:Lag} has been implemented in CompHEP \cite{CompHEP} and used for event generation.  The mass of the top 
 quark was set to 172.5~$\GeV$.  
@@ -143,7 +143,7 @@ SingletopWprimeTToHad\_M-2700\_mixed\_TuneZ2star\_8TeV-comphep & 182.4 & 0.0986 
 \end{table}
 
 
-\section{Trigger Selection}
+\subsection{Trigger Selection}
 \label{sec:trigger}
 Due to our interest in highly boosted jets, our data was taken using the \texttt{HLT\_HT750} trigger, which requires the event to have $\mathrm{H_t}$ of at least 750 $\GeV$. 
 The trigger efficiency is measured in data and MC by investigating the looser \texttt{HLT\_HT550} trigger.  The selection used for this measurement includes a loose kinematic selection.  We require two jets 
@@ -161,7 +161,7 @@ at which point the trigger is nearly fully efficient.}
 \label{figs:Trigger_Comparison_Ht}
 \end{figure}
 
-\section{Signal Characteristics}
+\subsection{Signal Characteristics}
 \label{sec:sigchar}
 \label{sec:GenBptCut}
 The $\wpr$ boson of interest is very massive, and produces highly boosted top quarks.  The decay products of these top quarks become more collimated as the boost 
@@ -195,7 +195,7 @@ on selections requiring the analysis level $\pt$ cut is negligible.
 
 
 
-\section{Jet Reconstruction}
+\subsection{Jet Reconstruction}
 \label{sec:reconstruction}
 All data are reconstructed using CMSSW 5.3.x, and we use jet energy corrections from \verb!FT_53_V21_AN5! \cite{CMS-DP-2013-033}.  The Particle Flow reconstruction algorithm is used 
 to reconstruct all data and MC samples used for the analysis.  This algorithm uses information from all sub-detectors 
@@ -220,7 +220,7 @@ We use the 2012 prescription for jet energy corrections\cite{JEC2012}.  We apply
 Particle Flow with charged hadron subtraction 
 (AK7PFchs) jet energy corrections for all data and MC samples.
 
-\section{Event Pre-selection}
+\subsection{Event Pre-selection}
 \label{sec:pre-selection}
 The following pre-selection is applied:
 
@@ -243,7 +243,7 @@ The following pre-selection is applied:
 The requirement that there are only two jets with $\pt > 150~\GeV$ is useful for vetoing ``three-prong'' trijet events, which could impact the kinematics of the top-W candidate invariant mass 
 distribution and bias the background estimate. 
 
-\section{$\ttbar$ $\pt$ Re-weighting}
+\subsection{$\ttbar$ $\pt$ Re-weighting}
 \label{sec:ttptrw}
 In order to correct for known differences in the top $\pt$ spectrum between data and $\ttbar$ MC, we re-weight MC using the Generator level $\pt$ of the top and anti-top with the recommended prescription.  
 With $\mathrm{p_{T_{t}}}$ and $\mathrm{p_{T_{\overline{t}}}}$ being the generator $\pt$ of the top and anti-top respectively, the scale factor applied to each event in the $\ttbar$ MC expectation is:
@@ -254,7 +254,7 @@ Although this procedure was not designed for the kinematic range in our analysis
 we prefer to use the prescription as it is more consistent with our measurement of the $\ttbar$ normalization (see Section \ref{sec:ttbarsideband}).
 
 
-\section{Pileup Correction}
+\subsection{Pileup Correction}
 \label{sec:pileup}
 We re-weight our MC samples to account for differences due to pileup using the recommended procedure.  
 To create a scale factor for number of primary vertices, we use MC truth to extract the number of pileup interactions.  
@@ -267,7 +267,7 @@ Figure \ref{figs:npvweight} shows the distribution of reconstructed primary vert
 and signal MC before and after the re-weighting has been applied. The pileup correction has very little effect on the eventual $\mathrm{M_{tb}}$ full selection, as 
 seen in Figure \ref{figs:pileup3}, for $\wpr_R$ signal MC at the 1900$~\GeV$ mass point. Similarly, there is little effect 
 $\ttbar$ MC as can be seen in Figure \ref{figs:pileup3ttbar}.  
-A study has been conducted to investigate the effect of the suggested systematic uncertainty of 5\% on the  as can be seen in Chapter \ref{sec:systematics}.  
+A study has been conducted to investigate the effect of the suggested systematic uncertainty of 5\% on the  as can be seen in Section \ref{sec:systematics}.  
 Figure \ref{figs:PUplots} shows the number of primary vertices in data and signal MC with respect to discrimination variables used to separate signal from background.
 
 \begin{figure}[Htcb]
@@ -317,7 +317,7 @@ Number of primary vertices in data and signal MC vs
 
 
 
-\section{Combined CMS Top Tagging Algorithm}
+\subsection{Combined CMS Top Tagging Algorithm}
 \label{sec:toptagging}
 \label{sec:subjetSF}
 
@@ -400,7 +400,7 @@ The scale factor is obtained from the plots shown in Figure \ref{figs:type1_topm
 \label{figs:type1_topmasspowheg}
 \end{figure}
 
-\section{Delta Rapidity Cut}
+\subsection{Delta Rapidity Cut}
 \label{sec:deltarapidity}
 At high $\mathrm{M_{\tbbar}}$, jets that originate from QCD multijet production are widely separated in rapidity (high $\Delta y$).
 However the jets originating from a high mass $\tbbar$ resonance do not exhibit such pronounced separation.  The effect is not pronounced over the entire 
@@ -421,7 +421,7 @@ Here, the N-subjettiness and subjet b-tagging cuts are not applied.
 
 
 
-\section{b-jet Identification}
+\subsection{b-jet Identification}
 \label{sec:btagging}
 To enhance the sensitivity of the analysis, the Combined Secondary Vertex (CSV) b-tagging algorithm is applied to the subleading jet. We use the standard operating point CSVM (CSV $>$ 0.679).
 %after optimizing S/$\sqrt{B}$ using all 8TeV supported b-tagging algorithms and operating points.  
@@ -435,7 +435,7 @@ b candidate jet $\pt < 800~\GeV$
 \end{eqnarray}
 Any b candidate jet with $\pt > 800~\GeV$ is weighted with $\mathrm{SF_b}$ evaluated at 800$~\GeV$.  The parameterized $\mathrm{SF_b}$ is the 
 suggested EPS13 prescription \cite{CMS-PAS-BTV-13-001} from the b-tagging POG generated from measurements in both muon-jet and ttbar data representing 20$~\fbinv$ of integrated 
-luminosity. The uncertainty associated with this scale factor parameterization is described in Chapter \ref{sec:systematics}.  b-tagging operating points 
+luminosity. The uncertainty associated with this scale factor parameterization is described in Section \ref{sec:systematics}.  b-tagging operating points 
 and scale factors have been validated for use with anti-kt jets with a R value of 0.5 (AK5 jets).  In our kinematic regime it is assumed that the change in cone size 
 will have a small effect. We apply an additional $2\%$ systematic uncertainty to the signal MC samples used in the analysis. This is a conservative estimate of the uncertainty, validated by the following study: 
 
@@ -469,14 +469,14 @@ To this effect, the b candidate jet is required to have a mass $\mathrm{M_b} < 7
 \includegraphics[width=0.7\textwidth]{AN-13-004/figs/bmassdatatosigwithdata.pdf}
 \caption{
 b candidate mass distributions in data, background, and signal.  Plot of Signal/$\sqrt{\text{Background}}$ (bottom), derived from the top plot. 
-This plot includes the full top tagging selection using the background estimation procedure outlined in Chapter \ref{sec:backgroundEstimation}.
+This plot includes the full top tagging selection using the background estimation procedure outlined in Section \ref{sec:backgroundEstimation}.
 }
 \label{figs:BmassCOMP}
 \end{center}
 \end{figure}
 
 
-\section{Reconstruction of W' Invariant Mass}
+\subsection{Reconstruction of W' Invariant Mass}
 \label{sec:fullselection}
 The full selection for the reconstruction of the $\wpr$ invariant mass then includes the following offline cuts.
 \begin{itemize}

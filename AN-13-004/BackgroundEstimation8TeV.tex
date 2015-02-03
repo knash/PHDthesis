@@ -1,11 +1,11 @@
 \clearpage
 \newpage
-\chapter{Background Estimation}
+\section{Background Estimation}
 \label{sec:backgroundEstimation}
 An essential part of the analysis is the data driven estimation of the QCD background.  
 The background estimate relies on extracting the average b-tagging rate of a QCD jet in our signal region.  
 We extract this rate by making use of the following sideband.
-\section{Substructure Sideband}
+\subsection{Substructure Sideband}
 \label{sec:sideband}
 We define the substructure sideband as events passing all signal region cuts but explicitly 
 failing the top jet substructure cut on the number of subjets.  Additionally, to ensure similar parton flavor distributions in the signal region and sideband (Figure \ref{figs:partonflav}), 
@@ -17,7 +17,7 @@ we also include subjet CSV discrimination. The top jet sideband is defined as:
 \end{eqnarray}
 The Minimum Pairwise Mass variable described in Section \ref{sec:toptagging} is not defined in this choice of sideband.
 
-\section{QCD Background Estimation}
+\subsection{QCD Background Estimation}
 \label{sec:qcdBackgroundEstimationProcedure}
 \label{sec:tagrateparameterization}
 The estimation of QCD background is performed by extracting the probability to tag a b jet in the sideband. 
@@ -72,11 +72,11 @@ This piecewise function allows for two characteristic ranges to fit a polynomial
 
 The errors on the average b-tagging rate are then extracted using the full covariance matrix as obtained from output of the fitting 
 algorithm.   
-Additionally, we assign a systematic uncertainty to cover the choice of the fit function (see Chapter \ref{sec:systematics}) based on several alternative functional forms.
+Additionally, we assign a systematic uncertainty to cover the choice of the fit function (see Section \ref{sec:systematics}) based on several alternative functional forms.
 Figure \ref{figs:tagsandprobes8TeV} shows the tags (numerator) and probes (denominator) of the tagging rate.
 Figure \ref{figs:tagrateetafit} shows the three fitted average b-tagging rates parameterized in $\pt$.  
 
-%\section{Treatment of QCD Background Events with Double Top Tags}
+%\subsection{Treatment of QCD Background Events with Double Top Tags}
 %\label{sec:dubtags}
 %As mentioned in Section \ref{sec:analysisStrategy}, the analysis uses  hemispherically separated dijets as top and b candidates.  
 %Because it is not obvious which candidate will be the leading jet, both are considered.  If the event registers a count in either of these configurations, the other is not considered to prevent double counting.  
@@ -85,7 +85,7 @@ Figure \ref{figs:tagrateetafit} shows the three fitted average b-tagging rates p
 %Note that this does not impact the treatment of ttbar, and these events are simply of rare QCD origin (see Section \ref{sec:ttSubtraction}). 
 %An event that records two counts in the background estimation has the physical meaning that the event has two chances to tag a b jet.
 
-\section{$\ttbar$ Subtraction}
+\subsection{$\ttbar$ Subtraction}
 \label{sec:ttSubtraction}
 \label{sec:bsttSubtraction}
 The $\ttbar$ contribution to background is computed from MC that passes the full selection. To avoid double-counting, we must remove $\ttbar$ from our QCD estimate. 
@@ -151,7 +151,7 @@ $\pt$ parameterized average b-tagging rate from
 \end{center}
 \end{figure}
 
-%\section{QCD Closure}
+%\subsection{QCD Closure}
 %As a closure test, the background estimation is performed on the QCD MC samples listed in Table \ref{table:datasetsQCD}.  
 
 %\begin{table}
@@ -225,7 +225,7 @@ $\pt$ parameterized average b-tagging rate from
 %\end{center}
 %\end{figure}
 
-\section{Sideband Closure}
+\subsection{Sideband Closure}
 \label{sec:secondsideband}
 In order to investigate the applicability and versatility of the QCD background estimation in data, we apply the average b-tagging rate to sideband regions of our top tagging selection.  First, we define the following sideband:
 
@@ -266,7 +266,7 @@ The closure test can be seen in Figure \ref{figs:NewMtbSB3}.
 \label{figs:NewMtbSB3}
 \end{figure}
 
-\section{Deriving the normalization of the SM $\ttbar$ production}
+\subsection{Deriving the normalization of the SM $\ttbar$ production}
 \label{sec:ttbarsideband}
 In order to study the contribution from $\ttbar$ to tbe full background estimate, we turn to a sideband defined by inverting the b candidate mass requirement in the signal region.
 This selection has an amplified $\ttbar$ fraction and is statistically independent from all other sidebands in the analysis.  

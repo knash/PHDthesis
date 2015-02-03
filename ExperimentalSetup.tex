@@ -2,10 +2,11 @@
 \chapter{Experimental Setup}
 \label{sec:ExpSetup}
 \chaptermark{Experimental Setup}
-To look for BSM physics, we want to create new massive particles.  
+One way to search for BSM physics is to produce new particles directly.  
 For this, we collide lighter particles at a high energy.  
-The energy released in the collision can manifest in more massive particles due to the concept of mass-energy equivalence (E=m$\mathrm{c^2}$).
-The collision may create one of these new particles, and from it's decay products an experimenter can reconstruct the properties of BSM physics that created the massive state.  
+The energy released in the collision can manifest in more massive particles\footnote{In SUSY there will usually be two} via mass-energy equivalence (E=m$\mathrm{c^2}$).
+The collision may create one or more of these new particles, and from it's decay products an experimenter can reconstruct the properties of the new BSM massive state 
+and study the properties (mass, decay width, spin, SM couplings etc.).  
 
 For the measurements presented in this thesis, we collide high energy proton beams,  
 which are designed to produce a high collision energy in comparison to fixed-target or electron-positron collisions.    
@@ -14,7 +15,7 @@ which are designed to produce a high collision energy in comparison to fixed-tar
 \label{sec:LumiXsec}
 To understand how many occurrences of any physical process to expect in a set of collisions, we need to define at a minimum the concepts of luminosity, L, and cross section, $\sigma$.
 
-The cross section of a process is a measurement of how likely a collision will result in the process of interest.  
+The cross section of a process is a measure of the probability that a collision will produce the particles of interest.  
 The phrase cross section refers to the physical cross section of a classical target and is thus measured in units of area.  
 In a high energy collision, the cross section no longer refers to the physical dimensions of the target, and can be calculated directly from Feynman diagrams.  
 The areas associated with these cross sections is very small and is measured in barns (b), which is $10^{-28} m^2$.  
@@ -34,7 +35,8 @@ The cross section of some SM processes are shown in Figure \ref{figs:SMxsecs}.
 
   
 Luminosity is a measure of the intensity of the colliding beams and is the number of collisions expected per unit time per unit area.  
-To look for BSM physics, we need to collect an ensemble of useful collisions (events), and thus higher luminosity leads to a larger ensemble and higher statistical precision.  
+To look for BSM physics, we need to collect an ensemble of useful collisions (events), and thus higher luminosity leads to a larger 
+ensemble, and consequently higher statistical precision of the measurement .  
 Additionally, collecting data over time leads to a larger ensemble, so the time-integrated luminosity is a more useful variable to describe the total amount of data collected, 
 which is reported in $\fbinv$.  Given in relevant collider properties, the luminosity can be defined as~\cite{Bayatian:922757}: 
 \begin{eqnarray}
@@ -43,7 +45,7 @@ which is reported in $\fbinv$.  Given in relevant collider properties, the lumin
 where $\gamma$ is the Lorentz factor,  f is the frequency of revolution, $k_{B}$ is the number of bunches in the beam, $N_{p}$ is the number of protons per bunch, 
 $\epsilon$ is the transverse emittance, $\beta^{*}$ is the betatron function, and F is a reduction factor based on the crossing angle.  
 
-With these two concepts we can extract the predicted number of events for a given process, $N_{\mathrm{i}}$: 
+With these two concepts we can extract the predicted number of events, $N_{\mathrm{i}}$, for a given process i: 
 \begin{eqnarray}
 N_{\mathrm{i}} = \int L \mathrm{d}t \times \sigma_{\mathrm{i}} 
 \label{eqn:Nevents}
@@ -53,11 +55,12 @@ N_{\mathrm{i}} = \int L \mathrm{d}t \times \sigma_{\mathrm{i}}
 The Large Hadron Collider (LHC) is a particle accelerator designed to reach collisions energies far surpassing any previous design.  
 The LHC is a synchrotron that accelerates protons to 99.999997\% the speed of light.  
 These protons beams are then collided at a center-of-mass energy ($\sqrt{s}$) of 8 $\TeV$.  
+The accelerator segments and detectors at the LHC are shown in Figure~\ref{figs:lhc}.
 
 % http://home.web.cern.ch/about/accelerators
 % http://cds.cern.ch/record/1165534/files/CERN-Brochure-2009-003-Eng.pdf
 
-The life of a proton at the LHC starts out as hydrogen gas within the injector of LINAC 2 linear accelerator.  
+A proton at the LHC starts out as hydrogen gas within the injector of LINAC 2 linear accelerator.  
 The atoms are ionized using an electric field, stripping the electron.  
 The resulting proton is accelerated using an oscillating electric field.  
 The protons are accelerated in a straight line to an energy of 50~$\MeV$, or 31\% the speed of light.  
@@ -92,7 +95,7 @@ CMS and ATLAS are large general purpose detectors.
 These detectors are used for many different types of physics searches, and are the two detectors responsible for the Higgs boson discovery.  
 For the purposes of this thesis we will be concentrating on the CMS detector
   
-These accelerator segments and detectors are shown in Figure~\ref{figs:lhc}.
+
 
 \begin{figure}
 \begin{center}
@@ -106,7 +109,7 @@ These accelerator segments and detectors are shown in Figure~\ref{figs:lhc}.
 \section{CMS detector}
 Here we will detail the basics of the CMS detector subsystems, for a more complete description, see Reference \cite{Bayatian:922757}.
 The purpose of the CMS detector is to measure properties of particles that are created in a collision such as the energy and trajectory. 
-The detector needs to supply enough information so that particles can be reconstructed and classified.  
+The detector needs to collect enough information so that particles can be reconstructed and classified.  
 Generally, we can reconstruct most physics signatures by analyzing electrons, muons, photon, charged hadrons, and neutral hadrons. 
 The CMS detector has dedicated algorithms and systems that are specifically designed to identify each of these categories.  In order to reconstruct these particles, we impose a uniform axial magnetic field throughout the inner detector with the use of a superconducting magnet. 
 
@@ -150,7 +153,7 @@ See Figure~\ref{figs:CMSdiagram1} for a diagram of the full detector, and Figure
 
 
 \subsection{Pixel Tracker}
-The closest detector system to the interaction point is the silicon pixel tracking system.  
+The closest detector system to the interaction point is the silicon pixel tracking system (see Figure \ref{figs:CMSpixel}).   .  
 This system extends from a radius of 4 cm to 11 cm in the barrel, and is designed to track charged particles in a very dense environment.  
 This is achieved with three arrays of two dimensional silicon pixels placed at a radii of 4.4 cm, 7.3 cm, and 10.2 cm, as well as two endcap disks for a total of 65 million pixels.  
 When a charged particle traverses one of the 100 $\mum$ $\times$ 150 $\mum$ pixels, it imparts enough energy to the silicon to eject an electron.  
@@ -163,7 +166,7 @@ This effect improves the spacial resolution to 10 $\mum$ in r-$\phi$ space due t
 whereas the z resolution is 20 $\mum$ due to the fact that there is no magnetic deflection in this direction. 
 The pixel detectors in the endcap disks are angled at 20$\textdegrees$ in a turbine-like design to take advantage of this effect.  
 
-Figure \ref{figs:CMSpixel} shows a diagram of the full pixel detector.    
+  
 
 \begin{figure}
 \begin{center}
@@ -174,8 +177,7 @@ Figure \ref{figs:CMSpixel} shows a diagram of the full pixel detector.
 \end{figure}
   
 \subsection{Silicon Strip Tracker}
-Outside of the silicon pixel tracker out to a radius of 130 cm in the barrel lies the silicon strip tracking system.  
-This system consists ten arrays of silicon strips that work in much the same way as the pixel detectors.  
+Outside of the silicon pixel tracker (see Figure \ref{figs:CMStracker}) out to a radius of 130 cm in the barrel lies the silicon strip tracking system.  
 
 The system in segmented into the inner barrel, outer barrel, inner disk, and endcap segments.  
 The inner barrel segment (20 cm $<$ r $<$ 55 cm) uses four arrays of 10 cm $\times$ 80 $\mum$ silicon microstrips .  
@@ -183,8 +185,6 @@ The outer barrel (55 cm  $<$ r $<$ 130 cm) uses six arrays of large pitch 25 cm 
 
 The endcap silicon strip detector consists of nine disks from 120 cm  $<$ z $<$ 280 cm.  
 The inner disk segment contains three smaller disks that connect the inner barrel and endcap segments.  
-
-Figure \ref{figs:CMStracker} shows a diagram of the silicon tracker.    
 
 \begin{figure}
 \begin{center}
@@ -198,7 +198,7 @@ Figure \ref{figs:CMStracker} shows a diagram of the silicon tracker.
 
 %\subsection{Preshower Calorimeter}
 \subsection{Electromagnetic Calorimeter}
-The ECAL is designed to provide energy information for electrons and photons.  
+The ECAL (see Figure~\ref{figs:CMSecal}) is designed to provide energy information for electrons and photons.  
 These particles will typically deposit all of their energy within the detector, which is detectable as photons. 
 
 To do this, the ECAL uses 61200 lead tungstate ($\mathrm{PbWO_4}$) scintillation crystals in the barrel and 7324 in each endcap.  
@@ -211,7 +211,6 @@ The endcap regions of the ECAL include a preshower detector that is used to dist
 A pion decaying to two closely spaced photons can mimic one high energy photon to the 2.2 cm wide ECAL crystals.  
 The preshower is able to distinguish these events with a finer granularity (2 mm) silicon strip detector.   
  
-Figure \ref{figs:CMSecal} shows a diagram of the ECAL.    
 \begin{figure}
 \begin{center}
 \includegraphics[width=1.0\linewidth]{figs/CMSecal.png}
@@ -226,7 +225,7 @@ Figure \ref{figs:CMSecal} shows a diagram of the ECAL.
 
 
 \subsection{Hadronic Calorimeter}
-The HCAL is designed to give the energy of charged and neutral hadrons, which generally lose very little energy in the ECAL.  
+The HCAL (see Figure~\ref{figs:CMShcal}) is designed to give the energy of charged and neutral hadrons, which generally lose very little energy in the ECAL.  
 The HCAL is segmented into the inner barrel (inside the magnet), outer barrel (outside the magnet), endcap, and forward (close to the beamline).  
 
 The HCAL uses alternating layers of absorber and scintillator to calculate the energy of these hadrons.  
@@ -234,7 +233,6 @@ The absorber creates a cascade of secondary particles that emit photons in the s
 The photons emitted in the scintillator are carried to the photodetectors by optical waveguides.  
 The HCAL uses hybrid photodiodes to detect the scintillation light and provide a signal that can be used to extract the total energy of the hadron.  
 
-Figure \ref{figs:CMShcal} shows a diagram of the HCAL.   
 \begin{figure}
 \begin{center}
 \includegraphics[width=1.0\linewidth]{figs/CMShcal.png}

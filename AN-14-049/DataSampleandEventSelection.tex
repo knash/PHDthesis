@@ -1,9 +1,9 @@
-\chapter{Data Sample and Event Selection}
+\section{Data Sample and Event Selection}
 \label{sec:bsdatasampleAndSelection}
 The data sample used for this analysis corresponds to 19.7$\pm0.5~\fbinv$ of integrated 
 luminosity collected in 2012 at $\sqrt{s} = 8~\TeV$.  See Table \ref{table:datasets} for a summary of the datasets used in the analysis.
 
-\section{Signal Samples}
+\subsection{Signal Samples}
 \label{sec:bssignal}
 
 
@@ -74,7 +74,7 @@ Bstar\_fullHad\_left\_M-2000\_TuneZ2star\_8TeV-madgraph & 0.00156 \\
 \end{table}
 
 
-\section{Trigger Selection}
+\subsection{Trigger Selection}
 \label{sec:bstrigger}
 Similar to the $\wpr$ search, we use the \texttt{HLT\_HT750} trigger. 
 The trigger efficiency is measured in data and MC by investigating the looser \texttt{HLT\_HT550} trigger.  The selection used for this measurement includes a 
@@ -94,7 +94,7 @@ at which point the trigger is nearly fully efficient.
 \label{figs:bsTrigger_Comparison_Ht}
 \end{figure}
 
-%\section{Signal Characteristics}
+%\subsection{Signal Characteristics}
 %\label{sec:bssigchar}
 %\label{sec:bsGenBptCut}
 %The $\bs$ quark of interest is very massive, and produces highly boosted top quarks.  The decay products of these top quarks become more collimated as the boost 
@@ -127,7 +127,7 @@ at which point the trigger is nearly fully efficient.
 %\end{figure}
 
 
-\section{Event Pre-selection}
+\subsection{Event Pre-selection}
 \label{sec:bspre-selection}
 The following pre-selection is applied:
 
@@ -149,7 +149,7 @@ Here we do not include the $|\Delta y|$ discrimination used in the $\wpr$ search
 $\bs$ mass exclusion point is lower, and this cut is highly energy dependent.  
 
 
-%\section{$\ttbar$ $\pt$ Re-weighting}
+%\subsection{$\ttbar$ $\pt$ Re-weighting}
 %\label{sec:bsttptrw}
 %In order to correct for known differences in the top $\pt$ spectrum between data and $\ttbar$ MC, we re-weight MC using the Generator level $\pt%$ of the top and anti-top with the recommended prescription.  
 %With $p_{T_{t}}$ and $p_{T_{\overline{t}}}$ being the generator $\pt$ of the top and anti-top respectively, the scale factor applied to each event in the $\ttbar%$ MC expectation is:%
@@ -159,7 +159,7 @@ $\bs$ mass exclusion point is lower, and this cut is highly energy dependent.
 %Although this procedure was not designed for the kinematic range in our analysis, we prefer to use the prescription as it is more consistent with our measurement of the $\ttbar$ normalization (see Section \ref{sec:bsttbarsideband}).
 
 
-\section{Pileup Correction}
+\subsection{Pileup Correction}
 \label{sec:bspileup}
 We re-weight our MC samples to account for differences due to pileup using the recommended procedure (see Section~\ref{sec:pileup}).  
 Figure \ref{figs:bsnpvweight} shows the distribution of reconstructed primary vertices in data, $\ttbar$,
@@ -195,7 +195,7 @@ A study has been conducted to investigate the effect of the suggested systematic
 
 
 
-\section{Combined CMS Top Tagging Algorithm}
+\subsection{Combined CMS Top Tagging Algorithm}
 \label{sec:bstoptagging}
 \label{sec:bssubjetSF}
 The CMS top tagging algorithm is described in detail in Section~\ref{sec:toptagging}.
@@ -228,7 +228,7 @@ Maximum subjet CSV distributions in Signal and QCD MC samples (top).  Plot of Si
 \end{figure}
 
 
-\section{W Jet Identification}
+\subsection{W Jet Identification}
 \label{sec:bswtagging}
 The W boson daughter if the $\bs$ quark will also be boosted.  Just as the CMS top tagging algorithm discriminates signal from background 
 using the merged top jet, the boosted W boson tagging discriminates signal from background by using a merged W jet.  For this we constrain the 
@@ -240,7 +240,7 @@ $\tau_{2}/\tau_{1}$ due to the fact that the jet energy is more consistent with 
 \item {\bf N-subjettiness} $\mathrm{\boldmath \tau_{2}/\tau_{1} < 0.5}$  - The ratio of the N-subjettiness variables $\tau_{2}$ and $\tau_{1}$ should be low, as the W jet is more consistent with two subjets than one.
 \end{itemize}
 
-\section{Reconstruction of $\bs$ invariant mass}
+\subsection{Reconstruction of $\bs$ invariant mass}
 \label{sec:bsfullselection}
 The full selection for the reconstruction of the $\bs$ invariant mass then includes the following offline cuts.
 \begin{itemize}
